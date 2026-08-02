@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VERTEX ARCHIVE — CG・VFX 知識アーカイブ</title>
+<link rel="icon" type="image/png" href="images/icon-nodegraph.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><img src="images/icon-nodegraph.png" alt="VERTEX ARCHIVE"></span>
+      <span>VERTEX ARCHIVE<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" class="is-active">トップ</a>
+      <a href="archive.html">アーカイブ</a>
+      <a href="archive.html">カテゴリ</a>
+      <a href="#">About</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <button class="nav-toggle" aria-label="メニュー">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 5H16M2 9H16M2 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="container">
+    <span class="hero-eyebrow">Personal CG / VFX Wiki</span>
+    <h1>散らばった知見を、<br><em>体系立てた資産</em>に変える。</h1>
+    <p class="lead">Xで発信・収集してきたCG/VFXの技術情報、参考リンク、作品を、カテゴリとタグで再構成。流れて消える情報を、探し出せる情報へ。</p>
+    <div class="hero-actions">
+      <a href="archive.html" class="btn btn-primary">アーカイブを見る</a>
+      <a href="#categories" class="btn btn-outline">カテゴリから探す</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="num">184</span><span class="label">収録エントリー</span></div>
+      <div class="hero-stat"><span class="num">11</span><span class="label">カテゴリ</span></div>
+      <div class="hero-stat"><span class="num">42</span><span class="label">使用ソフト/タグ</span></div>
+      <div class="hero-stat"><span class="num">週2</span><span class="label">更新ペース</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="categories">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Browse by category</span>
+        <h2>制作工程からたどる</h2>
+        <p>モデリングからコンポジットまで、CG/VFXの制作フローに沿って整理しています。</p>
+      </div>
+      <a href="archive.html" class="link-more">すべてのカテゴリ
+        <svg viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="category-grid">
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2L21 7V17L12 22L3 17V7L12 2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 12V22M12 12L21 7M12 12L3 7" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>モデリング / スカルプト</h3>
+        <span class="count">24 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><path d="M12 2V5M12 19V22M4.2 4.2L6.3 6.3M17.7 17.7L19.8 19.8M2 12H5M19 12H22M4.2 19.8L6.3 17.7M17.7 6.3L19.8 4.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>サーフェシング</h3>
+        <span class="count">18 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.7"/><path d="M2 12H4M20 12H22M12 2V4M12 20V22" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>ライティング / レンダリング</h3>
+        <span class="count">27 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="6" rx="1.5" stroke="currentColor" stroke-width="1.7"/><rect x="3" y="14" width="18" height="6" rx="1.5" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>コンポジット</h3>
+        <span class="count">15 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C12 3 6 10 6 14.5C6 17.8 8.7 20.5 12 20.5C15.3 20.5 18 17.8 18 14.5C18 10 12 3 12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></div>
+        <h3>シミュレーション / FX</h3>
+        <span class="count">31 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="7" cy="7" r="2.5" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="17" r="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M9 9L15 15" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>リギング / アニメーション</h3>
+        <span class="count">19 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8 4L3 12L8 20M16 4L21 12L16 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>パイプライン & ツール開発</h3>
+        <span class="count">22 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 6L10 3H14L16 6" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12.5" r="3.2" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>撮影・トラッキング</h3>
+        <span class="count">11 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10L12 4L20 10V20" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 20V14H15V20" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>業界動向・キャリア</h3>
+        <span class="count">14 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4H14C16 4 18 6 18 8V20L14 17L10 20L6 17V4H4V4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></div>
+        <h3>学習リソース</h3>
+        <span class="count">16 entries</span>
+      </a>
+      <a class="category-card" href="archive.html">
+        <div class="category-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M10 9.5L15 12L10 14.5V9.5Z" fill="currentColor"/></svg></div>
+        <h3>作品集・Showreel</h3>
+        <span class="count">7 entries</span>
+      </a>
+      <a class="category-card" href="archive.html" style="justify-content:center; align-items:center; text-align:center; background:var(--color-bg-subtle); border-style:dashed;">
+        <h3 style="color:var(--color-text-muted); font-weight:600;">すべて見る →</h3>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section subtle">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Recently added</span>
+        <h2>新着エントリー</h2>
+        <p>直近で追加・更新したキュレーション記事です。</p>
+      </div>
+      <a href="archive.html" class="link-more">アーカイブ全体を見る
+        <svg viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="entry-grid">
+
+      <a class="entry-card" href="entry.html">
+        <div class="entry-thumb thumb-sim">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C12 3 6 10 6 14.5C6 17.8 8.7 20.5 12 20.5C15.3 20.5 18 17.8 18 14.5C18 10 12 3 12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          <span class="badge-level beginner">BEGINNER</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-meta-row">
+            <span class="entry-category">シミュレーション / FX</span>
+            <span class="stars">★★★★<span class="dim">★</span></span>
+          </div>
+          <h3>Houdini Vellum入門: 布シミュレーションの基礎</h3>
+          <p class="entry-summary">Vellumソルバーを使った布シミュレーションの基本ワークフローを解説。パラメータの初期値の目安が実務でも参考になった一本。</p>
+          <div class="entry-tags">
+            <span class="tag">Houdini</span>
+            <span class="tag">Vellum</span>
+            <span class="tag tag-accent">チュートリアル</span>
+          </div>
+          <div class="entry-footer">
+            <span>2026.08.02 追加</span>
+            <span>EN</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="entry-card" href="entry.html">
+        <div class="entry-thumb thumb-lighting">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.7"/></svg>
+          <span class="badge-level intermediate">INTERMEDIATE</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-meta-row">
+            <span class="entry-category">ライティング / レンダリング</span>
+            <span class="stars">★★★★★</span>
+          </div>
+          <h3>フォトリアルなライティングのための光量設計チェックリスト</h3>
+          <p class="entry-summary">露出・色温度・キーライト比の考え方を実例つきで整理した記事。自分のライティング手順の見直しにも活用中。</p>
+          <div class="entry-tags">
+            <span class="tag">Arnold</span>
+            <span class="tag tag-accent">記事</span>
+          </div>
+          <div class="entry-footer">
+            <span>2026.07.29 追加</span>
+            <span>JP</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="entry-card" href="entry.html">
+        <div class="entry-thumb thumb-pipeline">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 4L3 12L8 20M16 4L21 12L16 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="badge-level advanced">ADVANCED</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-meta-row">
+            <span class="entry-category">パイプライン & ツール開発</span>
+            <span class="stars">★★★<span class="dim">★★</span></span>
+          </div>
+          <h3>USDベースのショットパイプライン設計と落とし穴</h3>
+          <p class="entry-summary">中規模スタジオでのUSD導入事例。レイヤー構成の設計思想が参考になったが、Houdini側の実装は要検証。</p>
+          <div class="entry-tags">
+            <span class="tag">USD</span>
+            <span class="tag">Python</span>
+            <span class="tag tag-accent">ツール</span>
+          </div>
+          <div class="entry-footer">
+            <span>2026.07.24 追加</span>
+            <span>EN</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="entry-card" href="entry.html">
+        <div class="entry-thumb thumb-modeling">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L21 7V17L12 22L3 17V7L12 2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          <span class="badge-level beginner">BEGINNER</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-meta-row">
+            <span class="entry-category">モデリング / スカルプト</span>
+            <span class="stars">★★★★<span class="dim">★</span></span>
+          </div>
+          <h3>ハードサーフェスモデリングのエッジフロー整理術</h3>
+          <p class="entry-summary">サブディビジョン前提のエッジフロー設計を体系的にまとめた良記事。図解が豊富で初学者にもおすすめ。</p>
+          <div class="entry-tags">
+            <span class="tag">Blender</span>
+            <span class="tag tag-accent">チュートリアル</span>
+          </div>
+          <div class="entry-footer">
+            <span>2026.07.20 追加</span>
+            <span>JP</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="entry-card" href="entry.html">
+        <div class="entry-thumb thumb-comp">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="6" rx="1.5" stroke="currentColor" stroke-width="1.7"/><rect x="3" y="14" width="18" height="6" rx="1.5" stroke="currentColor" stroke-width="1.7"/></svg>
+          <span class="badge-level intermediate">INTERMEDIATE</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-meta-row">
+            <span class="entry-category">コンポジット</span>
+            <span class="stars">★★★★<span class="dim">★</span></span>
+          </div>
+          <h3>Nukeでのディープコンポジット実践ガイド</h3>
+          <p class="entry-summary">ディープデータの扱い方とマルチパス合成の効率化テクニック。実制作のカット処理時間を体感で3割短縮できた。</p>
+          <div class="entry-tags">
+            <span class="tag">Nuke</span>
+            <span class="tag tag-accent">記事</span>
+          </div>
+          <div class="entry-footer">
+            <span>2026.07.15 追加</span>
+            <span>EN</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="entry-card" href="entry.html">
+        <div class="entry-thumb thumb-reel">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M10 9.5L15 12L10 14.5V9.5Z" fill="currentColor"/></svg>
+          <span class="badge-level beginner">SHOWREEL</span>
+        </div>
+        <div class="entry-body">
+          <div class="entry-meta-row">
+            <span class="entry-category">作品集・Showreel</span>
+            <span class="stars">★★★★★</span>
+          </div>
+          <h3>破壊エフェクトShowreel: 参考にすべきタイミング設計</h3>
+          <p class="entry-summary">崩壊〜粉塵のタイミング設計が秀逸なリール。カット割りと合わせた緩急のつけ方を自分用にメモした。</p>
+          <div class="entry-tags">
+            <span class="tag">Houdini</span>
+            <span class="tag tag-accent">Reel</span>
+          </div>
+          <div class="entry-footer">
+            <span>2026.07.10 追加</span>
+            <span>EN</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="ad-slot">広告枠（レスポンシブ / AdSense設置想定）</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h3>更新はRSSで購読できます</h3>
+        <p>Xのタイムラインに流さず、必要な時に見返せる形で新着エントリーをお届け。</p>
+      </div>
+      <a href="#" class="btn btn-primary">RSSを購読する</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg class="logo-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 3L28 10V22L16 29L4 22V10L16 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M16 3V16M16 16L28 10M16 16L4 10M16 16V29" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+          <span>VERTEX ARCHIVE</span>
+        </a>
+        <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理する個人アーカイブ。散逸しがちな情報を、探せる資産として残していきます。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="archive.html">アーカイブ</a></li>
+          <li><a href="archive.html">カテゴリ一覧</a></li>
+          <li><a href="archive.html">タグ一覧</a></li>
+          <li><a href="#">新着順</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">このサイトについて</a></li>
+          <li><a href="#">運営者情報</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+          <li><a href="#">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://x.com/kuramaKageya" target="_blank" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://github.com/9ra369" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.artstation.com/kurama_kageya" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
+          <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
+          <li><a href="#">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VERTEX ARCHIVE. All rights reserved.</span>
+      <span>Design prototype — content is placeholder</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

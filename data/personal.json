@@ -1,0 +1,11 @@
+{
+  "name": "Kurama Kageya",
+  "links": [
+    { "id": "x", "label": "X (Twitter)", "url": "https://x.com/kuramaKageya" },
+    { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/kurama-kageya-3324621bb/" },
+    { "id": "github", "label": "GitHub", "url": "https://github.com/9ra369" },
+    { "id": "website", "label": "Website", "url": "https://website-kuramakageya.netlify.app/" },
+    { "id": "artstation", "label": "ArtStation", "url": "https://www.artstation.com/kurama_kageya" },
+    { "id": "vsco", "label": "VSCO", "url": "https://vsco.co/kurakura3939/gallery" }
+  ]
+}
