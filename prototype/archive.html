@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>アーカイブ一覧 — VERTEX ARCHIVE</title>
+<title>アーカイブ一覧 — Merge VFX&amp;CG</title>
 <link rel="icon" type="image/png" href="images/icon-nodegraph.png">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -12,14 +12,14 @@
 <header class="site-header">
   <div class="container">
     <a href="index.html" class="logo">
-      <span class="logo-mark"><img src="images/icon-nodegraph.png" alt="VERTEX ARCHIVE"></span>
-      <span>VERTEX ARCHIVE<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+      <span class="logo-mark"><img src="images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+      <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
     </a>
     <nav class="main-nav">
       <a href="index.html">トップ</a>
       <a href="archive.html" class="is-active">アーカイブ</a>
       <a href="archive.html">カテゴリ</a>
-      <a href="#">About</a>
+      <a href="about.html">About</a>
     </nav>
     <div class="header-actions">
       <div class="search-trigger">
@@ -51,17 +51,10 @@
     <aside class="filter-panel">
       <div class="filter-group">
         <h4>カテゴリ</h4>
-        <a class="filter-option is-active">モデリング / スカルプト <span class="n">24</span></a>
-        <a class="filter-option">サーフェシング <span class="n">18</span></a>
-        <a class="filter-option">ライティング / レンダリング <span class="n">27</span></a>
-        <a class="filter-option">コンポジット <span class="n">15</span></a>
-        <a class="filter-option">シミュレーション / FX <span class="n">31</span></a>
-        <a class="filter-option">リギング / アニメーション <span class="n">19</span></a>
-        <a class="filter-option">パイプライン & ツール開発 <span class="n">22</span></a>
-        <a class="filter-option">撮影・トラッキング <span class="n">11</span></a>
-        <a class="filter-option">業界動向・キャリア <span class="n">14</span></a>
-        <a class="filter-option">学習リソース <span class="n">16</span></a>
-        <a class="filter-option">作品集・Showreel <span class="n">7</span></a>
+        <a class="filter-option">Environment <span class="n">34</span></a>
+        <a class="filter-option">Pipeline/Plugin/Tool <span class="n">26</span></a>
+        <a class="filter-option">Article <span class="n">21</span></a>
+        <a class="filter-option">Showreel/Demoreel <span class="n">9</span></a>
       </div>
 
       <div class="filter-group">
@@ -82,8 +75,8 @@
           <span class="chip">Python</span>
           <span class="chip">USD</span>
           <span class="chip">Arnold</span>
-          <span class="chip">チュートリアル</span>
-          <span class="chip">記事</span>
+          <span class="chip">Tutorial</span>
+          <span class="chip">Article</span>
         </div>
       </div>
 
@@ -92,28 +85,27 @@
 
     <main>
       <div class="archive-toolbar">
-        <p class="result-count"><strong>184</strong> 件のエントリー（「Houdini」で絞り込み中）</p>
+        <p class="result-count"><strong>52</strong> 件のエントリー（「Houdini」で絞り込み中）</p>
         <select class="sort-select">
           <option>新着順</option>
-          <option>評価順</option>
-          <option>タイトル順</option>
+          <option>アルファベット順</option>
         </select>
       </div>
 
       <div class="entry-grid">
 
         <a class="entry-card" href="entry.html">
-          <div class="entry-thumb thumb-sim">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C12 3 6 10 6 14.5C6 17.8 8.7 20.5 12 20.5C15.3 20.5 18 17.8 18 14.5C18 10 12 3 12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          <div class="entry-thumb thumb-article">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8H16M8 12H16M8 16H12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
             <span class="badge-level beginner">BEGINNER</span>
           </div>
           <div class="entry-body">
             <div class="entry-meta-row">
-              <span class="entry-category">シミュレーション / FX</span>
+              <span class="entry-category">Article</span>
               <span class="stars">★★★★<span class="dim">★</span></span>
             </div>
             <h3>Houdini Vellum入門: 布シミュレーションの基礎</h3>
-            <p class="entry-summary">Vellumソルバーを使った布シミュレーションの基本ワークフローを解説する入門チュートリアル。</p>
+            <p class="entry-summary">Vellumソルバーを使った布シミュレーションの基本ワークフローを解説する入門記事。</p>
             <div class="entry-tags">
               <span class="tag">Houdini</span>
               <span class="tag">Vellum</span>
@@ -129,7 +121,7 @@
           </div>
           <div class="entry-body">
             <div class="entry-meta-row">
-              <span class="entry-category">パイプライン & ツール開発</span>
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
               <span class="stars">★★★<span class="dim">★★</span></span>
             </div>
             <h3>HoudiniのHDA設計パターン集</h3>
@@ -143,13 +135,13 @@
         </a>
 
         <a class="entry-card" href="entry.html">
-          <div class="entry-thumb thumb-sim">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C12 3 6 10 6 14.5C6 17.8 8.7 20.5 12 20.5C15.3 20.5 18 17.8 18 14.5C18 10 12 3 12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          <div class="entry-thumb thumb-article">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8H16M8 12H16M8 16H12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
             <span class="badge-level intermediate">INTERMEDIATE</span>
           </div>
           <div class="entry-body">
             <div class="entry-meta-row">
-              <span class="entry-category">シミュレーション / FX</span>
+              <span class="entry-category">Article</span>
               <span class="stars">★★★★★</span>
             </div>
             <h3>Pyroソルバーによる爆煙エフェクトの実践レシピ</h3>
@@ -163,13 +155,13 @@
         </a>
 
         <a class="entry-card" href="entry.html">
-          <div class="entry-thumb thumb-rigging">
-            <svg viewBox="0 0 24 24" fill="none"><circle cx="7" cy="7" r="2.5" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="17" r="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M9 9L15 15" stroke="currentColor" stroke-width="1.7"/></svg>
+          <div class="entry-thumb thumb-article">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8H16M8 12H16M8 16H12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
             <span class="badge-level intermediate">INTERMEDIATE</span>
           </div>
           <div class="entry-body">
             <div class="entry-meta-row">
-              <span class="entry-category">リギング / アニメーション</span>
+              <span class="entry-category">Article</span>
               <span class="stars">★★★★<span class="dim">★</span></span>
             </div>
             <h3>KineFXで組む軽量クリーチャーリグ</h3>
@@ -183,13 +175,13 @@
         </a>
 
         <a class="entry-card" href="entry.html">
-          <div class="entry-thumb thumb-lighting">
-            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.7"/></svg>
+          <div class="entry-thumb thumb-environment">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 18L8.5 9L12.5 15L15.5 11L21 18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="17" cy="7" r="1.6" stroke="currentColor" stroke-width="1.7"/></svg>
             <span class="badge-level beginner">BEGINNER</span>
           </div>
           <div class="entry-body">
             <div class="entry-meta-row">
-              <span class="entry-category">ライティング / レンダリング</span>
+              <span class="entry-category">Environment</span>
               <span class="stars">★★★<span class="dim">★★</span></span>
             </div>
             <h3>Karma XPUでのルックデブ環境構築メモ</h3>
@@ -209,7 +201,7 @@
           </div>
           <div class="entry-body">
             <div class="entry-meta-row">
-              <span class="entry-category">作品集・Showreel</span>
+              <span class="entry-category">Showreel/Demoreel</span>
               <span class="stars">★★★★★</span>
             </div>
             <h3>破壊エフェクトShowreel: 参考にすべきタイミング設計</h3>
@@ -242,11 +234,8 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.html" class="logo">
-          <svg class="logo-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 3L28 10V22L16 29L4 22V10L16 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-            <path d="M16 3V16M16 16L28 10M16 16L4 10M16 16V29" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-          </svg>
-          <span>VERTEX ARCHIVE</span>
+          <span class="logo-mark"><img src="images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+          <span>Merge VFX&amp;CG</span>
         </a>
         <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理する個人アーカイブ。</p>
       </div>
@@ -261,7 +250,7 @@
       <div class="footer-col">
         <h4>About</h4>
         <ul>
-          <li><a href="#">このサイトについて</a></li>
+          <li><a href="about.html">このサイトについて</a></li>
           <li><a href="#">お問い合わせ</a></li>
           <li><a href="#">プライバシーポリシー</a></li>
         </ul>
@@ -280,7 +269,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 VERTEX ARCHIVE. All rights reserved.</span>
+      <span>© 2026 Merge VFX&amp;CG. All rights reserved.</span>
       <span>Design prototype — content is placeholder</span>
     </div>
   </div>

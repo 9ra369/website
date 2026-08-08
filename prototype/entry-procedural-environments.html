@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Houdini Vellum入門: 布シミュレーションの基礎 — Merge VFX&amp;CG</title>
+<title>Houdiniで学ぶプロシージャル環境制作: モデリングからレンダリングまで — Merge VFX&amp;CG</title>
 <link rel="icon" type="image/png" href="images/icon-nodegraph.png">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -39,24 +39,21 @@
     <nav class="breadcrumb">
       <a href="index.html">トップ</a>
       <span class="sep">/</span>
-      <a href="archive.html">Article</a>
+      <a href="archive.html">Environment</a>
       <span class="sep">/</span>
-      <span class="current">Houdini Vellum入門</span>
+      <span class="current">Houdiniで学ぶプロシージャル環境制作</span>
     </nav>
 
-    <span class="category-pill">ARTICLE</span>
-    <h1>Houdini Vellum入門: 布シミュレーションの基礎</h1>
+    <span class="category-pill">ENVIRONMENT</span>
+    <h1>Houdiniで学ぶプロシージャル環境制作: モデリングからレンダリングまで</h1>
 
     <div class="entry-meta-bar">
       <span class="meta-item">
-        <span class="badge-level beginner">BEGINNER</span>
+        <span class="badge-level intermediate">INTERMEDIATE</span>
       </span>
-      <span class="meta-item stars">★★★★<span class="dim">★</span></span>
-      <span class="meta-item">
-        <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M10 6V10L12.5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        読了目安 8分
-      </span>
-      <span class="meta-item">参照元言語: EN</span>
+      <span class="meta-item stars">★★★★★</span>
+      <span class="meta-item">言語: 英語</span>
+      <span class="meta-item">形式: 有料コース（Gnomon Workshop）</span>
     </div>
   </div>
 </div>
@@ -65,38 +62,27 @@
   <div class="entry-detail-layout">
 
     <main>
-      <div class="entry-hero-thumb thumb-article">
-        <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8H16M8 12H16M8 16H12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <div class="entry-hero-thumb">
+        <img src="images/entries/houdini-procedural-environments.jpg" alt="Houdiniで制作されたプロシージャル環境: 丘の上の廃城">
       </div>
 
       <div class="prose">
-        <p class="lead-summary">Houdini Vellumソルバーを使った布シミュレーションの基本ワークフローを解説した入門記事。セットアップからコリジョン設定、初期パラメータの目安値までを一通りカバーしている。</p>
+        <p class="lead-summary">Houdiniを用いたモデリングからシェーディング、スキャッタリング、レンダリングまで、背景（環境）制作の一連のワークフローを体系的に学べるGnomon Workshopの実践コース。廃墟となった古城が丘の上に佇む環境ショットを題材に、プロシージャルなアプローチで一貫して制作していく構成になっている。</p>
 
         <div class="source-link-box">
           <div>
-            <div class="label">元記事・参照先</div>
-            <div class="url">https://example.com/houdini-vellum-cloth-tutorial</div>
+            <div class="label">URL</div>
+            <div class="url">https://www.thegnomonworkshop.com/workshops/creating-procedural-environments-in-houdini</div>
           </div>
-          <a href="#" class="btn btn-outline">元サイトを見る
+          <a href="https://www.thegnomonworkshop.com/workshops/creating-procedural-environments-in-houdini" class="btn btn-outline" target="_blank" rel="noopener">元サイトを見る
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </div>
 
-        <h2>概要</h2>
-        <p>Vellum Constraintノードを中心に、布の張力・曲げ抵抗・自己衝突の設定方法をステップバイステップで解説。Vellum Solverの内部挙動についても軽く触れられており、単なる操作手順の紹介にとどまらない内容になっている。</p>
-        <p>特にコリジョンオブジェクトとの当たり判定における「Collision Distance」の設定指針は、実制作でも詰まりやすいポイントであり参考になった。</p>
-
-        <div class="memo-box">
-          <div class="memo-label">
-            <svg viewBox="0 0 20 20" fill="none"><path d="M4 15L4 5C4 3.9 4.9 3 6 3H14C15.1 3 16 3.9 16 5V15L10 12L4 15Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-            自分用メモ
-          </div>
-          <p>パラメータの初期値の目安として非常に参考になった。自分のプロジェクトでは布が重すぎて破綻したため、Gravity Scaleを0.6程度まで弱めて調整。</p>
-          <p>Substeps を上げるより先に Constraint の反復回数を見直す方が安定することが多い、という点は今後のセットアップでも意識したい。</p>
+        <div style="font-size: 13px; color: var(--color-text-faint); margin: 0 0 10px;">YouTube</div>
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/ZCyT3in1lwU?si=XHr7tiY5VryURrHx&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-
-        <h2>関連する自分のワークフローとの接続</h2>
-        <p>過去にまとめた「Pipeline/Plugin/Tool」カテゴリのHDA設計と組み合わせることで、布シム用のHDAとして再利用可能な形にまとめられそう。次のアクションとして着手予定。</p>
       </div>
 
       <div class="ad-slot" style="margin-top: 40px;">広告枠（記事下）</div>
@@ -106,9 +92,10 @@
       <div class="sidebar-box">
         <h4>タグ</h4>
         <div class="entry-tags">
+          <span class="tag">Procedural Modeling</span>
+          <span class="tag">Environment</span>
+          <span class="tag">Scattering</span>
           <span class="tag">Houdini</span>
-          <span class="tag">Vellum</span>
-          <span class="tag">Cloth Simulation</span>
           <span class="tag tag-accent">Tutorial</span>
         </div>
       </div>
@@ -117,29 +104,25 @@
         <h4>関連エントリー</h4>
 
         <a class="related-mini" href="entry.html">
-          <div class="related-thumb thumb-article"></div>
+          <div class="related-thumb thumb-sim"></div>
           <div>
-            <h5>Pyroソルバーによる爆煙エフェクトの実践レシピ</h5>
-            <span class="cat">Article</span>
+            <h5>Houdini Vellum入門: 布シミュレーションの基礎</h5>
+            <span class="cat">シミュレーション / FX</span>
           </div>
         </a>
-        <a class="related-mini" href="entry.html">
+        <a class="related-mini" href="archive.html">
           <div class="related-thumb thumb-pipeline"></div>
           <div>
             <h5>HoudiniのHDA設計パターン集</h5>
-            <span class="cat">Pipeline/Plugin/Tool</span>
-          </div>
-        </a>
-        <a class="related-mini" href="entry-procedural-environments.html">
-          <div class="related-thumb thumb-environment"></div>
-          <div>
-            <h5>Houdiniで学ぶプロシージャル環境制作</h5>
-            <span class="cat">Environment</span>
+            <span class="cat">パイプライン & ツール開発</span>
           </div>
         </a>
       </div>
 
-      <div class="ad-slot">広告枠（サイドバー）</div>
+      <div class="sidebar-box" style="background: var(--color-accent-soft); border-color: transparent;">
+        <h4 style="color: var(--color-accent);">画像クレジット</h4>
+        <p style="font-size: 13px; color: var(--color-text-muted); margin: 0;">サムネイルは<a href="https://www.thegnomonworkshop.com/workshops/creating-procedural-environments-in-houdini" target="_blank" rel="noopener" style="color: var(--color-accent);">Gnomon Workshop</a>のコースページより引用。広告非掲載の個人アーカイブとして参考掲載しています。</p>
+      </div>
     </aside>
 
   </div>

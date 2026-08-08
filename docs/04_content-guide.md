@@ -1,6 +1,6 @@
 # 記事フォーマット指示書（コンテンツ作成ガイド）
 
-このドキュメントは、VERTEX ARCHIVEのエントリー（記事）を作成する際の**唯一の正となるルール集**です。自分で書く場合はもちろん、AIに過去の紹介コンテンツ（Xの投稿、ブックマーク、メモ等）をこのフォーマットへ変換させる場合の指示書としてもそのまま使えるように設計しています。
+このドキュメントは、Merge VFX&CGのエントリー（記事）を作成する際の**唯一の正となるルール集**です。自分で書く場合はもちろん、AIに過去の紹介コンテンツ（Xの投稿、ブックマーク、メモ等）をこのフォーマットへ変換させる場合の指示書としてもそのまま使えるように設計しています。
 
 > AIに変換を依頼する場合は、このファイル全体をプロンプトに含めた上で「元テキスト」を渡してください。
 
@@ -29,40 +29,39 @@ content/entries/{slug}.md
 | `summary` | string（1〜2文、80〜120字目安） | ○ | §5参照。客観的な要約 |
 | `memo` | string（複数文可、YAML `\|` ブロック） | ○ | §5参照。自分の考察・評価・活用メモ |
 | `rating` | number（1〜5の整数） | ○ | §7の基準で自己評価 |
-| `dateAdded` | string（`YYYY-MM-DD`） | ○ | 追加日（元投稿日ではなく、このサイトに載せた日） |
 | `sourceLang` | `ja` \| `en` \| `other` | ○ | 参照先の言語 |
 
 *1 `type: note`（自分の考察のみで外部参照がない場合）を除き必須。
 
 ## 3. カテゴリ一覧（`category`の許容値）
 
-このプロトタイプのCSSクラス（`thumb-xxx`）と1対1で対応しているので、**必ず以下のslugをそのまま使うこと**（表記ゆれ厳禁）。
+**カテゴリの正データは [`data/categories.json`](../data/categories.json)。** このファイルのslugをそのまま使うこと（表記ゆれ厳禁）。以下は現時点のスナップショット（2026-08-08〜）で、`categories.json`更新時はこの表も追随させる。
 
-| slug | 日本語名 | 対応thumbクラス |
+| slug | label | 対応thumbクラス |
 |---|---|---|
-| `modeling` | モデリング / スカルプト | `thumb-modeling` |
-| `surfacing` | サーフェシング（シェーディング・テクスチャ・マテリアル） | `thumb-surfacing` |
-| `lighting` | ライティング / レンダリング | `thumb-lighting` |
-| `comp` | コンポジット | `thumb-comp` |
-| `sim` | シミュレーション / FX | `thumb-sim` |
-| `rigging` | リギング / アニメーション | `thumb-rigging` |
-| `pipeline` | パイプライン & ツール開発 | `thumb-pipeline` |
-| `shoot` | 撮影・トラッキング・VFX制作フロー | `thumb-shoot` |
-| `industry` | 業界動向・キャリア・スタジオ情報 | `thumb-industry` |
-| `resource` | 学習リソース | `thumb-resource` |
-| `reel` | 作品集・Showreel | `thumb-reel` |
+| `environment` | Environment | `thumb-environment` |
+| `pipeline` | Pipeline/Plugin/Tool | `thumb-pipeline` |
+| `article` | Article | `thumb-article` |
+| `showreel` | Showreel/Demoreel | `thumb-reel` |
 
-判断に迷う場合は「その情報を後で自分が探すとしたら、どのカテゴリの棚を見るか」で決める。
+判断に迷う場合は「その情報を後で自分が探すとしたら、どのカテゴリの棚を見るか」で決める。ソフト名（Houdini, Nuke等）は`category`ではなく`software`/`tags`側で表現する（§4参照）。
+
+> 旧11カテゴリ（モデリング/サーフェシング/ライティング/シミュレーション/リギング/撮影/業界動向/学習リソース等）は廃止。既存の`prototype/index.html`・`archive.html`・`entry.html`はこの旧カテゴリのままのデモ内容が残っているため、新カテゴリへの一括移行はまだ未実施（要フォローアップ）。
 
 ## 4. タグ・ソフト名の表記ルール
 
-- ソフト名・固有名詞は**公式表記**で統一する（英語の正式名称、大文字小文字も揃える）
-  - 良い例: `Houdini`, `Nuke`, `Blender`, `Unreal Engine`, `Substance Painter`, `Arnold`, `Redshift`, `Karma`, `Python`, `USD`, `VEX`
-  - 悪い例: `houdini`, `nuke5`, `UE5`（→`Unreal Engine`とバージョンはタグを分ける）
+- `tags`は**基本的に英語（Title Case）で統一する**。海外の技術記事・検索キーワードとの親和性を優先するため、日本語タグは原則使わない
+  - 良い例: `Houdini`, `Procedural Modeling`, `Environment`, `Scattering`, `Tutorial`, `USD`, `VEX`
+  - 避ける例: `houdini`（小文字）, `クロスシム`（和文技法名）
+- ソフト名・固有名詞は**公式表記**で統一する
+  - 良い例: `Houdini`, `Nuke`, `Blender`, `Unreal Engine`, `Substance Painter`, `Arnold`, `Redshift`, `Karma`, `Python`, `USD`
+  - 悪い例: `nuke5`, `UE5`（→`Unreal Engine`とバージョンはタグを分ける）
 - `tags`には**技法・概念名**を優先して入れる（`category`や`type`と意味が重複するタグは避ける）
-  - 良い例: `クロスシム`, `リムライト`, `プロシージャル生成`, `デノイズ`
-  - 避ける例: `Houdini入門`（→`Houdini`＋`level: beginner`で表現済み）
+  - 良い例: `Scattering`, `Rim Light`, `Denoising`
+  - 避ける例: `Houdini Beginner`（→`Houdini`＋`level: beginner`で表現済み）
+- `type`に対応する英語タグ（`Tutorial`, `Article`, `Tool`, `Reel`, `Interview`, `Resource`, `Note`）を`tags`にも1つ含めてよい（`tag-accent`スタイルで強調表示する運用）
 - `software`と`tags`のソフト名は重複してよい（`software`は構造化データ用、`tags`は検索・関連表示用）
+- タイトル・summary・memo等の本文は引き続き日本語で書く（タグのみ英語）
 
 ## 5. `summary` と `memo` の書き分け（最重要）
 
@@ -110,7 +109,6 @@ summary: ""
 memo: |
 
 rating: 3
-dateAdded: "YYYY-MM-DD"
 sourceLang: "ja"
 ---
 ```
@@ -121,8 +119,8 @@ sourceLang: "ja"
 ---
 title: "Houdini Vellum入門: 布シミュレーションの基礎"
 url: "https://example.com/houdini-vellum-cloth-tutorial"
-category: "sim"
-tags: ["Vellum", "クロスシム", "チュートリアル"]
+category: "article"
+tags: ["Houdini", "Vellum", "Cloth Simulation", "Tutorial"]
 type: "tutorial"
 level: "beginner"
 software: ["Houdini"]
@@ -133,7 +131,6 @@ memo: |
   Gravity Scaleを0.6程度まで弱めて調整した。
   Substepsを上げるより先にConstraintの反復回数を見直す方が安定することが多い、という点は今後も意識したい。
 rating: 4
-dateAdded: "2026-08-02"
 sourceLang: "en"
 ---
 ```
@@ -155,4 +152,3 @@ sourceLang: "en"
 - [ ] `tags`が`category`/`type`と意味重複していない
 - [ ] ソフト名の表記が§4のルールに従っている
 - [ ] `url`が生きている（リンク切れでない）
-- [ ] `dateAdded`が実際の追加日になっている
