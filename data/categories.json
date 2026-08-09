@@ -3,6 +3,7 @@
     { "slug": "environment", "label": "Environment", "thumbClass": "thumb-environment" },
     { "slug": "pipeline", "label": "Pipeline/Plugin/Tool", "thumbClass": "thumb-pipeline" },
     { "slug": "article", "label": "Article", "thumbClass": "thumb-article" },
-    { "slug": "showreel", "label": "Showreel/Demoreel", "thumbClass": "thumb-reel" }
+    { "slug": "showreel", "label": "Showreel/Demoreel", "thumbClass": "thumb-reel" },
+    { "slug": "website", "label": "Website", "thumbClass": "thumb-website" }
   ]
 }

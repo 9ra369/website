@@ -43,6 +43,7 @@ content/entries/{slug}.md
 | `pipeline` | Pipeline/Plugin/Tool | `thumb-pipeline` |
 | `article` | Article | `thumb-article` |
 | `showreel` | Showreel/Demoreel | `thumb-reel` |
+| `website` | Website（チュートリアル販売サイトやコミュニティ等、単一記事ではなくサイト全体を紹介する場合） | `thumb-website` |
 
 判断に迷う場合は「その情報を後で自分が探すとしたら、どのカテゴリの棚を見るか」で決める。ソフト名（Houdini, Nuke等）は`category`ではなく`software`/`tags`側で表現する（§4参照）。
 
