@@ -44,6 +44,7 @@ content/entries/{slug}.md
 | `article` | Article | `thumb-article` |
 | `showreel` | Showreel/Demoreel | `thumb-reel` |
 | `website` | Website（チュートリアル販売サイトやコミュニティ等、単一記事ではなくサイト全体を紹介する場合） | `thumb-website` |
+| `tips` | Tips（Xポストからの短文ノート用。数十〜百数十字程度の一言メモ・リンク紹介） | `thumb-tips` |
 
 判断に迷う場合は「その情報を後で自分が探すとしたら、どのカテゴリの棚を見るか」で決める。ソフト名（Houdini, Nuke等）は`category`ではなく`software`/`tags`側で表現する（§4参照）。
 

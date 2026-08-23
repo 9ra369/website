@@ -1,0 +1,24 @@
+---
+title: "毎日作品分析Day5_2: Julian Calle"
+date: 2026-04-12
+category: "tips"
+tags: ["ArtStation", "Composition"]
+source_url: "https://www.artstation.com/artwork/LGkaP"
+original_post: "https://x.com/kuramaKageya/status/2043134550960951578"
+summary: "Julian Calle氏の作品を分析した投稿（毎日作品分析Day5_2）。フレーミングによる視線誘導と、抜け感の有無によるスケール感の違いについての気づきが記されている。"
+ai_confidence: "high"
+status: draft
+---
+
+Day5_2 - by JULIAN CALLE
+https://www.artstation.com/artwork/LGkaP
+
+気づき
+Framingすることで簡単に視線を誘導できるが、抜け感があるかないかでこんなにも感じるスケールが違うんだなと。
+
+#毎日作品分析
+
+![](images/posts/2043134550960951578-HFqrOSVbEAAr5QD.jpg)
+![](images/posts/2043134550960951578-HFqrPW3aAAAgzkv.jpg)
+![](images/posts/2043134550960951578-HFqrQPiboAA-w-r.jpg)
+![](images/posts/2043134550960951578-HFqrWuRbwAAhMST.jpg)

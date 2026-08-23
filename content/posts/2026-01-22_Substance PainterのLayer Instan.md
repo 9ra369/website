@@ -1,0 +1,15 @@
+---
+title: "Substance PainterのLayer Instancing機能（大規模UDIMアセット向け）"
+date: 2026-01-22
+category: "tips"
+tags: ["Substance Painter", "Texturing"]
+source_url: "https://www.adobe.com/learn/substance-3d-painter/web/layer-instancing-for-vfx-scenes"
+original_post: "https://x.com/kuramaKageya/status/2014289152049893836"
+summary: "UDIMが何十枚にもなるような大規模アセットのテクスチャリングに役立つ、Substance Painterの「Layer Instancing」機能を紹介した投稿。"
+ai_confidence: "high"
+status: draft
+---
+
+Layer instancing for VFX scenes
+（UDIMが何十枚にもなる大きなアセットのテクスチャリング）
+https://www.adobe.com/learn/substance-3d-painter/web/layer-instancing-for-vfx-scenes

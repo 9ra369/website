@@ -492,6 +492,7 @@ ul { list-style: none; margin: 0; padding: 0; }
 .thumb-environment { background: linear-gradient(135deg, #7a8c5e 0%, #2f3a26 100%); }
 .thumb-article    { background: linear-gradient(135deg, #5a6b85 0%, #1c222b 100%); }
 .thumb-website    { background: linear-gradient(135deg, #2fa8a0 0%, #123f3c 100%); }
+.thumb-tips       { background: linear-gradient(135deg, #d0a02f 0%, #4a3510 100%); }
 
 .entry-body {
   padding: 18px 18px 20px;

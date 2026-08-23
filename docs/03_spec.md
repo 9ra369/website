@@ -29,6 +29,7 @@
 | `article` | Article |
 | `showreel` | Showreel/Demoreel |
 | `website` | Website |
+| `tips` | Tips（Xポスト移行パイプライン由来の短文ノート向け。[x-archive-migration-spec.md](../x-archive-migration-spec.md)参照） |
 
 > 以前は制作工程に沿った11カテゴリ（モデリング/サーフェシング/ライティング…）を暫定採用していたが、運用しやすさを優先して上記4カテゴリに整理し直した（Compositingは統合され廃止）。ソフト名（Houdini等）や技法名は`category`ではなく`tags`側で表現する（[04_content-guide.md](./04_content-guide.md)参照）。
 >

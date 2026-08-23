@@ -1,0 +1,25 @@
+---
+title: "80lv記事: 『The Witcher 3』着想の雪景色シーン制作"
+date: 2025-10-18
+category: "tips"
+tags: ["Unreal Engine", "SpeedTree", "Environment"]
+source_url: "https://80.lv/articles/tutorial-the-witcher-3-inspired-snowy-scene-featuring-rich-vegetation"
+original_post: "https://x.com/kuramaKageya/status/1979370649811583025"
+summary: "80lvに掲載された、『The Witcher 3』に着想を得た雪景色シーンの制作記事を紹介した投稿。大規模な自然系背景制作に役立つTipsがまとめられており、使用ソフトはUnreal Engineがメインとのこと。"
+ai_confidence: "high"
+status: draft
+---
+
+こちらの80lv @80Level の記事で大規模な自然系の背景を作る際に勉強になるTipsがまとめられています！
+
+使用ソフトはUEがメインです！
+
+The Witcher 3-Inspired Snowy Scene Featuring Rich Vegetation
+https://80.lv/articles/tutorial-the-witcher-3-inspired-snowy-scene-featuring-rich-vegetation
+
+#ue5 #speedtree #houEnv
+
+![](images/posts/1979370649811583025-G3gjHAVXwAA1HEm.jpg)
+![](images/posts/1979370649811583025-G3gjHAYXwAAnrF-.jpg)
+![](images/posts/1979370649811583025-G3gjHAeWkAAZ3ru.png)
+![](images/posts/1979370649811583025-G3gjHAaXAAAulVX.png)

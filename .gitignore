@@ -26,3 +26,9 @@ desktop.ini
 
 # misc
 *.local
+
+# raw personal data exports (X archive, etc.) — never commit
+_raw/
+
+# intermediate pipeline output derived from _raw — pre-curation, not for commit
+_work/

@@ -1,0 +1,17 @@
+---
+title: "Steven Croman氏のArtStation（高品質な背景作品多数）"
+date: 2025-10-30
+category: "tips"
+tags: ["ArtStation", "Environment"]
+source_url: "https://www.artstation.com/srlstudios"
+original_post: "https://x.com/kuramaKageya/status/1983824336210555406"
+summary: "前述のSteven Croman氏のArtStationページを紹介した投稿。クオリティの高い背景作品が多く掲載されているとのこと。"
+ai_confidence: "high"
+status: draft
+---
+
+この方のArtstationに多くのクオリティが高い背景作品があります！
+
+https://www.artstation.com/srlstudios https://x.com/kuramaKageya/status/1983823496796106834
+
+![](images/posts/1983824336210555406-G4f1SxkbQAAGAJW.jpg)

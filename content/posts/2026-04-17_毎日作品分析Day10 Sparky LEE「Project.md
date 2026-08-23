@@ -1,0 +1,23 @@
+---
+title: "毎日作品分析Day10: Sparky LEE「Project Windless」"
+date: 2026-04-17
+category: "tips"
+tags: ["ArtStation", "Composition"]
+source_url: "https://www.artstation.com/artwork/ZlA5Qm"
+original_post: "https://x.com/kuramaKageya/status/2045154705823928481"
+summary: "Sparky LEE氏の作品「A keyframe for Project Windless」を分析した投稿（毎日作品分析Day10）。主人公自体を強く見せるだけでなく、他の要素を足すことで表現を強調できるという気づきが記されている。"
+ai_confidence: "high"
+status: draft
+---
+
+Day10 - A keyframe for Project Windless by Sparky LEE
+https://www.artstation.com/artwork/ZlA5Qm
+
+気づき
+今までは主人公自体を強く見せる、恐ろしく見せるしか方法として頭になかったが、他の要素を足すことで表現を強調できるんだなと。
+
+#毎日作品分析 #ギリギリ
+
+![](images/posts/2045154705823928481-HGHYmsuacAAoE6k.jpg)
+![](images/posts/2045154705823928481-HGHYnplaEAAAaYG.jpg)
+![](images/posts/2045154705823928481-HGHYoRKbUAAGKu-.jpg)
