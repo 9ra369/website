@@ -1,14 +1,17 @@
 ---
 title: "Falk Boje氏のYouTubeチャンネル"
 date: 2025-11-04
-category: "tips"
-tags: ["YouTube", "Environment"]
+category: "showreel"
+tags: ["YouTube", "Environment", "vfx", "背景制作"]
 source_url: "https://www.youtube.com/@falkboje"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985652131454722154"
-summary: "前述のFalk Boje氏のYouTubeチャンネルを紹介した投稿。"
+summary: "Falk Boje氏のYouTubeチャンネル。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/1985652131454722154-vyP5x8LWITEeLI1k.gif)
 
 この方もYouTubeにチュートリアルがあります！
 

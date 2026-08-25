@@ -1,11 +1,13 @@
 ---
 title: "HoudiniのVEX学習にHorikawa氏のYouTubeがおすすめ"
 date: 2025-10-28
-category: "tips"
-tags: ["Houdini", "VEX"]
+category: "showreel"
+tags: ["Houdini", "VEX", "sidefx"]
+mentions: ["jhorikawa_err"]
 source_url: "https://www.youtube.com/@JunichiroHorikawa"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1983090852512838055"
-summary: "HoudiniのVEXを学びたい人向けに、Junichiro Horikawa氏のYouTubeチャンネルを紹介した投稿。"
+summary: "HoudiniのVEXを学びたい人向けに、Junichiro Horikawa氏のYouTubeチャンネル。"
 ai_confidence: "high"
 status: draft
 ---

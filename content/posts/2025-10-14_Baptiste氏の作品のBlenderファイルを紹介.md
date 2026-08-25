@@ -1,14 +1,17 @@
 ---
 title: "Baptiste氏の作品のBlenderファイルを紹介"
 date: 2025-10-14
-category: "tips"
-tags: ["Blender", "Environment", "Gaea"]
+category: "showreel"
+tags: ["Blender", "Environment", "Gaea", "b3d", "houEnv"]
 source_url: "https://baptistevercier.gumroad.com/l/IslandScene"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977890029516308949"
-summary: "背景制作に定評のあるBaptiste氏が制作した作品のBlenderファイルを紹介した投稿。"
+summary: "背景制作に定評のあるBaptiste氏が制作した作品のBlenderファイル。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/1977890029516308949-og.jpg)
 
 Baptisteさんが作成したこの作品のblenderファイルです！
 

@@ -1,11 +1,12 @@
 ---
 title: "Houdiniのinstance解説動画（全3パート）"
 date: 2025-11-12
-category: "tips"
-tags: ["Houdini", "Instancing"]
+category: "tutorial"
+tags: ["Houdini", "Instancing", "sidefx"]
 source_url: "https://www.youtube.com/watch?v=Im_t2PJtTuI"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1988491812504588326"
-summary: "HoudiniのInstanceに必要な知識を解説する動画（全3パート）を紹介した投稿。丁寧な説明が特徴とのこと。"
+summary: "HoudiniのInstanceに必要な知識を解説する動画（全3パート）。丁寧な説明が特徴。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,12 @@
 ---
 title: "今川氏の都市背景制作チュートリアル「Modern City」"
 date: 2025-10-23
-category: "tips"
-tags: ["VFX", "Environment"]
+category: "tutorial"
+tags: ["VFX", "Environment", "3DCG", "背景制作"]
 source_url: "https://masashivfx.gumroad.com/l/qxwsre?layout=profile"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981246829808513173"
-summary: "今川雅史氏による都市の背景制作チュートリアル「Cinematic Shot Design | Modern city」を紹介した投稿。カメラシェイクを加える方法にも触れられている。"
+summary: "今川雅史氏による都市の背景制作チュートリアル「Cinematic Shot Design | Modern city」。カメラシェイクを加える方法にも触れられている。"
 ai_confidence: "high"
 status: draft
 ---

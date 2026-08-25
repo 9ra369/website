@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day5: Raphael Lacoste「MIDGARD」"
 date: 2026-04-12
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/gRzLqe"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043133316355006543"
-summary: "Raphael Lacoste氏の作品「MIDGARD」を分析した投稿（毎日作品分析Day5）。上手いアーティストは三分割法を使わなくても見せ方が上手いという気づきが記されている。"
+summary: "Raphael Lacoste氏の作品「MIDGARD」（毎日作品分析Day5）。上手いアーティストは三分割法を使わなくても見せ方が上手いという気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

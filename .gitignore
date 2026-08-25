@@ -32,3 +32,6 @@ _raw/
 
 # intermediate pipeline output derived from _raw — pre-curation, not for commit
 _work/
+
+# local dev tooling (ffmpeg binary for video->GIF thumbnails) — not for commit
+.tools/

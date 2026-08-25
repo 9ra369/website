@@ -1,11 +1,12 @@
 ---
 title: "Steffen Hampel氏『Fallout』ファンアート最新作"
 date: 2026-04-14
-category: "tips"
+category: "showreel"
 tags: ["ArtStation", "Environment"]
 source_url: "https://www.artstation.com/artwork/zxa632"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044058405321748565"
-summary: "Steffen Hampel氏による『Fallout』のファンアート最新作を紹介した投稿。レンダリングがくっきりしていて美しくリアルだと評している。"
+summary: "Steffen Hampel氏による『Fallout』のファンアート最新作。レンダリングがくっきりしていて美しくリアルだと評している。"
 ai_confidence: "high"
 status: draft
 ---

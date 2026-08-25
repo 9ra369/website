@@ -1,11 +1,12 @@
 ---
 title: "Adrien Lambert氏のマスク生成HDA「AL MASKBUILDER」"
 date: 2025-10-25
-category: "tips"
-tags: ["Houdini", "HDA", "Scattering"]
+category: "pipeline"
+tags: ["Houdini", "HDA", "Scattering", "sidefx", "背景制作"]
 source_url: "https://adrienlambert.gumroad.com/l/AswVG?layout=profile"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981917621772849439"
-summary: "以前紹介したAdrien Lambert氏による、マスクを作成できるHoudini用HDA「AL MASKBUILDER」を紹介した投稿。ScatterやShadingで使えるマスク作成機能が詰まっているとのこと。"
+summary: "Adrien Lambert氏による、マスクを作成できるHoudini用HDA「AL MASKBUILDER」。ScatterやShadingで使えるマスク作成機能が詰まっている。"
 ai_confidence: "high"
 status: draft
 ---

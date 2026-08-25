@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day2: Dylan Cole「The First Outpost」"
 date: 2026-04-09
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/8e33ZQ"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042244829128925422"
-summary: "Dylan Cole氏の作品「The First Outpost」を分析した投稿（毎日作品分析Day2）。右側の建物が何かわからなくても画として説得力があることへの気づきが記されている。"
+summary: "Dylan Cole氏の作品「The First Outpost」（毎日作品分析Day2）。右側の建物が何かわからなくても画として説得力があることへの気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

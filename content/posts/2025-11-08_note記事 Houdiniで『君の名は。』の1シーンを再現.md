@@ -1,11 +1,12 @@
 ---
 title: "note記事: Houdiniで『君の名は。』の1シーンを再現"
 date: 2025-11-08
-category: "tips"
-tags: ["Houdini", "Environment"]
+category: "article"
+tags: ["Houdini", "Environment", "sidefx", "背景制作"]
 source_url: "https://note.com/oja_bitterlife/n/nef9f0766ff25?utm_source=chatgpt.com"
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1987004133732446702"
-summary: "Houdiniを使って映画『君の名は。』のPVの背景をフル3Dで再現した制作過程を解説するnote記事を紹介した投稿。まだ全部読めていないが、試行錯誤の過程が勉強になるとしている。"
+summary: "Houdiniを使って映画『君の名は。』のPVの背景をフル3Dで再現した制作過程を解説するnote記事。まだ全部読めていないが、試行錯誤の過程が勉強になるとしている。"
 ai_confidence: "high"
 status: draft
 ---

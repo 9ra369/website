@@ -1,11 +1,12 @@
 ---
 title: "岡崎昇平氏の記事: FX的Height Fieldの活用法"
 date: 2026-04-26
-category: "tips"
-tags: ["Houdini", "Terrain"]
+category: "article"
+tags: ["Houdini", "Terrain", "Environment"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2048240015139078460"
-summary: "岡崎昇平氏による、地形生成以外のHeight Fieldの変わった使い方を紹介する記事を紹介した投稿。Height Fieldが軽量でUVも扱いやすく、booleanのshatterに適しているという点が勉強になったとのこと。"
+summary: "岡崎昇平氏による、地形生成以外のHeight Fieldの変わった使い方を紹介する記事。Height Fieldが軽量でUVも扱いやすく、booleanのshatterに適しているという点が勉強になった。"
 ai_confidence: "high"
 status: draft
 ---

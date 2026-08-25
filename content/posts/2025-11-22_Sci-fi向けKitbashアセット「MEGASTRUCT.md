@@ -2,10 +2,11 @@
 title: "Sci-fi向けKitbashアセット「MEGASTRUCTURE」（Vitaly Bulgarov）"
 date: 2025-11-22
 category: "tips"
-tags: ["Kitbash", "Assets"]
+tags: ["Kitbash", "Assets", "vfx", "3DCG"]
 source_url: "https://vitalybulgarov.com/3d-kitbash/meg"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1992176307086721158"
-summary: "Vitaly Bulgarov氏によるSci-fi向けキットバッシュアセット「MEGASTRUCTURE」を紹介した投稿。海外のアーティストに広く使われている印象があるとのこと。"
+summary: "Vitaly Bulgarov氏によるSci-fi向けキットバッシュアセット「MEGASTRUCTURE」。海外のアーティストに広く使われている印象がある。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,14 +1,18 @@
 ---
 title: "コンセプトアーティストPablo Dominguez氏の作品とチュートリアル"
 date: 2026-01-14
-category: "tips"
+category: "tutorial"
 tags: ["Concept Art"]
+mentions: ["pdaguilar_"]
 source_url: "https://www.learnsquared.com/courses/environment-concept-art"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2011441993906585800"
-summary: "コンセプトアーティストのPablo Dominguez氏の作品を紹介した投稿。以前田島氏も高く評価していたとのこと。Learn Squaredでのチュートリアルも紹介されている。"
+summary: "コンセプトアーティストのPablo Dominguez氏の作品。田島氏も高く評価している。Learn Squaredでのチュートリアルも紹介されている。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/2011441993906585800-nwtizX3ivBldO1qR.gif)
 
 コンセプトアーティストのPablo Dominguez @pdaguilar_さんの作品
 

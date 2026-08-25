@@ -4,8 +4,9 @@ date: 2026-06-18
 category: "tips"
 tags: ["Gaea", "Substance Designer", "Texturing"]
 source_url: "https://www.artstation.com/artwork/nJob54"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2067598526151041073"
-summary: "Vincent Gagnon氏による、GaeaをSubstance Designerの一部として活用する試み「Eroded Dirt Mound」を紹介した投稿。Gaeaは浸食表現に優れるがタイル化に不向きなため、Substance Designerで補いテクスチャとして使えるかを検証している。"
+summary: "Vincent Gagnon氏による、GaeaをSubstance Designerの一部として活用する試み「Eroded Dirt Mound」。Gaeaは浸食表現に優れるがタイル化に不向きなため、Substance Designerで補いテクスチャとして使えるかを検証している。"
 ai_confidence: "high"
 status: draft
 ---

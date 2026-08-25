@@ -1,11 +1,12 @@
 ---
 title: "USDレイヤーを可視化するHDA「explodeUSDLayer」（開発中）"
 date: 2025-11-17
-category: "tips"
-tags: ["Houdini", "USD"]
+category: "pipeline"
+tags: ["Houdini", "USD", "sidefx"]
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7395151043967217664/"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1990354473580109840"
-summary: "USDのレイヤーごとの構造を視覚化して理解できるHDA「explodeUSDLayer」を紹介した投稿。開発完了後に公開予定とのこと。"
+summary: "USDのレイヤーごとの構造を視覚化して理解できるHDA「explodeUSDLayer」。開発完了後に公開予定。"
 ai_confidence: "high"
 status: draft
 ---

@@ -2,10 +2,11 @@
 title: "Displace along normal使用時のUV promote Tips"
 date: 2026-05-18
 category: "tips"
-tags: ["Houdini", "VEX"]
+tags: ["Houdini", "VEX", "sidefx"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2056376070899925051"
-summary: "「Displace along normal」を使ってUV展開済みメッシュにディスプレイスメントを加える際、UVをvertexからpointにpromoteしてVOPで編集する必要があるというTipsを共有した投稿。"
+summary: "「Displace along normal」を使ってUV展開済みメッシュにディスプレイスメントを加える際、UVをvertexからpointにpromoteしてVOPで編集する必要があるというTips。"
 ai_confidence: "high"
 status: draft
 ---

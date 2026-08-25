@@ -1,11 +1,12 @@
 ---
 title: "cgwiki記事: LOPsとSolarisの詳細解説"
 date: 2025-10-11
-category: "tips"
-tags: ["Houdini", "Solaris", "LOPs"]
+category: "article"
+tags: ["Houdini", "Solaris", "LOPs", "houEnv", "houSolaris", "sidefx"]
 source_url: "https://tokeru.com/cgwiki/HoudiniLops.html"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1976848067111665938"
-summary: "HoudiniのLOPsとSolarisについて詳しくまとめられた英語記事（cgwiki）を紹介した投稿。"
+summary: "HoudiniのLOPsとSolarisについて詳しくまとめられた英語記事（cgwiki）。"
 ai_confidence: "high"
 status: draft
 ---

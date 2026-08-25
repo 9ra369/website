@@ -1,11 +1,12 @@
 ---
 title: "Marek Denko氏の背景作品（Website/ArtStation）"
 date: 2025-12-17
-category: "tips"
+category: "showreel"
 tags: ["ArtStation", "Environment"]
 source_url: "https://marekdenko.net/"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2001233735400992791"
-summary: "背景作品で高い評価を得ているMarek Denko氏のウェブサイトとArtStationを紹介した投稿。"
+summary: "背景作品で高い評価を得ているMarek Denko氏のウェブサイトとArtStation。"
 ai_confidence: "high"
 status: draft
 ---

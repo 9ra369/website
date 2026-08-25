@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day6: 『Elder Scrolls Online』Key Art（Max Schiller）"
 date: 2026-04-13
-category: "tips"
-tags: ["Concept Art", "Composition"]
+category: "daily-analysis"
+tags: ["Concept Art", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/BkEw1l"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043676889508950357"
-summary: "Max Schiller氏による『The Elder Scrolls Online』のキーアートを分析した投稿（毎日作品分析Day6）。明確な構図に加え、プロップが世界観をしっかり支えている点への気づきが記されている。"
+summary: "Max Schiller氏による『The Elder Scrolls Online』のキーアート（毎日作品分析Day6）。明確な構図に加え、プロップが世界観をしっかり支えている点への気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

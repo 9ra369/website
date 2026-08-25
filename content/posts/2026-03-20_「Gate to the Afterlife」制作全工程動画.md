@@ -4,8 +4,9 @@ date: 2026-03-20
 category: "tips"
 tags: ["Environment"]
 source_url: "https://www.youtube.com/watch?v=_fe_GkBkpzY&t=124s"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2034844711606005915"
-summary: "作品「Gate to the Afterlife」の制作全工程を追った動画を紹介した投稿。"
+summary: "作品「Gate to the Afterlife」の制作全工程を追った動画。"
 ai_confidence: "high"
 status: draft
 ---

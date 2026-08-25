@@ -4,11 +4,14 @@ date: 2025-11-26
 category: "tips"
 tags: ["Assets"]
 source_url: "https://cgtrader.com"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1993644620979597520"
-summary: "汎用アセット・特定アセット・キットバッシュを扱う3Dアセットサイトをまとめた投稿。CGTraderやTurbosquidなど、テクスチャ・HDRIも扱う汎用サイトが紹介されている。"
+summary: "汎用アセット・特定アセット・キットバッシュを扱う3Dアセットサイト。CGTraderやTurbosquidなど、テクスチャ・HDRIも扱う汎用サイトが紹介されている。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/1993644620979597520-og.jpg)
 
 汎用アセット、特定のアセット、キットバッシュを扱っている3Dアセットのサイトをまとめてみました！
 

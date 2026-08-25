@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day12_2: Conar Cross「Spires」"
 date: 2026-04-19
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/xz8z6R"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045770865540051072"
-summary: "Conar Cross氏の作品「Spires」を分析した投稿（毎日作品分析Day12_2）。シンプルな構図でも、山肌を二層にした奥行き表現や大中小のリズム、抜け感などの要素を組み合わせることでクオリティを高めているという気づきが記されている。"
+summary: "Conar Cross氏の作品「Spires」（毎日作品分析Day12_2）。シンプルな構図でも、山肌を二層にした奥行き表現や大中小のリズム、抜け感などの要素を組み合わせることでクオリティを高めているという気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

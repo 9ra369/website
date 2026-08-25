@@ -1,11 +1,12 @@
 ---
 title: "『アサシンクリード シャドウズ』岩壁生成HDA「Procedural Rock Wall Tool」"
 date: 2026-04-11
-category: "tips"
+category: "pipeline"
 tags: ["Houdini", "HDA", "Environment"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2042780147150209167"
-summary: "『アサシンクリード シャドウズ』で使用された、2Dマスクから3Dモデルを生成するHDA「Procedural Rock Wall Tool」を紹介した投稿。写真から岩壁のマスクを作り、Houdiniでディテールを追加後、Zbrushでさらにディテールを足すワークフローが採用されていたと推測している。"
+summary: "『アサシンクリード シャドウズ』で使用された、2Dマスクから3Dモデルを生成するHDA「Procedural Rock Wall Tool」。写真から岩壁のマスクを作り、Houdiniでディテールを追加後、Zbrushでさらにディテールを足すワークフローが採用されていたと推測している。"
 ai_confidence: "high"
 status: draft
 ---

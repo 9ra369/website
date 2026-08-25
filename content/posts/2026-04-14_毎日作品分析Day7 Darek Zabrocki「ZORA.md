@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day7: Darek Zabrocki「ZORADX - Vistas」"
 date: 2026-04-14
-category: "tips"
-tags: ["ArtStation", "Concept Art"]
+category: "daily-analysis"
+tags: ["ArtStation", "Concept Art", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/YGw6Bd"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044045832547381359"
-summary: "Darek Zabrocki氏の作品「ZORADX - Vistas」を分析した投稿（毎日作品分析Day7）。スターウォーズのスターデストロイヤーなど、デザイン面での学びについての気づきが記されている。"
+summary: "Darek Zabrocki氏の作品「ZORADX - Vistas」（毎日作品分析Day7）。スターウォーズのスターデストロイヤーなど、デザイン面での学びについての気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

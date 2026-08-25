@@ -1,11 +1,12 @@
 ---
 title: "ArtStationの見落とされがちなTips集約ページ活用法"
 date: 2026-01-27
-category: "tips"
+category: "tutorial"
 tags: ["ArtStation"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2016071805887513080"
-summary: "ArtStationの「Tutorial」「Technical Art」「Web and App Design」といったページには、見落とされがちだがTipsがまとまっていることが多いという活用法を紹介した投稿。"
+summary: "ArtStationの「Tutorial」「Technical Art」「Web and App Design」といったページには、見落とされがちだがTipsがまとまっていることが多いという活用法。"
 ai_confidence: "high"
 status: draft
 ---

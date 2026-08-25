@@ -2,10 +2,11 @@
 title: "YouTubeプレイリスト「Principled Houdini」"
 date: 2026-05-18
 category: "tips"
-tags: ["Houdini"]
+tags: ["Houdini", "sidefx"]
 source_url: "https://www.youtube.com/playlist?list=PLcAldYN8Uv184N0Qu_oJ9jEoQMIg5Fa4S"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2056364474832134145"
-summary: "Houdiniの基本原則を扱うYouTubeプレイリスト「Principled Houdini」を紹介した投稿。"
+summary: "Houdiniの基本原則を扱うYouTubeプレイリスト「Principled Houdini」。"
 ai_confidence: "high"
 status: draft
 ---

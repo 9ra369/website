@@ -4,11 +4,14 @@ date: 2026-06-27
 category: "tips"
 tags: ["USD"]
 source_url: "https://docs.nvidia.com/learn-openusd/latest/interactive-glossary.html"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2070709634613248103"
-summary: "NVIDIAが公開する「OpenUSD Interactive Glossary」を紹介した投稿。Stage、Layer、Prim、Composition ArcsなどOpenUSDの主要概念を、インタラクティブな図解で視覚的に理解できるツール。"
+summary: "NVIDIAが公開する「OpenUSD Interactive Glossary」。Stage、Layer、Prim、Composition ArcsなどOpenUSDの主要概念を、インタラクティブな図解で視覚的に理解できるツール。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/2070709634613248103-LPC1iCRFbuoX0Url.gif)
 
 OpenUSD Interactive Glossary
 https://docs.nvidia.com/learn-openusd/latest/interactive-glossary.html

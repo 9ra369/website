@@ -1,11 +1,13 @@
 ---
 title: "塚島氏のPLATEAU×Houdiniミニチュアルック制作チュートリアル"
 date: 2026-06-20
-category: "tips"
+category: "tutorial"
 tags: ["Houdini", "PLATEAU"]
+mentions: ["ttsukajima0245"]
 source_url: "https://x.com/ttsukajima0245/status/2040001852306243727"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2068232954569167216"
-summary: "塚島氏によるPLATEAU（3D都市モデル）とHoudiniを組み合わせた映像作品のチュートリアルを紹介した投稿。ミニチュアルックの再現方法などが紹介されており面白い内容とのこと。"
+summary: "塚島氏によるPLATEAU（3D都市モデル）とHoudiniを組み合わせた映像作品のチュートリアル。ミニチュアルックの再現方法などが紹介されており面白い内容。"
 ai_confidence: "high"
 status: draft
 ---

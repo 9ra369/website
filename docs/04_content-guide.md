@@ -35,20 +35,21 @@ content/entries/{slug}.md
 
 ## 3. カテゴリ一覧（`category`の許容値）
 
-**カテゴリの正データは [`data/categories.json`](../data/categories.json)。** このファイルのslugをそのまま使うこと（表記ゆれ厳禁）。以下は現時点のスナップショット（2026-08-08〜）で、`categories.json`更新時はこの表も追随させる。
+**カテゴリの正データは [`data/categories.json`](../data/categories.json)。** このファイルのslugをそのまま使うこと（表記ゆれ厳禁）。以下は現時点のスナップショット（2026-08-24〜）で、`categories.json`更新時はこの表も追随させる。
 
 | slug | label | 対応thumbクラス |
 |---|---|---|
-| `environment` | Environment | `thumb-environment` |
+| `tutorial` | Tutorial（チュートリアル・講座・コース・入門記事など、手順を教える内容） | `thumb-tutorial` |
 | `pipeline` | Pipeline/Plugin/Tool | `thumb-pipeline` |
 | `article` | Article | `thumb-article` |
-| `showreel` | Showreel/Demoreel | `thumb-reel` |
+| `showreel` | Showreel/Demoreel（特定アーティストの作品・ポートフォリオ紹介） | `thumb-reel` |
 | `website` | Website（チュートリアル販売サイトやコミュニティ等、単一記事ではなくサイト全体を紹介する場合） | `thumb-website` |
 | `tips` | Tips（Xポストからの短文ノート用。数十〜百数十字程度の一言メモ・リンク紹介） | `thumb-tips` |
+| `daily-analysis` | 毎日作品分析（Xの「毎日作品分析」シリーズ投稿専用。`tags`にも`毎日作品分析`を付与） | `thumb-daily-analysis` |
 
-判断に迷う場合は「その情報を後で自分が探すとしたら、どのカテゴリの棚を見るか」で決める。ソフト名（Houdini, Nuke等）は`category`ではなく`software`/`tags`側で表現する（§4参照）。
+判断に迷う場合は「その情報を後で自分が探すとしたら、どのカテゴリの棚を見るか」で決める。ソフト名（Houdini, Nuke等）は`category`ではなく`software`/`tags`側で表現する（§4参照）。背景・環境まわりの話題は`category`を分けず、上記いずれかの適切なカテゴリ＋`Environment`タグで表現する（`environment`カテゴリは廃止済み）。
 
-> 旧11カテゴリ（モデリング/サーフェシング/ライティング/シミュレーション/リギング/撮影/業界動向/学習リソース等）は廃止。既存の`prototype/index.html`・`archive.html`・`entry.html`はこの旧カテゴリのままのデモ内容が残っているため、新カテゴリへの一括移行はまだ未実施（要フォローアップ）。
+> 旧11カテゴリ（モデリング/サーフェシング/ライティング/シミュレーション/リギング/撮影/業界動向/学習リソース等）は廃止。`environment`カテゴリも上記の理由で廃止済み。`prototype/`配下は`environment`カテゴリ廃止後の内容に更新済み（`entry.html`のデフォルト投稿も削除済み）。
 
 ## 4. タグ・ソフト名の表記ルール
 

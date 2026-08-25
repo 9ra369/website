@@ -2,10 +2,11 @@
 title: "Labs Lot Subdivisionの応用アイデア（区画/レンガ/植栽配置）"
 date: 2026-04-25
 category: "tips"
-tags: ["Houdini", "SideFX Labs"]
+tags: ["Houdini", "SideFX Labs", "sidefx"]
 source_url: "https://x.com/kuramaKageya/status/2047854970192715833"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2047855412163269012"
-summary: "前述のLabs Lot Subdivisionについて、建物の区画作成やレンガパターン、植物・木の配置など、思いつかなかった応用アイデアが多くあり面白いという感想を共有した投稿。"
+summary: "Labs Lot Subdivisionについて、建物の区画作成やレンガパターン、植物・木の配置など、思いつかなかった応用アイデアが多くあり面白いという感想。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,13 @@
 ---
 title: "岩崎氏の無料チュートリアル（Gnomon Workshop）"
 date: 2026-03-19
-category: "tips"
+category: "tutorial"
 tags: ["Gnomon Workshop"]
+mentions: ["PugManVFX"]
 source_url: "https://x.com/Gnomon_Workshop/status/2034301305154580942"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2034463612572663904"
-summary: "岩崎氏による無料のチュートリアルがGnomon Workshopで公開されていることを紹介した投稿。"
+summary: "岩崎氏による無料のチュートリアルがGnomon Workshopで公開されていること。"
 ai_confidence: "high"
 status: draft
 ---

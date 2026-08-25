@@ -1,11 +1,12 @@
 ---
 title: "EA/Weta出身Julien Calle氏のSci-fiコンセプトアート講座"
 date: 2025-11-23
-category: "tips"
-tags: ["Concept Art"]
+category: "tutorial"
+tags: ["Concept Art", "vfx", "art", "conceptart"]
 source_url: "https://www.domestika.org/en/courses/3662-sci-fi-concept-art-create-cinematic-key-frames"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1992442470089838748"
-summary: "EA、Weta、Tencentなどでコンセプトアーティストを務めたJulien Calle氏によるチュートリアル「Sci-fi Concept Art: Create Cinematic Key Frames」を紹介した投稿。"
+summary: "EA、Weta、Tencentなどでコンセプトアーティストを務めたJulien Calle氏によるチュートリアル「Sci-fi Concept Art: Create Cinematic Key Frames」。"
 ai_confidence: "high"
 status: draft
 ---

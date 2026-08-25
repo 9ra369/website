@@ -1,11 +1,12 @@
 ---
 title: "Cinema 4D×Octane背景制作チュートリアル"
 date: 2026-05-03
-category: "tips"
+category: "tutorial"
 tags: ["Cinema 4D", "Octane", "Environment"]
 source_url: "https://caldermoore.gumroad.com/l/QiqYE?layout=profile"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2050923323429941692"
-summary: "Cinema 4DとOctaneを使った背景制作チュートリアル「Environment Creation using Octane and Cinema 4D」を紹介した投稿。Houdiniのプロシージャル技術などを除けば、ツールに依存しない学びが多いという考えも添えている。"
+summary: "Cinema 4DとOctaneを使った背景制作チュートリアル「Environment Creation using Octane and Cinema 4D」。Houdiniのプロシージャル技術などを除けば、ツールに依存しない学びが多いという考えも添えている。"
 ai_confidence: "high"
 status: draft
 ---

@@ -4,8 +4,9 @@ date: 2026-08-02
 category: "tips"
 tags: ["Rendering", "Texturing"]
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7483813488113389568/"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2083727331286561056"
-summary: "前述のTriplanarの計算負荷への対応策として、面の向きに応じてplanar projection（地面など上向きの面）とbiplanar projection（建物など横向きの面）を選択的に使い分けるという手法を紹介した投稿。"
+summary: "Triplanarの計算負荷への対応策として、面の向きに応じてplanar projection（地面など上向きの面）とbiplanar projection（建物など横向きの面）を選択的に使い分けるという手法。"
 ai_confidence: "high"
 status: draft
 ---

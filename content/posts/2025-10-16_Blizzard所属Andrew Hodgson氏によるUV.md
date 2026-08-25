@@ -2,10 +2,12 @@
 title: "Blizzard所属Andrew Hodgson氏によるUV展開の実演"
 date: 2025-10-16
 category: "tips"
-tags: ["Maya", "Modeling", "UV"]
+tags: ["Maya", "Modeling", "UV", "b3d"]
+mentions: ["Gakutadar"]
 source_url: "https://www.artstation.com/artwork/yO6xQ"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1978694547745157221"
-summary: "Blizzard Entertainment所属で映画『Dune』にも参加したAndrew Hodgson氏による、UV展開の実演を紹介した投稿。過去に多田学氏のセミナーでも参考ポートフォリオとして紹介されていたとのこと。"
+summary: "Blizzard Entertainment所属で映画『Dune』にも参加したAndrew Hodgson氏による、UV展開の実演。過去に多田学氏のセミナーでも参考ポートフォリオとして紹介されていた。"
 ai_confidence: "high"
 status: draft
 ---

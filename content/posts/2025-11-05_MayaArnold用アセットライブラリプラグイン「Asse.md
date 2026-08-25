@@ -1,11 +1,12 @@
 ---
 title: "Maya/Arnold用アセットライブラリプラグイン「Asset_Ingester」"
 date: 2025-11-05
-category: "tips"
-tags: ["Maya", "Arnold"]
+category: "pipeline"
+tags: ["Maya", "Arnold", "背景制作"]
 source_url: "https://cressonlouis.gumroad.com/l/orxmwpn"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985920882712461698"
-summary: "MayaとArnold向けのアセットライブラリプラグイン「Asset_Ingester」を紹介した投稿。"
+summary: "MayaとArnold向けのアセットライブラリプラグイン「Asset_Ingester」。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,12 @@
 ---
 title: "Steffen Hampel氏の最新チュートリアル「Gotham - Full CG Breakdown」"
 date: 2026-08-01
-category: "tips"
+category: "tutorial"
 tags: ["Environment"]
 source_url: "https://cglounge.studio/course/gotham-full-cg-breakdown"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2083385420306661634"
-summary: "ILMのSenior GeneralistであるSteffen Hampel氏による最新チュートリアル「Gotham - Full CG Breakdown」（CG Lounge）を紹介した投稿。"
+summary: "ILMのSenior GeneralistであるSteffen Hampel氏による最新チュートリアル「Gotham - Full CG Breakdown」（CG Lounge）。"
 ai_confidence: "high"
 status: draft
 ---

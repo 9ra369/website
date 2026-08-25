@@ -1,11 +1,12 @@
 ---
 title: "HoudiniのツタHDA「Ivy Taming 1.1」（The Last of Usでも使用）"
 date: 2025-10-26
-category: "tips"
+category: "pipeline"
 tags: ["Houdini", "HDA", "Vegetation"]
 source_url: "https://mcworldkit.gumroad.com/l/ivyTaming"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982326061192118578"
-summary: "HoudiniでIvy（ツタ）を生成できるHDA「Ivy Taming 1.1」を紹介した投稿。『The Last of Us』などハリウッドのプロダクションでも使用されているという。"
+summary: "HoudiniでIvy（ツタ）を生成できるHDA「Ivy Taming 1.1」。『The Last of Us』などハリウッドのプロダクションでも使用されている。"
 ai_confidence: "high"
 status: draft
 ---

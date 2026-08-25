@@ -6,6 +6,34 @@
 const fs = require("fs");
 const path = require("path");
 
+const { categories } = require("../../data/categories.json");
+const CATEGORY_LABELS = Object.fromEntries(categories.map((c) => [c.slug, c.label]));
+const CATEGORY_THUMB = Object.fromEntries(categories.map((c) => [c.slug, c.thumbClass]));
+// Japanese label for the meta-bar "形式" field specifically — the
+// category-pill/breadcrumb elsewhere intentionally keep the English label
+// (matches the site's existing badge style, e.g. "BEGINNER"/"TUTORIAL").
+const FORMAT_LABEL_JA = {
+  tutorial: "チュートリアル",
+  pipeline: "プラグイン・ツール",
+  article: "記事",
+  showreel: "デモリール",
+  website: "ウェブサイト",
+  tips: "Tips",
+  "daily-analysis": "毎日作品分析",
+};
+
+/** Converts a post title into a filesystem-safe HTML filename stem: spaces
+ *  (incl. full-width 　) become "_", and characters illegal in Windows
+ *  filenames (\ / : * ? " < > |) are stripped outright. */
+function slugifyTitle(title) {
+  return title
+    .trim()
+    .replace(/\s+/g, "_")
+    .replace(/[\\/:*?"<>|]/g, "")
+    .replace(/_{2,}/g, "_")
+    .replace(/^_+|_+$/g, "");
+}
+
 /** Minimal frontmatter parser. Values were written by lib/markdown.js as
  *  JSON scalars/arrays (via JSON.stringify), so JSON.parse handles them;
  *  `date` and `status` are bare unquoted tokens. */
@@ -44,7 +72,21 @@ function extractImages(body) {
     }
   }
   const text = textLines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
-  return { images, text };
+  return { images, text: stripHashtags(text) };
+}
+
+/** Removes hashtag tokens (e.g. "#houdini") from displayed body text — the
+ *  same information now lives in the structured tags sidebar (after
+ *  scripts/10-merge-hashtags.js), so repeating the raw "#foo #bar" line in
+ *  the prose is redundant. Cleans up the blank line/trailing space left
+ *  behind. */
+function stripHashtags(text) {
+  return text
+    .split("\n")
+    .map((line) => line.replace(/(^|\s)#[^\s#]+/g, "").replace(/[ \t]+$/, ""))
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 function escapeHtml(str) {
@@ -140,13 +182,76 @@ const SITE_FOOTER = (depth) => {
 </footer>`;
 };
 
-function renderTipPage(mdPath) {
+/** Ranks other posts by number of shared tags (desc, ties broken by newest
+ *  first), excluding the current post itself. Returns up to `limit`. */
+function computeRelated(currentPost, allPosts, limit = 12) {
+  const currentTags = new Set((currentPost.tags || []).map((t) => t.toLowerCase()));
+  if (currentTags.size === 0) return [];
+
+  const scored = [];
+  for (const other of allPosts) {
+    if (other.originalPost === currentPost.originalPost) continue;
+    const shared = (other.tags || []).filter((t) => currentTags.has(t.toLowerCase())).length;
+    if (shared > 0) scored.push({ ...other, shared });
+  }
+  scored.sort((a, b) => b.shared - a.shared || (a.date < b.date ? 1 : -1));
+  return scored.slice(0, limit);
+}
+
+function renderRelatedHtml(related, p) {
+  if (related.length === 0) return "";
+  const cards = related
+    .map((r, i) => {
+      const thumbClass = CATEGORY_THUMB[r.category] || "thumb-tips";
+      const thumbInner = r.image ? `<img src="${p}${escapeHtml(r.image)}" alt="">` : "";
+      const hiddenClass = i >= 4 ? " is-more-hidden" : "";
+      const cardTagsHtml = (r.tags || [])
+        .slice(0, 3)
+        .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+        .join("\n              ");
+      return `        <a class="entry-card${hiddenClass}" href="${escapeHtml(r.href)}">
+          <div class="entry-thumb ${thumbClass}">
+            ${thumbInner}
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">${escapeHtml(CATEGORY_LABELS[r.category] || r.category)}</span>
+            </div>
+            <h3>${escapeHtml(r.title)}</h3>
+            <div class="entry-tags">
+              ${cardTagsHtml}
+            </div>
+            <div class="entry-footer"><span>${escapeHtml(r.date || "")}</span></div>
+          </div>
+        </a>`;
+    })
+    .join("\n\n");
+
+  const moreBtn =
+    related.length > 4 ? `<button class="related-posts-more" type="button">さらに見る</button>` : "";
+
+  return `
+<div class="container">
+  <div class="related-posts-section">
+    <h2>関連ポスト</h2>
+    <p class="related-posts-lead">同じタグを持つポストです。</p>
+    <div class="entry-grid related-posts-grid">
+${cards}
+    </div>
+    ${moreBtn}
+  </div>
+</div>
+`;
+}
+
+function renderTipPage(mdPath, allPosts = []) {
   const raw = fs.readFileSync(mdPath, "utf8");
   const { fm, body } = parseFrontMatter(raw);
   const { images, text } = extractImages(body);
   const p = "../"; // pages live under prototype/tips/
 
   const title = fm.title || "(無題)";
+  const categoryLabel = CATEGORY_LABELS[fm.category] || "Tips";
   const heroImage = images[0];
   const sourceUrl = fm.source_url || "";
   const primaryUrl = sourceUrl || fm.original_post;
@@ -154,14 +259,53 @@ function renderTipPage(mdPath) {
   const primaryBtnLabel = sourceUrl ? "サイトを見る" : "ポストを見る";
 
   const tagsHtml = (fm.tags || [])
-    .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+    .map(
+      (t) =>
+        `<a class="tag" href="${p}archive.html?tag=${encodeURIComponent(t)}">${escapeHtml(t)}</a>`
+    )
     .join("\n          ");
 
+  const related = computeRelated(
+    { originalPost: fm.original_post, tags: fm.tags || [] },
+    allPosts
+  );
+  const relatedHtml = renderRelatedHtml(related, p);
+
+  // 案C: when a post has more than one image, show a main viewer plus a
+  // clickable thumbnail row that swaps the main image (see tip-gallery.js).
   const heroThumbHtml = heroImage
     ? `<div class="entry-hero-thumb">
-        <img src="${p}${escapeHtml(heroImage.src)}" alt="${escapeHtml(heroImage.alt || title)}">
+        <img id="gallery-main-img" src="${p}${escapeHtml(heroImage.src)}" alt="${escapeHtml(heroImage.alt || title)}">
       </div>`
-    : `<div class="entry-hero-thumb thumb-tips"></div>`;
+    : `<div class="entry-hero-thumb ${CATEGORY_THUMB[fm.category] || "thumb-tips"}"></div>`;
+
+  const galleryThumbsHtml =
+    images.length > 1
+      ? `<div class="gallery-thumbs">
+        ${images
+          .map(
+            (img, i) =>
+              `<a href="#" data-src="${p}${escapeHtml(img.src)}" data-alt="${escapeHtml(img.alt || title)}" class="${i === 0 ? "is-active" : ""}"><img src="${p}${escapeHtml(img.src)}" alt=""></a>`
+          )
+          .join("\n        ")}
+      </div>`
+      : "";
+
+  const mentionsHtml =
+    (fm.mentions || []).length > 0
+      ? `
+      <div class="sidebar-box">
+        <h4>Xアカウント</h4>
+        <div class="entry-tags">
+          ${fm.mentions
+            .map(
+              (sn) =>
+                `<a class="tag" href="https://x.com/${escapeHtml(sn)}" target="_blank" rel="noopener">@${escapeHtml(sn)}</a>`
+            )
+            .join("\n          ")}
+        </div>
+      </div>`
+      : "";
 
   const extraSourceBox =
     sourceUrl && fm.original_post
@@ -195,17 +339,18 @@ ${SITE_HEADER(1)}
     <nav class="breadcrumb">
       <a href="${p}index.html">トップ</a>
       <span class="sep">/</span>
-      <a href="${p}archive.html">Tips</a>
+      <a href="${p}archive.html">${escapeHtml(categoryLabel)}</a>
       <span class="sep">/</span>
       <span class="current">${escapeHtml(title)}</span>
     </nav>
 
-    <span class="category-pill">TIPS</span>
+    <span class="category-pill">${escapeHtml(categoryLabel.toUpperCase())}</span>
     <h1>${escapeHtml(title)}</h1>
 
     <div class="entry-meta-bar">
       <span class="meta-item">${escapeHtml(fm.date || "")}</span>
-      <span class="meta-item">形式: Xポスト</span>
+      <span class="meta-item">言語: ${escapeHtml(fm.language || "日本語")}</span>
+      <span class="meta-item">形式: ${escapeHtml(FORMAT_LABEL_JA[fm.category] || "Tips")}</span>
     </div>
   </div>
 </div>
@@ -215,6 +360,7 @@ ${SITE_HEADER(1)}
 
     <main>
       ${heroThumbHtml}
+      ${galleryThumbsHtml}
 
       <div class="prose">
         <p class="lead-summary">${escapeHtml(fm.summary || "")}</p>
@@ -229,9 +375,6 @@ ${SITE_HEADER(1)}
           </a>
         </div>
         ${extraSourceBox}
-
-        <h2>概要</h2>
-        ${textToHtml(text)}
       </div>
     </main>
 
@@ -242,16 +385,18 @@ ${SITE_HEADER(1)}
           ${tagsHtml || '<span class="tag">Tips</span>'}
         </div>
       </div>
+      ${mentionsHtml}
     </aside>
 
   </div>
 </div>
-
+${relatedHtml}
 ${SITE_FOOTER(1)}
 
-</body>
+${images.length > 1 ? `<script src="${p}tip-gallery.js" defer></script>\n` : ""}<script src="${p}lightbox.js" defer></script>
+${related.length > 0 ? `<script src="${p}related-posts.js" defer></script>\n` : ""}</body>
 </html>
 `;
 }
 
-module.exports = { renderTipPage, parseFrontMatter, extractImages };
+module.exports = { renderTipPage, parseFrontMatter, extractImages, slugifyTitle };

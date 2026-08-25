@@ -1,11 +1,12 @@
 ---
 title: "HoudiniのBiomesの使い方解説動画"
 date: 2025-12-14
-category: "tips"
-tags: ["Houdini", "Biomes"]
+category: "tutorial"
+tags: ["Houdini", "Biomes", "sidefx"]
 source_url: "https://www.youtube.com/watch?v=Gdg85VuMRSw&list=WL&index=27"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2000160028456857958"
-summary: "HoudiniのBiomes機能の使い方を解説する動画を紹介した投稿。"
+summary: "HoudiniのBiomes機能の使い方を解説する動画。"
 ai_confidence: "high"
 status: draft
 ---

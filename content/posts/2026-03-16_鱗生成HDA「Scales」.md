@@ -1,11 +1,13 @@
 ---
 title: "鱗生成HDA「Scales」"
 date: 2026-03-16
-category: "tips"
-tags: ["Houdini", "HDA"]
+category: "pipeline"
+tags: ["Houdini", "HDA", "sidefx"]
+mentions: ["KenichiNishida"]
 source_url: "https://wouttengrootenhuysen.gumroad.com/l/scales"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2033501468364562589"
-summary: "鱗（うろこ）を生成できるHoudini用HDA「Scales」を紹介した投稿。"
+summary: "鱗（うろこ）を生成できるHoudini用HDA「Scales」。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,12 @@
 ---
 title: "William Fiorentini氏の最新チュートリアル「Glacier Breakdown」（CG Lounge）"
 date: 2026-06-11
-category: "tips"
+category: "tutorial"
 tags: ["Environment"]
 source_url: "https://cglounge.studio/course/glacier-breakdown-and-project-file"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2064910492381155783"
-summary: "以前紹介したWilliam Fiorentini氏による最新チュートリアル「Glacier Breakdown and Project file」がCG Loungeで公開されたことを紹介した投稿。"
+summary: "William Fiorentini氏による最新チュートリアル「Glacier Breakdown and Project file」がCG Loungeで公開されたこと。"
 ai_confidence: "high"
 status: draft
 ---

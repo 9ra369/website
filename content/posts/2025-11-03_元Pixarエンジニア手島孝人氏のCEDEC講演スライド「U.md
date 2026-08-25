@@ -1,11 +1,12 @@
 ---
 title: "元Pixarエンジニア手島孝人氏のCEDEC講演スライド「USD入門」"
 date: 2025-11-03
-category: "tips"
-tags: ["USD", "Pixar"]
+category: "tutorial"
+tags: ["USD", "Pixar", "houdini", "sidefx"]
 source_url: "https://www.slideshare.net/slideshow/usd-79288174/79288174"
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1985276932808999065"
-summary: "元Pixarのエンジニアである手島孝人氏によるCEDEC講演「ピクサー USD 入門 新たなコンテンツパイプラインを構築する」のスライドを紹介した投稿。"
+summary: "元Pixarのエンジニアである手島孝人氏によるCEDEC講演「ピクサー USD 入門 新たなコンテンツパイプラインを構築する」のスライド。"
 ai_confidence: "high"
 status: draft
 ---

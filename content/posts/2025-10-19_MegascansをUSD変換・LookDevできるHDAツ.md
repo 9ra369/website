@@ -1,14 +1,17 @@
 ---
 title: "MegascansをUSD変換・LookDevできるHDAツール"
 date: 2025-10-19
-category: "tips"
-tags: ["Houdini", "Solaris", "USD", "Megascans"]
+category: "pipeline"
+tags: ["Houdini", "Solaris", "USD", "Megascans", "3DCG", "背景制作"]
 source_url: "https://pepebuendia.gumroad.com/l/csqcv"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1979713742830207359"
-summary: "MegascansのアセットをUSDに変換し、LookDevまで行えるHoudini用のHDAツールを紹介した投稿。"
+summary: "MegascansのアセットをUSDに変換し、LookDevまで行えるHoudini用のHDAツール。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/1979713742830207359-og.jpg)
 
 MegascansのアセットをUSDに変換して、LookDevまでできるHDAになります！
 

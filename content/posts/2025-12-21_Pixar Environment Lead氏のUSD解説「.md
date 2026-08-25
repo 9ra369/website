@@ -1,11 +1,12 @@
 ---
 title: "Pixar Environment Lead氏のUSD解説「Building Asset Pipelines」"
 date: 2025-12-21
-category: "tips"
-tags: ["USD"]
+category: "tutorial"
+tags: ["USD", "houdini", "sidefx", "Environment"]
 source_url: "https://www.youtube.com/watch?v=4W5D-IuRyaM&list=WL&index=97"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2002562826075087072"
-summary: "PixarのEnvironment Leadによる、USDについて解説した動画「USD Building Asset Pipelines」を紹介した投稿。"
+summary: "PixarのEnvironment Leadによる、USDについて解説した動画「USD Building Asset Pipelines」。"
 ai_confidence: "high"
 status: draft
 ---

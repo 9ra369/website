@@ -24,14 +24,15 @@
 
 | slug | label |
 |---|---|
-| `environment` | Environment |
+| `tutorial` | Tutorial |
 | `pipeline` | Pipeline/Plugin/Tool |
 | `article` | Article |
 | `showreel` | Showreel/Demoreel |
 | `website` | Website |
 | `tips` | Tips（Xポスト移行パイプライン由来の短文ノート向け。[x-archive-migration-spec.md](../x-archive-migration-spec.md)参照） |
+| `daily-analysis` | 毎日作品分析（Xの「毎日作品分析」シリーズ投稿専用） |
 
-> 以前は制作工程に沿った11カテゴリ（モデリング/サーフェシング/ライティング…）を暫定採用していたが、運用しやすさを優先して上記4カテゴリに整理し直した（Compositingは統合され廃止）。ソフト名（Houdini等）や技法名は`category`ではなく`tags`側で表現する（[04_content-guide.md](./04_content-guide.md)参照）。
+> 以前は制作工程に沿った11カテゴリ（モデリング/サーフェシング/ライティング…）を暫定採用していたが、運用しやすさを優先して整理し直した（Compositingは統合され廃止）。その後の運用でTipsの大半がチュートリアル/記事/紹介など内容混在になったため、`environment`カテゴリは廃止して`tutorial`と`daily-analysis`を新設（2026-08-24〜）。背景・環境まわりの話題は`category`ではなく`Environment`タグで表現する。ソフト名（Houdini等）や技法名も同様に`category`ではなく`tags`側で表現する（[04_content-guide.md](./04_content-guide.md)参照）。
 >
 > カテゴリは引き続き`categories.json`に追加・分割していく前提の可変リストであり、確定版ではない。
 

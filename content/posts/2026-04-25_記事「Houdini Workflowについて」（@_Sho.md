@@ -1,11 +1,13 @@
 ---
-title: "記事「Houdini Workflowについて」（@_ShoHey_氏）"
+title: "記事「Houdini Workflowについて」"
 date: 2026-04-25
-category: "tips"
-tags: ["Houdini", "Pipeline"]
+category: "article"
+tags: ["Houdini", "Pipeline", "sidefx"]
+mentions: ["_ShoHey_"]
 source_url: "https://fxnomemo.blogspot.com/2021/04/houdini-workflow.html?spref=tw"
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2047985049790988717"
-summary: "プロダクションで働き始めパイプラインやワークフローに興味を持つ中で参考になった記事「Houdini Workflowについて」（@_ShoHey_氏）を紹介した投稿。難しすぎず、ためになる内容だったとのこと。"
+summary: "プロダクションで働き始めパイプラインやワークフローに興味を持つ中で参考になった記事「Houdini Workflowについて」（@_ShoHey_氏）。難しすぎず、ためになる内容だった。"
 ai_confidence: "high"
 status: draft
 ---

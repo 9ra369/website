@@ -11,6 +11,7 @@
 const fs = require("fs");
 const path = require("path");
 const { idFromFrontMatter } = require("./lib/checklist");
+const { parseFrontMatter, slugifyTitle } = require("./lib/render-tip");
 
 const POSTS_DIR = path.resolve(__dirname, "..", "content", "posts");
 const ARCHIVE_DIR = path.resolve(__dirname, "..", "content", "_archive");
@@ -18,12 +19,7 @@ const TIPS_HTML_DIR = path.resolve(__dirname, "..", "prototype", "tips");
 
 function main() {
   const mdFiles = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"));
-  const htmlIds = new Set(
-    fs
-      .readdirSync(TIPS_HTML_DIR)
-      .filter((f) => f.endsWith(".html"))
-      .map((f) => f.replace(/\.html$/, ""))
-  );
+  const htmlFiles = new Set(fs.readdirSync(TIPS_HTML_DIR).filter((f) => f.endsWith(".html")));
 
   fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
 
@@ -33,7 +29,9 @@ function main() {
     const raw = fs.readFileSync(mdPath, "utf8");
     const id = idFromFrontMatter(raw);
     if (!id) continue;
-    if (!htmlIds.has(id)) {
+    const { fm } = parseFrontMatter(raw);
+    const slug = slugifyTitle(fm.title || "") || id;
+    if (!htmlFiles.has(`${slug}.html`)) {
       fs.renameSync(mdPath, path.join(ARCHIVE_DIR, file));
       console.log(`archived (HTML deleted): ${file}`);
       archived++;

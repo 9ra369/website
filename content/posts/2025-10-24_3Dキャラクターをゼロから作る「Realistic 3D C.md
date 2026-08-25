@@ -1,11 +1,12 @@
 ---
 title: "3Dキャラクターをゼロから作る「Realistic 3D Character Portrait」コース"
 date: 2025-10-24
-category: "tips"
+category: "tutorial"
 tags: ["Zbrush", "Substance Painter", "Maya", "Arnold"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1981718335378374967"
-summary: "Mari、Zbrush、Substance Designer、Substance Painter、Maya、Arnoldを使い、1から3Dキャラクターを制作するコース「Create Realistic 3D Character Portrait Full Course」を紹介した投稿。"
+summary: "Mari、Zbrush、Substance Designer、Substance Painter、Maya、Arnoldを使い、1から3Dキャラクターを制作するコース「Create Realistic 3D Character Portrait Full Course」。"
 ai_confidence: "high"
 status: draft
 ---

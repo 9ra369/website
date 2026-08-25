@@ -2,8 +2,9 @@
 title: "V-Ray for HoudiniでのDisplacement適用Tips"
 date: 2025-11-24
 category: "tips"
-tags: ["Houdini", "V-Ray"]
+tags: ["Houdini", "V-Ray", "sidefx"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1992890000845975863"
 summary: "V-Ray for Houdiniでのディスプレイスメント適用方法についてのTips。単一のDisplacementならobj階層でマテリアルをアサインし、複数のDisplacement Mapを使う場合はsop階層でPackしてからマテリアルをアサインする、という手順を解説している。"
 ai_confidence: "high"

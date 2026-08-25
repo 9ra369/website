@@ -1,11 +1,12 @@
 ---
 title: "Avatar Aangをテーマにした作品（ArtStation）"
 date: 2026-08-02
-category: "tips"
+category: "showreel"
 tags: ["ArtStation", "Environment"]
 source_url: "https://www.artstation.com/artwork/O3oEJ6"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2083885525044171057"
-summary: "『アバター 伝説の少年アン』をテーマにした複数の作品がArtStationで公開されていることを紹介した投稿。"
+summary: "『アバター 伝説の少年アン』をテーマにした複数の作品がArtStationで公開されていること。"
 ai_confidence: "high"
 status: draft
 ---

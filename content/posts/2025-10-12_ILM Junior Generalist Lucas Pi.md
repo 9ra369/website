@@ -1,14 +1,17 @@
 ---
 title: "ILM Junior Generalist Lucas Piazzini氏のXアカウント"
 date: 2025-10-12
-category: "tips"
-tags: ["Environment", "ArtStation"]
+category: "showreel"
+tags: ["Environment", "ArtStation", "houEnv", "sidefx", "houdini", "背景制作"]
 source_url: "https://x.com/PrismalDesign/status/1831680817388470453"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977194003604107321"
-summary: "ILMのJunior GeneralistであるLucas Piazzini氏のXアカウントを紹介した投稿。ArtStationで背景制作について詳しく解説されているとのこと。"
+summary: "ILMのJunior GeneralistであるLucas Piazzini氏のXアカウント。ArtStationで背景制作について詳しく解説されている。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/1977194003604107321-og.jpg)
 
 こちらILMのJunior Gneralist、Lucas PiazziniさんのXです！
 

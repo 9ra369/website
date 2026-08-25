@@ -1,11 +1,12 @@
 ---
 title: "ArtStationの「いいね」ページを見る学習法"
 date: 2025-11-18
-category: "tips"
+category: "showreel"
 tags: ["ArtStation"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1990646681604665533"
-summary: "ArtStationで上手いアーティストの「いいね（Likes）」ページを見ることで、探さなくても高品質な作品やTipsに出会えるという学習方法を紹介した投稿。"
+summary: "ArtStationで上手いアーティストの「いいね（Likes）」ページを見ることで、探さなくても高品質な作品やTipsに出会えるという学習方法。"
 ai_confidence: "high"
 status: draft
 ---

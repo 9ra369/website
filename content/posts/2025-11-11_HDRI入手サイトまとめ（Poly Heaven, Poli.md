@@ -4,8 +4,9 @@ date: 2025-11-11
 category: "tips"
 tags: ["HDRI"]
 source_url: "https://polyhaven.com/hdris"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1988097675020157084"
-summary: "HDRIが入手できるサイトをまとめて紹介した投稿。Poly Heaven（無料）、Textures.com（サブスク）、Poliigon（一部無料）、CGEES（無料）、HDRI Skies（一部無料）、MattePaint.com（サブスク）などが挙げられている。"
+summary: "HDRIが入手できるサイトのまとめ。Poly Heaven（無料）、Textures.com（サブスク）、Poliigon（一部無料）、CGEES（無料）、HDRI Skies（一部無料）、MattePaint.com（サブスク）などが挙げられている。"
 ai_confidence: "high"
 status: draft
 ---

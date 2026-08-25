@@ -1,11 +1,12 @@
 ---
 title: "Blizzard Anthony Eftekhari氏の構図・デザイン無料講座"
 date: 2025-10-21
-category: "tips"
-tags: ["Composition", "Art Direction"]
+category: "tutorial"
+tags: ["Composition", "Art Direction", "vfx", "art", "3DCG", "背景制作"]
 source_url: "https://anthonye.gumroad.com/l/egdU?layout=profile&recommended_by=library"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1980527528260616688"
-summary: "Blizzard EntertainmentのSenior Art Director、Anthony Eftekhari氏による構図とデザインについての無料チュートリアル「Composition & Staging Series」を紹介した投稿。"
+summary: "Blizzard EntertainmentのSenior Art Director、Anthony Eftekhari氏による構図とデザインについての無料チュートリアル「Composition & Staging Series」。"
 ai_confidence: "high"
 status: draft
 ---

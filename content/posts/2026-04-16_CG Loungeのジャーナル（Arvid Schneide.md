@@ -1,11 +1,13 @@
 ---
 title: "CG Loungeのジャーナル（Arvid Schneider氏運営）"
 date: 2026-04-16
-category: "tips"
+category: "article"
 tags: ["VFX"]
+mentions: ["arvidschneider"]
 source_url: "https://cglounge.studio/journal"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044772844442374342"
-summary: "Image EngineのLighting Supervisor、Arvid Schneider氏が運営するCG Loungeのジャーナルを紹介した投稿。様々な記事がまとめられているとのこと。"
+summary: "Image EngineのLighting Supervisor、Arvid Schneider氏が運営するCG Loungeのジャーナル。様々な記事がまとめられている。"
 ai_confidence: "high"
 status: draft
 ---

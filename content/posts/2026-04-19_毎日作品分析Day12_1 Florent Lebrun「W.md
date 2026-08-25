@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day12_1: Florent Lebrun「Wanderers」"
 date: 2026-04-19
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/nJznG4"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045767265166176332"
-summary: "Florent Lebrun氏の作品「Wanderers」を分析した投稿（毎日作品分析Day12_1）。歩く連続ショットが、自信満々ではなく緊張感と不安感を伝えるようデザインされているという気づきが記されている。"
+summary: "Florent Lebrun氏の作品「Wanderers」（毎日作品分析Day12_1）。歩く連続ショットが、自信満々ではなく緊張感と不安感を伝えるようデザインされているという気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

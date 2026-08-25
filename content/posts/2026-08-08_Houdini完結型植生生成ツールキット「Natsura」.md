@@ -1,11 +1,12 @@
 ---
 title: "Houdini完結型植生生成ツールキット「Natsura」"
 date: 2026-08-08
-category: "tips"
-tags: ["Houdini", "Vegetation"]
+category: "pipeline"
+tags: ["Houdini", "Vegetation", "Environment"]
 source_url: "https://x.com/K240/status/2086014851277799662"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2086022450895311119"
-summary: "Houdini内でプロシージャルに植生を生成できるツールキット「Natsura」を紹介した投稿。インポート/エクスポートの手間がなく高品質で、いわば「SpeedTreeのHoudini完結版」だとしている。KTT（Gaea相当）同様、Houdini内で完結するツールが増えている傾向にも触れている。"
+summary: "Houdini内でプロシージャルに植生を生成できるツールキット「Natsura」。インポート/エクスポートの手間がなく高品質で、いわば「SpeedTreeのHoudini完結版」だとしている。KTT（Gaea相当）同様、Houdini内で完結するツールが増えている傾向にも触れている。"
 ai_confidence: "high"
 status: draft
 ---

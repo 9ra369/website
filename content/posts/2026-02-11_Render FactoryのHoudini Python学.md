@@ -1,14 +1,17 @@
 ---
 title: "Render FactoryのHoudini Python学習コンテンツ"
 date: 2026-02-11
-category: "tips"
+category: "tutorial"
 tags: ["Houdini", "Python"]
 source_url: "https://www.renderfactorycgi.com/lessons-scripting/python-basics"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2021507573799915771"
-summary: "HoudiniでのPythonの使い方を学べるサイト「Render Factory」を紹介した投稿。Python基礎、Houdini内でのPython、UI作成といったレッスンが用意されている。"
+summary: "HoudiniでのPythonの使い方を学べるサイト「Render Factory」。Python基礎、Houdini内でのPython、UI作成といったレッスンが用意されている。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/2021507573799915771-og.jpg)
 
 Render FactoryというサイトにHoudiniでのPythonの使い方などがまとめられています。
 

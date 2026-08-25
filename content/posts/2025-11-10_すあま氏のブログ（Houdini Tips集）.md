@@ -1,11 +1,13 @@
 ---
 title: "すあま氏のブログ（Houdini Tips集）"
 date: 2025-11-10
-category: "tips"
-tags: ["Houdini"]
+category: "article"
+tags: ["Houdini", "sidefx"]
+mentions: ["suamaGod"]
 source_url: "https://godofsuama.hatenablog.com/"
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1987717015583547786"
-summary: "HoudiniのTipsがまとめられた、すあま氏のブログを紹介した投稿。"
+summary: "HoudiniのTipsがまとめられた、すあま氏のブログ。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day30: 視線分散型の構図（Scattered）"
 date: 2026-05-07
-category: "tips"
-tags: ["Composition"]
+category: "daily-analysis"
+tags: ["Composition", "毎日作品分析"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2052229436569751793"
-summary: "特定の焦点に視線を集中させるのではなく、作品全体に目が行くよう設計された構図「Scattered」について分析した投稿（毎日作品分析Day30）。世界観を伝える際に有効な手法だとしている。"
+summary: "特定の焦点に視線を集中させるのではなく、作品全体に目が行くよう設計された構図「Scattered」についての分析（毎日作品分析Day30）。世界観を伝える際に有効な手法だとしている。"
 ai_confidence: "high"
 status: draft
 ---

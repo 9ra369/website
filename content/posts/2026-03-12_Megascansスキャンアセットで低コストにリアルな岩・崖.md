@@ -4,8 +4,9 @@ date: 2026-03-12
 category: "tips"
 tags: ["Megascans", "Environment"]
 source_url: "https://www.youtube.com/watch?v=-WL7prlyPVM"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2032229633907965982"
-summary: "Megascansなどのスキャンアセットを組み合わせることで、低コストでリアルな岩や崖を制作できるという手法を、参考動画とともに紹介した投稿。"
+summary: "Megascansなどのスキャンアセットを組み合わせることで、低コストでリアルな岩や崖を制作できる手法（参考動画つき）。"
 ai_confidence: "high"
 status: draft
 ---

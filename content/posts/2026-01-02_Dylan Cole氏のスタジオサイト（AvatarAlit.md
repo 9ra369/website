@@ -1,11 +1,12 @@
 ---
 title: "Dylan Cole氏のスタジオサイト（Avatar/Alitaのプロダクションデザイナー）"
 date: 2026-01-02
-category: "tips"
+category: "showreel"
 tags: ["Environment", "Concept Art"]
 source_url: "https://dylancolestudio.com/"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2006943650568413539"
-summary: "映画『アバター』や『アリータ：バトル・エンジェル』のプロダクションデザイナーを務めたDylan Cole氏のウェブサイト「Dylan Cole Studio」を紹介した投稿。"
+summary: "映画『アバター』や『アリータ：バトル・エンジェル』のプロダクションデザイナーを務めたDylan Cole氏のウェブサイト「Dylan Cole Studio」。"
 ai_confidence: "high"
 status: draft
 ---

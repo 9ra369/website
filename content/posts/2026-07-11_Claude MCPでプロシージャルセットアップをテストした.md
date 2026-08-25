@@ -1,11 +1,13 @@
 ---
 title: "Claude MCPでプロシージャルセットアップをテストした所感"
 date: 2026-07-11
-category: "tips"
+category: "article"
 tags: ["Houdini", "AI", "Claude"]
+mentions: ["jyouryuusui"]
 source_url: "https://x.com/jyouryuusui/status/2071193604266303536"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2075938004217233720"
-summary: "蒸留スイ氏の記事を参考に、Claude MCPを使ってプロシージャルなビル生成セットアップを試した投稿。機能ごとに許諾が必要な点が煩わしく、思ったより時間がかかったという率直な所感が記されている。"
+summary: "蒸留スイ氏の記事を参考に、Claude MCPを使ってプロシージャルなビル生成セットアップ。機能ごとに許諾が必要な点が煩わしく、思ったより時間がかかったという率直な所感が記されている。"
 ai_confidence: "high"
 status: draft
 ---

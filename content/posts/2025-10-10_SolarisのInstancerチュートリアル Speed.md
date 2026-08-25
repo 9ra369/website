@@ -1,11 +1,12 @@
 ---
 title: "SolarisのInstancerチュートリアル: SpeedTreeのLookDevも収録"
 date: 2025-10-10
-category: "tips"
-tags: ["Houdini", "Solaris", "SpeedTree", "Environment"]
+category: "tutorial"
+tags: ["Houdini", "Solaris", "SpeedTree", "Environment", "sidefx", "背景制作"]
 source_url: "https://x.com/kuramaKageya/status/1976452397032677522"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1976519190707339402"
-summary: "同じチュートリアルの追加パートについて、SpeedTreeのLookDevからScatterまでをカバーしている点を伝えた投稿。"
+summary: "同じチュートリアルの追加パートについて、SpeedTreeのLookDevからScatterまでをカバーしている点。"
 ai_confidence: "high"
 status: draft
 ---

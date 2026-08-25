@@ -1,11 +1,12 @@
 ---
 title: "Max Kutsenko氏「Wooden Roof Shingles」制作解説"
 date: 2026-04-12
-category: "tips"
-tags: ["Houdini", "Unreal Engine", "Substance Designer"]
+category: "tutorial"
+tags: ["Houdini", "Unreal Engine", "Substance Designer", "sidefx"]
 source_url: "https://www.artstation.com/artwork/Ezeod0"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043137326487052675"
-summary: "テクスチャアーティストMax Kutsenko氏による作品「Wooden Roof Shingles」を紹介した投稿。Houdiniでプロシージャルに屋根と煙突を生成し、UEでシェーディング・ライティングまで行う手法。特にSubstance Designerでノイズから強弱グラフを生成しマスクとして使う手法が興味深いと評している。"
+summary: "テクスチャアーティストMax Kutsenko氏による作品「Wooden Roof Shingles」。Houdiniでプロシージャルに屋根と煙突を生成し、UEでシェーディング・ライティングまで行う手法。特にSubstance Designerでノイズから強弱グラフを生成しマスクとして使う手法が興味深いと評している。"
 ai_confidence: "high"
 status: draft
 ---

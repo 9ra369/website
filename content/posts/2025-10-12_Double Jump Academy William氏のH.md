@@ -1,11 +1,12 @@
 ---
 title: "Double Jump Academy: William氏のHoudini背景制作講座2本"
 date: 2025-10-12
-category: "tips"
-tags: ["Houdini", "Environment"]
+category: "tutorial"
+tags: ["Houdini", "Environment", "houEnv", "sidefx"]
 source_url: "https://www.doublejumpacademy.com/workshops/epic-environments-for-movies"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977304691940995388"
-summary: "Double Jump Academyで公開されている、William氏によるHoudiniを使った背景制作のチュートリアル「Epic Environments」と「Environments for Beginners」を紹介した投稿。"
+summary: "Double Jump Academyで公開されている、William氏によるHoudiniを使った背景制作のチュートリアル「Epic Environments」と「Environments for Beginners」。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,12 @@
 ---
 title: "ILM/DNEG出身Steven Corman氏の新チュートリアル（Double Jump Academy）"
 date: 2026-06-10
-category: "tips"
-tags: ["Houdini", "Maya", "Gaea", "Nuke", "Matte Painting"]
+category: "tutorial"
+tags: ["Houdini", "Maya", "Gaea", "Nuke", "Matte Painting", "Environment"]
 source_url: "https://x.com/kuramaKageya/status/1983823496796106834"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2064690973083664555"
-summary: "ILMやDNEGでの勤務経験を持つSteven Corman氏が、Double Jump Academyで新しい背景制作チュートリアル「Advanced Matte Painting」をリリースしたことを紹介した投稿。使用ソフトはHoudini、Maya、Gaea、Nuke、Photoshop。"
+summary: "ILMやDNEGでの勤務経験を持つSteven Corman氏が、Double Jump Academyで新しい背景制作チュートリアル「Advanced Matte Painting」をリリースしたこと。使用ソフトはHoudini、Maya、Gaea、Nuke、Photoshop。"
 ai_confidence: "high"
 status: draft
 ---

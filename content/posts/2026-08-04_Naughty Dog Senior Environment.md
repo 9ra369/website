@@ -1,11 +1,12 @@
 ---
 title: "Naughty Dog Senior Environment Artistのウェブサイト（無料UEチュートリアル有）"
 date: 2026-08-04
-category: "tips"
-tags: ["Unreal Engine", "Environment"]
+category: "tutorial"
+tags: ["Unreal Engine", "Environment", "ue"]
 source_url: "https://www.peytonvarney.com/portfolio"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2084619545546039324"
-summary: "Naughty DogのSenior Environment Artistによるウェブサイトを紹介した投稿。UEなどの無料チュートリアルが見られるほか、Gnomon Workshopでも2つのチュートリアルを公開しているとのこと。"
+summary: "Naughty DogのSenior Environment Artistによるウェブサイト。UEなどの無料チュートリアルが見られるほか、Gnomon Workshopでも2つのチュートリアルを公開している。"
 ai_confidence: "high"
 status: draft
 ---

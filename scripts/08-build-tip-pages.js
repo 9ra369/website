@@ -6,7 +6,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { renderTipPage, parseFrontMatter } = require("./lib/render-tip");
+const { renderTipPage, parseFrontMatter, slugifyTitle } = require("./lib/render-tip");
 const { idFromFrontMatter } = require("./lib/checklist");
 
 const POSTS_DIR = path.resolve(__dirname, "..", "content", "posts");
@@ -65,11 +65,47 @@ ${rows}
 `;
 }
 
+/** First pass: builds a lightweight index of every post (slug/href, tags,
+ *  category, etc.) so renderTipPage() can compute "same tag" related posts
+ *  without re-reading the whole content/posts/ directory per page. */
+function buildPostsIndex(files) {
+  const { extractImages, parseFrontMatter: parseFM } = require("./lib/render-tip");
+  const usedSlugs = new Set();
+  const index = [];
+
+  for (const file of files) {
+    const mdPath = path.join(POSTS_DIR, file);
+    const raw = fs.readFileSync(mdPath, "utf8");
+    const { fm, body } = parseFM(raw);
+    const id = idFromFrontMatter(raw);
+    if (!id) continue;
+    const title = fm.title || "(無題)";
+    let slug = slugifyTitle(title) || id;
+    if (usedSlugs.has(slug)) slug = `${slug}_${id}`;
+    usedSlugs.add(slug);
+
+    const { images } = extractImages(body);
+    index.push({
+      originalPost: fm.original_post,
+      href: `${slug}.html`,
+      title,
+      category: fm.category || "tips",
+      tags: fm.tags || [],
+      date: fm.date || "",
+      image: images[0] ? images[0].src : null,
+    });
+  }
+  return index;
+}
+
 function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"));
+  const postsIndex = buildPostsIndex(files);
 
   const indexEntries = [];
+  const usedSlugs = new Set();
+  const keepFiles = new Set(); // filenames this run produces — anything else gets cleaned up below
   let written = 0;
 
   for (const file of files) {
@@ -81,11 +117,32 @@ function main() {
       console.warn(`⚠ ${file}: no id found in original_post, skipping.`);
       continue;
     }
-    const html = renderTipPage(mdPath);
-    const outFile = `${id}.html`;
+    const title = fm.title || "(無題)";
+    let slug = slugifyTitle(title) || id; // fallback if a title strips to nothing
+    if (usedSlugs.has(slug)) {
+      // Extremely unlikely (verified 0 collisions across all posts at
+      // implementation time) but keep filenames unique if titles ever collide.
+      slug = `${slug}_${id}`;
+    }
+    usedSlugs.add(slug);
+
+    const html = renderTipPage(mdPath, postsIndex);
+    const outFile = `${slug}.html`;
     fs.writeFileSync(path.join(OUT_DIR, outFile), html, "utf8");
+    keepFiles.add(outFile);
     written++;
-    indexEntries.push({ file: outFile, title: fm.title || "(無題)", date: fm.date || "" });
+    indexEntries.push({ file: outFile, title, date: fm.date || "" });
+  }
+
+  // Clean up stale generated pages (old filenames from a previous naming
+  // scheme, or pages for posts that no longer exist) — prototype/tips/ is a
+  // build output, fully regenerable from content/posts/, so this is safe.
+  let removed = 0;
+  for (const existing of fs.readdirSync(OUT_DIR)) {
+    if (existing.endsWith(".html") && !keepFiles.has(existing)) {
+      fs.unlinkSync(path.join(OUT_DIR, existing));
+      removed++;
+    }
   }
 
   indexEntries.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -96,6 +153,7 @@ function main() {
   );
 
   console.log(`Wrote ${written} page(s) -> ${path.relative(process.cwd(), OUT_DIR)}`);
+  if (removed > 0) console.log(`Removed ${removed} stale page(s) no longer produced.`);
   console.log(`Wrote index -> prototype/tips-index.html`);
 }
 

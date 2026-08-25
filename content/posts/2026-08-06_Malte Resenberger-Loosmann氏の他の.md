@@ -1,11 +1,12 @@
 ---
 title: "Malte Resenberger-Loosmann氏の他の記事（マテリアル/レイヤー戦略）"
 date: 2026-08-06
-category: "tips"
+category: "article"
 tags: ["Texturing", "Materials"]
 source_url: "https://www.artstation.com/artwork/WBQ1eE"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2085358226732970183"
-summary: "前述のMalte Resenberger-Loosmann氏のページにある他の記事を紹介した投稿。「Mastering Materials: Noise」「Breakdown Rust Material」「The 10 Layers Strategy」「Desert Eagle」など、マテリアル制作の知見がまとめられている。"
+summary: "Malte Resenberger-Loosmann氏のページにある他の記事。「Mastering Materials: Noise」「Breakdown Rust Material」「The 10 Layers Strategy」「Desert Eagle」など、マテリアル制作の知見がまとめられている。"
 ai_confidence: "high"
 status: draft
 ---

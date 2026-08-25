@@ -1,11 +1,13 @@
 ---
 title: "斎藤晃氏 Houdini Hive Japan講演「Procedural Hard Surface Design」"
 date: 2025-11-18
-category: "tips"
-tags: ["Houdini", "Procedural Modeling"]
+category: "tutorial"
+tags: ["Houdini", "Procedural Modeling", "sidefx"]
+mentions: ["a_saito"]
 source_url: "https://www.youtube.com/watch?v=ghD79dVZZ_o"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1990622667360378960"
-summary: "斎藤晃氏によるプロシージャルモデリングの講演動画「Procedural Hard Surface Design」（Houdini Hive Japan、Part1・Part2）を紹介した投稿。"
+summary: "斎藤晃氏によるプロシージャルモデリングの講演動画「Procedural Hard Surface Design」（Houdini Hive Japan、Part1・Part2）。"
 ai_confidence: "high"
 status: draft
 ---

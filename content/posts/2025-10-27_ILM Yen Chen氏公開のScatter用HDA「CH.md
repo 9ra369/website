@@ -1,14 +1,17 @@
 ---
 title: "ILM Yen Chen氏公開のScatter用HDA「CH Tools」"
 date: 2025-10-27
-category: "tips"
-tags: ["Houdini", "HDA", "Scattering"]
+category: "pipeline"
+tags: ["Houdini", "HDA", "Scattering", "vfx", "sidefx", "背景制作"]
 source_url: "https://yenchenvfx.gumroad.com/l/ch_tools?layout=profile"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982723949084729440"
-summary: "ILMのGeneralist、Yen Chen氏が自身の作品制作に使用したHDA「CH Tools」を無料公開していることを紹介した投稿。Scatterに重要な機能が多く含まれているとのこと。"
+summary: "ILMのGeneralist、Yen Chen氏が自身の作品制作に使用したHDA「CH Tools」を無料公開していること。Scatterに重要な機能が多く含まれている。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/1982723949084729440-s42jLwIruvKlzHe-.gif)
 
 ILMでGneralistのYen Chenさんのこの作品で使われているHDAが無料で使えます！
 

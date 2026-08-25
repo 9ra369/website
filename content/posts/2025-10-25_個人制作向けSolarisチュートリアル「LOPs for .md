@@ -1,11 +1,12 @@
 ---
 title: "個人制作向けSolarisチュートリアル「LOPs for Solo Artists」"
 date: 2025-10-25
-category: "tips"
-tags: ["Houdini", "Solaris", "LOPs"]
+category: "tutorial"
+tags: ["Houdini", "Solaris", "LOPs", "sidefx", "背景制作"]
 source_url: "https://www.youtube.com/watch?v=WfC16LYYIAw"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982067114975662489"
-summary: "個人制作でSolarisを使いたい人向けのチュートリアル「LOPs for Solo Artists」を紹介した投稿。"
+summary: "個人制作でSolarisを使いたい人向けのチュートリアル「LOPs for Solo Artists」。"
 ai_confidence: "high"
 status: draft
 ---

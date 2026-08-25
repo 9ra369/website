@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day4: Pablo Dominguez「ElvenRoad Town」"
 date: 2026-04-10
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/elLaZw"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042741980887998859"
-summary: "Pablo Dominguez氏の作品「ElvenRoad Town」を分析した投稿（毎日作品分析Day4）。良い作品は白黒にしても十分に美しいという気づきが記されている。"
+summary: "Pablo Dominguez氏の作品「ElvenRoad Town」（毎日作品分析Day4）。良い作品は白黒にしても十分に美しいという気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

@@ -4,8 +4,9 @@ date: 2026-08-09
 category: "tips"
 tags: ["ComfyUI", "OCIO", "Color Management"]
 source_url: "https://registry.comfy.org/nodes/comfyui-ocio"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2086265111367618986"
-summary: "ComfyUIの拡張機能「ComfyUI-OCIO」を紹介した投稿。"
+summary: "ComfyUIの拡張機能「ComfyUI-OCIO」。"
 ai_confidence: "high"
 status: draft
 ---

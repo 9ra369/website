@@ -2,10 +2,12 @@
 title: "ActionVFXの無料カメラシェイク素材"
 date: 2025-10-22
 category: "tips"
-tags: ["Nuke", "VFX", "Compositing"]
+tags: ["Nuke", "VFX", "Compositing", "3DCG"]
+mentions: ["ActionVFX"]
 source_url: "https://www.actionvfx.com/collections/free-camera-shake-presets-stock-footage"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1980987186335055989"
-summary: "ActionVFXが提供する無料のカメラシェイク素材を紹介した投稿。Nukeでトラッキングすることでリアルなカメラシェイクを再現できるとのこと。"
+summary: "ActionVFXが提供する無料のカメラシェイク素材。Nukeでトラッキングすることでリアルなカメラシェイクを再現できる。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,12 @@
 ---
 title: "CG Cinematography記事「Lighting Techniques」"
 date: 2025-10-24
-category: "tips"
-tags: ["Lighting", "VFX"]
+category: "article"
+tags: ["Lighting", "VFX", "3DCG"]
 source_url: "https://chrisbrejon.com/cg-cinematography/chapter-7-lighting-techniques/"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981642959235035197"
-summary: "CG Cinematographyのウェブサイトに掲載されているライティング技法の記事を紹介した投稿。主にCGアニメーション作品を扱っているが、様々なテクニックが紹介されているとのこと。"
+summary: "CG Cinematographyのウェブサイトに掲載されているライティング技法の記事。主にCGアニメーション作品を扱っているが、様々なテクニックが紹介されている。"
 ai_confidence: "high"
 status: draft
 ---

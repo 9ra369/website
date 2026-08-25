@@ -1,11 +1,13 @@
 ---
 title: "Samuel Krug氏のチュートリアル「巨大な海岸山脈シーンの制作」"
 date: 2026-08-01
-category: "tips"
+category: "tutorial"
 tags: ["Houdini", "Blender", "Environment"]
+mentions: ["samuel_krug"]
 source_url: "https://www.youtube.com/watch?v=JsPPPMAllTk"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2083387737441493008"
-summary: "Samuel Krug氏によるチュートリアル「How I Created a Massive Coastal Mountain Scene in 3D」を紹介した投稿。技術的な側面だけでなく、書籍の描写を基にした再現や試行錯誤の過程も見られる点をおすすめしている。"
+summary: "Samuel Krug氏によるチュートリアル「How I Created a Massive Coastal Mountain Scene in 3D」。技術的な側面だけでなく、書籍の描写を基にした再現や試行錯誤の過程も見られる点をおすすめしている。"
 ai_confidence: "high"
 status: draft
 ---

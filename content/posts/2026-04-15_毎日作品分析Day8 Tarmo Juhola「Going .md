@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day8: Tarmo Juhola「Going to church」"
 date: 2026-04-15
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/kN8zPA"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044410816854929782"
-summary: "Tarmo Juhola氏の作品「Going to church」を分析した投稿（毎日作品分析Day8）。教会に比べ小さく描かれた赤いマントの人物から強さや勇敢さを感じるという気づきが記されている。"
+summary: "Tarmo Juhola氏の作品「Going to church」（毎日作品分析Day8）。教会に比べ小さく描かれた赤いマントの人物から強さや勇敢さを感じるという気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

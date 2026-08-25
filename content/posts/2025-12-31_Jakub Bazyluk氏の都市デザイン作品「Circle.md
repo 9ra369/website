@@ -4,8 +4,9 @@ date: 2025-12-31
 category: "tips"
 tags: ["Environment", "ArtStation"]
 source_url: "https://www.artstation.com/artwork/nJkLBE"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2006337917908844669"
-summary: "Jakub Bazyluk氏による都市デザイン作品「Circles」の制作ブレイクダウンを紹介した投稿。"
+summary: "Jakub Bazyluk氏による都市デザイン作品「Circles」の制作ブレイクダウン。"
 ai_confidence: "high"
 status: draft
 ---

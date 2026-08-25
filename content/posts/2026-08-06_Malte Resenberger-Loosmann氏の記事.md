@@ -1,11 +1,12 @@
 ---
 title: "Malte Resenberger-Loosmann氏の記事「観察の技法: Hero Assetの制作」"
 date: 2026-08-06
-category: "tips"
+category: "article"
 tags: ["Texturing", "Materials"]
-source_url: ""
+source_url: "https://www.artstation.com/artwork/31ovoB"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2085356549615284510"
-summary: "Malte Resenberger-Loosmann氏による記事「The Art of Observation: Mastering Hero Assets」を紹介した投稿。現実世界のリファレンスの観察・分析からマテリアルレイヤーの見極め、3Dへのディテール落とし込みまでのアプローチが述べられている。"
+summary: "Malte Resenberger-Loosmann氏による記事「The Art of Observation: Mastering Hero Assets」。現実世界のリファレンスの観察・分析からマテリアルレイヤーの見極め、3Dへのディテール落とし込みまでのアプローチが述べられている。"
 ai_confidence: "high"
 status: draft
 ---

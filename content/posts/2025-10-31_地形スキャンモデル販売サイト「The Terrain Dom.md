@@ -2,10 +2,11 @@
 title: "地形スキャンモデル販売サイト「The Terrain Domain」"
 date: 2025-10-31
 category: "tips"
-tags: ["Terrain", "Environment"]
+tags: ["Terrain", "Environment", "vfx", "3DCG", "背景制作"]
 source_url: "https://www.theterraindomain.com/collections/desert-terrains"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1984169231941063120"
-summary: "地形の3Dスキャンモデルを購入できるサイト「The Terrain Domain」を紹介した投稿。Megascansにはないような地形も多く扱っているとのこと。"
+summary: "地形の3Dスキャンモデルを購入できるサイト「The Terrain Domain」。Megascansにはないような地形も多く扱っている。"
 ai_confidence: "high"
 status: draft
 ---

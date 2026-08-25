@@ -85,6 +85,12 @@ function normalizeOne(raw, ownAccountId) {
   }));
 
   const hashtags = (entities.hashtags || []).map((h) => h.text);
+  // Other X accounts referenced (@mentioned) in the post text — used to credit
+  // whoever's work/account the post is introducing.
+  const mentions = (entities.user_mentions || []).map((m) => ({
+    screenName: m.screen_name,
+    name: m.name,
+  }));
 
   const inReplyToUserId = t.in_reply_to_user_id || null;
   const text = t.full_text || "";
@@ -103,6 +109,7 @@ function normalizeOne(raw, ownAccountId) {
     isRetweet: text.startsWith("RT @"),
     urls,
     hashtags,
+    mentions,
     media: mediaOut,
     originalPostUrl: `https://x.com/${raw.__ownUsername || "i"}/status/${t.id_str}`,
   };

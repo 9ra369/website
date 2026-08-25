@@ -1,11 +1,12 @@
 ---
 title: "Anthony Eftekhari氏の3D Matte Paintingチュートリアル"
 date: 2025-10-22
-category: "tips"
-tags: ["Maya", "3ds Max", "Photoshop", "Matte Painting"]
+category: "tutorial"
+tags: ["Maya", "3ds Max", "Photoshop", "Matte Painting", "art", "3DCG", "mattepaint", "vfx", "背景制作"]
 source_url: "https://anthonye.gumroad.com/l/OJIn?layout=profile&recommended_by=library"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1980986522452250958"
-summary: "前述のAnthony Eftekhari氏による3D Matte Paintingのチュートリアルを紹介した投稿。主にMaya、3ds Max、Photoshopを使用する。"
+summary: "Anthony Eftekhari氏による3D Matte Paintingのチュートリアル。主にMaya、3ds Max、Photoshopを使用する。"
 ai_confidence: "high"
 status: draft
 ---

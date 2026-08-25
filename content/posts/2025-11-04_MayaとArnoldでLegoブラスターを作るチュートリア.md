@@ -1,11 +1,12 @@
 ---
 title: "MayaとArnoldでLegoブラスターを作るチュートリアル"
 date: 2025-11-04
-category: "tips"
-tags: ["Maya", "Arnold"]
+category: "tutorial"
+tags: ["Maya", "Arnold", "vfx"]
 source_url: "https://www.youtube.com/watch?v=8VljfftmDxI&list=WL&index=2"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985591670780641414"
-summary: "MayaとArnoldを使ってLegoのブラスターを制作するチュートリアル動画を紹介した投稿。小規模なアセットを丁寧に作り込む機会は少ないとして紹介している。"
+summary: "MayaとArnoldを使ってLegoのブラスターを制作するチュートリアル動画。小規模なアセットを丁寧に作り込む機会は少ないとして紹介している。"
 ai_confidence: "high"
 status: draft
 ---

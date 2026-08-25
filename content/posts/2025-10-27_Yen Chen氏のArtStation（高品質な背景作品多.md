@@ -1,14 +1,17 @@
 ---
 title: "Yen Chen氏のArtStation（高品質な背景作品多数）"
 date: 2025-10-27
-category: "tips"
-tags: ["ArtStation", "Environment"]
+category: "showreel"
+tags: ["ArtStation", "Environment", "houdini", "sidefx", "背景作品"]
 source_url: "https://www.artstation.com/yenchen"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982945877535932541"
-summary: "前述のYen Chen氏のArtStationページを紹介した投稿。クオリティの高い背景作品が多く掲載されているとのこと。"
+summary: "Yen Chen氏のArtStationページ。クオリティの高い背景作品が多く掲載されている。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/1982945877535932541-DR_YwyhYsz021joY.gif)
 
 この方のArtstationにクオリティが高い背景作品が多くあります！
 

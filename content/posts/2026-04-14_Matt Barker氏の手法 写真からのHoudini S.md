@@ -2,10 +2,11 @@
 title: "Matt Barker氏の手法: 写真からのHoudini Scatterワークフロー"
 date: 2026-04-14
 category: "tips"
-tags: ["Houdini", "Scattering"]
+tags: ["Houdini", "Scattering", "sidefx"]
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7449649000338706432/"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044047231880441901"
-summary: "Matt Barker氏による、リファレンス写真からHoudiniでScatterする手法を紹介した投稿。写真をカメラプロジェクションし、そこにScatterして写真の色をポイントに持たせ、木のタイプに応じてポイントをソートするという3ステップの流れが解説されている。"
+summary: "Matt Barker氏による、リファレンス写真からHoudiniでScatterする手法。写真をカメラプロジェクションし、そこにScatterして写真の色をポイントに持たせ、木のタイプに応じてポイントをソートするという3ステップの流れが解説されている。"
 ai_confidence: "high"
 status: draft
 ---

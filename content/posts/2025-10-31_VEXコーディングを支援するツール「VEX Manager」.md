@@ -1,11 +1,12 @@
 ---
 title: "VEXコーディングを支援するツール「VEX Manager」"
 date: 2025-10-31
-category: "tips"
-tags: ["Houdini", "VEX"]
+category: "pipeline"
+tags: ["Houdini", "VEX", "vfx", "sidefx"]
 source_url: "https://shirmanor.gumroad.com/l/vex_manager_v1?layout=profile"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1984193349625295321"
-summary: "HoudiniでVEXを書く際のサポートツール「VEX Manager」を紹介した投稿。"
+summary: "HoudiniでVEXを書く際のサポートツール「VEX Manager」。"
 ai_confidence: "high"
 status: draft
 ---

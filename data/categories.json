@@ -1,10 +1,11 @@
 {
   "categories": [
-    { "slug": "environment", "label": "Environment", "thumbClass": "thumb-environment" },
+    { "slug": "tutorial", "label": "Tutorial", "thumbClass": "thumb-tutorial" },
     { "slug": "pipeline", "label": "Pipeline/Plugin/Tool", "thumbClass": "thumb-pipeline" },
     { "slug": "article", "label": "Article", "thumbClass": "thumb-article" },
     { "slug": "showreel", "label": "Showreel/Demoreel", "thumbClass": "thumb-reel" },
     { "slug": "website", "label": "Website", "thumbClass": "thumb-website" },
-    { "slug": "tips", "label": "Tips", "thumbClass": "thumb-tips" }
+    { "slug": "tips", "label": "Tips", "thumbClass": "thumb-tips" },
+    { "slug": "daily-analysis", "label": "毎日作品分析", "thumbClass": "thumb-daily-analysis" }
   ]
 }

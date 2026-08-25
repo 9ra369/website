@@ -1,11 +1,12 @@
 ---
 title: "Samuel A Krug氏の地形生成HDA「KTT for Houdini」"
 date: 2025-10-23
-category: "tips"
-tags: ["Houdini", "Terrain", "Environment"]
+category: "pipeline"
+tags: ["Houdini", "Terrain", "Environment", "houEnv", "sidefx", "背景制作"]
 source_url: "https://samk9632.gumroad.com/l/KTTforHoudini?layout=profile"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981280114127310850"
-summary: "Samuel A Krug氏による地形生成HDA「KTT for Houdini」を紹介した投稿。従来のHoudiniやGaeaでは難しい表現が可能になるとしている。"
+summary: "Samuel A Krug氏による地形生成HDA「KTT for Houdini」。従来のHoudiniやGaeaでは難しい表現が可能になるとしている。"
 ai_confidence: "high"
 status: draft
 ---

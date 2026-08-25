@@ -4,8 +4,9 @@ date: 2026-08-02
 category: "tips"
 tags: ["Rendering", "Texturing"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2083725842044387772"
-summary: "リアルタイムレンダリングにおけるTriplanarマッピングの計算負荷についてLinkedInの投稿を引用して紹介。UV展開が不要で便利だが、サンプル数が3倍になる分のコストは単純比例せず、L1/L2キャッシュの挙動に左右されるという技術的な補足がある。"
+summary: "リアルタイムレンダリングにおけるTriplanarマッピングの計算負荷（LinkedInの投稿を引用して紹介）。UV展開が不要で便利だが、サンプル数が3倍になる分のコストは単純比例せず、L1/L2キャッシュの挙動に左右されるという技術的な補足がある。"
 ai_confidence: "high"
 status: draft
 ---

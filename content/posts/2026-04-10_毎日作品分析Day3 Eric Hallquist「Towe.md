@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day3: Eric Hallquist「Tower of the Exiled Magi」"
 date: 2026-04-10
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/vbGyWO"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042614535937486929"
-summary: "Eric Hallquist氏の作品「Tower of the Exiled Magi」を分析した投稿（毎日作品分析Day3）。構図だけでなく建物のデザインも優れているという気づきが記されている。"
+summary: "Eric Hallquist氏の作品「Tower of the Exiled Magi」（毎日作品分析Day3）。構図だけでなく建物のデザインも優れているという気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

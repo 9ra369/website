@@ -4,8 +4,9 @@ date: 2026-03-23
 category: "tips"
 tags: ["Houdini", "Solaris", "Vegetation", "Rendering"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2036031841292149105"
-summary: "木の葉のレンダリング時間を、Geometry（16秒）、Stencil（27秒）、Opacity/Texture（2分35秒）の3手法で比較検証した投稿。Solarisでは、Scatterする場合はAlphaでモデルをカットアウトし、それ以外はOpacityなしで使うのが最適ではないかと考察している。"
+summary: "木の葉のレンダリング時間を、Geometry（16秒）、Stencil（27秒）、Opacity/Texture（2分35秒）の3手法で比較検証。Solarisでは、Scatterする場合はAlphaでモデルをカットアウトし、それ以外はOpacityなしで使うのが最適ではないかと考察している。"
 ai_confidence: "high"
 status: draft
 ---

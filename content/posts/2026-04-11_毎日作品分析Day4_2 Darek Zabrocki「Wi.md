@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day4_2: Darek Zabrocki「Windmill Town」"
 date: 2026-04-11
-category: "tips"
-tags: ["ArtStation", "Environment"]
+category: "daily-analysis"
+tags: ["ArtStation", "Environment", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/lVPx8a"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042767296456954059"
-summary: "Darek Zabrocki氏の作品「Windmill Town」を分析した投稿（毎日作品分析Day4_2）。物量・クオリティともに圧倒的だという気づきが記されている。"
+summary: "Darek Zabrocki氏の作品「Windmill Town」（毎日作品分析Day4_2）。物量・クオリティともに圧倒的だという気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

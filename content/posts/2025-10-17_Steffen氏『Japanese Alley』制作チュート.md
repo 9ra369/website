@@ -1,11 +1,12 @@
 ---
 title: "Steffen氏『Japanese Alley』制作チュートリアル（Wingfox）"
 date: 2025-10-17
-category: "tips"
-tags: ["Maya", "V-Ray", "Environment"]
+category: "tutorial"
+tags: ["Maya", "V-Ray", "Environment", "houEnv", "b3d"]
 source_url: "https://www.wingfox.com/c/8342?srsltid=AfmBOoq8MyHbyoQevYoorEWuPiP7VPk1Ai-xFMxJ4CeQtGCmbluwUuno"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1979066705763512721"
-summary: "Steffen Hampel氏が「Japanese Alley」という作品を制作するチュートリアルをWingfoxで紹介した投稿。MayaとV-Rayがメインに使用されている。"
+summary: "Steffen Hampel氏による、「Japanese Alley」という作品を制作するWingfoxのチュートリアル。MayaとV-Rayがメインに使用されている。"
 ai_confidence: "high"
 status: draft
 ---

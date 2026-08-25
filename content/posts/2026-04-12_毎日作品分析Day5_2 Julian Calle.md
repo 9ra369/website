@@ -1,11 +1,12 @@
 ---
 title: "毎日作品分析Day5_2: Julian Calle"
 date: 2026-04-12
-category: "tips"
-tags: ["ArtStation", "Composition"]
+category: "daily-analysis"
+tags: ["ArtStation", "Composition", "毎日作品分析"]
 source_url: "https://www.artstation.com/artwork/LGkaP"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043134550960951578"
-summary: "Julian Calle氏の作品を分析した投稿（毎日作品分析Day5_2）。フレーミングによる視線誘導と、抜け感の有無によるスケール感の違いについての気づきが記されている。"
+summary: "Julian Calle氏の作品（毎日作品分析Day5_2）。フレーミングによる視線誘導と、抜け感の有無によるスケール感の違いについての気づきが記されている。"
 ai_confidence: "high"
 status: draft
 ---

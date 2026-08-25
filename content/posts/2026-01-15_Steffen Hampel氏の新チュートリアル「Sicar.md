@@ -1,11 +1,12 @@
 ---
 title: "Steffen Hampel氏の新チュートリアル「Sicario Full CG Breakdown」（CG Lounge）"
 date: 2026-01-15
-category: "tips"
+category: "tutorial"
 tags: ["Environment"]
 source_url: "https://cglounge.studio/course/sicario-full-cg-breakdown-"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2011644283326251277"
-summary: "Steffen Hampel氏の新しいチュートリアル「Sicario - Full CG Breakdown」がCG Loungeで公開されたことを紹介した投稿。"
+summary: "Steffen Hampel氏の新しいチュートリアル「Sicario - Full CG Breakdown」がCG Loungeで公開されたこと。"
 ai_confidence: "high"
 status: draft
 ---

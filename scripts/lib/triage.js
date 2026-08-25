@@ -53,6 +53,11 @@ function mergeThreads(tweets) {
     const urls = members.flatMap((m) => m.urls);
     const media = members.flatMap((m) => m.media);
     const hashtags = [...new Set(members.flatMap((m) => m.hashtags))];
+    const mentionsSeen = new Map();
+    for (const m of members.flatMap((mm) => mm.mentions || [])) {
+      if (!mentionsSeen.has(m.screenName)) mentionsSeen.set(m.screenName, m);
+    }
+    const mentions = [...mentionsSeen.values()];
 
     threads.push({
       id: root.id,
@@ -66,6 +71,7 @@ function mergeThreads(tweets) {
       isRetweet: root.isRetweet,
       isReplyToOthers: root.isReplyToOthers,
       urls,
+      mentions,
       media,
       hashtags,
       originalPostUrl: root.originalPostUrl,

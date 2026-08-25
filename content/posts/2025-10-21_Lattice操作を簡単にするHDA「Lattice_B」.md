@@ -1,11 +1,12 @@
 ---
 title: "Lattice操作を簡単にするHDA「Lattice_B」"
 date: 2025-10-21
-category: "tips"
-tags: ["Houdini", "HDA"]
+category: "pipeline"
+tags: ["Houdini", "HDA", "sidefx", "3DCG", "背景制作"]
 source_url: "https://cyte.gumroad.com/l/yuoiir?_gl=1*1iz8nqm*_ga*MjA2OTMwNTUxNC4xNjg4NjMxNjY2*_ga_6LJN6D94N6*czE3NTk5MDQ1MDEkbzIwNiRnMSR0MTc1OTkwNTg5OCRqMzckbDAkaDA"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1980457950641811553"
-summary: "HoudiniでのLattice操作を簡単にするHDA「Lattice_B for Houdini」を紹介した投稿。"
+summary: "HoudiniでのLattice操作を簡単にするHDA「Lattice_B for Houdini」。"
 ai_confidence: "high"
 status: draft
 ---

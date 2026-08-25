@@ -1,11 +1,12 @@
 ---
 title: "実地形生成HDA: COPs＋AI Meta SAMによるスプラットマップ自動生成"
 date: 2026-04-23
-category: "tips"
-tags: ["Houdini", "Terrain", "AI"]
+category: "pipeline"
+tags: ["Houdini", "Terrain", "AI", "Environment"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2047316103849013552"
-summary: "以前あったMapbox代替となるような、実際の地形を生成するHDAを紹介した投稿。Heightfieldを使わずCOPsワークフローをベースに、AI「Meta SAM」で高精度なスプラットマップ（マスク用テクスチャ）を自動生成する仕組み。OpenTopographyから標高・衛星データを取得するとのこと。"
+summary: "Mapbox代替となるような、実際の地形を生成するHDA。Heightfieldを使わずCOPsワークフローをベースに、AI「Meta SAM」で高精度なスプラットマップ（マスク用テクスチャ）を自動生成する仕組み。OpenTopographyから標高・衛星データを取得する。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,11 +1,12 @@
 ---
 title: "Heightfieldの応用テクニック「Hacking Heightfields」"
 date: 2025-11-30
-category: "tips"
-tags: ["Houdini", "Terrain"]
+category: "tutorial"
+tags: ["Houdini", "Terrain", "sidefx"]
 source_url: "https://www.youtube.com/watch?v=L7eorPERur4&list=WL&index=8"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1995084780258652507"
-summary: "HoudiniのHeightfieldの面白い活用方法を解説するチュートリアル「Hacking Heightfields」を紹介した投稿。"
+summary: "HoudiniのHeightfieldの面白い活用方法を解説するチュートリアル「Hacking Heightfields」。"
 ai_confidence: "high"
 status: draft
 ---

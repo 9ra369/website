@@ -1,11 +1,12 @@
 ---
 title: "BlenderのScatterアドオン「MP Scatter」"
 date: 2025-10-26
-category: "tips"
-tags: ["Blender", "Scattering"]
+category: "pipeline"
+tags: ["Blender", "Scattering", "b3d", "背景制作", "3DCG"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1982279864096002312"
-summary: "LODやカメラカリングなど多くの機能を持つ、Blender用のScatterアドオン「MP Scatter」を紹介した投稿。"
+summary: "LODやカメラカリングなど多くの機能を持つ、Blender用のScatterアドオン「MP Scatter」。"
 ai_confidence: "high"
 status: draft
 ---

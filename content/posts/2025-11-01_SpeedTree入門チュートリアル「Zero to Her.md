@@ -1,11 +1,12 @@
 ---
 title: "SpeedTree入門チュートリアル「Zero to Hero」"
 date: 2025-11-01
-category: "tips"
-tags: ["SpeedTree"]
+category: "tutorial"
+tags: ["SpeedTree", "vfx", "3DCG", "背景制作"]
 source_url: "https://motstudio.gumroad.com/l/ivwaon"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1984532268321554707"
-summary: "SpeedTreeをゼロから解説するチュートリアル「Speedtree 10 - Zero to Hero」を紹介した投稿。SpeedTreeのチュートリアルは少ないため貴重だとしている。"
+summary: "SpeedTreeをゼロから解説するチュートリアル「Speedtree 10 - Zero to Hero」。SpeedTreeのチュートリアルは少ないため貴重だとしている。"
 ai_confidence: "high"
 status: draft
 ---

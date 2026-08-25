@@ -4,8 +4,9 @@ date: 2025-10-27
 category: "tips"
 tags: ["Assets"]
 source_url: "https://wirewheelsclub.com/license/?utm_source=chatgpt.com"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982942623099977755"
-summary: "前述のWire Wheels Clubの車モデルが商用利用も可能であることを伝えた投稿。最新モデルは有料だが安価とのこと。"
+summary: "Wire Wheels Clubの車モデルが商用利用も可能である。最新モデルは有料だが安価。"
 ai_confidence: "high"
 status: draft
 ---

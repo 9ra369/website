@@ -1,11 +1,12 @@
 ---
 title: "Instancing体系的理解に役立つ記事「An Even Longer-Winded Guide」"
 date: 2025-10-24
-category: "tips"
-tags: ["Houdini", "Instancing"]
+category: "article"
+tags: ["Houdini", "Instancing", "sidefx", "vfx", "背景制作"]
 source_url: "https://www.toadstorm.com/blog/?p=942"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981590481848213819"
-summary: "HoudiniのInstanceについて体系的に理解するのに役立った記事「An Even Longer-Winded Guide to Instancing in Houdini」を紹介した投稿。"
+summary: "HoudiniのInstanceについて体系的に理解するのに役立った記事「An Even Longer-Winded Guide to Instancing in Houdini」。"
 ai_confidence: "high"
 status: draft
 ---

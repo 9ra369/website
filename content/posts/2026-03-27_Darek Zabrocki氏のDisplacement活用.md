@@ -1,11 +1,12 @@
 ---
 title: "Darek Zabrocki氏のDisplacement活用都市景観チュートリアル"
 date: 2026-03-27
-category: "tips"
+category: "tutorial"
 tags: ["3ds Max", "Environment"]
 source_url: "https://www.youtube.com/watch?v=MngOInsMMLI"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2037432804540305779"
-summary: "Darek Zabrocki氏による、Octaneと3ds Maxでディスプレイスメントを活用した都市景観制作チュートリアルを紹介した投稿。"
+summary: "Darek Zabrocki氏による、Octaneと3ds Maxでディスプレイスメントを活用した都市景観制作チュートリアル。"
 ai_confidence: "high"
 status: draft
 ---

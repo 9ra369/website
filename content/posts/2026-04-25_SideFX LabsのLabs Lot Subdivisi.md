@@ -1,11 +1,12 @@
 ---
 title: "SideFX LabsのLabs Lot Subdivision作例解説"
 date: 2026-04-25
-category: "tips"
-tags: ["Houdini", "SideFX Labs"]
+category: "tutorial"
+tags: ["Houdini", "SideFX Labs", "sidefx"]
 source_url: "https://www.artstation.com/artwork/kQ3wgn"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2047854970192715833"
-summary: "SideFX Labsの「Labs Lot Subdivision」を使った作例を紹介した投稿。パラメータの説明や知られていない機能・使い方も紹介されているとのこと。"
+summary: "SideFX Labsの「Labs Lot Subdivision」を使った作例。パラメータの説明や知られていない機能・使い方も紹介されている。"
 ai_confidence: "high"
 status: draft
 ---

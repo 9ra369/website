@@ -1,11 +1,12 @@
 ---
 title: "Ivy Tamingの使い方解説動画（Adrien Lambert氏）"
 date: 2025-10-26
-category: "tips"
-tags: ["Houdini", "Vegetation"]
+category: "pipeline"
+tags: ["Houdini", "Vegetation", "sidefx"]
 source_url: "https://www.youtube.com/watch?v=3u6UNNJQ_cM"
+language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982326652383412407"
-summary: "前述のIvy Tamingプラグインの使い方を、Adrien Lambert氏が丁寧に解説した動画を紹介した投稿。"
+summary: "Ivy Tamingプラグインの使い方を、Adrien Lambert氏が丁寧に解説した動画。"
 ai_confidence: "high"
 status: draft
 ---

@@ -1,14 +1,17 @@
 ---
 title: "Blenderの便利ツール2種: Fast 2D Remesh Tool / Spline Mesh Tool"
 date: 2026-08-04
-category: "tips"
+category: "pipeline"
 tags: ["Blender", "Tools"]
 source_url: ""
+language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2084580108279640573"
-summary: "Blenderの便利なツール2種を紹介した投稿。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。"
+summary: "Blenderの便利なツール2種。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。"
 ai_confidence: "high"
 status: draft
 ---
+
+![](images/posts/2084580108279640573-w1Mtl_Oq7v8IK1rl.gif)
 
 Blenderの便利なツールです！
 
