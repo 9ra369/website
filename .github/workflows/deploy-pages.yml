@@ -1,0 +1,32 @@
+name: Deploy static site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Lets us trigger a re-deploy by hand from the Actions tab without a new commit.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy at a time; a new push cancels an in-flight one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload prototype/ as the Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: prototype
+      - id: deployment
+        uses: actions/deploy-pages@v4
