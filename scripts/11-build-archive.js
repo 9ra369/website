@@ -188,11 +188,9 @@ function main() {
     `$1\n${cardsHtml}\n$2`
   );
 
-  // 5) pagination -> simple note (one page holds everything for now)
-  html = html.replace(
-    /<div class="pagination">[\s\S]*?<\/div>/,
-    `<div class="pagination"><span style="font-size:13px;color:var(--color-text-faint);">全${all.length}件を1ページに表示（ページネーション未実装）</span></div>`
-  );
+  // Pagination is fully client-side now (see archive.js): the static markup
+  // is just the empty `.pagination-wrap` shell, populated on load regardless
+  // of `all.length`, so there's nothing to inject here at build time.
 
   fs.writeFileSync(ARCHIVE_FILE, html, "utf8");
   console.log(`Wrote ${all.length} cards (${CURATED.length} curated + ${tips.length} tips) into archive.html`);

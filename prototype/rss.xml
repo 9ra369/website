@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Merge VFX&amp;CG</title>
+    <link>https://9ra369.github.io/website</link>
+    <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
+    <language>ja</language>
+    <lastBuildDate>Thu, 27 Aug 2026 13:31:23 GMT</lastBuildDate>
+    <item>
+      <title>Houdini&amp;Arnoldで描く大規模なフル3D自然景観「Island」制作解説</title>
+      <link>https://9ra369.github.io/website/entry-cgworld-island.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/entry-cgworld-island.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>Spade&amp;Co. 木川裕太氏による個人制作「Island」の技術解説記事。</description>
+    </item>
+    <item>
+      <title>ComfyUI拡張機能「ComfyUI-OCIO」</title>
+      <link>https://9ra369.github.io/website/tips/ComfyUI%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%80%8CComfyUI-OCIO%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/ComfyUI%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%80%8CComfyUI-OCIO%E3%80%8D.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>ComfyUIの拡張機能「ComfyUI-OCIO」。</description>
+    </item>
+    <item>
+      <title>CG Lounge: 映画・VFX業界のプロが教えるチュートリアル・マーケットプレイス</title>
+      <link>https://9ra369.github.io/website/entry-cglounge.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/entry-cglounge.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <category>website</category>
+      <description>映画・VFX業界のプロがチュートリアルやアセットを直接販売するマーケットプレイス。</description>
+    </item>
+    <item>
+      <title>Houdiniで学ぶプロシージャル環境制作: モデリングからレンダリングまで</title>
+      <link>https://9ra369.github.io/website/entry-procedural-environments.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/entry-procedural-environments.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Houdiniを用いたモデリングからレンダリングまでの背景制作ワークフローを体系的に学べるコース。</description>
+    </item>
+    <item>
+      <title>四维惰性氏の記事「岩・石のコンセプトとスカルプトアプローチ」</title>
+      <link>https://9ra369.github.io/website/tips/%E5%9B%9B%E7%BB%B4%E6%83%B0%E6%80%A7%E6%B0%8F%E3%81%AE%E8%A8%98%E4%BA%8B%E3%80%8C%E5%B2%A9%E3%83%BB%E7%9F%B3%E3%81%AE%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88%E3%81%A8%E3%82%B9%E3%82%AB%E3%83%AB%E3%83%97%E3%83%88%E3%82%A2%E3%83%97%E3%83%AD%E3%83%BC%E3%83%81%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E5%9B%9B%E7%BB%B4%E6%83%B0%E6%80%A7%E6%B0%8F%E3%81%AE%E8%A8%98%E4%BA%8B%E3%80%8C%E5%B2%A9%E3%83%BB%E7%9F%B3%E3%81%AE%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88%E3%81%A8%E3%82%B9%E3%82%AB%E3%83%AB%E3%83%97%E3%83%88%E3%82%A2%E3%83%97%E3%83%AD%E3%83%BC%E3%83%81%E3%80%8D.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>3D Environment Artistの四维惰性氏による記事「Rock and Stone Concept」。長年の経験に基づく岩のスカルプトアプローチを、シルエット・バランス・構図の観点から詳しく解説している。</description>
+    </item>
+    <item>
+      <title>Houdini完結型植生生成ツールキット「Natsura」</title>
+      <link>https://9ra369.github.io/website/tips/Houdini%E5%AE%8C%E7%B5%90%E5%9E%8B%E6%A4%8D%E7%94%9F%E7%94%9F%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%82%AD%E3%83%83%E3%83%88%E3%80%8CNatsura%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Houdini%E5%AE%8C%E7%B5%90%E5%9E%8B%E6%A4%8D%E7%94%9F%E7%94%9F%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%82%AD%E3%83%83%E3%83%88%E3%80%8CNatsura%E3%80%8D.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <category>pipeline</category>
+      <description>Houdini内でプロシージャルに植生を生成できるツールキット「Natsura」。インポート/エクスポートの手間がなく高品質で、いわば「SpeedTreeのHoudini完結版」だとしている。KTT（Gaea相当）同様、Houdini内で完結するツールが増えている傾向にも触れている。</description>
+    </item>
+    <item>
+      <title>Malte Resenberger-Loosmann氏の記事「観察の技法: Hero Assetの制作」</title>
+      <link>https://9ra369.github.io/website/tips/Malte_Resenberger-Loosmann%E6%B0%8F%E3%81%AE%E8%A8%98%E4%BA%8B%E3%80%8C%E8%A6%B3%E5%AF%9F%E3%81%AE%E6%8A%80%E6%B3%95_Hero_Asset%E3%81%AE%E5%88%B6%E4%BD%9C%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Malte_Resenberger-Loosmann%E6%B0%8F%E3%81%AE%E8%A8%98%E4%BA%8B%E3%80%8C%E8%A6%B3%E5%AF%9F%E3%81%AE%E6%8A%80%E6%B3%95_Hero_Asset%E3%81%AE%E5%88%B6%E4%BD%9C%E3%80%8D.html</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>Malte Resenberger-Loosmann氏による記事「The Art of Observation: Mastering Hero Assets」。現実世界のリファレンスの観察・分析からマテリアルレイヤーの見極め、3Dへのディテール落とし込みまでのアプローチが述べられている。</description>
+    </item>
+    <item>
+      <title>Malte Resenberger-Loosmann氏の他の記事（マテリアル/レイヤー戦略）</title>
+      <link>https://9ra369.github.io/website/tips/Malte_Resenberger-Loosmann%E6%B0%8F%E3%81%AE%E4%BB%96%E3%81%AE%E8%A8%98%E4%BA%8B%EF%BC%88%E3%83%9E%E3%83%86%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E6%88%A6%E7%95%A5%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Malte_Resenberger-Loosmann%E6%B0%8F%E3%81%AE%E4%BB%96%E3%81%AE%E8%A8%98%E4%BA%8B%EF%BC%88%E3%83%9E%E3%83%86%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E6%88%A6%E7%95%A5%EF%BC%89.html</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>Malte Resenberger-Loosmann氏のページにある他の記事。「Mastering Materials: Noise」「Breakdown Rust Material」「The 10 Layers Strategy」「Desert Eagle」など、マテリアル制作の知見がまとめられている。</description>
+    </item>
+    <item>
+      <title>Naughty Dog Senior Environment Artistのウェブサイト（無料UEチュートリアル有）</title>
+      <link>https://9ra369.github.io/website/tips/Naughty_Dog_Senior_Environment_Artist%E3%81%AE%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%EF%BC%88%E7%84%A1%E6%96%99UE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E6%9C%89%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Naughty_Dog_Senior_Environment_Artist%E3%81%AE%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%EF%BC%88%E7%84%A1%E6%96%99UE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E6%9C%89%EF%BC%89.html</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Naughty DogのSenior Environment Artistによるウェブサイト。UEなどの無料チュートリアルが見られるほか、Gnomon Workshopでも2つのチュートリアルを公開している。</description>
+    </item>
+    <item>
+      <title>Blenderの便利ツール2種: Fast 2D Remesh Tool / Spline Mesh Tool</title>
+      <link>https://9ra369.github.io/website/tips/Blender%E3%81%AE%E4%BE%BF%E5%88%A9%E3%83%84%E3%83%BC%E3%83%AB2%E7%A8%AE_Fast_2D_Remesh_Tool_Spline_Mesh_Tool.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Blender%E3%81%AE%E4%BE%BF%E5%88%A9%E3%83%84%E3%83%BC%E3%83%AB2%E7%A8%AE_Fast_2D_Remesh_Tool_Spline_Mesh_Tool.html</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <category>pipeline</category>
+      <description>Blenderの便利なツール2種。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。</description>
+    </item>
+    <item>
+      <title>COPs活用Sci-fi Panel制作</title>
+      <link>https://9ra369.github.io/website/tips/COPs%E6%B4%BB%E7%94%A8Sci-fi_Panel%E5%88%B6%E4%BD%9C.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/COPs%E6%B4%BB%E7%94%A8Sci-fi_Panel%E5%88%B6%E4%BD%9C.html</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>SideFXでインターンをしているLei W.氏による、COPsを使ったSci-fi Panelの制作手法。Pythonでレイアウトをデザインし、COPsでHeightとディテールを追加、Houdini Engine経由でUEに渡し、Naniteでテッセレーション・ディスプレイスメントを実装するワークフロー。</description>
+    </item>
+    <item>
+      <title>リアルタイムTriplanarの計算負荷について（LinkedIn引用）</title>
+      <link>https://9ra369.github.io/website/tips/%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0Triplanar%E3%81%AE%E8%A8%88%E7%AE%97%E8%B2%A0%E8%8D%B7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88LinkedIn%E5%BC%95%E7%94%A8%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0Triplanar%E3%81%AE%E8%A8%88%E7%AE%97%E8%B2%A0%E8%8D%B7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88LinkedIn%E5%BC%95%E7%94%A8%EF%BC%89.html</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>リアルタイムレンダリングにおけるTriplanarマッピングの計算負荷（LinkedInの投稿を引用して紹介）。UV展開が不要で便利だが、サンプル数が3倍になる分のコストは単純比例せず、L1/L2キャッシュの挙動に左右されるという技術的な補足がある。</description>
+    </item>
+    <item>
+      <title>「Port Town」セミプロシージャル環境制作ワークフロー（Blender）</title>
+      <link>https://9ra369.github.io/website/tips/%E3%80%8CPort_Town%E3%80%8D%E3%82%BB%E3%83%9F%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%AB%E7%92%B0%E5%A2%83%E5%88%B6%E4%BD%9C%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%EF%BC%88Blender%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E3%80%8CPort_Town%E3%80%8D%E3%82%BB%E3%83%9F%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%AB%E7%92%B0%E5%A2%83%E5%88%B6%E4%BD%9C%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%EF%BC%88Blender%EF%BC%89.html</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>Blenderを用いてセミプロシージャルに制作された背景作品「Port Town」の制作手法を、動画クリップ付きで解説するブレイクダウン。</description>
+    </item>
+    <item>
+      <title>Triplanar負荷対策: 面の向きに応じたPlanar/Biplanar使い分け</title>
+      <link>https://9ra369.github.io/website/tips/Triplanar%E8%B2%A0%E8%8D%B7%E5%AF%BE%E7%AD%96_%E9%9D%A2%E3%81%AE%E5%90%91%E3%81%8D%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%9FPlanarBiplanar%E4%BD%BF%E3%81%84%E5%88%86%E3%81%91.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Triplanar%E8%B2%A0%E8%8D%B7%E5%AF%BE%E7%AD%96_%E9%9D%A2%E3%81%AE%E5%90%91%E3%81%8D%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%9FPlanarBiplanar%E4%BD%BF%E3%81%84%E5%88%86%E3%81%91.html</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>Triplanarの計算負荷への対応策として、面の向きに応じてplanar projection（地面など上向きの面）とbiplanar projection（建物など横向きの面）を選択的に使い分けるという手法。</description>
+    </item>
+    <item>
+      <title>Avatar Aangをテーマにした作品（ArtStation）</title>
+      <link>https://9ra369.github.io/website/tips/Avatar_Aang%E3%82%92%E3%83%86%E3%83%BC%E3%83%9E%E3%81%AB%E3%81%97%E3%81%9F%E4%BD%9C%E5%93%81%EF%BC%88ArtStation%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Avatar_Aang%E3%82%92%E3%83%86%E3%83%BC%E3%83%9E%E3%81%AB%E3%81%97%E3%81%9F%E4%BD%9C%E5%93%81%EF%BC%88ArtStation%EF%BC%89.html</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <category>showreel</category>
+      <description>『アバター 伝説の少年アン』をテーマにした複数の作品がArtStationで公開されていること。</description>
+    </item>
+    <item>
+      <title>Steffen Hampel氏の最新チュートリアル「Gotham - Full CG Breakdown」</title>
+      <link>https://9ra369.github.io/website/tips/Steffen_Hampel%E6%B0%8F%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%80%8CGotham_-_Full_CG_Breakdown%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Steffen_Hampel%E6%B0%8F%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%80%8CGotham_-_Full_CG_Breakdown%E3%80%8D.html</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>ILMのSenior GeneralistであるSteffen Hampel氏による最新チュートリアル「Gotham - Full CG Breakdown」（CG Lounge）。</description>
+    </item>
+    <item>
+      <title>Samuel Krug氏のチュートリアル「巨大な海岸山脈シーンの制作」</title>
+      <link>https://9ra369.github.io/website/tips/Samuel_Krug%E6%B0%8F%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%80%8C%E5%B7%A8%E5%A4%A7%E3%81%AA%E6%B5%B7%E5%B2%B8%E5%B1%B1%E8%84%88%E3%82%B7%E3%83%BC%E3%83%B3%E3%81%AE%E5%88%B6%E4%BD%9C%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Samuel_Krug%E6%B0%8F%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%80%8C%E5%B7%A8%E5%A4%A7%E3%81%AA%E6%B5%B7%E5%B2%B8%E5%B1%B1%E8%84%88%E3%82%B7%E3%83%BC%E3%83%B3%E3%81%AE%E5%88%B6%E4%BD%9C%E3%80%8D.html</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Samuel Krug氏によるチュートリアル「How I Created a Massive Coastal Mountain Scene in 3D」。技術的な側面だけでなく、書籍の描写を基にした再現や試行錯誤の過程も見られる点をおすすめしている。</description>
+    </item>
+    <item>
+      <title>Samuel Krug氏のArtStation作品（高ディテール）</title>
+      <link>https://9ra369.github.io/website/tips/Samuel_Krug%E6%B0%8F%E3%81%AEArtStation%E4%BD%9C%E5%93%81%EF%BC%88%E9%AB%98%E3%83%87%E3%82%A3%E3%83%86%E3%83%BC%E3%83%AB%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Samuel_Krug%E6%B0%8F%E3%81%AEArtStation%E4%BD%9C%E5%93%81%EF%BC%88%E9%AB%98%E3%83%87%E3%82%A3%E3%83%86%E3%83%BC%E3%83%AB%EF%BC%89.html</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>showreel</category>
+      <description>Samuel Krug氏による、細部までディテールが詰め込まれた高品質な作品。ArtStationやInstagramでの最新作フォローを勧めている。</description>
+    </item>
+    <item>
+      <title>Claude MCPでプロシージャルセットアップをテストした所感</title>
+      <link>https://9ra369.github.io/website/tips/Claude_MCP%E3%81%A7%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%92%E3%83%86%E3%82%B9%E3%83%88%E3%81%97%E3%81%9F%E6%89%80%E6%84%9F.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Claude_MCP%E3%81%A7%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%AB%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%92%E3%83%86%E3%82%B9%E3%83%88%E3%81%97%E3%81%9F%E6%89%80%E6%84%9F.html</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>蒸留スイ氏の記事を参考に、Claude MCPを使ってプロシージャルなビル生成セットアップ。機能ごとに許諾が必要な点が煩わしく、思ったより時間がかかったという率直な所感が記されている。</description>
+    </item>
+    <item>
+      <title>NVIDIA「OpenUSD Interactive Glossary」</title>
+      <link>https://9ra369.github.io/website/tips/NVIDIA%E3%80%8COpenUSD_Interactive_Glossary%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/NVIDIA%E3%80%8COpenUSD_Interactive_Glossary%E3%80%8D.html</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>NVIDIAが公開する「OpenUSD Interactive Glossary」。Stage、Layer、Prim、Composition ArcsなどOpenUSDの主要概念を、インタラクティブな図解で視覚的に理解できるツール。</description>
+    </item>
+    <item>
+      <title>Maya用USD Variantエクスポートツール</title>
+      <link>https://9ra369.github.io/website/tips/Maya%E7%94%A8USD_Variant%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E3%83%84%E3%83%BC%E3%83%AB.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Maya%E7%94%A8USD_Variant%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E3%83%84%E3%83%BC%E3%83%AB.html</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <category>pipeline</category>
+      <description>MayaからVariant付きのUSDをエクスポートするためのツール（GitHub公開）。</description>
+    </item>
+    <item>
+      <title>無料チュートリアル: HoudiniでGaussian Splattingにリグ・アニメーション</title>
+      <link>https://9ra369.github.io/website/tips/%E7%84%A1%E6%96%99%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB_Houdini%E3%81%A7Gaussian_Splatting%E3%81%AB%E3%83%AA%E3%82%B0%E3%83%BB%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E7%84%A1%E6%96%99%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB_Houdini%E3%81%A7Gaussian_Splatting%E3%81%AB%E3%83%AA%E3%82%B0%E3%83%BB%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Houdiniでガウシアン・スプラッティングにRigを組んでアニメーションさせる無料チュートリアル「Animate Gaussian Splats with Houdini」。無料のシーンファイルも配布されている。</description>
+    </item>
+    <item>
+      <title>塚島氏のPLATEAU×Houdiniミニチュアルック制作チュートリアル</title>
+      <link>https://9ra369.github.io/website/tips/%E5%A1%9A%E5%B3%B6%E6%B0%8F%E3%81%AEPLATEAU%C3%97Houdini%E3%83%9F%E3%83%8B%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%83%E3%82%AF%E5%88%B6%E4%BD%9C%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E5%A1%9A%E5%B3%B6%E6%B0%8F%E3%81%AEPLATEAU%C3%97Houdini%E3%83%9F%E3%83%8B%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%83%E3%82%AF%E5%88%B6%E4%BD%9C%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>塚島氏によるPLATEAU（3D都市モデル）とHoudiniを組み合わせた映像作品のチュートリアル。ミニチュアルックの再現方法などが紹介されており面白い内容。</description>
+    </item>
+    <item>
+      <title>Gaea×Substance Designerでタイル化可能なテクスチャ制作の試み（Vincent Gagnon氏）</title>
+      <link>https://9ra369.github.io/website/tips/Gaea%C3%97Substance_Designer%E3%81%A7%E3%82%BF%E3%82%A4%E3%83%AB%E5%8C%96%E5%8F%AF%E8%83%BD%E3%81%AA%E3%83%86%E3%82%AF%E3%82%B9%E3%83%81%E3%83%A3%E5%88%B6%E4%BD%9C%E3%81%AE%E8%A9%A6%E3%81%BF%EF%BC%88Vincent_Gagnon%E6%B0%8F%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Gaea%C3%97Substance_Designer%E3%81%A7%E3%82%BF%E3%82%A4%E3%83%AB%E5%8C%96%E5%8F%AF%E8%83%BD%E3%81%AA%E3%83%86%E3%82%AF%E3%82%B9%E3%83%81%E3%83%A3%E5%88%B6%E4%BD%9C%E3%81%AE%E8%A9%A6%E3%81%BF%EF%BC%88Vincent_Gagnon%E6%B0%8F%EF%BC%89.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>Vincent Gagnon氏による、GaeaをSubstance Designerの一部として活用する試み「Eroded Dirt Mound」。Gaeaは浸食表現に優れるがタイル化に不向きなため、Substance Designerで補いテクスチャとして使えるかを検証している。</description>
+    </item>
+    <item>
+      <title>CEDEC 2025講演: ニューラルネットワークによる次世代オブジェクトカリング（ポリフォニー・デジタル）</title>
+      <link>https://9ra369.github.io/website/tips/CEDEC_2025%E8%AC%9B%E6%BC%94_%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AB%E3%82%88%E3%82%8B%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%AB%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%88%E3%83%9D%E3%83%AA%E3%83%95%E3%82%A9%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/CEDEC_2025%E8%AC%9B%E6%BC%94_%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AB%E3%82%88%E3%82%8B%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%AB%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%88%E3%83%9D%E3%83%AA%E3%83%95%E3%82%A9%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%EF%BC%89.html</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>CEDEC 2025でのポリフォニー・デジタルによる講演。ニューラルネットワークを用いた次世代オブジェクトカリングシステムについて紹介している。後半は専門的で難しいが、前半のカリングシステムの説明でボロノイ領域が具体的に応用される様子が興味深いとしている。</description>
+    </item>
+    <item>
+      <title>PythonによるUEワークフロー自動化コース（Udemy）</title>
+      <link>https://9ra369.github.io/website/tips/Python%E3%81%AB%E3%82%88%E3%82%8BUE%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%E8%87%AA%E5%8B%95%E5%8C%96%E3%82%B3%E3%83%BC%E3%82%B9%EF%BC%88Udemy%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Python%E3%81%AB%E3%82%88%E3%82%8BUE%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%E8%87%AA%E5%8B%95%E5%8C%96%E3%82%B3%E3%83%BC%E3%82%B9%EF%BC%88Udemy%EF%BC%89.html</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Pythonを使ってUnreal Engineのワークフローを自動化する方法を学べるUdemyコース。</description>
+    </item>
+    <item>
+      <title>『デス・ストランディング2』ボクセルマップUIの仕組み解説</title>
+      <link>https://9ra369.github.io/website/tips/%E3%80%8E%E3%83%87%E3%82%B9%E3%83%BB%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B02%E3%80%8F%E3%83%9C%E3%82%AF%E3%82%BB%E3%83%AB%E3%83%9E%E3%83%83%E3%83%97UI%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E8%A7%A3%E8%AA%AC.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E3%80%8E%E3%83%87%E3%82%B9%E3%83%BB%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B02%E3%80%8F%E3%83%9C%E3%82%AF%E3%82%BB%E3%83%AB%E3%83%9E%E3%83%83%E3%83%97UI%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E8%A7%A3%E8%AA%AC.html</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>『デス・ストランディング2』で使用されたボクセル3D UIマップの仕組みについて解説する記事。</description>
+    </item>
+    <item>
+      <title>Kevin Baker氏の記事: 切り崩された崖と自然の崖の違い</title>
+      <link>https://9ra369.github.io/website/tips/Kevin_Baker%E6%B0%8F%E3%81%AE%E8%A8%98%E4%BA%8B_%E5%88%87%E3%82%8A%E5%B4%A9%E3%81%95%E3%82%8C%E3%81%9F%E5%B4%96%E3%81%A8%E8%87%AA%E7%84%B6%E3%81%AE%E5%B4%96%E3%81%AE%E9%81%95%E3%81%84.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Kevin_Baker%E6%B0%8F%E3%81%AE%E8%A8%98%E4%BA%8B_%E5%88%87%E3%82%8A%E5%B4%A9%E3%81%95%E3%82%8C%E3%81%9F%E5%B4%96%E3%81%A8%E8%87%AA%E7%84%B6%E3%81%AE%E5%B4%96%E3%81%AE%E9%81%95%E3%81%84.html</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>道路建設のために切り崩された崖と、自然な崖との違いについて解説するKevin Baker氏の記事。</description>
+    </item>
+    <item>
+      <title>William Fiorentini氏の最新チュートリアル「Glacier Breakdown」（CG Lounge）</title>
+      <link>https://9ra369.github.io/website/tips/William_Fiorentini%E6%B0%8F%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%80%8CGlacier_Breakdown%E3%80%8D%EF%BC%88CG_Lounge%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/William_Fiorentini%E6%B0%8F%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%80%8CGlacier_Breakdown%E3%80%8D%EF%BC%88CG_Lounge%EF%BC%89.html</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>William Fiorentini氏による最新チュートリアル「Glacier Breakdown and Project file」がCG Loungeで公開されたこと。</description>
+    </item>
+    <item>
+      <title>ILM/DNEG出身Steven Corman氏の新チュートリアル（Double Jump Academy）</title>
+      <link>https://9ra369.github.io/website/tips/ILMDNEG%E5%87%BA%E8%BA%ABSteven_Corman%E6%B0%8F%E3%81%AE%E6%96%B0%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%EF%BC%88Double_Jump_Academy%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/ILMDNEG%E5%87%BA%E8%BA%ABSteven_Corman%E6%B0%8F%E3%81%AE%E6%96%B0%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%EF%BC%88Double_Jump_Academy%EF%BC%89.html</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>ILMやDNEGでの勤務経験を持つSteven Corman氏が、Double Jump Academyで新しい背景制作チュートリアル「Advanced Matte Painting」をリリースしたこと。使用ソフトはHoudini、Maya、Gaea、Nuke、Photoshop。</description>
+    </item>
+    <item>
+      <title>Houdini×Pythonの画像処理活用事例</title>
+      <link>https://9ra369.github.io/website/tips/Houdini%C3%97Python%E3%81%AE%E7%94%BB%E5%83%8F%E5%87%A6%E7%90%86%E6%B4%BB%E7%94%A8%E4%BA%8B%E4%BE%8B.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Houdini%C3%97Python%E3%81%AE%E7%94%BB%E5%83%8F%E5%87%A6%E7%90%86%E6%B4%BB%E7%94%A8%E4%BA%8B%E4%BE%8B.html</guid>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+      <category>pipeline</category>
+      <description>HoudiniとPythonを組み合わせた画像処理の活用事例。WebのURLから画像を読み込み、Pillowを使って画素をポイントとして並べる手法などが紹介されている。プラグイン開発以外の応用例として挙げている。</description>
+    </item>
+    <item>
+      <title>高解像度地形生成ツールがリリース（米国内1-10m/px、全世界30m/px）</title>
+      <link>https://9ra369.github.io/website/tips/%E9%AB%98%E8%A7%A3%E5%83%8F%E5%BA%A6%E5%9C%B0%E5%BD%A2%E7%94%9F%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%81%8C%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%EF%BC%88%E7%B1%B3%E5%9B%BD%E5%86%851-10mpx%E3%80%81%E5%85%A8%E4%B8%96%E7%95%8C30mpx%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E9%AB%98%E8%A7%A3%E5%83%8F%E5%BA%A6%E5%9C%B0%E5%BD%A2%E7%94%9F%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%81%8C%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%EF%BC%88%E7%B1%B3%E5%9B%BD%E5%86%851-10mpx%E3%80%81%E5%85%A8%E4%B8%96%E7%95%8C30mpx%EF%BC%89.html</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>pipeline</category>
+      <description>実地形生成HDAの正式リリース。アメリカ国内では1m/pixelまたは10m/pixel、世界中では30m/pixelの解像度で地形を生成できる。SplatmapsはMeta SAM AIかカスタムのPython HDAで生成できる。</description>
+    </item>
+    <item>
+      <title>Claude-to-Unreal Connector（MCPベース、Beta版）</title>
+      <link>https://9ra369.github.io/website/tips/Claude-to-Unreal_Connector%EF%BC%88MCP%E3%83%99%E3%83%BC%E3%82%B9%E3%80%81Beta%E7%89%88%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Claude-to-Unreal_Connector%EF%BC%88MCP%E3%83%99%E3%83%BC%E3%82%B9%E3%80%81Beta%E7%89%88%EF%BC%89.html</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>ClaudeのBlender Connectorと同様にMCPをベースに実装された「Claude-to-Unreal Connector」。Beta版としてダウンロード可能。</description>
+    </item>
+    <item>
+      <title>YouTubeプレイリスト「Principled Houdini」</title>
+      <link>https://9ra369.github.io/website/tips/YouTube%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88%E3%80%8CPrincipled_Houdini%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/YouTube%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88%E3%80%8CPrincipled_Houdini%E3%80%8D.html</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>Houdiniの基本原則を扱うYouTubeプレイリスト「Principled Houdini」。</description>
+    </item>
+    <item>
+      <title>Displace along normal使用時のUV promote Tips</title>
+      <link>https://9ra369.github.io/website/tips/Displace_along_normal%E4%BD%BF%E7%94%A8%E6%99%82%E3%81%AEUV_promote_Tips.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Displace_along_normal%E4%BD%BF%E7%94%A8%E6%99%82%E3%81%AEUV_promote_Tips.html</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>「Displace along normal」を使ってUV展開済みメッシュにディスプレイスメントを加える際、UVをvertexからpointにpromoteしてVOPで編集する必要があるというTips。</description>
+    </item>
+    <item>
+      <title>note記事: 「Houdiniファイルを読み解く vol.1」</title>
+      <link>https://9ra369.github.io/website/tips/note%E8%A8%98%E4%BA%8B_%E3%80%8CHoudini%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E8%AA%AD%E3%81%BF%E8%A7%A3%E3%81%8F_vol.1%E3%80%8D.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/note%E8%A8%98%E4%BA%8B_%E3%80%8CHoudini%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E8%AA%AD%E3%81%BF%E8%A7%A3%E3%81%8F_vol.1%E3%80%8D.html</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>鈴木氏の許可を得て、公開されているHoudiniファイルから参考になった点をまとめたnote記事「Houdiniファイルを読み解く vol.1」。</description>
+    </item>
+    <item>
+      <title>無料の空パノラマ写真140枚（非商用利用）</title>
+      <link>https://9ra369.github.io/website/tips/%E7%84%A1%E6%96%99%E3%81%AE%E7%A9%BA%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E%E5%86%99%E7%9C%9F140%E6%9E%9A%EF%BC%88%E9%9D%9E%E5%95%86%E7%94%A8%E5%88%A9%E7%94%A8%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E7%84%A1%E6%96%99%E3%81%AE%E7%A9%BA%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E%E5%86%99%E7%9C%9F140%E6%9E%9A%EF%BC%88%E9%9D%9E%E5%95%86%E7%94%A8%E5%88%A9%E7%94%A8%EF%BC%89.html</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>非商用利用であれば無料で入手できる、140枚の空のパノラマ写真素材「Free panoramic clouds」。</description>
+    </item>
+    <item>
+      <title>80lv記事: HoudiniとUE5で作る精緻な蓮のシーン</title>
+      <link>https://9ra369.github.io/website/tips/80lv%E8%A8%98%E4%BA%8B_Houdini%E3%81%A8UE5%E3%81%A7%E4%BD%9C%E3%82%8B%E7%B2%BE%E7%B7%BB%E3%81%AA%E8%93%AE%E3%81%AE%E3%82%B7%E3%83%BC%E3%83%B3.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/80lv%E8%A8%98%E4%BA%8B_Houdini%E3%81%A8UE5%E3%81%A7%E4%BD%9C%E3%82%8B%E7%B2%BE%E7%B7%BB%E3%81%AA%E8%93%AE%E3%81%AE%E3%82%B7%E3%83%BC%E3%83%B3.html</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>HoudiniとUE5を使って精緻な蓮（Lotus）のシーンを制作した過程を解説する80lvの記事。ArtStationにも制作ブレイクダウンが公開されている。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day31（最終日）: 構造線とバランス</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day31%EF%BC%88%E6%9C%80%E7%B5%82%E6%97%A5%EF%BC%89_%E6%A7%8B%E9%80%A0%E7%B7%9A%E3%81%A8%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day31%EF%BC%88%E6%9C%80%E7%B5%82%E6%97%A5%EF%BC%89_%E6%A7%8B%E9%80%A0%E7%B7%9A%E3%81%A8%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9.html</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>毎日作品分析シリーズ最終日（Day31）のテーマとして、構造線とバランスについての分析。多くの人が無意識のうちに認識している要素であるとしている。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day30: 視線分散型の構図（Scattered）</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day30_%E8%A6%96%E7%B7%9A%E5%88%86%E6%95%A3%E5%9E%8B%E3%81%AE%E6%A7%8B%E5%9B%B3%EF%BC%88Scattered%EF%BC%89.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day30_%E8%A6%96%E7%B7%9A%E5%88%86%E6%95%A3%E5%9E%8B%E3%81%AE%E6%A7%8B%E5%9B%B3%EF%BC%88Scattered%EF%BC%89.html</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>特定の焦点に視線を集中させるのではなく、作品全体に目が行くよう設計された構図「Scattered」についての分析（毎日作品分析Day30）。世界観を伝える際に有効な手法だとしている。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day29 コントラストの効果</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day29_%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%B9%E3%83%88%E3%81%AE%E5%8A%B9%E6%9E%9C.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day29_%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%B9%E3%83%88%E3%81%AE%E5%8A%B9%E6%9E%9C.html</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>コントラストを活かした作品を集めた分析（毎日作品分析Day29）。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day28 円形構図の効果</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day28_%E5%86%86%E5%BD%A2%E6%A7%8B%E5%9B%B3%E3%81%AE%E5%8A%B9%E6%9E%9C.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day28_%E5%86%86%E5%BD%A2%E6%A7%8B%E5%9B%B3%E3%81%AE%E5%8A%B9%E6%9E%9C.html</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>円形構図を用いた作品を集めた分析（毎日作品分析Day28）。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day27 雲の表現</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day27_%E9%9B%B2%E3%81%AE%E8%A1%A8%E7%8F%BE.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day27_%E9%9B%B2%E3%81%AE%E8%A1%A8%E7%8F%BE.html</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>雲の表現が印象的な作品を集めた分析（毎日作品分析Day27）。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day26: シンメトリー構図の効果と限界</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day26_%E3%82%B7%E3%83%B3%E3%83%A1%E3%83%88%E3%83%AA%E3%83%BC%E6%A7%8B%E5%9B%B3%E3%81%AE%E5%8A%B9%E6%9E%9C%E3%81%A8%E9%99%90%E7%95%8C.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day26_%E3%82%B7%E3%83%B3%E3%83%A1%E3%83%88%E3%83%AA%E3%83%BC%E6%A7%8B%E5%9B%B3%E3%81%AE%E5%8A%B9%E6%9E%9C%E3%81%A8%E9%99%90%E7%95%8C.html</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>左右対称（シンメトリー）構図についての分析（毎日作品分析Day26）。安定感はあるがそれだけでは単調になりがちなこと、対称が崩れると不安定さを感じることについて考察している。</description>
+    </item>
+    <item>
+      <title>Cinema 4D×Octane背景制作チュートリアル</title>
+      <link>https://9ra369.github.io/website/tips/Cinema_4D%C3%97Octane%E8%83%8C%E6%99%AF%E5%88%B6%E4%BD%9C%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Cinema_4D%C3%97Octane%E8%83%8C%E6%99%AF%E5%88%B6%E4%BD%9C%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB.html</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Cinema 4DとOctaneを使った背景制作チュートリアル「Environment Creation using Octane and Cinema 4D」。Houdiniのプロシージャル技術などを除けば、ツールに依存しない学びが多いという考えも添えている。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day25: 背景制作におけるスケール感の演出</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day25_%E8%83%8C%E6%99%AF%E5%88%B6%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E6%84%9F%E3%81%AE%E6%BC%94%E5%87%BA.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day25_%E8%83%8C%E6%99%AF%E5%88%B6%E4%BD%9C%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E6%84%9F%E3%81%AE%E6%BC%94%E5%87%BA.html</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>背景制作において広さを感じさせるスケール感の演出についての分析（毎日作品分析Day25）。単純に広い空間にスケール比較用の人物などを置くだけでは十分ではないという考察から始まっている。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day23: Sci-fi/近未来的な印象を作るシルエット</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day23_Sci-fi%E8%BF%91%E6%9C%AA%E6%9D%A5%E7%9A%84%E3%81%AA%E5%8D%B0%E8%B1%A1%E3%82%92%E4%BD%9C%E3%82%8B%E3%82%B7%E3%83%AB%E3%82%A8%E3%83%83%E3%83%88.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day23_Sci-fi%E8%BF%91%E6%9C%AA%E6%9D%A5%E7%9A%84%E3%81%AA%E5%8D%B0%E8%B1%A1%E3%82%92%E4%BD%9C%E3%82%8B%E3%82%B7%E3%83%AB%E3%82%A8%E3%83%83%E3%83%88.html</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>Sci-fiや近未来的な印象を無意識に感じる理由についての分析（毎日作品分析Day23）。代表的なシルエットや形が大きな要素になっているという考察が記されている。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day22: 自然×SFの組み合わせ分析</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day22_%E8%87%AA%E7%84%B6%C3%97SF%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B%E5%88%86%E6%9E%90.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day22_%E8%87%AA%E7%84%B6%C3%97SF%E3%81%AE%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B%E5%88%86%E6%9E%90.html</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>自然とSFを組み合わせた表現についての分析（毎日作品分析Day22）。自然の立地を利用したSF的な基地や建物など、効果的に使われる組み合わせパターンについて考察している。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day21 青×黄の配色</title>
+      <link>https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day21_%E9%9D%92%C3%97%E9%BB%84%E3%81%AE%E9%85%8D%E8%89%B2.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/%E6%AF%8E%E6%97%A5%E4%BD%9C%E5%93%81%E5%88%86%E6%9E%90Day21_%E9%9D%92%C3%97%E9%BB%84%E3%81%AE%E9%85%8D%E8%89%B2.html</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>青と黄を基調とした配色の作品を集めた分析（毎日作品分析Day21）。</description>
+    </item>
+    <item>
+      <title>Blender×Claudeで参考画像からシーン構築を自動化</title>
+      <link>https://9ra369.github.io/website/tips/Blender%C3%97Claude%E3%81%A7%E5%8F%82%E8%80%83%E7%94%BB%E5%83%8F%E3%81%8B%E3%82%89%E3%82%B7%E3%83%BC%E3%83%B3%E6%A7%8B%E7%AF%89%E3%82%92%E8%87%AA%E5%8B%95%E5%8C%96.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/tips/Blender%C3%97Claude%E3%81%A7%E5%8F%82%E8%80%83%E7%94%BB%E5%83%8F%E3%81%8B%E3%82%89%E3%82%B7%E3%83%BC%E3%83%B3%E6%A7%8B%E7%AF%89%E3%82%92%E8%87%AA%E5%8B%95%E5%8C%96.html</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>Claudeを使い、参考画像をもとにBlenderでシーンを構築する実験。時間はかかるが、しっかりルールを指定すればブロックアウトまで自動でこなしてくれそう。面倒な初期工程を飛ばし重要な部分に時間を割けるのが利点としている。</description>
+    </item>
+  </channel>
+</rss>

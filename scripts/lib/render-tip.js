@@ -114,9 +114,12 @@ const SITE_HEADER = (depth) => {
       <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
     </a>
     <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
       <a href="${p}index.html">トップ</a>
-      <a href="${p}archive.html" class="is-active">アーカイブ</a>
-      <a href="${p}archive.html">カテゴリ</a>
+      <a href="${p}archive.html" class="is-active">ポスト</a>
       <a href="${p}about.html">About</a>
     </nav>
     <div class="header-actions">
@@ -148,9 +151,9 @@ const SITE_FOOTER = (depth) => {
       <div class="footer-col">
         <h4>Browse</h4>
         <ul>
-          <li><a href="${p}archive.html">アーカイブ</a></li>
-          <li><a href="${p}archive.html">カテゴリ一覧</a></li>
-          <li><a href="${p}archive.html">タグ一覧</a></li>
+          <li><a href="${p}archive.html">ポスト一覧</a></li>
+          <li><a href="${p}archive.html">カテゴリで探す</a></li>
+          <li><a href="${p}archive.html">タグで探す</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -170,7 +173,7 @@ const SITE_FOOTER = (depth) => {
           <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
           <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
           <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
-          <li><a href="#">RSS Feed</a></li>
+          <li><a href="${p}rss.xml">RSS Feed</a></li>
         </ul>
       </div>
     </div>
@@ -330,7 +333,7 @@ function renderTipPage(mdPath, allPosts = []) {
 <link rel="icon" type="image/png" href="${p}images/icon-nodegraph.png">
 <link rel="stylesheet" href="${p}style.css">
 </head>
-<body>
+<body data-root="${p}">
 
 ${SITE_HEADER(1)}
 
@@ -394,7 +397,9 @@ ${relatedHtml}
 ${SITE_FOOTER(1)}
 
 ${images.length > 1 ? `<script src="${p}tip-gallery.js" defer></script>\n` : ""}<script src="${p}lightbox.js" defer></script>
-${related.length > 0 ? `<script src="${p}related-posts.js" defer></script>\n` : ""}</body>
+${related.length > 0 ? `<script src="${p}related-posts.js" defer></script>\n` : ""}<script src="${p}nav.js" defer></script>
+<script src="${p}search.js" defer></script>
+</body>
 </html>
 `;
 }

@@ -126,21 +126,8 @@ function main() {
 
   let html = fs.readFileSync(INDEX_FILE, "utf8");
 
-  // hero stats: real numbers, not the original mockup's hardcoded placeholders
-  const totalEntries = tips.length + CURATED_CATEGORIES.length;
-  const tagSet = new Set();
-  for (const e of tips) for (const t of e.tags) tagSet.add(t);
-  const lastUpdated = tips[0] && tips[0].date ? tips[0].date.replace(/-/g, ".").slice(0, 7) : "";
-
-  const heroStatsHtml = `      <div class="hero-stat"><span class="num">${totalEntries}</span><span class="label">収録エントリー</span></div>
-      <div class="hero-stat"><span class="num">${categories.length}</span><span class="label">カテゴリ</span></div>
-      <div class="hero-stat"><span class="num">${tagSet.size}</span><span class="label">使用タグ数</span></div>
-      <div class="hero-stat"><span class="num">${escapeHtml(lastUpdated)}</span><span class="label">最終更新</span></div>`;
-
-  html = html.replace(
-    /<div class="hero-stats">\n[\s\S]*?\n    <\/div>/,
-    `<div class="hero-stats">\n${heroStatsHtml}\n    </div>`
-  );
+  // Hero eyebrow + stats row (収録エントリー/カテゴリ/使用タグ数/最終更新) were removed
+  // from the hero in the 2026-08-27 nav/hero redesign — no longer generated here.
 
   // category-grid: keep the grid-template-columns count in sync with category count
   html = html.replace(

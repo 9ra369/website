@@ -7,7 +7,7 @@
 <link rel="icon" type="image/png" href="images/icon-nodegraph.png">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-root="">
 
 <header class="site-header">
   <div class="container">
@@ -16,9 +16,12 @@
       <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
     </a>
     <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
       <a href="index.html" class="is-active">トップ</a>
-      <a href="archive.html">アーカイブ</a>
-      <a href="archive.html">カテゴリ</a>
+      <a href="archive.html">ポスト</a>
       <a href="about.html">About</a>
     </nav>
     <div class="header-actions">
@@ -37,18 +40,11 @@
 <section class="hero">
   <div class="hero-grid-bg"></div>
   <div class="container">
-    <span class="hero-eyebrow">Personal CG / VFX Wiki</span>
-    <h1>散らばった知見を、<br><em>体系立てた資産</em>に変える。</h1>
+    <h1>VFX・CGのチュートリアル・記事・ツールなど、<br>散らばっていた情報を<em>体系的にまとめた</em>ウェブサイト。</h1>
     <p class="lead">Xで発信・収集してきたCG/VFXの技術情報、参考リンク、作品を、カテゴリとタグで再構成。流れて消える情報を、探し出せる情報へ。</p>
     <div class="hero-actions">
-      <a href="archive.html" class="btn btn-primary">アーカイブを見る</a>
+      <a href="archive.html" class="btn btn-primary">ポストを見る</a>
       <a href="#categories" class="btn btn-outline">カテゴリから探す</a>
-    </div>
-    <div class="hero-stats">
-      <div class="hero-stat"><span class="num">266</span><span class="label">収録エントリー</span></div>
-      <div class="hero-stat"><span class="num">7</span><span class="label">カテゴリ</span></div>
-      <div class="hero-stat"><span class="num">119</span><span class="label">使用タグ数</span></div>
-      <div class="hero-stat"><span class="num">2026.08</span><span class="label">最終更新</span></div>
     </div>
   </div>
 </section>
@@ -114,7 +110,7 @@
         <h2>新着エントリー</h2>
         <p>直近で追加・更新したキュレーション記事です。</p>
       </div>
-      <a href="archive.html" class="link-more">アーカイブ全体を見る
+      <a href="archive.html" class="link-more">ポストをすべて見る
         <svg viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
     </div>
@@ -251,7 +247,7 @@
         <h3>更新はRSSで購読できます</h3>
         <p>Xのタイムラインに流さず、必要な時に見返せる形で新着エントリーをお届け。</p>
       </div>
-      <a href="#" class="btn btn-primary">RSSを購読する</a>
+      <a href="rss.xml" class="btn btn-primary">RSSを購読する</a>
     </div>
   </div>
 </section>
@@ -269,10 +265,10 @@
       <div class="footer-col">
         <h4>Browse</h4>
         <ul>
-          <li><a href="archive.html">アーカイブ</a></li>
-          <li><a href="archive.html">カテゴリ一覧</a></li>
-          <li><a href="archive.html">タグ一覧</a></li>
-          <li><a href="#">新着順</a></li>
+          <li><a href="archive.html">ポスト一覧</a></li>
+          <li><a href="archive.html">カテゴリで探す</a></li>
+          <li><a href="archive.html">タグで探す</a></li>
+          <li><a href="archive.html?sort=date-desc">新着順</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -292,7 +288,7 @@
           <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
           <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
           <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
-          <li><a href="#">RSS Feed</a></li>
+          <li><a href="rss.xml">RSS Feed</a></li>
         </ul>
       </div>
     </div>
@@ -303,5 +299,7 @@
   </div>
 </footer>
 
+<script src="nav.js" defer></script>
+<script src="search.js" defer></script>
 </body>
 </html>
