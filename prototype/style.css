@@ -288,6 +288,25 @@ ul { list-style: none; margin: 0; padding: 0; }
   color: var(--color-accent);
 }
 
+.hero-artwork {
+  margin: 0 0 28px;
+  max-width: 720px;
+}
+.hero-artwork img {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 0.5px solid var(--color-border);
+  filter: brightness(0.78) saturate(1.05);
+}
+.hero-artwork figcaption {
+  margin-top: 8px;
+  font-size: 12px;
+  font-family: var(--font-en);
+  letter-spacing: 0.02em;
+  color: var(--color-text-faint);
+}
+
 .hero p.lead {
   font-size: 16.5px;
   color: var(--color-text-muted);
