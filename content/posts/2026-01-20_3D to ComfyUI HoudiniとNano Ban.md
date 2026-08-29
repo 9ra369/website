@@ -11,6 +11,8 @@ ai_confidence: "high"
 status: draft
 ---
 
+![](images/posts/2013572047461589479-linkedin-3d-to-comfyui.gif)
+
 3D to ComfyUI
 
 HoudiniのスナップショットからNano Bananaで画像を出力して、それをComfyUIでHoudiniのFlipbookと組み合わせてるみたいです。
