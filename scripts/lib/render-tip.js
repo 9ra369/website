@@ -256,10 +256,11 @@ function renderTipPage(mdPath, allPosts = []) {
   const title = fm.title || "(無題)";
   const categoryLabel = CATEGORY_LABELS[fm.category] || "Tips";
   const heroImage = images[0];
-  const sourceUrl = fm.source_url || "";
-  const primaryUrl = sourceUrl || fm.original_post;
-  const primaryLabel = sourceUrl ? "URL" : "元ポスト";
-  const primaryBtnLabel = sourceUrl ? "サイトを見る" : "ポストを見る";
+  // Some posts' source_url was actually set to another x.com status URL (a
+  // self-reference to an earlier post in the same thread/series, not a real
+  // external source) — treat that the same as no source_url: no jump-out to X.
+  const rawSourceUrl = fm.source_url || "";
+  const sourceUrl = /(^|\/\/)(www\.)?x\.com\//.test(rawSourceUrl) ? "" : rawSourceUrl;
 
   const tagsHtml = (fm.tags || [])
     .map(
@@ -310,19 +311,21 @@ function renderTipPage(mdPath, allPosts = []) {
       </div>`
       : "";
 
-  const extraSourceBox =
-    sourceUrl && fm.original_post
-      ? `
+  // No jump-out to the original X post: only render a source link when there's
+  // a real external source (source_url). Posts with nothing but original_post
+  // simply show no source-link-box.
+  const sourceLinkBoxHtml = sourceUrl
+    ? `
         <div class="source-link-box">
           <div>
-            <div class="label">元ポスト</div>
-            <div class="url">${escapeHtml(fm.original_post)}</div>
+            <div class="label">URL</div>
+            <div class="url">${escapeHtml(sourceUrl)}</div>
           </div>
-          <a href="${escapeHtml(fm.original_post)}" class="btn btn-outline" target="_blank" rel="noopener">ポストを見る
+          <a href="${escapeHtml(sourceUrl)}" class="btn btn-outline" target="_blank" rel="noopener">サイトを見る
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </div>`
-      : "";
+    : "";
 
   return `<!doctype html>
 <html lang="ja">
@@ -367,17 +370,7 @@ ${SITE_HEADER(1)}
 
       <div class="prose">
         <p class="lead-summary">${escapeHtml(fm.summary || "")}</p>
-
-        <div class="source-link-box">
-          <div>
-            <div class="label">${primaryLabel}</div>
-            <div class="url">${escapeHtml(primaryUrl)}</div>
-          </div>
-          <a href="${escapeHtml(primaryUrl)}" class="btn btn-outline" target="_blank" rel="noopener">${primaryBtnLabel}
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </div>
-        ${extraSourceBox}
+        ${sourceLinkBoxHtml}
       </div>
     </main>
 
