@@ -8,7 +8,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { parseFrontMatter, extractImages, slugifyTitle } = require("./lib/render-tip");
+const { parseFrontMatter, extractImages, slugifyTitle, cardThumbHtml } = require("./lib/render-tip");
 
 const POSTS_DIR = path.resolve(__dirname, "..", "content", "posts");
 const CATEGORIES_FILE = path.resolve(__dirname, "..", "data", "categories.json");
@@ -68,7 +68,7 @@ function loadTipEntries() {
 
 function renderCard(e, thumbClassMap) {
   const thumbClass = thumbClassMap[e.category] || "thumb-tips";
-  const thumbInner = e.image ? `<img src="${escapeHtml(e.image)}" alt="">` : "";
+  const thumbInner = cardThumbHtml(e.image);
   const tagsHtml = e.tags
     .slice(0, 3)
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)

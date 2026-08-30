@@ -202,12 +202,40 @@ function computeRelated(currentPost, allPosts, limit = 12) {
   return scored.slice(0, limit);
 }
 
+// Card thumbnails written by scripts/24-build-card-thumbs.js. Read once at
+// module load so the renderers can fall back to the original image for
+// anything that has no card thumb yet (e.g. before 24 has ever been run).
+const CARDS_DIR = path.resolve(__dirname, "..", "..", "content", "images", "cards");
+const CARD_THUMBS = new Set(fs.existsSync(CARDS_DIR) ? fs.readdirSync(CARDS_DIR) : []);
+
+/** Maps a post image path ("images/posts/1234-abcd.gif") to its small card
+ *  still ("images/cards/1234-abcd.jpg"), or returns the input unchanged when
+ *  no card thumb has been generated for it. */
+function cardThumbSrc(image) {
+  if (!image) return image;
+  const base = image.replace(/^.*\//, "");
+  const cardName = base.replace(/\.[^.]+$/, "") + ".jpg";
+  if (!CARD_THUMBS.has(cardName)) return image;
+  return `images/cards/${cardName}`;
+}
+
+/** The <img> for an entry-card thumbnail: the small still rather than the
+ *  full-size original, and lazy so a listing does not fetch every card's
+ *  image up front (archive.js paginates with display:none, which does not
+ *  prevent the fetch on its own). `prefix` is the path back to the site root
+ *  from the page being written ("" for root pages, "../" for subdirectories). */
+function cardThumbHtml(image, prefix = "") {
+  if (!image) return "";
+  const src = escapeHtml(prefix + cardThumbSrc(image));
+  return `<img src="${src}" alt="" loading="lazy" decoding="async">`;
+}
+
 function renderRelatedHtml(related, p) {
   if (related.length === 0) return "";
   const cards = related
     .map((r, i) => {
       const thumbClass = CATEGORY_THUMB[r.category] || "thumb-tips";
-      const thumbInner = r.image ? `<img src="${p}${escapeHtml(r.image)}" alt="">` : "";
+      const thumbInner = cardThumbHtml(r.image, p);
       const hiddenClass = i >= 4 ? " is-more-hidden" : "";
       const cardTagsHtml = (r.tags || [])
         .slice(0, 3)
@@ -403,6 +431,8 @@ module.exports = {
   parseFrontMatter,
   extractImages,
   slugifyTitle,
+  cardThumbSrc,
+  cardThumbHtml,
   SITE_HEADER,
   SITE_FOOTER,
   CATEGORY_LABELS,

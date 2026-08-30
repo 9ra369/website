@@ -8,7 +8,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { parseFrontMatter, extractImages, slugifyTitle } = require("./lib/render-tip");
+const { parseFrontMatter, extractImages, slugifyTitle, cardThumbHtml } = require("./lib/render-tip");
 
 const POSTS_DIR = path.resolve(__dirname, "..", "content", "posts");
 const ARCHIVE_FILE = path.resolve(__dirname, "..", "prototype", "archive.html");
@@ -100,9 +100,7 @@ function loadTipEntries() {
 function renderCard(e) {
   const thumbClass = CATEGORY_THUMB[e.category] || "thumb-tips";
   const catLabel = CATEGORY_LABELS[e.category] || e.category;
-  const thumbInner = e.image
-    ? `<img src="${escapeHtml(e.image)}" alt="">`
-    : "";
+  const thumbInner = cardThumbHtml(e.image);
   const tagsHtml = e.tags
     .slice(0, 3)
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)

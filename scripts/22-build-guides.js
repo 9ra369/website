@@ -10,7 +10,7 @@
 const fs = require("fs");
 const path = require("path");
 const { loadAllEntries } = require("./lib/entries");
-const { SITE_HEADER, SITE_FOOTER, CATEGORY_LABELS, CATEGORY_THUMB, escapeHtml } = require("./lib/render-tip");
+const { SITE_HEADER, SITE_FOOTER, CATEGORY_LABELS, CATEGORY_THUMB, escapeHtml, cardThumbHtml } = require("./lib/render-tip");
 const { GUIDES } = require("./lib/guides-data");
 
 const OUT_DIR = path.resolve(__dirname, "..", "prototype", "guides");
@@ -19,7 +19,7 @@ const TODAY = "2026-08-28"; // "最終更新" — bump when guides-data.js curat
 function renderCard(e) {
   const thumbClass = CATEGORY_THUMB[e.category] || "thumb-tips";
   const catLabel = CATEGORY_LABELS[e.category] || e.category;
-  const thumbInner = e.image ? `<img src="../${escapeHtml(e.image)}" alt="">` : "";
+  const thumbInner = cardThumbHtml(e.image, "../");
   const tagsHtml = e.tags
     .slice(0, 3)
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
