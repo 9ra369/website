@@ -2,7 +2,10 @@
 title: "Baptiste氏の作品のBlenderファイルを紹介"
 date: 2025-10-14
 category: "showreel"
+type: "brief"
 tags: ["Blender", "Environment", "Gaea", "b3d", "houEnv"]
+topics: ["environment"]
+tools: ["blender","gaea","houdini"]
 source_url: "https://baptistevercier.gumroad.com/l/IslandScene"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977890029516308949"

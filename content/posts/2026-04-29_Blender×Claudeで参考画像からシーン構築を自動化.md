@@ -2,7 +2,10 @@
 title: "Blender×Claudeで参考画像からシーン構築を自動化"
 date: 2026-04-29
 category: "tips"
+type: "brief"
 tags: ["Blender", "AI", "b3d"]
+topics: ["ai"]
+tools: ["blender"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2049354619646889995"

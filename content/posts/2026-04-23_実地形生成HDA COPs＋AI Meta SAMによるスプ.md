@@ -2,7 +2,10 @@
 title: "実地形生成HDA: COPs＋AI Meta SAMによるスプラットマップ自動生成"
 date: 2026-04-23
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Terrain", "AI", "Environment"]
+topics: ["environment","ai"]
+tools: ["houdini"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2047316103849013552"

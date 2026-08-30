@@ -2,7 +2,10 @@
 title: "毎日作品分析Day10: Sparky LEE「Project Windless」"
 date: 2026-04-17
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析", "ギリギリ"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/ZlA5Qm"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045154705823928481"

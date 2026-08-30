@@ -2,7 +2,10 @@
 title: "Gnomonの背景制作チュートリアル、ILM/Spadeのアーティストも学習"
 date: 2025-10-15
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Environment"]
+topics: ["environment"]
+tools: ["houdini"]
 mentions: ["mizukiyamadami", "ykigawa"]
 source_url: ""
 language: "日本語"

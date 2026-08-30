@@ -2,7 +2,10 @@
 title: "Wire Wheels Clubの車モデル、商用利用も可能"
 date: 2025-10-27
 category: "tips"
+type: "brief"
 tags: ["Assets"]
+topics: ["pipeline"]
+tools: []
 source_url: "https://wirewheelsclub.com/license/?utm_source=chatgpt.com"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982942623099977755"

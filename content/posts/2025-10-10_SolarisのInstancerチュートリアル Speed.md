@@ -2,7 +2,10 @@
 title: "SolarisのInstancerチュートリアル: SpeedTreeのLookDevも収録"
 date: 2025-10-10
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Solaris", "SpeedTree", "Environment", "sidefx", "背景制作"]
+topics: ["environment"]
+tools: ["houdini","usd","speedtree"]
 source_url: "https://x.com/kuramaKageya/status/1976452397032677522"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1976519190707339402"

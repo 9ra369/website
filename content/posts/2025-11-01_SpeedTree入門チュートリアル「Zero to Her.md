@@ -2,7 +2,10 @@
 title: "SpeedTree入門チュートリアル「Zero to Hero」"
 date: 2025-11-01
 category: "tutorial"
+type: "brief"
 tags: ["SpeedTree", "vfx", "3DCG", "背景制作"]
+topics: ["environment","fx"]
+tools: ["speedtree"]
 source_url: "https://motstudio.gumroad.com/l/ivwaon"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1984532268321554707"

@@ -20,6 +20,9 @@ const CURATED = [
     title: "CG Lounge: 映画・VFX業界のプロが教えるチュートリアル・マーケットプレイス",
     summary: "映画・VFX業界のプロがチュートリアルやアセットを直接販売するマーケットプレイス。",
     tags: ["Marketplace", "Community"],
+    topics: ["industry"],
+    tools: [],
+    type: "brief",
     date: "2026-08-08",
   },
   {
@@ -28,6 +31,9 @@ const CURATED = [
     title: "Houdini&Arnoldで描く大規模なフル3D自然景観「Island」制作解説",
     summary: "Spade&Co. 木川裕太氏による個人制作「Island」の技術解説記事。",
     tags: ["Houdini", "Arnold", "Environment"],
+    topics: ["environment"],
+    tools: ["houdini"],
+    type: "explainer",
     date: "2026-08-09",
   },
   {
@@ -36,6 +42,9 @@ const CURATED = [
     title: "Houdiniで学ぶプロシージャル環境制作: モデリングからレンダリングまで",
     summary: "Houdiniを用いたモデリングからレンダリングまでの背景制作ワークフローを体系的に学べるコース。",
     tags: ["Houdini", "Environment"],
+    topics: ["environment"],
+    tools: ["houdini"],
+    type: "brief",
     date: "2026-08-08",
   },
 ];
@@ -60,6 +69,9 @@ function loadTipEntries() {
       title: fm.title || "(無題)",
       summary: fm.summary || "",
       tags: fm.tags || [],
+      topics: fm.topics || [],
+      tools: fm.tools || [],
+      type: fm.type || "brief",
       date: fm.date || "",
       image: images[0] ? `images/posts/${images[0].src.replace(/^images\/posts\//, "")}` : null,
     });

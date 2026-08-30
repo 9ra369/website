@@ -2,7 +2,10 @@
 title: "岡崎昇平氏の記事: FX的Height Fieldの活用法"
 date: 2026-04-26
 category: "article"
+type: "explainer"
 tags: ["Houdini", "Terrain", "Environment"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2048240015139078460"

@@ -2,7 +2,10 @@
 title: "EA/Weta出身Julien Calle氏のSci-fiコンセプトアート講座"
 date: 2025-11-23
 category: "tutorial"
+type: "brief"
 tags: ["Concept Art", "vfx", "art", "conceptart"]
+topics: ["art-fundamentals","fx"]
+tools: []
 source_url: "https://www.domestika.org/en/courses/3662-sci-fi-concept-art-create-cinematic-key-frames"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1992442470089838748"

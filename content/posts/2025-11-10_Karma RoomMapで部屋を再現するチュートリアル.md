@@ -2,7 +2,10 @@
 title: "Karma RoomMapで部屋を再現するチュートリアル"
 date: 2025-11-10
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Karma", "Texturing"]
+topics: ["lookdev"]
+tools: ["houdini"]
 source_url: "https://www.youtube.com/watch?v=S46tKYSgrdM&list=WL&index=34"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1987827903724450280"

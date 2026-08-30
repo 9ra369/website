@@ -2,7 +2,10 @@
 title: "Cinema 4D×Octane背景制作チュートリアル"
 date: 2026-05-03
 category: "tutorial"
+type: "brief"
 tags: ["Cinema 4D", "Octane", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://caldermoore.gumroad.com/l/QiqYE?layout=profile"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2050923323429941692"

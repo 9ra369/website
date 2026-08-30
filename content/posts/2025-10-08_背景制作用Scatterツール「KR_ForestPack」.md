@@ -2,7 +2,10 @@
 title: "背景制作用Scatterツール「KR_ForestPack」を紹介"
 date: 2025-10-08
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Environment", "Scattering"]
+topics: ["environment"]
+tools: ["houdini"]
 mentions: ["ykigawa"]
 source_url: "https://www.notion.so/Houdini-2837da4355d28049a7eed11a00282464?source=copy_link#2837da4355d280c98c18e883e4ab3afb"
 language: "日本語"

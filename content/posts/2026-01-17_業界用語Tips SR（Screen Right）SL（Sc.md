@@ -2,7 +2,10 @@
 title: "業界用語Tips: SR（Screen Right）/SL（Screen Left）"
 date: 2026-01-17
 category: "tips"
+type: "brief"
 tags: ["Terminology"]
+topics: ["industry"]
+tools: []
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2012449212592488878"

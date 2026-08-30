@@ -2,7 +2,10 @@
 title: "HoudiniのAtlas Texture Generator解説動画"
 date: 2026-02-15
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Texturing"]
+topics: ["lookdev"]
+tools: ["houdini"]
 source_url: "https://www.youtube.com/watch?v=5GihepXxM6s&t=1619s"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2022974889913679952"

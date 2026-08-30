@@ -2,7 +2,10 @@
 title: "V-Rayで環境制作を学ぶ「Arch Masterclass I」"
 date: 2025-11-05
 category: "tutorial"
+type: "brief"
 tags: ["V-Ray", "Environment", "背景制作", "vfx", "3DCG"]
+topics: ["lighting-rendering","environment","fx"]
+tools: ["v-ray"]
 source_url: "https://www.damienpeinoit.com/arch-masterclass-full-pack"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985948878273941985"

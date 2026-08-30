@@ -2,7 +2,10 @@
 title: "COPs活用Sci-fi Panel制作"
 date: 2026-08-03
 category: "tips"
+type: "brief"
 tags: ["Houdini", "Python", "Unreal Engine", "Nanite"]
+topics: ["industry"]
+tools: ["houdini","python","unreal"]
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7486134395326607360/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2084266108195164586"

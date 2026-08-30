@@ -2,7 +2,10 @@
 title: "葉のレンダリング手法比較: Geometry/Stencil/Opacityの速度差"
 date: 2026-03-23
 category: "tips"
+type: "brief"
 tags: ["Houdini", "Solaris", "Vegetation", "Rendering"]
+topics: ["environment","lighting-rendering"]
+tools: ["houdini","usd"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2036031841292149105"

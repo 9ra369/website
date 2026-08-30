@@ -2,7 +2,10 @@
 title: "Houdini×ComfyUIのカメラプロジェクション自動化ツール"
 date: 2026-01-14
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "ComfyUI", "AI"]
+topics: ["ai"]
+tools: ["houdini","comfyui"]
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7411373038442688512/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2011401437776064760"

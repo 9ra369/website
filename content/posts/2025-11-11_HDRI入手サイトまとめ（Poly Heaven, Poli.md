@@ -2,7 +2,10 @@
 title: "HDRI入手サイトまとめ（Poly Heaven, Poliigon等）"
 date: 2025-11-11
 category: "tips"
+type: "brief"
 tags: ["HDRI"]
+topics: ["environment"]
+tools: []
 source_url: "https://polyhaven.com/hdris"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1988097675020157084"

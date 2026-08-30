@@ -2,7 +2,10 @@
 title: "毎日作品分析Day2: Dylan Cole「The First Outpost」"
 date: 2026-04-09
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/8e33ZQ"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042244829128925422"

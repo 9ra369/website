@@ -2,7 +2,10 @@
 title: "Yen Chen氏のArtStation（高品質な背景作品多数）"
 date: 2025-10-27
 category: "showreel"
+type: "brief"
 tags: ["ArtStation", "Environment", "houdini", "sidefx", "背景作品"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://www.artstation.com/yenchen"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982945877535932541"

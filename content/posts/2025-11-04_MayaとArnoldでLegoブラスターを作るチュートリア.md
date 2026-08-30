@@ -2,7 +2,10 @@
 title: "MayaとArnoldでLegoブラスターを作るチュートリアル"
 date: 2025-11-04
 category: "tutorial"
+type: "brief"
 tags: ["Maya", "Arnold", "vfx"]
+topics: ["fx"]
+tools: ["maya"]
 source_url: "https://www.youtube.com/watch?v=8VljfftmDxI&list=WL&index=2"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985591670780641414"

@@ -2,7 +2,10 @@
 title: "「Gate to the Afterlife」制作全工程動画"
 date: 2026-03-20
 category: "tips"
+type: "brief"
 tags: ["Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.youtube.com/watch?v=_fe_GkBkpzY&t=124s"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2034844711606005915"

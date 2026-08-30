@@ -2,7 +2,10 @@
 title: "80lv記事: 『The Creator』着想の地形デザイン"
 date: 2025-10-09
 category: "article"
+type: "explainer"
 tags: ["Terrain", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://80.lv/articles/terrain-design-in-scene-inspired-by-the-creator"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1976083023780249663"

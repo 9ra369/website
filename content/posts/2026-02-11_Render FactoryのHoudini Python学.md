@@ -2,7 +2,10 @@
 title: "Render FactoryのHoudini Python学習コンテンツ"
 date: 2026-02-11
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Python"]
+topics: ["industry"]
+tools: ["houdini","python"]
 source_url: "https://www.renderfactorycgi.com/lessons-scripting/python-basics"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2021507573799915771"

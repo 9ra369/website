@@ -2,7 +2,10 @@
 title: "HoudiniのTips集「MysteryPancake/Houdini-Fun」（GitHub）"
 date: 2026-02-09
 category: "tips"
+type: "brief"
 tags: ["Houdini", "GitHub", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://github.com/MysteryPancake/Houdini-Fun"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2020793613525930003"

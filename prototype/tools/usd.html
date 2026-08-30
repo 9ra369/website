@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>USD — Merge VFX&amp;CG</title>
+<link rel="icon" type="image/png" href="../images/icon-nodegraph.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">
+      <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+      <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+    </a>
+    <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
+      <a href="../guides/houdini-environment.html">Houdini背景制作まとめ</a>
+      <a href="../guides/houdini-pipeline.html">Houdiniパイプラインまとめ</a>
+      <a href="../guides/usd.html">USD資料まとめ</a>
+      <a href="../guides/sites.html">海外CG/VFX情報サイト</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <button class="nav-toggle" aria-label="メニュー">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 5H16M2 9H16M2 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="entry-hero" style="padding-bottom: 32px;">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="../index.html">トップ</a>
+      <span class="sep">/</span>
+      <a href="index.html">ツール</a>
+      <span class="sep">/</span>
+      <span class="current">USD</span>
+    </nav>
+    <span class="category-pill">TOOL</span>
+    <h1>USD</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div style="padding: 24px 0 80px;">
+    <p class="result-count" style="margin-bottom: 24px;"><strong>22</strong> 件のポスト</p>
+    <div class="entry-grid">
+        <a class="entry-card" href="../tips/NVIDIA「OpenUSD_Interactive_Glossary」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2070709634613248103-LPC1iCRFbuoX0Url.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>NVIDIA「OpenUSD Interactive Glossary」</h3>
+            <p class="entry-summary">NVIDIAが公開する「OpenUSD Interactive Glossary」。Stage、Layer、Prim、Composition ArcsなどOpenUSDの主要概念を、インタラクティブな図解で視覚的に理解できるツール。</p>
+            <div class="entry-footer"><span>2026-06-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Maya用USD_Variantエクスポートツール.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2069069067898720300-HLbPVbRaEAECLid.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Maya用USD Variantエクスポートツール</h3>
+            <p class="entry-summary">MayaからVariant付きのUSDをエクスポートするためのツール（GitHub公開）。</p>
+            <div class="entry-footer"><span>2026-06-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/葉のレンダリング手法比較_GeometryStencilOpacityの速度差.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2036031841292149105-HEFrOYUasAAP1wz.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>葉のレンダリング手法比較: Geometry/Stencil/Opacityの速度差</h3>
+            <p class="entry-summary">木の葉のレンダリング時間を、Geometry（16秒）、Stencil（27秒）、Opacity/Texture（2分35秒）の3手法で比較検証。Solarisでは、Scatterする場合はAlphaでモデルをカットアウトし、それ以外はOpacityなしで使うのが最適ではないかと考察している。</p>
+            <div class="entry-footer"><span>2026-03-23</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/LOPsでのUSD_Render_Prims解説動画.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2021937715529568257-HA9djtQbsAExeR_.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>LOPsでのUSD Render Prims解説動画</h3>
+            <p class="entry-summary">HoudiniのLOPsにおけるUSD Render Primsについて解説する動画。</p>
+            <div class="entry-footer"><span>2026-02-12</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/CGWORLD記事_Houdini×USDで自動運転用デジタルツイン生成（Aurora_Innovation）.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2014205391538917562-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>CGWORLD記事: Houdini×USDで自動運転用デジタルツイン生成（Aurora Innovation）</h3>
+            <p class="entry-summary">Houdini×USDを使ってデジタルツインを生成し、自動運転シミュレーションに活用しているAurora Innovationの事例を紹介するCGWORLDの記事。同社には元Pixarのアーティストも在籍している。</p>
+            <div class="entry-footer"><span>2026-01-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Adrien_Lambert氏、SolarisCopernicusPDG関連の新チュートリアル追加.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2009217804185264632-G-IsnIra0AMoDOg.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Adrien Lambert氏、Solaris/Copernicus/PDG関連の新チュートリアル追加</h3>
+            <p class="entry-summary">Adrien Lambert氏のチュートリアルに、Solaris、Copernicus、PDG/Topnet、VDBなどを扱う新しい内容が追加された。</p>
+            <div class="entry-footer"><span>2026-01-08</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Solarisで名前によるマテリアルアサイン方法.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2006922472705458651-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Solarisで名前によるマテリアルアサイン方法</h3>
+            <p class="entry-summary">Houdini Solarisで名前を使ってマテリアルをアサインする方法を解説した動画。</p>
+            <div class="entry-footer"><span>2026-01-02</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/すあま氏のUSD-Solarisセミナー記事が公開.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2004090352152834065-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>すあま氏のUSD-Solarisセミナー記事が公開</h3>
+            <p class="entry-summary">夏に開催された、すあま氏によるUSD-Solarisのセミナーの記事が公開された。</p>
+            <div class="entry-footer"><span>2025-12-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Pixar_Environment_Lead氏のUSD解説「Building_Asset_Pipelines」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2002562826075087072-G8qHn4BbMAMBMKU.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Pixar Environment Lead氏のUSD解説「Building Asset Pipelines」</h3>
+            <p class="entry-summary">PixarのEnvironment Leadによる、USDについて解説した動画「USD Building Asset Pipelines」。</p>
+            <div class="entry-footer"><span>2025-12-21</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Alex_Toth氏のSolaris+Karmaライティングウェビナー.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1995386771098812859-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Alex Toth氏のSolaris+Karmaライティングウェビナー</h3>
+            <p class="entry-summary">Alex Toth氏によるSolarisとKarmaを使ったライティング・レンダリングのウェビナー「Master Lighting and Rendering in Houdini」。</p>
+            <div class="entry-footer"><span>2025-12-01</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Adrien_Lambert氏Solarisチュートリアル更新＋30%offクーポン.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1994597660167442707-G647-ShawAAk3gp.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Adrien Lambert氏Solarisチュートリアル更新＋30%offクーポン</h3>
+            <p class="entry-summary">Adrien Lambert氏のSolarisチュートリアルが更新された。Gumroadでクーポンコード「AUTUMN」により30%オフになるとのこと（期間限定）。</p>
+            <div class="entry-footer"><span>2025-11-29</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/元Pixarエンジニア手島孝人氏のCEDEC講演スライド「USD入門」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1985276932808999065-G40eICPb0AAdKSO.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>元Pixarエンジニア手島孝人氏のCEDEC講演スライド「USD入門」</h3>
+            <p class="entry-summary">元Pixarのエンジニアである手島孝人氏によるCEDEC講演「ピクサー USD 入門 新たなコンテンツパイプラインを構築する」のスライド。</p>
+            <div class="entry-footer"><span>2025-11-03</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/個人制作向けSolarisチュートリアル「LOPs_for_Solo_Artists」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1982067114975662489-G4G3Qs6XoAIMqWC.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>個人制作向けSolarisチュートリアル「LOPs for Solo Artists」</h3>
+            <p class="entry-summary">個人制作でSolarisを使いたい人向けのチュートリアル「LOPs for Solo Artists」。</p>
+            <div class="entry-footer"><span>2025-10-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Solaris用ライティングテンプレート（単一複数ショット対応）.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1980156763702993081-G3ruEXWW0AAnnbS.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Solaris用ライティングテンプレート（単一/複数ショット対応）</h3>
+            <p class="entry-summary">Houdini Solaris向けのライティングテンプレート。単一ショット用だけでなく複数ショット用のテンプレートもある。</p>
+            <div class="entry-footer"><span>2025-10-20</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/OpacityMapでメッシュをカットアウトするプラグイン「YL_Atlas_Cutter」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1980248516900569469-G3tAVnUXgAAEzOk.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>OpacityMapでメッシュをカットアウトするプラグイン「YL Atlas Cutter」</h3>
+            <p class="entry-summary">OpacityMapを使ってメッシュをカットアウトできるプラグイン「YL Atlas Cutter」。</p>
+            <div class="entry-footer"><span>2025-10-20</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/MegascansをUSD変換・LookDevできるHDAツール.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1979713742830207359-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>MegascansをUSD変換・LookDevできるHDAツール</h3>
+            <p class="entry-summary">MegascansのアセットをUSDに変換し、LookDevまで行えるHoudini用のHDAツール。</p>
+            <div class="entry-footer"><span>2025-10-19</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/安藤恵美氏の講演「HoudiniSOLARISで理解するUSD入門」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1979481426732167591-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>安藤恵美氏の講演「Houdini/SOLARISで理解するUSD入門」</h3>
+            <p class="entry-summary">安藤恵美氏によるUSD/Solarisについての講演動画。2018年のものだが、USDの基本概念の理解が深まる内容。</p>
+            <div class="entry-footer"><span>2025-10-18</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/cgwiki記事_LOPsとSolarisの詳細解説.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/1976848067111665938-G28s1F1bwAYjCi7.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>cgwiki記事: LOPsとSolarisの詳細解説</h3>
+            <p class="entry-summary">HoudiniのLOPsとSolarisについて詳しくまとめられた英語記事（cgwiki）。</p>
+            <div class="entry-footer"><span>2025-10-11</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/SolarisのInstancerチュートリアルが追加（Part4まで）.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1976518990840435024-G24BC1DaUAAgnr8.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>SolarisのInstancerチュートリアルが追加（Part4まで）</h3>
+            <p class="entry-summary">Adrien Lambert氏のSolarisチュートリアルにInstancerを使う内容が追加され、Part4まで公開されている。</p>
+            <div class="entry-footer"><span>2025-10-10</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/SolarisのInstancerチュートリアル_SpeedTreeのLookDevも収録.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1976519190707339402-G24BC1DaUAAgnr8.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>SolarisのInstancerチュートリアル: SpeedTreeのLookDevも収録</h3>
+            <p class="entry-summary">同じチュートリアルの追加パートについて、SpeedTreeのLookDevからScatterまでをカバーしている点。</p>
+            <div class="entry-footer"><span>2025-10-10</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blizzard所属Adrien_Lambert氏のSolarisチュートリアル.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1976452397032677522-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Blizzard所属Adrien Lambert氏のSolarisチュートリアル</h3>
+            <p class="entry-summary">Blizzard Entertainment所属のAdrien Lambert氏による、Houdini SolarisでのUSD・環境制作ワークフローを学べるサブスクリプション形式のチュートリアル。月額約400円で視聴可能。</p>
+            <div class="entry-footer"><span>2025-10-10</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/80lvの記事_Houdiniを用いた背景制作ワークフロー.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/1976082874962149809-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>80lvの記事: Houdiniを用いた背景制作ワークフロー</h3>
+            <p class="entry-summary">80lvに掲載された、Houdiniを使った背景制作ワークフローの記事。地形生成から建物配置、USDでのコンポジションまで解説されている。</p>
+            <div class="entry-footer"><span>2025-10-09</span></div>
+          </div>
+        </a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">
+          <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+          <span>Merge VFX&amp;CG</span>
+        </a>
+        <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="../archive.html">ポスト一覧</a></li>
+          <li><a href="../topics/index.html">トピックで探す</a></li>
+          <li><a href="../tools/index.html">ツールで探す</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../about.html">このサイトについて</a></li>
+          <li><a href="../privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="../contact.html">お問い合わせ</a></li>
+          <li><a href="https://x.com/kuramaKageya" target="_blank" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://github.com/9ra369" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.artstation.com/kurama_kageya" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
+          <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
+          <li><a href="../rss.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Merge VFX&amp;CG. All rights reserved.</span>
+      <span>Design prototype — content is placeholder</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js" defer></script>
+<script src="../search.js" defer></script>
+</body>
+</html>

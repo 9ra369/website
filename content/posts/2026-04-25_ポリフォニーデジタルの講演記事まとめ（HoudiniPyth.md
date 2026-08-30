@@ -2,7 +2,10 @@
 title: "ポリフォニーデジタルの講演記事まとめ（Houdini/Python）"
 date: 2026-04-25
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Python"]
+topics: ["industry"]
+tools: ["houdini","python"]
 source_url: "https://www.polyphony.co.jp/publications/"
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2047977185005416501"

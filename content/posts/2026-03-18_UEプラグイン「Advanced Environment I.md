@@ -2,7 +2,10 @@
 title: "UEプラグイン「Advanced Environment Interaction」"
 date: 2026-03-18
 category: "pipeline"
+type: "brief"
 tags: ["Unreal Engine", "Environment"]
+topics: ["environment"]
+tools: ["unreal"]
 source_url: "https://lnkd.in/guBFrFit"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2034151354537791922"

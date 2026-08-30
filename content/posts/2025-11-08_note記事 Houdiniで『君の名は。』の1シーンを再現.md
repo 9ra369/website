@@ -2,7 +2,10 @@
 title: "note記事: Houdiniで『君の名は。』の1シーンを再現"
 date: 2025-11-08
 category: "article"
+type: "explainer"
 tags: ["Houdini", "Environment", "sidefx", "背景制作"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://note.com/oja_bitterlife/n/nef9f0766ff25?utm_source=chatgpt.com"
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1987004133732446702"

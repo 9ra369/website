@@ -2,7 +2,10 @@
 title: "地形スキャンモデル販売サイト「The Terrain Domain」"
 date: 2025-10-31
 category: "tips"
+type: "brief"
 tags: ["Terrain", "Environment", "vfx", "3DCG", "背景制作"]
+topics: ["environment","fx"]
+tools: []
 source_url: "https://www.theterraindomain.com/collections/desert-terrains"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1984169231941063120"

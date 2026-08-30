@@ -2,7 +2,10 @@
 title: "コンセプトアーティストPablo Dominguez氏の作品とチュートリアル"
 date: 2026-01-14
 category: "tutorial"
+type: "brief"
 tags: ["Concept Art"]
+topics: ["art-fundamentals"]
+tools: []
 mentions: ["pdaguilar_"]
 source_url: "https://www.learnsquared.com/courses/environment-concept-art"
 language: "英語"

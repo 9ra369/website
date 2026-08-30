@@ -2,7 +2,10 @@
 title: "Triplanar負荷対策: 面の向きに応じたPlanar/Biplanar使い分け"
 date: 2026-08-02
 category: "tips"
+type: "brief"
 tags: ["Rendering", "Texturing"]
+topics: ["lighting-rendering","lookdev"]
+tools: []
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7483813488113389568/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2083727331286561056"

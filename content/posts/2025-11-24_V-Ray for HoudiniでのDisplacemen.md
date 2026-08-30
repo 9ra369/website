@@ -2,7 +2,10 @@
 title: "V-Ray for HoudiniでのDisplacement適用Tips"
 date: 2025-11-24
 category: "tips"
+type: "brief"
 tags: ["Houdini", "V-Ray", "sidefx"]
+topics: ["lighting-rendering"]
+tools: ["houdini","v-ray"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1992890000845975863"

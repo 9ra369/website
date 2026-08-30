@@ -2,7 +2,10 @@
 title: "毎日作品分析Day5: Raphael Lacoste「MIDGARD」"
 date: 2026-04-12
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/gRzLqe"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043133316355006543"

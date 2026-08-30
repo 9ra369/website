@@ -2,7 +2,10 @@
 title: "SyntaXcg氏によるHoudini背景制作2シーンの解説"
 date: 2025-10-17
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Substance Painter", "Scattering", "Environment"]
+topics: ["lookdev","environment"]
+tools: ["houdini","substance"]
 source_url: "https://x.com/kuramaKageya/status/1979031178847101063/photo/1"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1979031178847101063"

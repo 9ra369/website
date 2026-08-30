@@ -2,7 +2,10 @@
 title: "Maya PySide2: .ui利用かPython化かを解説する記事"
 date: 2026-02-07
 category: "article"
+type: "explainer"
 tags: ["Maya", "Python", "PySide"]
+topics: ["industry"]
+tools: ["maya","python"]
 mentions: ["unpyside"]
 source_url: "https://unpyside.com/blog/2022/07/09/ui_vs_pyside/"
 language: "英語"

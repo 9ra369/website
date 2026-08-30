@@ -2,7 +2,10 @@
 title: "毎日作品分析Day30: 視線分散型の構図（Scattered）"
 date: 2026-05-07
 category: "daily-analysis"
+type: "note"
 tags: ["Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2052229436569751793"

@@ -2,7 +2,10 @@
 title: "無料の高品質な車アセットサイト「Wire Wheels Club」"
 date: 2025-10-27
 category: "tips"
+type: "brief"
 tags: ["Assets", "VFX", "3DCG", "b3d", "Car"]
+topics: ["pipeline","fx"]
+tools: ["blender"]
 source_url: "https://wirewheelsclub.com/models/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982641809538027750"

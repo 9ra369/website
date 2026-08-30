@@ -2,7 +2,10 @@
 title: "すあま氏のUSD-Solarisセミナー記事が公開"
 date: 2025-12-25
 category: "article"
+type: "explainer"
 tags: ["Houdini", "Solaris", "USD"]
+topics: ["industry"]
+tools: ["houdini","usd"]
 mentions: ["suamaGod"]
 source_url: "https://x.com/CGWjp/status/2004067920490779129"
 language: "英語"

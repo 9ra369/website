@@ -2,7 +2,10 @@
 title: "ILM Yen Chen氏公開のScatter用HDA「CH Tools」"
 date: 2025-10-27
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "HDA", "Scattering", "vfx", "sidefx", "背景制作"]
+topics: ["pipeline","environment","fx"]
+tools: ["houdini"]
 source_url: "https://yenchenvfx.gumroad.com/l/ch_tools?layout=profile"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982723949084729440"

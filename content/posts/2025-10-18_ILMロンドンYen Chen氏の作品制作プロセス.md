@@ -2,7 +2,10 @@
 title: "ILMロンドンYen Chen氏の作品制作プロセス"
 date: 2025-10-18
 category: "showreel"
+type: "brief"
 tags: ["Houdini", "Nuke", "Environment", "houEnv", "3DCG", "背景制作"]
+topics: ["compositing","environment"]
+tools: ["houdini","nuke"]
 source_url: "https://artstation.com/artwork/zDZ6bD"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1979438844169851009"

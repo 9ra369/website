@@ -2,7 +2,10 @@
 title: "ILM/Axis Studio出身Steven Croman氏の3D Matte Painting"
 date: 2025-10-30
 category: "tutorial"
+type: "brief"
 tags: ["Matte Painting", "vfx", "3DCG", "背景制作"]
+topics: ["environment","fx"]
+tools: []
 source_url: "https://www.learnsquared.com/courses/3d-matte-painting"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1983823496796106834"

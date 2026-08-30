@@ -2,7 +2,10 @@
 title: "ILM William Fiorentini氏の背景制作チュートリアル"
 date: 2025-10-11
 category: "tutorial"
+type: "brief"
 tags: ["Environment", "Fog"]
+topics: ["environment"]
+tools: []
 source_url: "https://williamfiorentini.gumroad.com/?recommended_by=library&_gl=1*1lyqds6*_ga*MTc4MTQwMDc0LjE3NTk3NDIwNTU.*_ga_6LJN6D94N6*czE3NjAxNDg0MjQkbzE2JGcwJHQxNzYwMTQ4NDI0JGo2MCRsMCRoMA"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1976833497525633183"

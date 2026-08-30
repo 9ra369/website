@@ -2,7 +2,10 @@
 title: "Samuel Krug氏のArtStation作品（高ディテール）"
 date: 2026-08-01
 category: "showreel"
+type: "brief"
 tags: ["ArtStation", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://x.com/kuramaKageya/status/2083387737441493008"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2083389689130840446"

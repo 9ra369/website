@@ -2,7 +2,10 @@
 title: "毎日作品分析Day6: 『Elder Scrolls Online』Key Art（Max Schiller）"
 date: 2026-04-13
 category: "daily-analysis"
+type: "note"
 tags: ["Concept Art", "Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/BkEw1l"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043676889508950357"

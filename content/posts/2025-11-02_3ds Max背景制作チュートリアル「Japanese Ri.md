@@ -2,7 +2,10 @@
 title: "3ds Max背景制作チュートリアル「Japanese River」"
 date: 2025-11-02
 category: "tutorial"
+type: "brief"
 tags: ["3ds Max", "V-Ray", "Environment", "autodesk", "vfx", "3DCG", "背景制作"]
+topics: ["lighting-rendering","environment","fx"]
+tools: ["3ds-max","v-ray"]
 source_url: "https://www.youtube.com/watch?v=5FRmXuchDZA"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1984782043121885538"

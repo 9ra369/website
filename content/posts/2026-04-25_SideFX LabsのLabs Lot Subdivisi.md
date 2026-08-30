@@ -2,7 +2,10 @@
 title: "SideFX LabsのLabs Lot Subdivision作例解説"
 date: 2026-04-25
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "SideFX Labs", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://www.artstation.com/artwork/kQ3wgn"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2047854970192715833"

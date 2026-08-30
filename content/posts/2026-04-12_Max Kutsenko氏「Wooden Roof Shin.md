@@ -2,7 +2,10 @@
 title: "Max Kutsenko氏「Wooden Roof Shingles」制作解説"
 date: 2026-04-12
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Unreal Engine", "Substance Designer", "sidefx"]
+topics: ["industry"]
+tools: ["houdini","unreal"]
 source_url: "https://www.artstation.com/artwork/Ezeod0"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043137326487052675"

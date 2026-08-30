@@ -2,7 +2,10 @@
 title: "安藤恵美氏の講演「Houdini/SOLARISで理解するUSD入門」"
 date: 2025-10-18
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Solaris", "USD", "3DCG", "背景制作", "sidefx"]
+topics: ["environment"]
+tools: ["houdini","usd"]
 mentions: ["fereria"]
 source_url: "https://vimeo.com/380547157"
 language: "日本語"

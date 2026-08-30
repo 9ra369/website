@@ -2,7 +2,10 @@
 title: "毎日作品分析Day11_2: Max Schiller「Tempel der Verdammnis」"
 date: 2026-04-18
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/RyWNJr"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045338762679669247"

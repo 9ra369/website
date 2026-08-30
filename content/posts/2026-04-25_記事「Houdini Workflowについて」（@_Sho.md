@@ -2,7 +2,10 @@
 title: "記事「Houdini Workflowについて」"
 date: 2026-04-25
 category: "article"
+type: "explainer"
 tags: ["Houdini", "Pipeline", "sidefx"]
+topics: ["pipeline"]
+tools: ["houdini"]
 mentions: ["_ShoHey_"]
 source_url: "https://fxnomemo.blogspot.com/2021/04/houdini-workflow.html?spref=tw"
 language: "日本語"

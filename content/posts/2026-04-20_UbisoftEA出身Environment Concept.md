@@ -2,7 +2,10 @@
 title: "Ubisoft/EA出身Environment Concept Artistのチュートリアル（Wingfox）"
 date: 2026-04-20
 category: "tutorial"
+type: "brief"
 tags: ["Blender", "Photoshop", "Concept Art", "b3d", "Environment"]
+topics: ["art-fundamentals","environment"]
+tools: ["blender"]
 source_url: "https://www.wingfox.com/c/8341"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2046235609929539853"

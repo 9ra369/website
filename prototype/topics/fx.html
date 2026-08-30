@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FX — Merge VFX&amp;CG</title>
+<link rel="icon" type="image/png" href="../images/icon-nodegraph.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">
+      <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+      <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+    </a>
+    <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
+      <a href="../guides/houdini-environment.html">Houdini背景制作まとめ</a>
+      <a href="../guides/houdini-pipeline.html">Houdiniパイプラインまとめ</a>
+      <a href="../guides/usd.html">USD資料まとめ</a>
+      <a href="../guides/sites.html">海外CG/VFX情報サイト</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <button class="nav-toggle" aria-label="メニュー">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 5H16M2 9H16M2 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="entry-hero" style="padding-bottom: 32px;">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="../index.html">トップ</a>
+      <span class="sep">/</span>
+      <a href="index.html">トピック</a>
+      <span class="sep">/</span>
+      <span class="current">FX</span>
+    </nav>
+    <span class="category-pill">TOPIC</span>
+    <h1>FX</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div style="padding: 24px 0 80px;">
+    <p class="result-count" style="margin-bottom: 24px;"><strong>32</strong> 件のポスト</p>
+    <div class="entry-grid">
+        <a class="entry-card" href="../tips/CG_Loungeのジャーナル（Arvid_Schneider氏運営）.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2044772844442374342-HGB9k4ybUAAwCa6.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>CG Loungeのジャーナル（Arvid Schneider氏運営）</h3>
+            <p class="entry-summary">Image EngineのLighting Supervisor、Arvid Schneider氏が運営するCG Loungeのジャーナル。様々な記事がまとめられている。</p>
+            <div class="entry-footer"><span>2026-04-16</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/レンダラー別ノード比較サイト「Render_Node_Comparison」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2033802974993256660-HDmEweIbMAAc1lf.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>レンダラー別ノード比較サイト「Render Node Comparison」</h3>
+            <p class="entry-summary">レンダラーごとに異なるノード名をまとめて比較できるサイト「Render Node Comparison」。レンダラーを切り替えた際にノード名がわからない時に便利。</p>
+            <div class="entry-footer"><span>2026-03-17</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/「まず存在させる」制作哲学_スラップコンプ先行の重要性.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2014666486867230997-G_WIMfOWIAAWH_W.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>「まず存在させる」制作哲学: スラップコンプ先行の重要性</h3>
+            <p class="entry-summary">自身の作品制作を振り返り、\\\&quot;Just make it exist first, you can make it good later\\\&quot;という考え方に触れつつ、まず早い段階でスラップコンプ（ラフな合成）まで持っていくことの重要性。制作期間は静止画と合わせて16日弱だった。</p>
+            <div class="entry-footer"><span>2026-01-23</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/VFX向けAIワークフロー共有プラットフォームを紹介.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2006202957570924666-G9d29H4a0AAf9Y4.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>VFX向けAIワークフロー共有プラットフォームを紹介</h3>
+            <p class="entry-summary">VFXにおけるAIのワークフローを共有するプラットフォーム。</p>
+            <div class="entry-footer"><span>2025-12-31</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/VFX×AI記事を定期更新するウェブサイトを紹介.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2002930963555512734-G8vWqm-bsAAhxzR.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>VFX×AI記事を定期更新するウェブサイトを紹介</h3>
+            <p class="entry-summary">VFXとAIに関する記事を定期的に更新しているウェブサイト。AIとは付き合っていくしかないという考えのもと紹介している。</p>
+            <div class="entry-footer"><span>2025-12-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blenderでシネマティックなルックを作るチュートリアル「Home_At_Last」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1993263657522692416-G6g5ZT5aoAALIcG.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Blenderでシネマティックなルックを作るチュートリアル「Home At Last」</h3>
+            <p class="entry-summary">Blenderを使ってシネマティックなルックを再現するチュートリアル「Home At Last」。</p>
+            <div class="entry-footer"><span>2025-11-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/EAWeta出身Julien_Calle氏のSci-fiコンセプトアート講座.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1992442470089838748-G6aSr0waIAANTnZ.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>EA/Weta出身Julien Calle氏のSci-fiコンセプトアート講座</h3>
+            <p class="entry-summary">EA、Weta、Tencentなどでコンセプトアーティストを務めたJulien Calle氏によるチュートリアル「Sci-fi Concept Art: Create Cinematic Key Frames」。</p>
+            <div class="entry-footer"><span>2025-11-23</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Sci-fi向けKitbashアセット「MEGASTRUCTURE」（Vitaly_Bulgarov）.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1992176307086721158-G6WhR7-aoAAtKzi.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Sci-fi向けKitbashアセット「MEGASTRUCTURE」（Vitaly Bulgarov）</h3>
+            <p class="entry-summary">Vitaly Bulgarov氏によるSci-fi向けキットバッシュアセット「MEGASTRUCTURE」。海外のアーティストに広く使われている印象がある。</p>
+            <div class="entry-footer"><span>2025-11-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/80lv記事_Blenderで作る3Dヨーロッパ都市景観の色彩バリエーション.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/1989526719330701406-G5w3nNcaYAAcOqy.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>80lv記事: Blenderで作る3Dヨーロッパ都市景観の色彩バリエーション</h3>
+            <p class="entry-summary">Blenderで制作されたヨーロッパの都市景観作品のプロセスを解説する80lvの記事。スキャンアセットからパーツごとのアセット制作方法などが学べる。</p>
+            <div class="entry-footer"><span>2025-11-15</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/V-Rayで環境制作を学ぶ「Arch_Masterclass_I」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1985948878273941985-EI3ZgCaTsCwrgF8e.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>V-Rayで環境制作を学ぶ「Arch Masterclass I」</h3>
+            <p class="entry-summary">モデリングから全工程をカバーする背景制作チュートリアル「Arch Masterclass I: Mastering Environments with Vray」。</p>
+            <div class="entry-footer"><span>2025-11-05</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/MayaとArnoldでLegoブラスターを作るチュートリアル.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1985591670780641414-G448rSiaYAAntv4.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>MayaとArnoldでLegoブラスターを作るチュートリアル</h3>
+            <p class="entry-summary">MayaとArnoldを使ってLegoのブラスターを制作するチュートリアル動画。小規模なアセットを丁寧に作り込む機会は少ないとして紹介している。</p>
+            <div class="entry-footer"><span>2025-11-04</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/ILM_Falk_Boje氏のSci-Fi環境制作チュートリアル.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1985651334255952382-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>ILM Falk Boje氏のSci-Fi環境制作チュートリアル</h3>
+            <p class="entry-summary">ILMのAssociate VFX Supervisor、Falk Boje氏による背景制作チュートリアル「How to Create a Sci-Fi Environment in 3ds Max」。作業自体はシンプルながら高品質な結果が得られる。</p>
+            <div class="entry-footer"><span>2025-11-04</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Falk_Boje氏のYouTubeチャンネル.html">
+          <div class="entry-thumb thumb-reel">
+            <img src="../images/cards/1985652131454722154-vyP5x8LWITEeLI1k.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Showreel/Demoreel</span>
+            </div>
+            <h3>Falk Boje氏のYouTubeチャンネル</h3>
+            <p class="entry-summary">Falk Boje氏のYouTubeチャンネル。</p>
+            <div class="entry-footer"><span>2025-11-04</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/「Japanese_River」制作者の他の作品（ArtStation）.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1984782522665033759-apBvrfpo5IyF5B6Q.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>「Japanese River」制作者の他の作品（ArtStation）</h3>
+            <p class="entry-summary">3ds Max背景制作チュートリアル「Japanese River」制作者による、他の作品。</p>
+            <div class="entry-footer"><span>2025-11-02</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/3ds_Max背景制作チュートリアル「Japanese_River」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1984782043121885538-Cqy2QhQ2hdkKsU71.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>3ds Max背景制作チュートリアル「Japanese River」</h3>
+            <p class="entry-summary">3ds Maxを使った背景制作のチュートリアル「Japanese River」。詳細な解説のため、3ds Maxを使っていなくても学べる内容が多いとしている。</p>
+            <div class="entry-footer"><span>2025-11-02</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/物理法則に基づく汚れ・風化表現の解説動画.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1984484630695985500-G4pOLJkagAAPcNW.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>物理法則に基づく汚れ・風化表現の解説動画</h3>
+            <p class="entry-summary">ゲーム環境における汚れや風化の表現について解説する動画「Weathering &amp; Grime in Game Environments」。物理法則に基づいたシェーディングを学べる内容。</p>
+            <div class="entry-footer"><span>2025-11-01</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/SpeedTree入門チュートリアル「Zero_to_Hero」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1984532268321554707-G4p5kraaoAAo5hV.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>SpeedTree入門チュートリアル「Zero to Hero」</h3>
+            <p class="entry-summary">SpeedTreeをゼロから解説するチュートリアル「Speedtree 10 - Zero to Hero」。SpeedTreeのチュートリアルは少ないため貴重だとしている。</p>
+            <div class="entry-footer"><span>2025-11-01</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/地形スキャンモデル販売サイト「The_Terrain_Domain」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1984169231941063120-G4kvOsea8AIVMY9.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>地形スキャンモデル販売サイト「The Terrain Domain」</h3>
+            <p class="entry-summary">地形の3Dスキャンモデルを購入できるサイト「The Terrain Domain」。Megascansにはないような地形も多く扱っている。</p>
+            <div class="entry-footer"><span>2025-10-31</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/VEXコーディングを支援するツール「VEX_Manager」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1984193349625295321-G4lE_-xbwAAVyHn.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>VEXコーディングを支援するツール「VEX Manager」</h3>
+            <p class="entry-summary">HoudiniでVEXを書く際のサポートツール「VEX Manager」。</p>
+            <div class="entry-footer"><span>2025-10-31</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/ILMAxis_Studio出身Steven_Croman氏の3D_Matte_Painting.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1983823496796106834-G4f0FGFa8AIfoNm.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>ILM/Axis Studio出身Steven Croman氏の3D Matte Painting</h3>
+            <p class="entry-summary">ILMやAxis Studioに在籍していたSteven Croman氏による3D Matte Paintingのチュートリアル。DMP（デジタルマットペイント）のチュートリアルは少ないため貴重だとしている。</p>
+            <div class="entry-footer"><span>2025-10-30</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料の彫刻3Dスキャンモデルサイト「Three_D_Scans」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1983406103108153658-G4Z5SU5bwAAoH9M.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>無料の彫刻3Dスキャンモデルサイト「Three D Scans」</h3>
+            <p class="entry-summary">彫刻などの3Dモデルを無料で入手できるサイト「Three D Scans」。商用利用の可否は不明だが、自主制作には十分使える。</p>
+            <div class="entry-footer"><span>2025-10-29</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料の高品質な車アセットサイト「Wire_Wheels_Club」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1982641809538027750-G4PB7HyXQAAs8-O.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>無料の高品質な車アセットサイト「Wire Wheels Club」</h3>
+            <p class="entry-summary">無料で使える高品質な車の3Dアセットを提供するサイト「Wire Wheels Club」。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/ILM_Yen_Chen氏公開のScatter用HDA「CH_Tools」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1982723949084729440-s42jLwIruvKlzHe-.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>ILM Yen Chen氏公開のScatter用HDA「CH Tools」</h3>
+            <p class="entry-summary">ILMのGeneralist、Yen Chen氏が自身の作品制作に使用したHDA「CH Tools」を無料公開していること。Scatterに重要な機能が多く含まれている。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/靴・カメレオンのテクスチャリングチュートリアルも紹介.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1981719162490699995-G4B7CleXkAAYuG5.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>靴・カメレオンのテクスチャリングチュートリアルも紹介</h3>
+            <p class="entry-summary">靴やカメレオンなどをテーマにしたテクスチャリングのチュートリアル。Substance Painterの使い方が参考になり、背景制作にも活かせるとしている。</p>
+            <div class="entry-footer"><span>2025-10-24</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Instancing体系的理解に役立つ記事「An_Even_Longer-Winded_Guide」.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/1981590481848213819-G4AFbhcWYAAChfJ.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>Instancing体系的理解に役立つ記事「An Even Longer-Winded Guide」</h3>
+            <p class="entry-summary">HoudiniのInstanceについて体系的に理解するのに役立った記事「An Even Longer-Winded Guide to Instancing in Houdini」。</p>
+            <div class="entry-footer"><span>2025-10-24</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/CG_Cinematography記事「Lighting_Techniques」.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/1981642959235035197-G4A1mliXMAAchXQ.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>CG Cinematography記事「Lighting Techniques」</h3>
+            <p class="entry-summary">CG Cinematographyのウェブサイトに掲載されているライティング技法の記事。主にCGアニメーション作品を扱っているが、様々なテクニックが紹介されている。</p>
+            <div class="entry-footer"><span>2025-10-24</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/今川氏の都市背景制作チュートリアル「Modern_City」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1981246829808513173-G37NRiqXsAA-tWv.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>今川氏の都市背景制作チュートリアル「Modern City」</h3>
+            <p class="entry-summary">今川雅史氏による都市の背景制作チュートリアル「Cinematic Shot Design | Modern city」。カメラシェイクを加える方法にも触れられている。</p>
+            <div class="entry-footer"><span>2025-10-23</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Anthony_Eftekhari氏の3D_Matte_Paintingチュートリアル.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1980986522452250958-G33gFN4XAAAxuyV.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Anthony Eftekhari氏の3D Matte Paintingチュートリアル</h3>
+            <p class="entry-summary">Anthony Eftekhari氏による3D Matte Paintingのチュートリアル。主にMaya、3ds Max、Photoshopを使用する。</p>
+            <div class="entry-footer"><span>2025-10-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/ActionVFXの無料カメラシェイク素材.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1980987186335055989-G33hGXUWgAAtSBs.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>ActionVFXの無料カメラシェイク素材</h3>
+            <p class="entry-summary">ActionVFXが提供する無料のカメラシェイク素材。Nukeでトラッキングすることでリアルなカメラシェイクを再現できる。</p>
+            <div class="entry-footer"><span>2025-10-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料のカラースペース変換アプリ「Image_Colorspace_Converter」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1980483587263893900-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>無料のカラースペース変換アプリ「Image Colorspace Converter」</h3>
+            <p class="entry-summary">カラースペースを変換できる無料のWindows向けアプリケーション「Image Colorspace Converter」。</p>
+            <div class="entry-footer"><span>2025-10-21</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blizzard_Anthony_Eftekhari氏の構図・デザイン無料講座.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1980527528260616688-G3w_JEtWUAASnww.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Blizzard Anthony Eftekhari氏の構図・デザイン無料講座</h3>
+            <p class="entry-summary">Blizzard EntertainmentのSenior Art Director、Anthony Eftekhari氏による構図とデザインについての無料チュートリアル「Composition &amp; Staging Series」。</p>
+            <div class="entry-footer"><span>2025-10-21</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Rookies_2024優勝Antoine_Barbannaud氏の背景制作チュートリアル.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1977686147301261706-4Yl5SAx_UCMVJQO2.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Rookies 2024優勝Antoine Barbannaud氏の背景制作チュートリアル</h3>
+            <p class="entry-summary">The Rookies 2024優勝者であるAntoine Barbannaud氏によるチュートリアル。複数のソフトを組み合わせた高品質な内容で、背景制作のワークフロー学習におすすめとしている。</p>
+            <div class="entry-footer"><span>2025-10-13</span></div>
+          </div>
+        </a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">
+          <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+          <span>Merge VFX&amp;CG</span>
+        </a>
+        <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="../archive.html">ポスト一覧</a></li>
+          <li><a href="../topics/index.html">トピックで探す</a></li>
+          <li><a href="../tools/index.html">ツールで探す</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../about.html">このサイトについて</a></li>
+          <li><a href="../privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="../contact.html">お問い合わせ</a></li>
+          <li><a href="https://x.com/kuramaKageya" target="_blank" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://github.com/9ra369" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.artstation.com/kurama_kageya" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
+          <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
+          <li><a href="../rss.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Merge VFX&amp;CG. All rights reserved.</span>
+      <span>Design prototype — content is placeholder</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js" defer></script>
+<script src="../search.js" defer></script>
+</body>
+</html>

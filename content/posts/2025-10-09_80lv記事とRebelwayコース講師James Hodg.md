@@ -2,7 +2,10 @@
 title: "80lv記事とRebelwayコース講師James Hodgart氏の紹介"
 date: 2025-10-09
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Environment"]
+topics: ["environment"]
+tools: ["houdini"]
 mentions: ["80Level"]
 source_url: "https://80.lv/articles/006sdf-production-of-cinematic-large-scale-environments"
 language: "英語"

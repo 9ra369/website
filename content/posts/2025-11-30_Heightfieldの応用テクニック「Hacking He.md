@@ -2,7 +2,10 @@
 title: "Heightfieldの応用テクニック「Hacking Heightfields」"
 date: 2025-11-30
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Terrain", "sidefx"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://www.youtube.com/watch?v=L7eorPERur4&list=WL&index=8"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1995084780258652507"

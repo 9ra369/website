@@ -2,7 +2,10 @@
 title: "Blizzard所属Andrew Hodgson氏によるUV展開の実演"
 date: 2025-10-16
 category: "tips"
+type: "brief"
 tags: ["Maya", "Modeling", "UV", "b3d"]
+topics: ["modeling"]
+tools: ["maya","blender"]
 mentions: ["Gakutadar"]
 source_url: "https://www.artstation.com/artwork/yO6xQ"
 language: "英語"

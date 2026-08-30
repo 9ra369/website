@@ -2,7 +2,10 @@
 title: "Avatar Aangをテーマにした作品（ArtStation）"
 date: 2026-08-02
 category: "showreel"
+type: "brief"
 tags: ["ArtStation", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.artstation.com/artwork/O3oEJ6"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2083885525044171057"

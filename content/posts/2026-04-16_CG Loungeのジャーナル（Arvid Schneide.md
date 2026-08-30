@@ -2,7 +2,10 @@
 title: "CG Loungeのジャーナル（Arvid Schneider氏運営）"
 date: 2026-04-16
 category: "article"
+type: "explainer"
 tags: ["VFX"]
+topics: ["fx"]
+tools: []
 mentions: ["arvidschneider"]
 source_url: "https://cglounge.studio/journal"
 language: "英語"

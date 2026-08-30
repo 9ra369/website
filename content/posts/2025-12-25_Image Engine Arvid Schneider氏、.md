@@ -2,7 +2,10 @@
 title: "Image Engine Arvid Schneider氏、手数料無料の販売プラットフォームをローンチ"
 date: 2025-12-25
 category: "tutorial"
+type: "brief"
 tags: ["Marketplace"]
+topics: ["industry"]
+tools: []
 source_url: "https://x.com/arvidschneider/status/2003923439233720522"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2004195529350435231"

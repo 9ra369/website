@@ -2,7 +2,10 @@
 title: "HoudiniのBiomesの使い方解説動画"
 date: 2025-12-14
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Biomes", "sidefx"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://www.youtube.com/watch?v=Gdg85VuMRSw&list=WL&index=27"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2000160028456857958"

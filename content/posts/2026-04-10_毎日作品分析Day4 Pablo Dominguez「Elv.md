@@ -2,7 +2,10 @@
 title: "毎日作品分析Day4: Pablo Dominguez「ElvenRoad Town」"
 date: 2026-04-10
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/elLaZw"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042741980887998859"

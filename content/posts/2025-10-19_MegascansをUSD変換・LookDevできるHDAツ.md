@@ -2,7 +2,10 @@
 title: "MegascansをUSD変換・LookDevできるHDAツール"
 date: 2025-10-19
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Solaris", "USD", "Megascans", "3DCG", "背景制作"]
+topics: ["environment"]
+tools: ["houdini","usd"]
 source_url: "https://pepebuendia.gumroad.com/l/csqcv"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1979713742830207359"

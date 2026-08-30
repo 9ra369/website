@@ -2,7 +2,10 @@
 title: "「Unreal Engine臭さ」の原因と解消法を解説"
 date: 2026-03-19
 category: "tutorial"
+type: "brief"
 tags: ["Unreal Engine"]
+topics: ["industry"]
+tools: ["unreal"]
 source_url: "https://www.youtube.com/watch?v=ciCRiQmwTrs"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2034464037745107172"

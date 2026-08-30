@@ -2,7 +2,10 @@
 title: "Houdiniの便利なノードセットアップまとめサイト（codercat）"
 date: 2026-02-05
 category: "tips"
+type: "brief"
 tags: ["Houdini"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://codercat.xyz/cookbook/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2019228595449917949"

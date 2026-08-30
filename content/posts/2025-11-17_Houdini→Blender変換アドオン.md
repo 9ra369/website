@@ -2,7 +2,10 @@
 title: "Houdini→Blender変換アドオン"
 date: 2025-11-17
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Blender"]
+topics: ["pipeline"]
+tools: ["houdini","blender"]
 source_url: "https://x.com/VFXCentral/status/1990543564837957717"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1990546116556042433"

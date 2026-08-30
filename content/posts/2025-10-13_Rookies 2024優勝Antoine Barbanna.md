@@ -2,7 +2,10 @@
 title: "Rookies 2024優勝Antoine Barbannaud氏の背景制作チュートリアル"
 date: 2025-10-13
 category: "tutorial"
+type: "brief"
 tags: ["Environment", "vfx", "cgi", "3dart", "digitalart"]
+topics: ["environment","fx"]
+tools: []
 source_url: "https://antoinebarbannaud.gumroad.com/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977686147301261706"

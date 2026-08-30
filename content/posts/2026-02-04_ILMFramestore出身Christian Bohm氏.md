@@ -2,7 +2,10 @@
 title: "ILM/Framestore出身Christian Bohm氏のHoudiniチュートリアル"
 date: 2026-02-04
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://www.render-course.com/#AboutLove"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2019004589354487923"

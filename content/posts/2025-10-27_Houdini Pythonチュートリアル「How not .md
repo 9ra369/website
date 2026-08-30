@@ -2,7 +2,10 @@
 title: "Houdini Pythonチュートリアル「How not to suck at Python」"
 date: 2025-10-27
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Python"]
+topics: ["industry"]
+tools: ["houdini","python"]
 source_url: "https://adrienlambert.gumroad.com/l/pythfx?layout=profile&recommended_by=library"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982757920313081910"

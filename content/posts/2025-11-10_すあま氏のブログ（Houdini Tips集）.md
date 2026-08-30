@@ -2,7 +2,10 @@
 title: "すあま氏のブログ（Houdini Tips集）"
 date: 2025-11-10
 category: "article"
+type: "explainer"
 tags: ["Houdini", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 mentions: ["suamaGod"]
 source_url: "https://godofsuama.hatenablog.com/"
 language: "日本語"

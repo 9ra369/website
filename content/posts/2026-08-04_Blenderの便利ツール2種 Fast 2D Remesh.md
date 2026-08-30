@@ -2,7 +2,10 @@
 title: "Blenderの便利ツール2種: Fast 2D Remesh Tool / Spline Mesh Tool"
 date: 2026-08-04
 category: "pipeline"
+type: "brief"
 tags: ["Blender", "Tools"]
+topics: ["pipeline"]
+tools: ["blender"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2084580108279640573"

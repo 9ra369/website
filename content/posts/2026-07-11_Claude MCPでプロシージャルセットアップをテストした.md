@@ -2,7 +2,10 @@
 title: "Claude MCPでプロシージャルセットアップをテストした所感"
 date: 2026-07-11
 category: "article"
+type: "explainer"
 tags: ["Houdini", "AI", "Claude"]
+topics: ["ai"]
+tools: ["houdini"]
 mentions: ["jyouryuusui"]
 source_url: "https://x.com/jyouryuusui/status/2071193604266303536"
 language: "英語"

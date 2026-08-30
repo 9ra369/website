@@ -2,7 +2,10 @@
 title: "Steffen Hampel氏の雪景色シーン制作プロセス"
 date: 2025-11-16
 category: "article"
+type: "explainer"
 tags: ["V-Ray", "Nuke", "Environment"]
+topics: ["lighting-rendering","compositing","environment"]
+tools: ["v-ray","nuke"]
 source_url: "https://www.exp-points.com/steffen-hampel-sunny-winter-road-3d"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1989964740345647105"

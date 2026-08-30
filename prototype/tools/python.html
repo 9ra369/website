@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python — Merge VFX&amp;CG</title>
+<link rel="icon" type="image/png" href="../images/icon-nodegraph.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">
+      <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+      <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+    </a>
+    <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
+      <a href="../guides/houdini-environment.html">Houdini背景制作まとめ</a>
+      <a href="../guides/houdini-pipeline.html">Houdiniパイプラインまとめ</a>
+      <a href="../guides/usd.html">USD資料まとめ</a>
+      <a href="../guides/sites.html">海外CG/VFX情報サイト</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <button class="nav-toggle" aria-label="メニュー">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 5H16M2 9H16M2 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="entry-hero" style="padding-bottom: 32px;">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="../index.html">トップ</a>
+      <span class="sep">/</span>
+      <a href="index.html">ツール</a>
+      <span class="sep">/</span>
+      <span class="current">Python</span>
+    </nav>
+    <span class="category-pill">TOOL</span>
+    <h1>Python</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div style="padding: 24px 0 80px;">
+    <p class="result-count" style="margin-bottom: 24px;"><strong>9</strong> 件のポスト</p>
+    <div class="entry-grid">
+        <a class="entry-card" href="../tips/COPs活用Sci-fi_Panel制作.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2084266108195164586-I2LwNLXsO3XpTHUr.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>COPs活用Sci-fi Panel制作</h3>
+            <p class="entry-summary">SideFXでインターンをしているLei W.氏による、COPsを使ったSci-fi Panelの制作手法。Pythonでレイアウトをデザインし、COPsでHeightとディテールを追加、Houdini Engine経由でUEに渡し、Naniteでテッセレーション・ディスプレイスメントを実装するワークフロー。</p>
+            <div class="entry-footer"><span>2026-08-03</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/PythonによるUEワークフロー自動化コース（Udemy）.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2066885615313186886-HK8NY96aUAA38i7.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>PythonによるUEワークフロー自動化コース（Udemy）</h3>
+            <p class="entry-summary">Pythonを使ってUnreal Engineのワークフローを自動化する方法を学べるUdemyコース。</p>
+            <div class="entry-footer"><span>2026-06-16</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Houdini×Pythonの画像処理活用事例.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2063627628935008331-HKN5UV_boAAMBR0.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Houdini×Pythonの画像処理活用事例</h3>
+            <p class="entry-summary">HoudiniとPythonを組み合わせた画像処理の活用事例。WebのURLから画像を読み込み、Pillowを使って画素をポイントとして並べる手法などが紹介されている。プラグイン開発以外の応用例として挙げている。</p>
+            <div class="entry-footer"><span>2026-06-07</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/ポリフォニーデジタルの講演記事まとめ（HoudiniPython）.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2047977185005416501-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>ポリフォニーデジタルの講演記事まとめ（Houdini/Python）</h3>
+            <p class="entry-summary">ポリフォニー・デジタルによるこれまでの講演記事がまとめられたページ。Houdiniや Pythonに関する有料級の記事を無料で読める。</p>
+            <div class="entry-footer"><span>2026-04-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Render_FactoryのHoudini_Python学習コンテンツ.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2021507573799915771-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Render FactoryのHoudini Python学習コンテンツ</h3>
+            <p class="entry-summary">HoudiniでのPythonの使い方を学べるサイト「Render Factory」。Python基礎、Houdini内でのPython、UI作成といったレッスンが用意されている。</p>
+            <div class="entry-footer"><span>2026-02-11</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Maya_PySide2_.ui利用かPython化かを解説する記事.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2020012576298659889-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>Maya PySide2: .ui利用かPython化かを解説する記事</h3>
+            <p class="entry-summary">MayaでPySide2の.uiファイルをそのまま使うべきか、Python化して利用すべきかを解説するUnzai氏の記事。</p>
+            <div class="entry-footer"><span>2026-02-07</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/HoudiniでPySide_UIを作るクイックスタート動画.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2017585297878618536-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>HoudiniでPySide UIを作るクイックスタート動画</h3>
+            <p class="entry-summary">HoudiniでPySideを使ったUIを作成する方法を解説する動画「Creating Pyside UI in Houdini」。</p>
+            <div class="entry-footer"><span>2026-01-31</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/PythonでPoly_Heaven_HDRIブラウザーを作るチュートリアル.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2002362808118456370-G8nSF0ubMAEmy7R.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>PythonでPoly Heaven HDRIブラウザーを作るチュートリアル</h3>
+            <p class="entry-summary">HoudiniでPythonを使い、Poly HeavenのHDRIブラウザーを作成するチュートリアル「VMT 064 Coding an Asset Browser」。</p>
+            <div class="entry-footer"><span>2025-12-20</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Houdini_Pythonチュートリアル「How_not_to_suck_at_Python」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1982757920313081910-G4Qr0QqWkAA1-_Q.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Houdini Pythonチュートリアル「How not to suck at Python」</h3>
+            <p class="entry-summary">HoudiniでのPythonの使い方を学べるチュートリアル動画「How not to suck at Python」。制作を効率化するスクリプトを自分で書けるようになったと、自身の学習体験にも触れている。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">
+          <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+          <span>Merge VFX&amp;CG</span>
+        </a>
+        <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="../archive.html">ポスト一覧</a></li>
+          <li><a href="../topics/index.html">トピックで探す</a></li>
+          <li><a href="../tools/index.html">ツールで探す</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../about.html">このサイトについて</a></li>
+          <li><a href="../privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="../contact.html">お問い合わせ</a></li>
+          <li><a href="https://x.com/kuramaKageya" target="_blank" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://github.com/9ra369" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.artstation.com/kurama_kageya" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
+          <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
+          <li><a href="../rss.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Merge VFX&amp;CG. All rights reserved.</span>
+      <span>Design prototype — content is placeholder</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js" defer></script>
+<script src="../search.js" defer></script>
+</body>
+</html>

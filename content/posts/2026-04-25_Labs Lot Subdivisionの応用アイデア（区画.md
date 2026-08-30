@@ -2,7 +2,10 @@
 title: "Labs Lot Subdivisionの応用アイデア（区画/レンガ/植栽配置）"
 date: 2026-04-25
 category: "tips"
+type: "brief"
 tags: ["Houdini", "SideFX Labs", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://x.com/kuramaKageya/status/2047854970192715833"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2047855412163269012"

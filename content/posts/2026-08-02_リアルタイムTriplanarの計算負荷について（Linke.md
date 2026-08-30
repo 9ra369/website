@@ -2,7 +2,10 @@
 title: "リアルタイムTriplanarの計算負荷について（LinkedIn引用）"
 date: 2026-08-02
 category: "tips"
+type: "brief"
 tags: ["Rendering", "Texturing"]
+topics: ["lighting-rendering","lookdev"]
+tools: []
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2083725842044387772"

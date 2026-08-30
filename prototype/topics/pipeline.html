@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>パイプライン — Merge VFX&amp;CG</title>
+<link rel="icon" type="image/png" href="../images/icon-nodegraph.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">
+      <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+      <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+    </a>
+    <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
+      <a href="../guides/houdini-environment.html">Houdini背景制作まとめ</a>
+      <a href="../guides/houdini-pipeline.html">Houdiniパイプラインまとめ</a>
+      <a href="../guides/usd.html">USD資料まとめ</a>
+      <a href="../guides/sites.html">海外CG/VFX情報サイト</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <button class="nav-toggle" aria-label="メニュー">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 5H16M2 9H16M2 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="entry-hero" style="padding-bottom: 32px;">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="../index.html">トップ</a>
+      <span class="sep">/</span>
+      <a href="index.html">トピック</a>
+      <span class="sep">/</span>
+      <span class="current">パイプライン</span>
+    </nav>
+    <span class="category-pill">TOPIC</span>
+    <h1>パイプライン</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div style="padding: 24px 0 80px;">
+    <p class="result-count" style="margin-bottom: 24px;"><strong>24</strong> 件のポスト</p>
+    <div class="entry-grid">
+        <a class="entry-card" href="../tips/Blenderの便利ツール2種_Fast_2D_Remesh_Tool_Spline_Mesh_Tool.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2084580108279640573-w1Mtl_Oq7v8IK1rl.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Blenderの便利ツール2種: Fast 2D Remesh Tool / Spline Mesh Tool</h3>
+            <p class="entry-summary">Blenderの便利なツール2種。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。</p>
+            <div class="entry-footer"><span>2026-08-04</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Maya用USD_Variantエクスポートツール.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2069069067898720300-HLbPVbRaEAECLid.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Maya用USD Variantエクスポートツール</h3>
+            <p class="entry-summary">MayaからVariant付きのUSDをエクスポートするためのツール（GitHub公開）。</p>
+            <div class="entry-footer"><span>2026-06-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Houdini×Pythonの画像処理活用事例.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2063627628935008331-HKN5UV_boAAMBR0.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Houdini×Pythonの画像処理活用事例</h3>
+            <p class="entry-summary">HoudiniとPythonを組み合わせた画像処理の活用事例。WebのURLから画像を読み込み、Pillowを使って画素をポイントとして並べる手法などが紹介されている。プラグイン開発以外の応用例として挙げている。</p>
+            <div class="entry-footer"><span>2026-06-07</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料の空パノラマ写真140枚（非商用利用）.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2054552539656544483-HIM8Xtea8AA7kLP.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>無料の空パノラマ写真140枚（非商用利用）</h3>
+            <p class="entry-summary">非商用利用であれば無料で入手できる、140枚の空のパノラマ写真素材「Free panoramic clouds」。</p>
+            <div class="entry-footer"><span>2026-05-13</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/記事「Houdini_Workflowについて」.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2047985049790988717-HGvni60aIAAt5wo.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>記事「Houdini Workflowについて」</h3>
+            <p class="entry-summary">プロダクションで働き始めパイプラインやワークフローに興味を持つ中で参考になった記事「Houdini Workflowについて」（@_ShoHey_氏）。難しすぎず、ためになる内容だった。</p>
+            <div class="entry-footer"><span>2026-04-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/『アサシンクリード_シャドウズ』岩壁生成HDA「Procedural_Rock_Wall_Tool」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2042780147150209167-HFlpkDsagAA2-VS.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>『アサシンクリード シャドウズ』岩壁生成HDA「Procedural Rock Wall Tool」</h3>
+            <p class="entry-summary">『アサシンクリード シャドウズ』で使用された、2Dマスクから3Dモデルを生成するHDA「Procedural Rock Wall Tool」。写真から岩壁のマスクを作り、Houdiniでディテールを追加後、Zbrushでさらにディテールを足すワークフローが採用されていたと推測している。</p>
+            <div class="entry-footer"><span>2026-04-11</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blender_Eevee用の無料SSGIアドオン.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2034933408259027179-HD2I6msboAE5zFl.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Blender Eevee用の無料SSGIアドオン</h3>
+            <p class="entry-summary">Blender EeveeにScreen Space Global Illuminationを追加する無料アドオン（ネイティブ版・アドオン版）。</p>
+            <div class="entry-footer"><span>2026-03-20</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/鱗生成HDA「Scales」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2033501468364562589-HDhyYcJbcAIu-h5.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>鱗生成HDA「Scales」</h3>
+            <p class="entry-summary">鱗（うろこ）を生成できるHoudini用HDA「Scales」。</p>
+            <div class="entry-footer"><span>2026-03-16</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/リファレンス管理ツール「Eagle」を紹介.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2015470465704497469-G_hjsaHWoAAMIMP.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>リファレンス管理ツール「Eagle」を紹介</h3>
+            <p class="entry-summary">画像・リファレンス管理ツール「Eagle」。</p>
+            <div class="entry-footer"><span>2026-01-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料の木アセット22個を紹介.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2004023171356524942-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>無料の木アセット22個を紹介</h3>
+            <p class="entry-summary">無料で入手できる22個の木のアセット。</p>
+            <div class="entry-footer"><span>2025-12-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/松の木を作るHDA「Pine_Tree_Generator」が年内リリース予定.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1999404491549110563-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>松の木を作るHDA「Pine Tree Generator」が年内リリース予定</h3>
+            <p class="entry-summary">松の木を生成できるHoudini用HDA「Pine Tree Generator」が年内にリリース予定である。</p>
+            <div class="entry-footer"><span>2025-12-12</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/3Dアセットサイトまとめ（CGTrader,_Turbosquid他）.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1993644620979597520-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>3Dアセットサイトまとめ（CGTrader, Turbosquid他）</h3>
+            <p class="entry-summary">汎用アセット・特定アセット・キットバッシュを扱う3Dアセットサイト。CGTraderやTurbosquidなど、テクスチャ・HDRIも扱う汎用サイトが紹介されている。</p>
+            <div class="entry-footer"><span>2025-11-26</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Sci-fi向けKitbashアセット「MEGASTRUCTURE」（Vitaly_Bulgarov）.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1992176307086721158-G6WhR7-aoAAtKzi.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Sci-fi向けKitbashアセット「MEGASTRUCTURE」（Vitaly Bulgarov）</h3>
+            <p class="entry-summary">Vitaly Bulgarov氏によるSci-fi向けキットバッシュアセット「MEGASTRUCTURE」。海外のアーティストに広く使われている印象がある。</p>
+            <div class="entry-footer"><span>2025-11-22</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Houdini→Blender変換アドオン.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1990546116556042433-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Houdini→Blender変換アドオン</h3>
+            <p class="entry-summary">HoudiniのデータをBlenderに変換するアドオン。</p>
+            <div class="entry-footer"><span>2025-11-17</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/HoudiniプラグインOD_Tool（Drag&Dropアセット管理）.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1986636830704607530-G5HyoTgaoAAua10.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>HoudiniプラグインOD Tool（Drag&amp;Dropアセット管理）</h3>
+            <p class="entry-summary">Houdini用プラグイン「OD Tool」。Asset LibraryやテクスチャをExplorerからドラッグ＆ドロップできるなど、多くの機能を備えている。</p>
+            <div class="entry-footer"><span>2025-11-07</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/KitBash3Dアセットが2週間限定で無料公開.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1986016164129194096-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>KitBash3Dアセットが2週間限定で無料公開</h3>
+            <p class="entry-summary">KitBash3Dのアセットが2週間限定で無料公開されている。商業利用も可能。</p>
+            <div class="entry-footer"><span>2025-11-05</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料の彫刻3Dスキャンモデルサイト「Three_D_Scans」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1983406103108153658-G4Z5SU5bwAAoH9M.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>無料の彫刻3Dスキャンモデルサイト「Three D Scans」</h3>
+            <p class="entry-summary">彫刻などの3Dモデルを無料で入手できるサイト「Three D Scans」。商用利用の可否は不明だが、自主制作には十分使える。</p>
+            <div class="entry-footer"><span>2025-10-29</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/車モデルの商用利用における商標・意匠権の注意点.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1982951956202303745-G4TTQumasAIsPPp.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>車モデルの商用利用における商標・意匠権の注意点</h3>
+            <p class="entry-summary">Wire Wheels Clubの車モデルを商用利用する際、商標・ブランド名・ロゴには権利者の使用許可が必要となる可能性がある点。意匠権に触れる可能性についても触れている。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料の高品質な車アセットサイト「Wire_Wheels_Club」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1982641809538027750-G4PB7HyXQAAs8-O.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>無料の高品質な車アセットサイト「Wire Wheels Club」</h3>
+            <p class="entry-summary">無料で使える高品質な車の3Dアセットを提供するサイト「Wire Wheels Club」。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Wire_Wheels_Clubの車モデル、商用利用も可能.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1982942623099977755-G4TTQumasAIsPPp.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Wire Wheels Clubの車モデル、商用利用も可能</h3>
+            <p class="entry-summary">Wire Wheels Clubの車モデルが商用利用も可能である。最新モデルは有料だが安価。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/ILM_Yen_Chen氏公開のScatter用HDA「CH_Tools」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1982723949084729440-s42jLwIruvKlzHe-.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>ILM Yen Chen氏公開のScatter用HDA「CH Tools」</h3>
+            <p class="entry-summary">ILMのGeneralist、Yen Chen氏が自身の作品制作に使用したHDA「CH Tools」を無料公開していること。Scatterに重要な機能が多く含まれている。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/HoudiniのツタHDA「Ivy_Taming_1.1」（The_Last_of_Usでも使用）.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1982326061192118578-G4KiMYOXIAAgVi9.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>HoudiniのツタHDA「Ivy Taming 1.1」（The Last of Usでも使用）</h3>
+            <p class="entry-summary">HoudiniでIvy（ツタ）を生成できるHDA「Ivy Taming 1.1」。『The Last of Us』などハリウッドのプロダクションでも使用されている。</p>
+            <div class="entry-footer"><span>2025-10-26</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Adrien_Lambert氏のマスク生成HDA「AL_MASKBUILDER」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1981917621772849439-G4EvjNvWgAAmCma.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Adrien Lambert氏のマスク生成HDA「AL MASKBUILDER」</h3>
+            <p class="entry-summary">Adrien Lambert氏による、マスクを作成できるHoudini用HDA「AL MASKBUILDER」。ScatterやShadingで使えるマスク作成機能が詰まっている。</p>
+            <div class="entry-footer"><span>2025-10-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Lattice操作を簡単にするHDA「Lattice_B」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1980457950641811553-G3v_mvgX0AAadLr.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Lattice操作を簡単にするHDA「Lattice_B」</h3>
+            <p class="entry-summary">HoudiniでのLattice操作を簡単にするHDA「Lattice_B for Houdini」。</p>
+            <div class="entry-footer"><span>2025-10-21</span></div>
+          </div>
+        </a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">
+          <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+          <span>Merge VFX&amp;CG</span>
+        </a>
+        <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="../archive.html">ポスト一覧</a></li>
+          <li><a href="../topics/index.html">トピックで探す</a></li>
+          <li><a href="../tools/index.html">ツールで探す</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../about.html">このサイトについて</a></li>
+          <li><a href="../privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="../contact.html">お問い合わせ</a></li>
+          <li><a href="https://x.com/kuramaKageya" target="_blank" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://github.com/9ra369" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.artstation.com/kurama_kageya" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
+          <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
+          <li><a href="../rss.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Merge VFX&amp;CG. All rights reserved.</span>
+      <span>Design prototype — content is placeholder</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js" defer></script>
+<script src="../search.js" defer></script>
+</body>
+</html>

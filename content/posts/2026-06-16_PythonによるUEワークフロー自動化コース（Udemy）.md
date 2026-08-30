@@ -2,7 +2,10 @@
 title: "PythonによるUEワークフロー自動化コース（Udemy）"
 date: 2026-06-16
 category: "tutorial"
+type: "brief"
 tags: ["Unreal Engine", "Python"]
+topics: ["industry"]
+tools: ["unreal","python"]
 source_url: "https://www.udemy.com/course/unreal-engine-5-python-automation/?couponCode=AA30F7EA7A6BCA6DC566"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2066885615313186886"

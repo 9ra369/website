@@ -2,7 +2,10 @@
 title: "毎日作品分析Day12_1: Florent Lebrun「Wanderers」"
 date: 2026-04-19
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/nJznG4"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045767265166176332"

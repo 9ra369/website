@@ -2,7 +2,10 @@
 title: "80lv記事: Megascansでフォトリアルな3Dシーン制作"
 date: 2025-10-09
 category: "article"
+type: "explainer"
 tags: ["Megascans", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://80.lv/articles/003qxl-004adk-making-a-photorealistic-3d-scene-with-megascans"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1976085333461827876"

@@ -2,7 +2,10 @@
 title: "自動リグ生成のBlenderアドオン（WIP、無料）"
 date: 2025-10-13
 category: "pipeline"
+type: "brief"
 tags: ["Blender", "Rigging", "b3d", "houdini"]
+topics: ["animation-rigging"]
+tools: ["blender","houdini"]
 source_url: "https://x.com/80Level/status/1977751178910773683"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977752644132180070"

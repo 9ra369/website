@@ -2,7 +2,10 @@
 title: "Maya/Arnold用アセットライブラリプラグイン「Asset_Ingester」"
 date: 2025-11-05
 category: "pipeline"
+type: "brief"
 tags: ["Maya", "Arnold", "背景制作"]
+topics: ["environment"]
+tools: ["maya"]
 source_url: "https://cressonlouis.gumroad.com/l/orxmwpn"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985920882712461698"

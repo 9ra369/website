@@ -2,7 +2,10 @@
 title: "Darek Zabrocki氏のDisplacement活用都市景観チュートリアル"
 date: 2026-03-27
 category: "tutorial"
+type: "brief"
 tags: ["3ds Max", "Environment"]
+topics: ["environment"]
+tools: ["3ds-max"]
 source_url: "https://www.youtube.com/watch?v=MngOInsMMLI"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2037432804540305779"

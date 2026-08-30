@@ -2,7 +2,10 @@
 title: "Malte Resenberger-Loosmann氏の記事「観察の技法: Hero Assetの制作」"
 date: 2026-08-06
 category: "article"
+type: "explainer"
 tags: ["Texturing", "Materials"]
+topics: ["lookdev"]
+tools: []
 source_url: "https://www.artstation.com/artwork/31ovoB"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2085356549615284510"

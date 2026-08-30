@@ -2,7 +2,10 @@
 title: "ILM/DNEG出身Steven Corman氏の新チュートリアル（Double Jump Academy）"
 date: 2026-06-10
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Maya", "Gaea", "Nuke", "Matte Painting", "Environment"]
+topics: ["environment","compositing"]
+tools: ["houdini","maya","gaea"]
 source_url: "https://x.com/kuramaKageya/status/1983823496796106834"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2064690973083664555"

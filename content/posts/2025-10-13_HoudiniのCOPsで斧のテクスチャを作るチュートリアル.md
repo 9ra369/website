@@ -2,7 +2,10 @@
 title: "HoudiniのCOPsで斧のテクスチャを作るチュートリアル"
 date: 2025-10-13
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "COPs", "Texturing", "sidefx"]
+topics: ["lookdev"]
+tools: ["houdini"]
 source_url: "https://youtu.be/ZcXKWAUx2fE?si=WczCFjKr0j_t36Dx"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977578159651635417"

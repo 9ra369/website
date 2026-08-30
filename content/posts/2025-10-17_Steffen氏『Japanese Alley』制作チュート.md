@@ -2,7 +2,10 @@
 title: "Steffen氏『Japanese Alley』制作チュートリアル（Wingfox）"
 date: 2025-10-17
 category: "tutorial"
+type: "brief"
 tags: ["Maya", "V-Ray", "Environment", "houEnv", "b3d"]
+topics: ["lighting-rendering","environment"]
+tools: ["maya","v-ray","houdini"]
 source_url: "https://www.wingfox.com/c/8342?srsltid=AfmBOoq8MyHbyoQevYoorEWuPiP7VPk1Ai-xFMxJ4CeQtGCmbluwUuno"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1979066705763512721"

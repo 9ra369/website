@@ -2,7 +2,10 @@
 title: "Houdini×Pythonの画像処理活用事例"
 date: 2026-06-07
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Python"]
+topics: ["pipeline"]
+tools: ["houdini","python"]
 source_url: "https://technical-notes.com/houdini/2021/05/20/load-image-from-web/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2063627628935008331"

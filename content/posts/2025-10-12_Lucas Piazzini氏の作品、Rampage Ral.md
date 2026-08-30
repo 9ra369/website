@@ -2,7 +2,10 @@
 title: "Lucas Piazzini氏の作品、Rampage Rallyで3位入賞"
 date: 2025-10-12
 category: "showreel"
+type: "brief"
 tags: ["Environment", "houEnv", "sidefx", "houdini", "背景制作"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://x.com/PrismalDesign/status/1964449544902738353"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1977194434698919937"

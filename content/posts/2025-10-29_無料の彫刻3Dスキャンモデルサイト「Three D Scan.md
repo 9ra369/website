@@ -2,7 +2,10 @@
 title: "無料の彫刻3Dスキャンモデルサイト「Three D Scans」"
 date: 2025-10-29
 category: "tips"
+type: "brief"
 tags: ["Assets", "vfx", "3DCG"]
+topics: ["pipeline","fx"]
+tools: []
 source_url: "https://threedscans.com/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1983406103108153658"

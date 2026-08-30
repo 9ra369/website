@@ -2,7 +2,10 @@
 title: "Adrien Lambert氏、Solaris/Copernicus/PDG関連の新チュートリアル追加"
 date: 2026-01-08
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Solaris", "sidefx"]
+topics: ["industry"]
+tools: ["houdini","usd"]
 source_url: "https://x.com/kuramaKageya/status/1976452397032677522"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2009217804185264632"

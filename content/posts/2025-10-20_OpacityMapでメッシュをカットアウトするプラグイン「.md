@@ -2,7 +2,10 @@
 title: "OpacityMapでメッシュをカットアウトするプラグイン「YL Atlas Cutter」"
 date: 2025-10-20
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Environment", "solaris", "3DCG", "背景制作"]
+topics: ["environment"]
+tools: ["houdini","usd"]
 source_url: "https://yoannraveloson.gumroad.com/l/AtlasCutter"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1980248516900569469"

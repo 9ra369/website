@@ -2,7 +2,10 @@
 title: "塚島氏のPLATEAU×Houdiniミニチュアルック制作チュートリアル"
 date: 2026-06-20
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "PLATEAU"]
+topics: ["industry"]
+tools: ["houdini"]
 mentions: ["ttsukajima0245"]
 source_url: "https://x.com/ttsukajima0245/status/2040001852306243727"
 language: "英語"

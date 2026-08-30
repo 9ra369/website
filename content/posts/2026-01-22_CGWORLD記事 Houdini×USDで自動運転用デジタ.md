@@ -2,7 +2,10 @@
 title: "CGWORLD記事: Houdini×USDで自動運転用デジタルツイン生成（Aurora Innovation）"
 date: 2026-01-22
 category: "article"
+type: "explainer"
 tags: ["Houdini", "USD", "Digital Twin"]
+topics: ["industry"]
+tools: ["houdini","usd"]
 mentions: ["aurora_inno"]
 source_url: "https://cgworld.jp/article/202512-cgw326-aurora.html"
 language: "日本語"

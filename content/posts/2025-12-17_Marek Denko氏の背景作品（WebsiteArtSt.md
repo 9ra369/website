@@ -2,7 +2,10 @@
 title: "Marek Denko氏の背景作品（Website/ArtStation）"
 date: 2025-12-17
 category: "showreel"
+type: "brief"
 tags: ["ArtStation", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://marekdenko.net/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2001233735400992791"

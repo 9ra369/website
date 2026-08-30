@@ -2,7 +2,10 @@
 title: "ILM Falk Boje氏のSci-Fi環境制作チュートリアル"
 date: 2025-11-04
 category: "tutorial"
+type: "brief"
 tags: ["3ds Max", "Environment", "vfx", "背景制作"]
+topics: ["environment","fx"]
+tools: ["3ds-max"]
 source_url: "https://www.youtube.com/watch?v=3O9F2KeUknQ"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985651334255952382"

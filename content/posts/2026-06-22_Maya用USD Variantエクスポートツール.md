@@ -2,7 +2,10 @@
 title: "Maya用USD Variantエクスポートツール"
 date: 2026-06-22
 category: "pipeline"
+type: "brief"
 tags: ["Maya", "USD"]
+topics: ["pipeline"]
+tools: ["maya","usd"]
 source_url: "https://github.com/filipelopes2/flTools/tree/main/scripts/usd_tools"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2069069067898720300"

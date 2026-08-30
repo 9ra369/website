@@ -2,7 +2,10 @@
 title: "Adrien Lambert氏Solarisチュートリアル更新＋30%offクーポン"
 date: 2025-11-29
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Solaris", "sidefx"]
+topics: ["industry"]
+tools: ["houdini","usd"]
 source_url: "https://x.com/kuramaKageya/status/1976519190707339402"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1994597660167442707"

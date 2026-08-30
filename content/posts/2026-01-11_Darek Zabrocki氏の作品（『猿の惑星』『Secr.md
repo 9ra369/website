@@ -2,7 +2,10 @@
 title: "Darek Zabrocki氏の作品（『猿の惑星』『Secret Level』コンセプト）"
 date: 2026-01-11
 category: "showreel"
+type: "brief"
 tags: ["Concept Art"]
+topics: ["art-fundamentals"]
+tools: []
 mentions: ["DarekZabrocki"]
 source_url: "https://www.darekzabrocki.com/"
 language: "英語"

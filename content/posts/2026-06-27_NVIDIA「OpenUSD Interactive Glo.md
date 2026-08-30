@@ -2,7 +2,10 @@
 title: "NVIDIA「OpenUSD Interactive Glossary」"
 date: 2026-06-27
 category: "tips"
+type: "brief"
 tags: ["USD"]
+topics: ["industry"]
+tools: ["usd"]
 source_url: "https://docs.nvidia.com/learn-openusd/latest/interactive-glossary.html"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2070709634613248103"

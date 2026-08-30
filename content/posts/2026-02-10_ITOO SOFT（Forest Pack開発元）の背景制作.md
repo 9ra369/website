@@ -2,7 +2,10 @@
 title: "ITOO SOFT（Forest Pack開発元）の背景制作Tips"
 date: 2026-02-10
 category: "tips"
+type: "brief"
 tags: ["Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.itoosoft.com/tutorials?page=1"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2021185449432084644"

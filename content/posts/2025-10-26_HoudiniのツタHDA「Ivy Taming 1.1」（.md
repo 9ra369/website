@@ -2,7 +2,10 @@
 title: "HoudiniのツタHDA「Ivy Taming 1.1」（The Last of Usでも使用）"
 date: 2025-10-26
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "HDA", "Vegetation"]
+topics: ["pipeline","environment"]
+tools: ["houdini"]
 source_url: "https://mcworldkit.gumroad.com/l/ivyTaming"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982326061192118578"

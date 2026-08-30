@@ -2,7 +2,10 @@
 title: "SpeedTreeのアニメーション・シミュレーションプラグイン"
 date: 2025-10-15
 category: "pipeline"
+type: "brief"
 tags: ["SpeedTree", "Houdini", "sidefx", "houEnv"]
+topics: ["environment"]
+tools: ["speedtree","houdini"]
 source_url: "https://x.com/arvidschneider/status/1978136376072880610"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1978260092408524961"

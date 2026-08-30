@@ -2,7 +2,10 @@
 title: "毎日作品分析Day9: Christian Auer「Fall Elegy」"
 date: 2026-04-16
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Lighting", "毎日作品分析"]
+topics: ["lighting-rendering","art-fundamentals"]
+tools: []
 source_url: "https://www.artstation.com/artwork/DLXYKA"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044770194003025935"

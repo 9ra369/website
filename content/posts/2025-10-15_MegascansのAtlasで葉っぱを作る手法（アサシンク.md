@@ -2,7 +2,10 @@
 title: "MegascansのAtlasで葉っぱを作る手法（アサシンクリードでも使用）"
 date: 2025-10-15
 category: "tips"
+type: "brief"
 tags: ["Houdini", "Megascans", "Environment"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1978595925678530769"

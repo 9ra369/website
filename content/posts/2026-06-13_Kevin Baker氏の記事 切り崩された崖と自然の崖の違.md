@@ -2,7 +2,10 @@
 title: "Kevin Baker氏の記事: 切り崩された崖と自然の崖の違い"
 date: 2026-06-13
 category: "article"
+type: "explainer"
 tags: ["Environment", "Terrain"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7470173754522800129/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2065781715117932688"

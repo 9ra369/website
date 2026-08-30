@@ -2,7 +2,10 @@
 title: "Gaea×Substance Designerでタイル化可能なテクスチャ制作の試み（Vincent Gagnon氏）"
 date: 2026-06-18
 category: "tips"
+type: "brief"
 tags: ["Gaea", "Substance Designer", "Texturing"]
+topics: ["environment","lookdev"]
+tools: ["gaea"]
 source_url: "https://www.artstation.com/artwork/nJob54"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2067598526151041073"

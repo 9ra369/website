@@ -2,7 +2,10 @@
 title: "Displace along normal使用時のUV promote Tips"
 date: 2026-05-18
 category: "tips"
+type: "brief"
 tags: ["Houdini", "VEX", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2056376070899925051"

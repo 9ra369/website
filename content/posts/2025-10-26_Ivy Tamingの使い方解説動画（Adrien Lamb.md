@@ -2,7 +2,10 @@
 title: "Ivy Tamingの使い方解説動画（Adrien Lambert氏）"
 date: 2025-10-26
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Vegetation", "sidefx"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://www.youtube.com/watch?v=3u6UNNJQ_cM"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1982326652383412407"

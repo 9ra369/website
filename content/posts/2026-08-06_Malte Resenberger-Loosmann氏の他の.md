@@ -2,7 +2,10 @@
 title: "Malte Resenberger-Loosmann氏の他の記事（マテリアル/レイヤー戦略）"
 date: 2026-08-06
 category: "article"
+type: "explainer"
 tags: ["Texturing", "Materials"]
+topics: ["lookdev"]
+tools: []
 source_url: "https://www.artstation.com/artwork/WBQ1eE"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2085358226732970183"

@@ -2,7 +2,10 @@
 title: "Substance PainterのLayer Instancing機能（大規模UDIMアセット向け）"
 date: 2026-01-22
 category: "tips"
+type: "brief"
 tags: ["Substance Painter", "Texturing"]
+topics: ["lookdev"]
+tools: ["substance"]
 source_url: "https://www.adobe.com/learn/substance-3d-painter/web/layer-instancing-for-vfx-scenes"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2014289152049893836"

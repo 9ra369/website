@@ -2,7 +2,10 @@
 title: "80lv記事: 『The Witcher 3』着想の雪景色シーン制作"
 date: 2025-10-18
 category: "article"
+type: "explainer"
 tags: ["Unreal Engine", "SpeedTree", "Environment", "ue5", "houEnv"]
+topics: ["environment"]
+tools: ["unreal","speedtree","houdini"]
 mentions: ["80Level"]
 source_url: "https://80.lv/articles/tutorial-the-witcher-3-inspired-snowy-scene-featuring-rich-vegetation"
 language: "英語"

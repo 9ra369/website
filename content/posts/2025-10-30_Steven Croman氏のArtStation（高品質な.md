@@ -2,7 +2,10 @@
 title: "Steven Croman氏のArtStation（高品質な背景作品多数）"
 date: 2025-10-30
 category: "showreel"
+type: "brief"
 tags: ["ArtStation", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.artstation.com/srlstudios"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1983824336210555406"

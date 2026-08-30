@@ -2,7 +2,10 @@
 title: "Blender・RealityScan・UE5・Nukeで作る背景制作チュートリアル"
 date: 2025-10-15
 category: "tutorial"
+type: "brief"
 tags: ["Blender", "UE5", "Nuke", "Environment"]
+topics: ["compositing","environment"]
+tools: ["blender","unreal","nuke"]
 source_url: "https://juliencgi.gumroad.com/l/foggybarn"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1978360470986694737"

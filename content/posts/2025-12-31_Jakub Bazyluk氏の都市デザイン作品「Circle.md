@@ -2,7 +2,10 @@
 title: "Jakub Bazyluk氏の都市デザイン作品「Circles」ブレイクダウン"
 date: 2025-12-31
 category: "tips"
+type: "brief"
 tags: ["Environment", "ArtStation"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.artstation.com/artwork/nJkLBE"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2006337917908844669"

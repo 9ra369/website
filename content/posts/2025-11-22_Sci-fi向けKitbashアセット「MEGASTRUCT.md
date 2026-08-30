@@ -2,7 +2,10 @@
 title: "Sci-fi向けKitbashアセット「MEGASTRUCTURE」（Vitaly Bulgarov）"
 date: 2025-11-22
 category: "tips"
+type: "brief"
 tags: ["Kitbash", "Assets", "vfx", "3DCG"]
+topics: ["pipeline","fx"]
+tools: []
 source_url: "https://vitalybulgarov.com/3d-kitbash/meg"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1992176307086721158"

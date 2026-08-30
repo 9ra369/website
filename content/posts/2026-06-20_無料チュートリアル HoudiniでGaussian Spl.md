@@ -2,7 +2,10 @@
 title: "無料チュートリアル: HoudiniでGaussian Splattingにリグ・アニメーション"
 date: 2026-06-20
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Gaussian Splatting", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://www.youtube.com/watch?v=MqtMQl8DtjQ"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2068169526987124818"

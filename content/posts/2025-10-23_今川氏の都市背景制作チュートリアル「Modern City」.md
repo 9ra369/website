@@ -2,7 +2,10 @@
 title: "今川氏の都市背景制作チュートリアル「Modern City」"
 date: 2025-10-23
 category: "tutorial"
+type: "brief"
 tags: ["VFX", "Environment", "3DCG", "背景制作"]
+topics: ["fx","environment"]
+tools: []
 source_url: "https://masashivfx.gumroad.com/l/qxwsre?layout=profile"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981246829808513173"

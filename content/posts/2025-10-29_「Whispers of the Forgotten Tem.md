@@ -2,7 +2,10 @@
 title: "「Whispers of the Forgotten Temple」制作プロセス解説"
 date: 2025-10-29
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Environment", "sidefx", "背景制作"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://www.artstation.com/artwork/WXzJVQ"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1983361659621257480"

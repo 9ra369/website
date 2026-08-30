@@ -2,7 +2,10 @@
 title: "毎日作品分析Day11_1: sanghoon oh「Erephora – Kaiju」"
 date: 2026-04-18
 category: "daily-analysis"
+type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
+topics: ["art-fundamentals"]
+tools: []
 source_url: "https://artstation.com/artwork/mA9NKy"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045335487842546039"

@@ -2,7 +2,10 @@
 title: "Instancing体系的理解に役立つ記事「An Even Longer-Winded Guide」"
 date: 2025-10-24
 category: "article"
+type: "explainer"
 tags: ["Houdini", "Instancing", "sidefx", "vfx", "背景制作"]
+topics: ["fx","environment"]
+tools: ["houdini"]
 source_url: "https://www.toadstorm.com/blog/?p=942"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981590481848213819"

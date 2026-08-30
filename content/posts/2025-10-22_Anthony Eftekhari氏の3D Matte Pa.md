@@ -2,7 +2,10 @@
 title: "Anthony Eftekhari氏の3D Matte Paintingチュートリアル"
 date: 2025-10-22
 category: "tutorial"
+type: "brief"
 tags: ["Maya", "3ds Max", "Photoshop", "Matte Painting", "art", "3DCG", "mattepaint", "vfx", "背景制作"]
+topics: ["environment","fx"]
+tools: ["maya","3ds-max"]
 source_url: "https://anthonye.gumroad.com/l/OJIn?layout=profile&recommended_by=library"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1980986522452250958"

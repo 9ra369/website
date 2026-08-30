@@ -2,7 +2,10 @@
 title: "Houdini完結型植生生成ツールキット「Natsura」"
 date: 2026-08-08
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "Vegetation", "Environment"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://x.com/K240/status/2086014851277799662"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2086022450895311119"

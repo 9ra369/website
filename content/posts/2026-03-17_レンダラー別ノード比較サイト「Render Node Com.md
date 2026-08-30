@@ -2,7 +2,10 @@
 title: "レンダラー別ノード比較サイト「Render Node Comparison」"
 date: 2026-03-17
 category: "tips"
+type: "brief"
 tags: ["Rendering", "3dcg", "vfx"]
+topics: ["lighting-rendering","fx"]
+tools: []
 source_url: "https://www.iamsoutherland.com/render-cheat-sheet"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2033802974993256660"

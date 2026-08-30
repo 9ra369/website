@@ -2,7 +2,10 @@
 title: "鱗生成HDA「Scales」"
 date: 2026-03-16
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "HDA", "sidefx"]
+topics: ["pipeline"]
+tools: ["houdini"]
 mentions: ["KenichiNishida"]
 source_url: "https://wouttengrootenhuysen.gumroad.com/l/scales"
 language: "英語"

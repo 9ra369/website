@@ -2,7 +2,10 @@
 title: "AIでClay Shaderをレンダリングする手法解説"
 date: 2026-03-17
 category: "tutorial"
+type: "brief"
 tags: ["AI", "Rendering"]
+topics: ["ai","lighting-rendering"]
+tools: []
 source_url: "https://www.youtube.com/watch?v=YB5Jp9_WN78"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2033858665225326703"

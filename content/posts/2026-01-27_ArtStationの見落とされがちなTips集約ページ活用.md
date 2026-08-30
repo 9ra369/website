@@ -2,7 +2,10 @@
 title: "ArtStationの見落とされがちなTips集約ページ活用法"
 date: 2026-01-27
 category: "tutorial"
+type: "brief"
 tags: ["ArtStation"]
+topics: ["industry"]
+tools: []
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2016071805887513080"

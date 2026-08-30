@@ -2,7 +2,10 @@
 title: "松の木を作るHDA「Pine Tree Generator」が年内リリース予定"
 date: 2025-12-12
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "HDA", "Vegetation", "sidefx"]
+topics: ["pipeline","environment"]
+tools: ["houdini"]
 source_url: "https://nifx.gumroad.com/?section=HwlAD1uTt26QuV_SS35vTg%3D%3D"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1999404491549110563"

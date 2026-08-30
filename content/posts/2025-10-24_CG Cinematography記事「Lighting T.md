@@ -2,7 +2,10 @@
 title: "CG Cinematography記事「Lighting Techniques」"
 date: 2025-10-24
 category: "article"
+type: "explainer"
 tags: ["Lighting", "VFX", "3DCG"]
+topics: ["lighting-rendering","fx"]
+tools: []
 source_url: "https://chrisbrejon.com/cg-cinematography/chapter-7-lighting-techniques/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981642959235035197"

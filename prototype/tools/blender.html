@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blender — Merge VFX&amp;CG</title>
+<link rel="icon" type="image/png" href="../images/icon-nodegraph.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">
+      <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+      <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+    </a>
+    <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
+      <a href="../guides/houdini-environment.html">Houdini背景制作まとめ</a>
+      <a href="../guides/houdini-pipeline.html">Houdiniパイプラインまとめ</a>
+      <a href="../guides/usd.html">USD資料まとめ</a>
+      <a href="../guides/sites.html">海外CG/VFX情報サイト</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <button class="nav-toggle" aria-label="メニュー">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 5H16M2 9H16M2 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="entry-hero" style="padding-bottom: 32px;">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="../index.html">トップ</a>
+      <span class="sep">/</span>
+      <a href="index.html">ツール</a>
+      <span class="sep">/</span>
+      <span class="current">Blender</span>
+    </nav>
+    <span class="category-pill">TOOL</span>
+    <h1>Blender</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div style="padding: 24px 0 80px;">
+    <p class="result-count" style="margin-bottom: 24px;"><strong>20</strong> 件のポスト</p>
+    <div class="entry-grid">
+        <a class="entry-card" href="../tips/Blenderの便利ツール2種_Fast_2D_Remesh_Tool_Spline_Mesh_Tool.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2084580108279640573-w1Mtl_Oq7v8IK1rl.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Blenderの便利ツール2種: Fast 2D Remesh Tool / Spline Mesh Tool</h3>
+            <p class="entry-summary">Blenderの便利なツール2種。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。</p>
+            <div class="entry-footer"><span>2026-08-04</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/「Port_Town」セミプロシージャル環境制作ワークフロー（Blender）.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2083738011867725855-HOrnx-6bEAAGh_g.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>「Port Town」セミプロシージャル環境制作ワークフロー（Blender）</h3>
+            <p class="entry-summary">Blenderを用いてセミプロシージャルに制作された背景作品「Port Town」の制作手法を、動画クリップ付きで解説するブレイクダウン。</p>
+            <div class="entry-footer"><span>2026-08-02</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Samuel_Krug氏のチュートリアル「巨大な海岸山脈シーンの制作」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2083387737441493008-HOmswpuacAA8WbC.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Samuel Krug氏のチュートリアル「巨大な海岸山脈シーンの制作」</h3>
+            <p class="entry-summary">Samuel Krug氏によるチュートリアル「How I Created a Massive Coastal Mountain Scene in 3D」。技術的な側面だけでなく、書籍の描写を基にした再現や試行錯誤の過程も見られる点をおすすめしている。</p>
+            <div class="entry-footer"><span>2026-08-01</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blender×Claudeで参考画像からシーン構築を自動化.html">
+          <div class="entry-thumb thumb-tips">
+            
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Blender×Claudeで参考画像からシーン構築を自動化</h3>
+            <p class="entry-summary">Claudeを使い、参考画像をもとにBlenderでシーンを構築する実験。時間はかかるが、しっかりルールを指定すればブロックアウトまで自動でこなしてくれそう。面倒な初期工程を飛ばし重要な部分に時間を割けるのが利点としている。</p>
+            <div class="entry-footer"><span>2026-04-29</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/UbisoftEA出身Environment_Concept_Artistのチュートリアル（Wingfox）.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2046235609929539853-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Ubisoft/EA出身Environment Concept Artistのチュートリアル（Wingfox）</h3>
+            <p class="entry-summary">UbisoftやEAで勤務経験のあるEnvironment Concept Artistによるチュートリアル「The Lost Soldier - Environment Concept Design」（Wingfox）。BlenderとPhotoshopを使い、主にデザイン面にフォーカスした内容。</p>
+            <div class="entry-footer"><span>2026-04-20</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blenderでのフォトリアルなテクスチャ制作解説.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2045804212198727780-HGQoB7dacAAXjj7.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Blenderでのフォトリアルなテクスチャ制作解説</h3>
+            <p class="entry-summary">Blenderでフォトリアルなテクスチャを制作する方法を解説する動画。</p>
+            <div class="entry-footer"><span>2026-04-19</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/V-Ray_for_Blender、商用利用無料で利用可能に.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2044035132714299805-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>V-Ray for Blender、商用利用無料で利用可能に</h3>
+            <p class="entry-summary">V-RayがBlenderで商用利用も無料で使えるようになった。90日ごとに更新でき、Cosmos Browserのアセットも利用可能。</p>
+            <div class="entry-footer"><span>2026-04-14</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Megascans_Bridgeのハイポリダウンロード設定とPoly_Reduceの目安.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2036085915165303196-HEGgi5IaYAAaJUx.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Megascans Bridgeのハイポリダウンロード設定とPoly Reduceの目安</h3>
+            <p class="entry-summary">Megascans Bridgeで「Highpoly Source」をオンにするとハイポリアセットもダウンロードできることを紹介。そのままでは重いため、近景でなければ10%以下までPoly Reduceしても問題なさそうという目安も共有している。</p>
+            <div class="entry-footer"><span>2026-03-23</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blender_Eevee用の無料SSGIアドオン.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2034933408259027179-HD2I6msboAE5zFl.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Blender Eevee用の無料SSGIアドオン</h3>
+            <p class="entry-summary">Blender EeveeにScreen Space Global Illuminationを追加する無料アドオン（ネイティブ版・アドオン版）。</p>
+            <div class="entry-footer"><span>2026-03-20</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blender_5.0でのフォトリアルな空の表現.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/2008897570635219075-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Blender 5.0でのフォトリアルな空の表現</h3>
+            <p class="entry-summary">Blender 5.0でフォトリアルな空を表現する方法を解説した動画。</p>
+            <div class="entry-footer"><span>2026-01-07</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blenderでシネマティックなルックを作るチュートリアル「Home_At_Last」.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1993263657522692416-G6g5ZT5aoAALIcG.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Blenderでシネマティックなルックを作るチュートリアル「Home At Last」</h3>
+            <p class="entry-summary">Blenderを使ってシネマティックなルックを再現するチュートリアル「Home At Last」。</p>
+            <div class="entry-footer"><span>2025-11-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Houdini→Blender変換アドオン.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1990546116556042433-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Houdini→Blender変換アドオン</h3>
+            <p class="entry-summary">HoudiniのデータをBlenderに変換するアドオン。</p>
+            <div class="entry-footer"><span>2025-11-17</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/80lv記事_Blenderで作る3Dヨーロッパ都市景観の色彩バリエーション.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/1989526719330701406-G5w3nNcaYAAcOqy.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>80lv記事: Blenderで作る3Dヨーロッパ都市景観の色彩バリエーション</h3>
+            <p class="entry-summary">Blenderで制作されたヨーロッパの都市景観作品のプロセスを解説する80lvの記事。スキャンアセットからパーツごとのアセット制作方法などが学べる。</p>
+            <div class="entry-footer"><span>2025-11-15</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/無料の高品質な車アセットサイト「Wire_Wheels_Club」.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1982641809538027750-G4PB7HyXQAAs8-O.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>無料の高品質な車アセットサイト「Wire Wheels Club」</h3>
+            <p class="entry-summary">無料で使える高品質な車の3Dアセットを提供するサイト「Wire Wheels Club」。</p>
+            <div class="entry-footer"><span>2025-10-27</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/BlenderのScatterアドオン「MP_Scatter」.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1982279864096002312-G4J4kjnWwAAY4JE.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>BlenderのScatterアドオン「MP Scatter」</h3>
+            <p class="entry-summary">LODやカメラカリングなど多くの機能を持つ、Blender用のScatterアドオン「MP Scatter」。</p>
+            <div class="entry-footer"><span>2025-10-26</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blizzard所属Andrew_Hodgson氏によるUV展開の実演.html">
+          <div class="entry-thumb thumb-tips">
+            <img src="../images/cards/1978694547745157221-G3W8Czpa8AA4LbO.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tips</span>
+            </div>
+            <h3>Blizzard所属Andrew Hodgson氏によるUV展開の実演</h3>
+            <p class="entry-summary">Blizzard Entertainment所属で映画『Dune』にも参加したAndrew Hodgson氏による、UV展開の実演。過去に多田学氏のセミナーでも参考ポートフォリオとして紹介されていた。</p>
+            <div class="entry-footer"><span>2025-10-16</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Blender・RealityScan・UE5・Nukeで作る背景制作チュートリアル.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/1978360470986694737-Zo6oAqPUqOWjtsUF.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Blender・RealityScan・UE5・Nukeで作る背景制作チュートリアル</h3>
+            <p class="entry-summary">Blender、RealityScan、UE5、Nukeを使ったシーン制作のチュートリアル。Houdiniとは異なるワークフローだが、背景制作に通じる部分が多いとしている。</p>
+            <div class="entry-footer"><span>2025-10-15</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/Baptiste氏の作品のBlenderファイルを紹介.html">
+          <div class="entry-thumb thumb-reel">
+            <img src="../images/cards/1977890029516308949-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Showreel/Demoreel</span>
+            </div>
+            <h3>Baptiste氏の作品のBlenderファイルを紹介</h3>
+            <p class="entry-summary">背景制作に定評のあるBaptiste氏が制作した作品のBlenderファイル。</p>
+            <div class="entry-footer"><span>2025-10-14</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/自動リグ生成のBlenderアドオン（WIP、無料）.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/1977752644132180070-og.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>自動リグ生成のBlenderアドオン（WIP、無料）</h3>
+            <p class="entry-summary">自動的にリグを作成してくれるBlenderのアドオン。まだWIP段階だが、無料でダウンロード可能。</p>
+            <div class="entry-footer"><span>2025-10-13</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="../tips/画像の色を転送できるBlenderアドオンを紹介.html">
+          <div class="entry-thumb thumb-pipeline">
+            
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>画像の色を転送できるBlenderアドオンを紹介</h3>
+            <p class="entry-summary">1枚の画像の色を別の画像に転送できるBlenderのアドオン。背景制作で欲しいテクスチャがない際に役立つとしている。</p>
+            <div class="entry-footer"><span>2025-10-10</span></div>
+          </div>
+        </a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">
+          <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+          <span>Merge VFX&amp;CG</span>
+        </a>
+        <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="../archive.html">ポスト一覧</a></li>
+          <li><a href="../topics/index.html">トピックで探す</a></li>
+          <li><a href="../tools/index.html">ツールで探す</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../about.html">このサイトについて</a></li>
+          <li><a href="../privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="../contact.html">お問い合わせ</a></li>
+          <li><a href="https://x.com/kuramaKageya" target="_blank" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://github.com/9ra369" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.artstation.com/kurama_kageya" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
+          <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
+          <li><a href="../rss.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Merge VFX&amp;CG. All rights reserved.</span>
+      <span>Design prototype — content is placeholder</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../nav.js" defer></script>
+<script src="../search.js" defer></script>
+</body>
+</html>

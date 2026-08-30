@@ -2,7 +2,10 @@
 title: "3Dキャラクターをゼロから作る「Realistic 3D Character Portrait」コース"
 date: 2025-10-24
 category: "tutorial"
+type: "brief"
 tags: ["Zbrush", "Substance Painter", "Maya", "Arnold"]
+topics: ["lookdev"]
+tools: ["zbrush","substance","maya"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1981718335378374967"

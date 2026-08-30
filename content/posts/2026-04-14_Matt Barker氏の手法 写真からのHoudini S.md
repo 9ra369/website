@@ -2,7 +2,10 @@
 title: "Matt Barker氏の手法: 写真からのHoudini Scatterワークフロー"
 date: 2026-04-14
 category: "tips"
+type: "brief"
 tags: ["Houdini", "Scattering", "sidefx"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://www.linkedin.com/feed/update/urn:li:activity:7449649000338706432/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044047231880441901"

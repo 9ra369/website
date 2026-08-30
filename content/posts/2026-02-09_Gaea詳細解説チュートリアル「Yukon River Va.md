@@ -2,7 +2,10 @@
 title: "Gaea詳細解説チュートリアル「Yukon River Valley」"
 date: 2026-02-09
 category: "tutorial"
+type: "brief"
 tags: ["Gaea", "Terrain", "Environment"]
+topics: ["environment"]
+tools: ["gaea"]
 source_url: "https://www.youtube.com/watch?v=0PVEk6nrPHY"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2020886198143815702"

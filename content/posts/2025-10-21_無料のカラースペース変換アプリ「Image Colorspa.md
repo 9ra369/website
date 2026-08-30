@@ -2,7 +2,10 @@
 title: "無料のカラースペース変換アプリ「Image Colorspace Converter」"
 date: 2025-10-21
 category: "pipeline"
+type: "brief"
 tags: ["Color Management", "ACES", "OCIO", "vfx", "3DCG"]
+topics: ["fx"]
+tools: []
 source_url: "https://pyco.gumroad.com/l/pycocs"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1980483587263893900"

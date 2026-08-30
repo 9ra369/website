@@ -2,7 +2,10 @@
 title: "元Pixarエンジニア手島孝人氏のCEDEC講演スライド「USD入門」"
 date: 2025-11-03
 category: "tutorial"
+type: "brief"
 tags: ["USD", "Pixar", "houdini", "sidefx"]
+topics: ["industry"]
+tools: ["usd","houdini"]
 source_url: "https://www.slideshare.net/slideshow/usd-79288174/79288174"
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1985276932808999065"

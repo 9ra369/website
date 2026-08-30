@@ -2,7 +2,10 @@
 title: "Claude-to-Unreal Connector（MCPベース、Beta版）"
 date: 2026-05-25
 category: "tips"
+type: "brief"
 tags: ["Unreal Engine", "AI", "Claude", "ue"]
+topics: ["ai"]
+tools: ["unreal"]
 source_url: "https://www.geopogo.com/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2058918686866694418"

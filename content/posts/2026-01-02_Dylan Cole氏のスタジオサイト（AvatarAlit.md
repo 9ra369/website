@@ -2,7 +2,10 @@
 title: "Dylan Cole氏のスタジオサイト（Avatar/Alitaのプロダクションデザイナー）"
 date: 2026-01-02
 category: "showreel"
+type: "brief"
 tags: ["Environment", "Concept Art"]
+topics: ["environment","art-fundamentals"]
+tools: []
 source_url: "https://dylancolestudio.com/"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2006943650568413539"

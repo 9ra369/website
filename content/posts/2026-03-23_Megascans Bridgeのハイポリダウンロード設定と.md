@@ -2,7 +2,10 @@
 title: "Megascans Bridgeのハイポリダウンロード設定とPoly Reduceの目安"
 date: 2026-03-23
 category: "tips"
+type: "brief"
 tags: ["Megascans", "Optimization", "3dcg", "b3d"]
+topics: ["environment"]
+tools: ["blender"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2036085915165303196"

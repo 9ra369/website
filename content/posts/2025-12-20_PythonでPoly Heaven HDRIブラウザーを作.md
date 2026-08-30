@@ -2,7 +2,10 @@
 title: "PythonでPoly Heaven HDRIブラウザーを作るチュートリアル"
 date: 2025-12-20
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Python", "HDRI", "sidefx"]
+topics: ["environment"]
+tools: ["houdini","python"]
 source_url: "https://www.youtube.com/watch?v=V7jIDnE_bxs&list=WL&index=97"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2002362808118456370"

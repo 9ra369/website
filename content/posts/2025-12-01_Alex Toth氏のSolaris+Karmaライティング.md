@@ -2,7 +2,10 @@
 title: "Alex Toth氏のSolaris+Karmaライティングウェビナー"
 date: 2025-12-01
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Solaris", "Karma", "Lighting", "siderfx"]
+topics: ["lighting-rendering"]
+tools: ["houdini","usd"]
 source_url: "https://www.youtube.com/watch?v=YCvoOWgna_U"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1995386771098812859"

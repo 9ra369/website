@@ -2,7 +2,10 @@
 title: "Blizzard所属Adrien Lambert氏のSolarisチュートリアル"
 date: 2025-10-10
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Solaris", "USD", "Environment"]
+topics: ["environment"]
+tools: ["houdini","usd"]
 source_url: "https://adrienlambert.gumroad.com/l/ztwuaj?layout=profile&recommended_by=library"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1976452397032677522"

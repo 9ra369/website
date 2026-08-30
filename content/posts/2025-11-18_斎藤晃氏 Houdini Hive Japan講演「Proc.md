@@ -2,7 +2,10 @@
 title: "斎藤晃氏 Houdini Hive Japan講演「Procedural Hard Surface Design」"
 date: 2025-11-18
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Procedural Modeling", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 mentions: ["a_saito"]
 source_url: "https://www.youtube.com/watch?v=ghD79dVZZ_o"
 language: "英語"

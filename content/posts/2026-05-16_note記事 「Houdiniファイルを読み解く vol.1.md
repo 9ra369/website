@@ -2,7 +2,10 @@
 title: "note記事: 「Houdiniファイルを読み解く vol.1」"
 date: 2026-05-16
 category: "article"
+type: "explainer"
 tags: ["Houdini", "sidefx"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://note.com/kura_0724/n/nd460d6d6ebbd?app_launch=false"
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2055672251283054835"

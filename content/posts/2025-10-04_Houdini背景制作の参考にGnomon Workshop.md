@@ -2,7 +2,10 @@
 title: "Houdini背景制作の参考にGnomon Workshopのコースを推薦"
 date: 2025-10-04
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Environment", "sidefx", "背景制作"]
+topics: ["environment"]
+tools: ["houdini"]
 source_url: "https://www.notion.so/Environment-Generalist-Tips-2817da4355d280beac4bc1ae0684a0c1?source=copy_link"
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1974343812739969520"

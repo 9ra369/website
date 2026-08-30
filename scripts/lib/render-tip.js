@@ -153,8 +153,8 @@ const SITE_FOOTER = (depth) => {
         <h4>Browse</h4>
         <ul>
           <li><a href="${p}archive.html">ポスト一覧</a></li>
-          <li><a href="${p}archive.html">カテゴリで探す</a></li>
-          <li><a href="${p}archive.html">タグで探す</a></li>
+          <li><a href="${p}topics/index.html">トピックで探す</a></li>
+          <li><a href="${p}tools/index.html">ツールで探す</a></li>
         </ul>
       </div>
       <div class="footer-col">

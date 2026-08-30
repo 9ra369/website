@@ -2,7 +2,10 @@
 title: "Steffen Hampel氏『Fallout』ファンアート最新作"
 date: 2026-04-14
 category: "showreel"
+type: "brief"
 tags: ["ArtStation", "Environment"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.artstation.com/artwork/zxa632"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044058405321748565"

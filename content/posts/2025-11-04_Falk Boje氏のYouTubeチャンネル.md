@@ -2,7 +2,10 @@
 title: "Falk Boje氏のYouTubeチャンネル"
 date: 2025-11-04
 category: "showreel"
+type: "brief"
 tags: ["YouTube", "Environment", "vfx", "背景制作"]
+topics: ["environment","fx"]
+tools: []
 source_url: "https://www.youtube.com/@falkboje"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1985652131454722154"

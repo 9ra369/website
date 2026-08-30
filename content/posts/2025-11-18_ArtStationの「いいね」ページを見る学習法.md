@@ -2,7 +2,10 @@
 title: "ArtStationの「いいね」ページを見る学習法"
 date: 2025-11-18
 category: "showreel"
+type: "brief"
 tags: ["ArtStation"]
+topics: ["industry"]
+tools: []
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1990646681604665533"

@@ -2,7 +2,10 @@
 title: "Houdiniのショートカット: Alt+Shift+Mでキャッシュマネージャー"
 date: 2025-10-31
 category: "tips"
+type: "brief"
 tags: ["Houdini", "Tips"]
+topics: ["industry"]
+tools: ["houdini"]
 source_url: "https://x.com/MattiaMerenda2/status/1984061549364048030"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1984100860583182466"

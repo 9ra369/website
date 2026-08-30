@@ -2,7 +2,10 @@
 title: "ActionVFXの無料カメラシェイク素材"
 date: 2025-10-22
 category: "tips"
+type: "brief"
 tags: ["Nuke", "VFX", "Compositing", "3DCG"]
+topics: ["compositing","fx"]
+tools: ["nuke"]
 mentions: ["ActionVFX"]
 source_url: "https://www.actionvfx.com/collections/free-camera-shake-presets-stock-footage"
 language: "英語"

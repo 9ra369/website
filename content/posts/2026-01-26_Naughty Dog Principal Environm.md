@@ -2,7 +2,10 @@
 title: "Naughty Dog Principal Environment Artistによる『The Last of Us Part I』ブレイクダウン"
 date: 2026-01-26
 category: "showreel"
+type: "brief"
 tags: ["Environment", "ArtStation"]
+topics: ["environment"]
+tools: []
 source_url: "https://www.artstation.com/artwork/RKG89O"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2015631691587735891"

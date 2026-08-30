@@ -2,7 +2,10 @@
 title: "Adrien Lambert氏のマスク生成HDA「AL MASKBUILDER」"
 date: 2025-10-25
 category: "pipeline"
+type: "brief"
 tags: ["Houdini", "HDA", "Scattering", "sidefx", "背景制作"]
+topics: ["pipeline","environment"]
+tools: ["houdini"]
 source_url: "https://adrienlambert.gumroad.com/l/AswVG?layout=profile"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1981917621772849439"

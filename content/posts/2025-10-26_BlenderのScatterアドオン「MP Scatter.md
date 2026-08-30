@@ -2,7 +2,10 @@
 title: "BlenderのScatterアドオン「MP Scatter」"
 date: 2025-10-26
 category: "pipeline"
+type: "brief"
 tags: ["Blender", "Scattering", "b3d", "背景制作", "3DCG"]
+topics: ["environment"]
+tools: ["blender"]
 source_url: ""
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/1982279864096002312"

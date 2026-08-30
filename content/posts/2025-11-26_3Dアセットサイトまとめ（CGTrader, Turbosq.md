@@ -2,7 +2,10 @@
 title: "3Dアセットサイトまとめ（CGTrader, Turbosquid他）"
 date: 2025-11-26
 category: "tips"
+type: "brief"
 tags: ["Assets"]
+topics: ["pipeline"]
+tools: []
 source_url: "https://cgtrader.com"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1993644620979597520"

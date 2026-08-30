@@ -2,7 +2,10 @@
 title: "Junliang Zhang氏の記事「2日で作るプロシージャル環境」（Houdini+UE4）"
 date: 2025-11-06
 category: "article"
+type: "explainer"
 tags: ["Houdini", "Unreal Engine", "Environment", "sidefx", "UE5"]
+topics: ["environment"]
+tools: ["houdini","unreal"]
 source_url: "https://www.exp-points.com/junliang-zhang-procedural-environment-houdini-ue4?utm_source=chatgpt.com"
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/1986315228863471655"

@@ -2,7 +2,10 @@
 title: "Samuel Krug氏のチュートリアル「巨大な海岸山脈シーンの制作」"
 date: 2026-08-01
 category: "tutorial"
+type: "brief"
 tags: ["Houdini", "Blender", "Environment"]
+topics: ["environment"]
+tools: ["houdini","blender"]
 mentions: ["samuel_krug"]
 source_url: "https://www.youtube.com/watch?v=JsPPPMAllTk"
 language: "英語"
