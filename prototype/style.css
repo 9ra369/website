@@ -385,6 +385,43 @@ ul { list-style: none; margin: 0; padding: 0; }
 .section-head .link-more:hover { color: var(--color-accent); }
 .section-head .link-more svg { width: 15px; height: 15px; }
 
+/* ---------- Start here: hub/guide cards (visually distinct from entry-card) ---------- */
+
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.hub-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(150deg, var(--color-accent-soft), var(--color-surface) 60%);
+  border: 0.5px solid var(--color-border-strong);
+  transition: border-color 0.18s ease;
+}
+.hub-card:hover { border-color: var(--color-accent); }
+.hub-badge {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-en);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  background: rgba(15, 20, 24, 0.5);
+  border: 0.5px solid var(--color-accent);
+  padding: 4px 9px;
+}
+.hub-badge svg { width: 11px; height: 11px; }
+.hub-card h3 { font-size: 16.5px; font-weight: 700; margin: 0; color: var(--color-text); line-height: 1.5; }
+.hub-card p { font-size: 13px; color: var(--color-text-muted); margin: 0; flex: 1; }
+.hub-card .hub-meta { font-size: 12px; color: var(--color-text-faint); font-family: var(--font-en); }
+
 /* ---------- Category grid ---------- */
 
 .category-grid {
@@ -1120,6 +1157,7 @@ body.lightbox-locked { overflow: hidden; }
   .filter-panel { position: static; }
   .entry-grid { grid-template-columns: repeat(2, 1fr); }
   .category-grid { grid-template-columns: repeat(2, 1fr); }
+  .hub-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 
@@ -1140,6 +1178,7 @@ body.lightbox-locked { overflow: hidden; }
   .section { padding: 52px 0; }
   .entry-grid { grid-template-columns: 1fr; }
   .category-grid { grid-template-columns: 1fr 1fr; }
+  .hub-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .cta-band { flex-direction: column; align-items: flex-start; padding: 32px; }
 

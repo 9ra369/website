@@ -118,9 +118,10 @@ const SITE_HEADER = (depth) => {
         <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
         <span>記事・リンクを検索</span>
       </div>
-      <a href="${p}index.html">トップ</a>
-      <a href="${p}archive.html" class="is-active">ポスト</a>
-      <a href="${p}about.html">About</a>
+      <a href="${p}guides/houdini-environment.html">Houdini背景制作まとめ</a>
+      <a href="${p}guides/houdini-pipeline.html">Houdiniパイプラインまとめ</a>
+      <a href="${p}guides/usd.html">USD資料まとめ</a>
+      <a href="${p}guides/sites.html">海外CG/VFX情報サイト</a>
     </nav>
     <div class="header-actions">
       <div class="search-trigger">
@@ -397,4 +398,14 @@ ${related.length > 0 ? `<script src="${p}related-posts.js" defer></script>\n` : 
 `;
 }
 
-module.exports = { renderTipPage, parseFrontMatter, extractImages, slugifyTitle };
+module.exports = {
+  renderTipPage,
+  parseFrontMatter,
+  extractImages,
+  slugifyTitle,
+  SITE_HEADER,
+  SITE_FOOTER,
+  CATEGORY_LABELS,
+  CATEGORY_THUMB,
+  escapeHtml,
+};
