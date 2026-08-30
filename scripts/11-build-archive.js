@@ -161,7 +161,12 @@ function main() {
 
   const cardsHtml = all.map(renderCard).join("\n\n");
 
-  let html = fs.readFileSync(ARCHIVE_FILE, "utf8");
+  // Normalize to LF first: if a prior git checkout/commit round-trip left this
+  // file CRLF (core.autocrlf on Windows), every regex below that expects a
+  // literal "\n" silently fails to match and this whole function becomes a
+  // no-op — happened for real once, so guard against it rather than trust
+  // the working tree's line endings.
+  let html = fs.readFileSync(ARCHIVE_FILE, "utf8").replace(/\r\n/g, "\n");
 
   // 1) category filter counts
   html = html.replace(
@@ -179,7 +184,7 @@ function main() {
   // this script's own previous output)
   html = html.replace(
     /<p class="result-count">.*?<\/p>/,
-    `<p class="result-count"><strong>${all.length}</strong> 件のエントリー</p>`
+    `<p class="result-count"><strong>${all.length}</strong> 件のポスト</p>`
   );
 
   // 4) entry grid

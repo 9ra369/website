@@ -124,7 +124,9 @@ function main() {
     .map((e) => renderCard({ ...e, catLabel: catLabelMap[e.category] || e.category }, catThumbMap))
     .join("\n\n");
 
-  let html = fs.readFileSync(INDEX_FILE, "utf8");
+  // Normalize to LF first — see the matching comment in 11-build-archive.js:
+  // a CRLF working-tree copy makes every regex below silently no-op.
+  let html = fs.readFileSync(INDEX_FILE, "utf8").replace(/\r\n/g, "\n");
 
   // Hero eyebrow + stats row (収録エントリー/カテゴリ/使用タグ数/最終更新) were removed
   // from the hero in the 2026-08-27 nav/hero redesign — no longer generated here.

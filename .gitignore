@@ -36,3 +36,6 @@ _work/
 
 # local dev tooling (ffmpeg binary for video->GIF thumbnails) — not for commit
 .tools/
+
+# personal working notes/checklists (e.g. manual media-collection to-do lists) — not for commit
+___manual/
