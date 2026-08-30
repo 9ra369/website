@@ -11,6 +11,8 @@ ai_confidence: "high"
 status: draft
 ---
 
+![](images/posts/1979814572497518966-li.jpg)
+
 こちらLinkedInのポストですが、HoudiniのAIアシスタントになります！
 
 デバッグであったり、ノードやパラメーターの分析なども行ってくれるみたいです。

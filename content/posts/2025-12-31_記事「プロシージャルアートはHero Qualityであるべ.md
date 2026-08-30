@@ -11,6 +11,8 @@ ai_confidence: "high"
 status: draft
 ---
 
+![](images/posts/2006202486827409864-li.gif)
+
 Procedural Art shouldn't just be 'Good Enough'. It should be Hero Quality
 
 https://www.linkedin.com/pulse/procedural-art-shouldnt-just-good-enough-should-hero-kasravi-fard-gekmf/?trackingId=ywG3C0MKTBq%2FPt9WBz8vYg%3D%3D

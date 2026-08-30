@@ -71,7 +71,6 @@ const GUIDES = [
     // "terrain" technique posts (those live in the environment hubs above).
     hrefs: [
       "tips/塚島氏のPLATEAU×Houdiniミニチュアルック制作チュートリアル.html",
-      "tips/Google_MapsとTerrarium標高データからHeight_Field生成.html",
       "tips/高解像度地形生成ツールがリリース（米国内1-10mpx、全世界30mpx）.html",
       "tips/実地形生成HDA_COPs＋AI_Meta_SAMによるスプラットマップ自動生成.html",
       "tips/CGWORLD記事_Houdini×USDで自動運転用デジタルツイン生成（Aurora_Innovation）.html",

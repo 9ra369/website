@@ -1,6 +1,6 @@
 # Xポスト移行チェックシート
 
-全368件 — 下書き 258 / 公開 0 / 要判断 0 / 除外 110 / 未処理 0
+全368件 — 下書き 255 / 公開 0 / 要判断 0 / 除外 111 / 未処理 2
 
 番号を指定して「n番はいらない」と言えば `content/_archive/` へ移動できます（削除はしません）。
 
@@ -141,7 +141,7 @@
 | 133 | 2025-11-14 | William Faucher氏、UE新機能MEGAPLANTS解説動画 | ✅ 下書き作成済み |
 | 134 | 2025-11-15 | 80lv記事: Blenderで作る3Dヨーロッパ都市景観の色彩バリエーション | ✅ 下書き作成済み |
 | 135 | 2025-11-16 | Steffen Hampel氏の雪景色シーン制作プロセス | ✅ 下書き作成済み |
-| 136 | 2025-11-17 | USDレイヤーを可視化するHDA「explodeUSDLayer」（開発中） | ✅ 下書き作成済み |
+| 136 | 2025-11-17 | (未生成) USDのレイヤーごとに視覚化し、構造が理解できるHDAで | ⬜ 未処理 |
 | 137 | 2025-11-17 | Houdiniでプロシージャルに道路網を作るチュートリアル | ✅ 下書き作成済み |
 | 138 | 2025-11-17 | Houdini→Blender変換アドオン | ✅ 下書き作成済み |
 | 139 | 2025-11-18 | (未生成) 斎藤さんのProcedural Modelingの講演動 | 🗑 除外 |
@@ -195,7 +195,7 @@
 | 187 | 2026-01-02 | Dylan Cole氏のスタジオサイト（Avatar/Alitaのプロダクションデザイナー） | ✅ 下書き作成済み |
 | 188 | 2026-01-03 | (未生成) Unreal Engine 5 + WAN 2.2 VA | 🗑 除外 |
 | 189 | 2026-01-03 | (未生成) Unreal Engine 5 + WAN 2.2 VA | 🗑 除外 |
-| 190 | 2026-01-03 | Google MapsとTerrarium標高データからHeight Field生成 | ✅ 下書き作成済み |
+| 190 | 2026-01-03 | (未生成) G-Mapsとリンクして、Terrarium open  | 🗑 除外 |
 | 191 | 2026-01-07 | Blender 5.0でのフォトリアルな空の表現 | ✅ 下書き作成済み |
 | 192 | 2026-01-08 | Adrien Lambert氏、Solaris/Copernicus/PDG関連の新チュートリアル追加 | ✅ 下書き作成済み |
 | 193 | 2026-01-08 | Dusso氏の作品を紹介 | ✅ 下書き作成済み |
@@ -290,7 +290,7 @@
 | 282 | 2026-04-12 | Max Kutsenko氏「Wooden Roof Shingles」制作解説 | ✅ 下書き作成済み |
 | 283 | 2026-04-12 | (未生成) BlenderでQuixel Bridgeが使えなかった | 🗑 除外 |
 | 284 | 2026-04-13 | 毎日作品分析Day6: 『Elder Scrolls Online』Key Art（Max Schiller） | ✅ 下書き作成済み |
-| 285 | 2026-04-13 | UVのTexel Density自動計算HDA（Franco Pizzani氏） | ✅ 下書き作成済み |
+| 285 | 2026-04-13 | (未生成) Houdini Texel Density Tool b | ⬜ 未処理 |
 | 286 | 2026-04-14 | V-Ray for Blender、商用利用無料で利用可能に | ✅ 下書き作成済み |
 | 287 | 2026-04-14 | 毎日作品分析Day7: Darek Zabrocki「ZORADX - Vistas」 | ✅ 下書き作成済み |
 | 288 | 2026-04-14 | Matt Barker氏の手法: 写真からのHoudini Scatterワークフロー | ✅ 下書き作成済み |

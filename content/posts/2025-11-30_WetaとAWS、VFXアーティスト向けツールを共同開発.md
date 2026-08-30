@@ -11,6 +11,8 @@ ai_confidence: "high"
 status: draft
 ---
 
+![](images/posts/1995057157671383282-li.gif)
+
 WetaとAWSがVFXアーティストのためのツールを共同開発するみたいです！
 
 https://www.linkedin.com/posts/jackieszymanski_w%C4%93t%C4%81-fx-and-aws-to-develop-ai-tools-for-vfx-activity-7400578237195730944-7U3P?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMllVYB2E4ptez2SKeXXeoHzdIynfcodP4
