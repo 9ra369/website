@@ -1,5 +1,5 @@
 ---
-title: "Kevin Baker氏の記事: 切り崩された崖と自然の崖の違い"
+title: "Kevin Baker氏 — 切り崩された崖と自然の崖の違いを解説"
 slug: "kevin-baker"
 date: 2026-06-13
 category: "article"

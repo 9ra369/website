@@ -1,5 +1,5 @@
 ---
-title: "Steffen Hampel氏『Fallout』ファンアート最新作"
+title: "Steffen Hampel氏 — 『Fallout』ファンアート最新作"
 slug: "steffen-hampel-fallout"
 date: 2026-04-14
 category: "showreel"

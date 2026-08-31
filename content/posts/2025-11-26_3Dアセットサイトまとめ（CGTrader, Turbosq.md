@@ -1,5 +1,5 @@
 ---
-title: "3Dアセットサイトまとめ（CGTrader, Turbosquid他）"
+title: "CGTrader / Turbosquid — 3Dアセットサイトまとめ"
 slug: "3d-cgtrader-turbosquid"
 date: 2025-11-26
 category: "tips"

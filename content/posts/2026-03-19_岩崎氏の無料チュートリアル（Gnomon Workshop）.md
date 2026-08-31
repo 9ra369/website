@@ -1,5 +1,5 @@
 ---
-title: "岩崎氏の無料チュートリアル（Gnomon Workshop）"
+title: "【無料】岩崎氏 — Gnomon Workshopのチュートリアル"
 slug: "gnomon-workshop"
 date: 2026-03-19
 category: "tutorial"

@@ -1,5 +1,5 @@
 ---
-title: "Maya/Arnold用アセットライブラリプラグイン「Asset_Ingester」"
+title: "Asset_Ingester — Maya/Arnold用アセットライブラリプラグイン"
 slug: "maya-arnold-asset-ingester"
 date: 2025-11-05
 category: "pipeline"

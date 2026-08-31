@@ -1,5 +1,5 @@
 ---
-title: "『アサシンクリード シャドウズ』岩壁生成HDA「Procedural Rock Wall Tool」"
+title: "Procedural Rock Wall Tool — 『アサシンクリード シャドウズ』の岩壁生成HDA"
 slug: "hda-procedural-rock-wall-tool"
 date: 2026-04-11
 category: "pipeline"

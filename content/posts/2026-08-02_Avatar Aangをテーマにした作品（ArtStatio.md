@@ -1,5 +1,5 @@
 ---
-title: "Avatar Aangをテーマにした作品（ArtStation）"
+title: "Avatar Aang — テーマにした作品（ArtStation）"
 slug: "avatar-aang-artstation"
 date: 2026-08-02
 category: "showreel"

@@ -1,5 +1,5 @@
 ---
-title: "Rookies 2024優勝Antoine Barbannaud氏の背景制作チュートリアル"
+title: "Antoine Barbannaud氏 — The Rookies 2024優勝者による背景制作チュートリアル"
 slug: "rookies-antoine-barbannaud"
 date: 2025-10-13
 category: "tutorial"

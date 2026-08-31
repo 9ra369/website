@@ -1,5 +1,5 @@
 ---
-title: "Nuke内で直接ペイントできるギズモ「ACS_AutoCustomScribbles」"
+title: "ACS_AutoCustomScribbles — Nuke内で直接ペイントできるギズモ"
 slug: "nuke-acs-autocustomscribbles"
 date: 2025-12-12
 category: "pipeline"

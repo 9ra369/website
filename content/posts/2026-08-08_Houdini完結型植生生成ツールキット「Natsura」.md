@@ -1,5 +1,5 @@
 ---
-title: "Houdini完結型植生生成ツールキット「Natsura」"
+title: "Natsura — Houdini完結型の植生生成ツールキット"
 slug: "houdini-natsura"
 date: 2026-08-08
 category: "pipeline"

@@ -1,5 +1,5 @@
 ---
-title: "80lv記事: 『The Creator』着想の地形デザイン"
+title: "80lv — 映画『The Creator』着想の地形デザイン解説"
 slug: "80lv-the-creator"
 date: 2025-10-09
 category: "article"

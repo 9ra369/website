@@ -1,5 +1,5 @@
 ---
-title: "ILM/Framestore出身Christian Bohm氏のHoudiniチュートリアル"
+title: "Christian Bohm氏 — ILM/Framestore出身によるHoudiniチュートリアル"
 slug: "ilm-framestore-christian-bohm-houdini"
 date: 2026-02-04
 category: "tutorial"

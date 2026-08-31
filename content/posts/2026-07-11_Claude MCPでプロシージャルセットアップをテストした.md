@@ -1,5 +1,5 @@
 ---
-title: "Claude MCPでプロシージャルセットアップをテストした所感"
+title: "Claude MCP — プロシージャルセットアップをテストした所感"
 slug: "claude-mcp"
 date: 2026-07-11
 category: "article"

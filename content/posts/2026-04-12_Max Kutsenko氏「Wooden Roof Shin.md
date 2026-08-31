@@ -1,5 +1,5 @@
 ---
-title: "Max Kutsenko氏「Wooden Roof Shingles」制作解説"
+title: "Max Kutsenko氏 — 『Wooden Roof Shingles』制作解説"
 slug: "max-kutsenko-wooden-roof-shingles"
 date: 2026-04-12
 category: "tutorial"

@@ -1,5 +1,5 @@
 ---
-title: "Houdini×ComfyUIのカメラプロジェクション自動化ツール"
+title: "Houdini × ComfyUI — カメラプロジェクション自動化ツール"
 slug: "houdini-comfyui"
 date: 2026-01-14
 category: "pipeline"

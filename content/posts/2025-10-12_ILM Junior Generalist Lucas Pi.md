@@ -1,5 +1,5 @@
 ---
-title: "ILM Junior Generalist Lucas Piazzini氏のXアカウント"
+title: "Lucas Piazzini氏 — ILM Junior GeneralistのXアカウントを紹介"
 slug: "ilm-junior-generalist-lucas-piazzini"
 date: 2025-10-12
 category: "showreel"

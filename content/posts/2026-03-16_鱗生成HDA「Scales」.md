@@ -1,5 +1,5 @@
 ---
-title: "鱗生成HDA「Scales」"
+title: "Scales — 鱗生成HDA"
 slug: "hda-scales"
 date: 2026-03-16
 category: "pipeline"

@@ -1,5 +1,5 @@
 ---
-title: "Blenderの便利ツール2種: Fast 2D Remesh Tool / Spline Mesh Tool"
+title: "Blender — 便利ツール2種、Fast 2D Remesh Tool/Spline Mesh Tool"
 slug: "blender-fast-2d-remesh-tool-spline"
 date: 2026-08-04
 category: "pipeline"

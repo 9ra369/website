@@ -1,5 +1,5 @@
 ---
-title: "HoudiniのTips集「MysteryPancake/Houdini-Fun」（GitHub）"
+title: "MysteryPancake/Houdini-Fun — HoudiniのTips集（GitHub）"
 slug: "houdini-tips-mysterypancake-houdini-fun-github"
 date: 2026-02-09
 category: "tips"

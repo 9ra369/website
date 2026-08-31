@@ -1,5 +1,5 @@
 ---
-title: "Maya PySide2: .ui利用かPython化かを解説する記事"
+title: "Maya — PySide2の.ui利用かPython化かを解説する記事"
 slug: "maya-pyside2-ui-python"
 date: 2026-02-07
 category: "article"

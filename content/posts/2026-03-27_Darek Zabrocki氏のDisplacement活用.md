@@ -1,5 +1,5 @@
 ---
-title: "Darek Zabrocki氏のDisplacement活用都市景観チュートリアル"
+title: "Darek Zabrocki氏 — Displacement活用都市景観チュートリアル"
 slug: "darek-zabrocki-displacement"
 date: 2026-03-27
 category: "tutorial"

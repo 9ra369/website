@@ -1,5 +1,5 @@
 ---
-title: "HoudiniでPySide UIを作るクイックスタート動画"
+title: "Houdini — PySideでUIを作るクイックスタート動画"
 slug: "houdini-pyside-ui"
 date: 2026-01-31
 category: "tutorial"

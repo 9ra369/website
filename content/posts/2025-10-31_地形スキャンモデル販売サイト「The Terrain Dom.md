@@ -1,5 +1,5 @@
 ---
-title: "地形スキャンモデル販売サイト「The Terrain Domain」"
+title: "The Terrain Domain — 地形スキャンモデル販売サイト"
 slug: "the-terrain-domain"
 date: 2025-10-31
 category: "tips"

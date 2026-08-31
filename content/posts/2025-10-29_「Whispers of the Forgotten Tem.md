@@ -1,5 +1,5 @@
 ---
-title: "「Whispers of the Forgotten Temple」制作プロセス解説"
+title: "Whispers of the Forgotten Temple — 制作プロセス解説"
 slug: "whispers-of-the-forgotten-temple"
 date: 2025-10-29
 category: "tutorial"

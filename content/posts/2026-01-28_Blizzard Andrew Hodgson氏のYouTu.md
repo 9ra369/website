@@ -1,5 +1,5 @@
 ---
-title: "Blizzard Andrew Hodgson氏のYouTubeチャンネル"
+title: "Andrew Hodgson氏 — Blizzard所属モデラーのYouTubeチャンネル"
 slug: "blizzard-andrew-hodgson-youtube"
 date: 2026-01-28
 category: "showreel"

@@ -1,5 +1,5 @@
 ---
-title: "CG Loungeのジャーナル（Arvid Schneider氏運営）"
+title: "CG Lounge — Arvid Schneider氏運営のジャーナル"
 slug: "cg-lounge-arvid-schneider"
 date: 2026-04-16
 category: "article"

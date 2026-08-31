@@ -1,5 +1,5 @@
 ---
-title: "Lattice操作を簡単にするHDA「Lattice_B」"
+title: "Lattice_B — HoudiniのLattice操作を簡単にするHDA"
 slug: "lattice-hda-lattice-b"
 date: 2025-10-21
 category: "pipeline"

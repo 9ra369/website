@@ -1,5 +1,5 @@
 ---
-title: "NVIDIA「OpenUSD Interactive Glossary」"
+title: "NVIDIA — OpenUSD Interactive Glossary"
 slug: "nvidia-openusd-interactive-glossary"
 date: 2026-06-27
 category: "tips"

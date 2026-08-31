@@ -1,5 +1,5 @@
 ---
-title: "Dylan Cole氏のスタジオサイト（Avatar/Alitaのプロダクションデザイナー）"
+title: "Dylan Cole氏 — Avatar/Alitaのプロダクションデザイナーによるスタジオサイト"
 slug: "dylan-cole-avatar-alita"
 date: 2026-01-02
 category: "showreel"

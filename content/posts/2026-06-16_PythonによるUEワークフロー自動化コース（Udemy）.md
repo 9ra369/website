@@ -1,5 +1,5 @@
 ---
-title: "PythonによるUEワークフロー自動化コース（Udemy）"
+title: "Python — UEワークフロー自動化コース（Udemy）"
 slug: "python-ue-udemy"
 date: 2026-06-16
 category: "tutorial"

@@ -1,5 +1,5 @@
 ---
-title: "Axiom開発者Matt氏の新ソルバー"
+title: "Axiom — 開発者Matt氏が新ソルバーをリリース"
 slug: "axiom-matt"
 date: 2026-01-20
 category: "tips"

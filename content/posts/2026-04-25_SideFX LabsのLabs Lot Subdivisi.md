@@ -1,5 +1,5 @@
 ---
-title: "SideFX LabsのLabs Lot Subdivision作例解説"
+title: "SideFX Labs — Labs Lot Subdivision作例解説"
 slug: "sidefx-labs-labs-lot-subdivision"
 date: 2026-04-25
 category: "tutorial"

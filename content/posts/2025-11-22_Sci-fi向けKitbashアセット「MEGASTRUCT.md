@@ -1,5 +1,5 @@
 ---
-title: "Sci-fi向けKitbashアセット「MEGASTRUCTURE」（Vitaly Bulgarov）"
+title: "MEGASTRUCTURE — Vitaly Bulgarov氏によるSci-fi向けKitbashアセット"
 slug: "sci-fi-kitbash-megastructure-vitaly-bulgarov"
 date: 2025-11-22
 category: "tips"

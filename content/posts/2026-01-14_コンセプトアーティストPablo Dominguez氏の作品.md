@@ -1,5 +1,5 @@
 ---
-title: "コンセプトアーティストPablo Dominguez氏の作品とチュートリアル"
+title: "Pablo Dominguez氏 — コンセプトアーティストの作品とチュートリアル"
 slug: "pablo-dominguez"
 date: 2026-01-14
 category: "tutorial"

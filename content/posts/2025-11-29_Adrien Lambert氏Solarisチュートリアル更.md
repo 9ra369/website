@@ -1,5 +1,5 @@
 ---
-title: "Adrien Lambert氏Solarisチュートリアル更新＋30%offクーポン"
+title: "【期間限定】Adrien Lambert氏 — Solarisチュートリアル更新、30%offクーポンあり"
 slug: "adrien-lambert-solaris-off"
 date: 2025-11-29
 category: "tutorial"

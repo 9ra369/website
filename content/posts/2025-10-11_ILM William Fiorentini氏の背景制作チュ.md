@@ -1,5 +1,5 @@
 ---
-title: "ILM William Fiorentini氏の背景制作チュートリアル"
+title: "William Fiorentini氏 — ILM Generalistによる背景制作チュートリアル"
 slug: "ilm-william-fiorentini"
 date: 2025-10-11
 category: "tutorial"

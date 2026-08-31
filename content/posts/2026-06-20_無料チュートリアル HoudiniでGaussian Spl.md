@@ -1,5 +1,5 @@
 ---
-title: "無料チュートリアル: HoudiniでGaussian Splattingにリグ・アニメーション"
+title: "【無料】Houdini — Gaussian Splattingにリグ・アニメーションを組むチュートリアル"
 slug: "houdini-gaussian-splatting"
 date: 2026-06-20
 category: "tutorial"

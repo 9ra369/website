@@ -1,5 +1,5 @@
 ---
-title: "Steffen氏『Japanese Alley』制作チュートリアル（Wingfox）"
+title: "Steffen Hampel氏 — Wingfoxで学ぶ『Japanese Alley』制作チュートリアル"
 slug: "steffen-japanese-alley-wingfox"
 date: 2025-10-17
 category: "tutorial"

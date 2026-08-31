@@ -1,5 +1,5 @@
 ---
-title: "無料のカラースペース変換アプリ「Image Colorspace Converter」"
+title: "【無料】Image Colorspace Converter — カラースペース変換アプリ"
 slug: "image-colorspace-converter"
 date: 2025-10-21
 category: "pipeline"

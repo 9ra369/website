@@ -1,5 +1,5 @@
 ---
-title: "「Gate to the Afterlife」制作全工程動画"
+title: "Gate to the Afterlife — 制作全工程動画"
 slug: "gate-to-the-afterlife"
 date: 2026-03-20
 category: "tips"

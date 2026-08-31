@@ -1,5 +1,5 @@
 ---
-title: "VEXコーディングを支援するツール「VEX Manager」"
+title: "VEX Manager — HoudiniのVEXコーディングを支援するツール"
 slug: "vex-vex-manager"
 date: 2025-10-31
 category: "pipeline"

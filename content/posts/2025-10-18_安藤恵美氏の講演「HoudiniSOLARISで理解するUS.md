@@ -1,5 +1,5 @@
 ---
-title: "安藤恵美氏の講演「Houdini/SOLARISで理解するUSD入門」"
+title: "安藤恵美氏 — Houdini/SolarisでのUSD入門講演"
 slug: "houdini-solaris-usd"
 date: 2025-10-18
 category: "tutorial"

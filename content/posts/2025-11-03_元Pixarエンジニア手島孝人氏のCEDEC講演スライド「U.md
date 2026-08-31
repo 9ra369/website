@@ -1,5 +1,5 @@
 ---
-title: "元Pixarエンジニア手島孝人氏のCEDEC講演スライド「USD入門」"
+title: "手島孝人氏 — 元PixarエンジニアによるCEDEC講演スライド『USD入門』"
 slug: "pixar-cedec-usd"
 date: 2025-11-03
 category: "tutorial"

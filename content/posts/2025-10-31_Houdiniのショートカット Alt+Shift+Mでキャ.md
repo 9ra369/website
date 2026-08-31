@@ -1,5 +1,5 @@
 ---
-title: "Houdiniのショートカット: Alt+Shift+Mでキャッシュマネージャー"
+title: "Houdini — Alt+Shift+Mでキャッシュマネージャーを開くショートカット"
 slug: "houdini-alt-shift"
 date: 2025-10-31
 category: "tips"

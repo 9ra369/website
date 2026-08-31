@@ -1,5 +1,5 @@
 ---
-title: "HoudiniのAtlas Texture Generator解説動画"
+title: "Houdini — Atlas Texture Generator解説動画"
 slug: "houdini-atlas-texture-generator"
 date: 2026-02-15
 category: "tutorial"

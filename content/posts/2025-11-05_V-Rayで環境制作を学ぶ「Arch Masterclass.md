@@ -1,5 +1,5 @@
 ---
-title: "V-Rayで環境制作を学ぶ「Arch Masterclass I」"
+title: "Arch Masterclass I — V-Rayで環境制作を学ぶチュートリアル"
 slug: "ray-arch-masterclass"
 date: 2025-11-05
 category: "tutorial"

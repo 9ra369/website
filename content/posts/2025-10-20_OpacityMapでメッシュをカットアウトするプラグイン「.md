@@ -1,5 +1,5 @@
 ---
-title: "OpacityMapでメッシュをカットアウトするプラグイン「YL Atlas Cutter」"
+title: "YL Atlas Cutter — OpacityMapでメッシュをカットアウトするHoudiniプラグイン"
 slug: "opacitymap-yl-atlas-cutter"
 date: 2025-10-20
 category: "pipeline"

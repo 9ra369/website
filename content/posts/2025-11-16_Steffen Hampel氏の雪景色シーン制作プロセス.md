@@ -1,5 +1,5 @@
 ---
-title: "Steffen Hampel氏の雪景色シーン制作プロセス"
+title: "Steffen Hampel氏 — 雪景色シーン制作プロセス"
 slug: "steffen-hampel"
 date: 2025-11-16
 category: "article"

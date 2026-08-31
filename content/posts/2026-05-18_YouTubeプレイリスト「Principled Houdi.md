@@ -1,5 +1,5 @@
 ---
-title: "YouTubeプレイリスト「Principled Houdini」"
+title: "Principled Houdini — Houdiniの基本原則を扱うYouTubeプレイリスト"
 slug: "youtube-principled-houdini"
 date: 2026-05-18
 category: "tips"

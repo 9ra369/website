@@ -1,5 +1,5 @@
 ---
-title: "MayaとArnoldでLegoブラスターを作るチュートリアル"
+title: "Maya / Arnold — Legoブラスターを作るチュートリアル"
 slug: "maya-arnold-lego"
 date: 2025-11-04
 category: "tutorial"

@@ -1,5 +1,5 @@
 ---
-title: "毎日作品分析Day6: 『Elder Scrolls Online』Key Art（Max Schiller）"
+title: "Max Schiller氏 — 毎日作品分析Day6『Elder Scrolls Online』Key Art"
 slug: "day6-elder-scrolls-online-key-art"
 date: 2026-04-13
 category: "daily-analysis"

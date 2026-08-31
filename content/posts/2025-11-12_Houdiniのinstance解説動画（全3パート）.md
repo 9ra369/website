@@ -1,5 +1,5 @@
 ---
-title: "Houdiniのinstance解説動画（全3パート）"
+title: "Houdini — Instance解説動画（全3パート）"
 slug: "houdini-instance"
 date: 2025-11-12
 category: "tutorial"

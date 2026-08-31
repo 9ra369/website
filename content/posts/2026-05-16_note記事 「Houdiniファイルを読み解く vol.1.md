@@ -1,5 +1,5 @@
 ---
-title: "note記事: 「Houdiniファイルを読み解く vol.1」"
+title: "note — 『Houdiniファイルを読み解く vol.1』"
 slug: "note-houdini-vol-1"
 date: 2026-05-16
 category: "article"

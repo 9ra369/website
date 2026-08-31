@@ -1,5 +1,5 @@
 ---
-title: "Jakub Bazyluk氏の都市デザイン作品「Circles」ブレイクダウン"
+title: "Jakub Bazyluk氏 — 都市デザイン作品『Circles』ブレイクダウン"
 slug: "jakub-bazyluk-circles"
 date: 2025-12-31
 category: "tips"

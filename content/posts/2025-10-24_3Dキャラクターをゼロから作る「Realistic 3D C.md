@@ -1,5 +1,5 @@
 ---
-title: "3Dキャラクターをゼロから作る「Realistic 3D Character Portrait」コース"
+title: "Realistic 3D Character Portrait — 3Dキャラクターをゼロから作るコース"
 slug: "3d-realistic-3d-character-portrait"
 date: 2025-10-24
 category: "tutorial"

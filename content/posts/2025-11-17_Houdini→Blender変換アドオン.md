@@ -1,5 +1,5 @@
 ---
-title: "Houdini→Blender変換アドオン"
+title: "Houdini → Blender — データ変換アドオン"
 slug: "houdini-blender"
 date: 2025-11-17
 category: "pipeline"

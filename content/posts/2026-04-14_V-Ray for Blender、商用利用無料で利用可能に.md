@@ -1,5 +1,5 @@
 ---
-title: "V-Ray for Blender、商用利用無料で利用可能に"
+title: "【無料】V-Ray for Blender — 商用利用も無料で利用可能に"
 slug: "ray-for-blender"
 date: 2026-04-14
 category: "tips"

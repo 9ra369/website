@@ -1,5 +1,5 @@
 ---
-title: "80lv記事: 2D環境をHoudini&Nukeで3D再現"
+title: "80lv — Houdini/Nukeで2D環境を3D再現する手法を解説"
 slug: "80lv-2d-houdini-nuke-3d"
 date: 2025-10-09
 category: "article"

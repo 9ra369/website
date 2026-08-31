@@ -1,5 +1,5 @@
 ---
-title: "葉のレンダリング手法比較: Geometry/Stencil/Opacityの速度差"
+title: "Houdini — 葉のレンダリング手法比較、Geometry/Stencil/Opacityの速度差"
 slug: "geometry-stencil-opacity"
 date: 2026-03-23
 category: "tips"

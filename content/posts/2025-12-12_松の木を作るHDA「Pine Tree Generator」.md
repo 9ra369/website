@@ -1,5 +1,5 @@
 ---
-title: "松の木を作るHDA「Pine Tree Generator」が年内リリース予定"
+title: "Pine Tree Generator — 松の木を作るHDA、年内リリース予定"
 slug: "hda-pine-tree-generator"
 date: 2025-12-12
 category: "pipeline"

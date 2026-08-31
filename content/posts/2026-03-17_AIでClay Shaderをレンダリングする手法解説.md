@@ -1,5 +1,5 @@
 ---
-title: "AIでClay Shaderをレンダリングする手法解説"
+title: "AI — Clay Shaderをレンダリングする手法解説"
 slug: "ai-clay-shader"
 date: 2026-03-17
 category: "tutorial"

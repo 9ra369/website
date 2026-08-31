@@ -1,5 +1,5 @@
 ---
-title: "Heightfieldの応用テクニック「Hacking Heightfields」"
+title: "Hacking Heightfields — HoudiniのHeightfield応用テクニック"
 slug: "heightfield-hacking-heightfields"
 date: 2025-11-30
 category: "tutorial"

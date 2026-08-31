@@ -1,5 +1,5 @@
 ---
-title: "毎日作品分析Day30: 視線分散型の構図（Scattered）"
+title: "毎日作品分析Day30 — 視線分散型の構図（Scattered）"
 slug: "day30-scattered"
 date: 2026-05-07
 category: "daily-analysis"

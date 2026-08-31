@@ -1,5 +1,5 @@
 ---
-title: "記事「プロシージャルアートはHero Qualityであるべき」"
+title: "Procedural Art — Hero Qualityであるべきという主張の記事"
 slug: "hero-quality"
 date: 2025-12-31
 category: "article"

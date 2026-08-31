@@ -1,5 +1,5 @@
 ---
-title: "Matt Barker氏の手法: 写真からのHoudini Scatterワークフロー"
+title: "Matt Barker氏 — 写真からのHoudini Scatterワークフロー"
 slug: "matt-barker-houdini-scatter"
 date: 2026-04-14
 category: "tips"

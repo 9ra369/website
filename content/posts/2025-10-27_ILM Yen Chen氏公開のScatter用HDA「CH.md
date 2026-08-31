@@ -1,5 +1,5 @@
 ---
-title: "ILM Yen Chen氏公開のScatter用HDA「CH Tools」"
+title: "CH Tools — ILM Yen Chen氏公開のScatter用HDA"
 slug: "ilm-yen-chen-scatter-hda-ch"
 date: 2025-10-27
 category: "pipeline"

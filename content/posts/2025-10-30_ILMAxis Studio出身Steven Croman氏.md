@@ -1,5 +1,5 @@
 ---
-title: "ILM/Axis Studio出身Steven Croman氏の3D Matte Painting"
+title: "Steven Croman氏 — ILM/Axis Studio出身の3D Matte Paintingチュートリアル"
 slug: "ilm-axis-studio-steven-croman-3d"
 date: 2025-10-30
 category: "tutorial"

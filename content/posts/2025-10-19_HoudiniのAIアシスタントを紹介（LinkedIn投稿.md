@@ -1,5 +1,5 @@
 ---
-title: "HoudiniのAIアシスタントを紹介（LinkedIn投稿）"
+title: "Houdini — ノード解析を支援するAIアシスタントを紹介"
 slug: "houdini-ai-linkedin"
 date: 2025-10-19
 category: "tips"

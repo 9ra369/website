@@ -1,5 +1,5 @@
 ---
-title: "Labs Lot Subdivisionの応用アイデア（区画/レンガ/植栽配置）"
+title: "Labs Lot Subdivision — 応用アイデア（区画/レンガ/植栽配置）"
 slug: "labs-lot-subdivision"
 date: 2026-04-25
 category: "tips"

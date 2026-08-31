@@ -1,5 +1,5 @@
 ---
-title: "Gaea詳細解説チュートリアル「Yukon River Valley」"
+title: "Gaea — 詳細解説チュートリアル『Yukon River Valley』"
 slug: "gaea-yukon-river-valley"
 date: 2026-02-09
 category: "tutorial"

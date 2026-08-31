@@ -1,5 +1,5 @@
 ---
-title: "HoudiniのBiomesの使い方解説動画"
+title: "Houdini — Biomesの使い方解説動画"
 slug: "houdini-biomes"
 date: 2025-12-14
 category: "tutorial"

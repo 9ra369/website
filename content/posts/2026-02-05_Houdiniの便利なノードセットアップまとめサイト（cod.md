@@ -1,5 +1,5 @@
 ---
-title: "Houdiniの便利なノードセットアップまとめサイト（codercat）"
+title: "codercat — Houdiniの便利なノードセットアップまとめサイト"
 slug: "houdini-codercat"
 date: 2026-02-05
 category: "tips"

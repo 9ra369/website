@@ -1,5 +1,5 @@
 ---
-title: "ILMロンドンYen Chen氏の作品制作プロセス"
+title: "Yen Chen氏 — ILMロンドン所属アーティストの作品制作プロセス"
 slug: "ilm-yen-chen"
 date: 2025-10-18
 category: "showreel"

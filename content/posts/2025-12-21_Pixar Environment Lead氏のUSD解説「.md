@@ -1,5 +1,5 @@
 ---
-title: "Pixar Environment Lead氏のUSD解説「Building Asset Pipelines」"
+title: "Pixar — Environment LeadによるUSD解説『Building Asset Pipelines』"
 slug: "pixar-environment-lead-usd-building-asset"
 date: 2025-12-21
 category: "tutorial"

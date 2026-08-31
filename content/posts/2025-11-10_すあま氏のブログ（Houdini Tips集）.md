@@ -1,5 +1,5 @@
 ---
-title: "すあま氏のブログ（Houdini Tips集）"
+title: "すあま氏 — HoudiniのTipsをまとめたブログ"
 slug: "houdini-tips"
 date: 2025-11-10
 category: "article"

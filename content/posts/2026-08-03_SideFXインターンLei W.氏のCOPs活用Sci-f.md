@@ -1,5 +1,5 @@
 ---
-title: "COPs活用Sci-fi Panel制作"
+title: "Lei W.氏 — COPs活用のSci-fi Panel制作"
 slug: "cops-sci-fi-panel"
 date: 2026-08-03
 category: "tips"

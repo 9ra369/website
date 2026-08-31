@@ -1,5 +1,5 @@
 ---
-title: "毎日作品分析Day5_2: Julian Calle"
+title: "Julian Calle氏 — 毎日作品分析Day5-2の作品分析"
 slug: "day5-2-julian-calle"
 date: 2026-04-12
 category: "daily-analysis"

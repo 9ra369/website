@@ -1,5 +1,5 @@
 ---
-title: "Samuel A Krug氏の地形生成HDA「KTT for Houdini」"
+title: "KTT for Houdini — Samuel A Krug氏による地形生成HDA"
 slug: "samuel-krug-hda-ktt-for-houdini"
 date: 2025-10-23
 category: "pipeline"

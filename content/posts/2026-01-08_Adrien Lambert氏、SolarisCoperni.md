@@ -1,5 +1,5 @@
 ---
-title: "Adrien Lambert氏、Solaris/Copernicus/PDG関連の新チュートリアル追加"
+title: "Adrien Lambert氏 — Solaris/Copernicus/PDG関連の新チュートリアル追加"
 slug: "adrien-lambert-solaris-copernicus-pdg"
 date: 2026-01-08
 category: "tutorial"

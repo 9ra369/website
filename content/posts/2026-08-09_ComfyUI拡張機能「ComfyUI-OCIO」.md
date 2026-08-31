@@ -1,5 +1,5 @@
 ---
-title: "ComfyUI拡張機能「ComfyUI-OCIO」"
+title: "ComfyUI-OCIO — ComfyUI拡張機能"
 slug: "comfyui-comfyui-ocio"
 date: 2026-08-09
 category: "tips"

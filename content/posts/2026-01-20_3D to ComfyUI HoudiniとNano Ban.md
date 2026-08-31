@@ -1,5 +1,5 @@
 ---
-title: "3D to ComfyUI: HoudiniとNano Banana、ComfyUIの連携ワークフロー"
+title: "3D to ComfyUI — HoudiniとNano Banana、ComfyUIの連携ワークフロー"
 slug: "3d-to-comfyui-houdini-nano-banana"
 date: 2026-01-20
 category: "tips"

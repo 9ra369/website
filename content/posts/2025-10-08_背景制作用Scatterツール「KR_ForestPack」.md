@@ -1,5 +1,5 @@
 ---
-title: "背景制作用Scatterツール「KR_ForestPack」を紹介"
+title: "KR_ForestPack — 背景制作向けのHoudini Scatterツールを公開"
 slug: "scatter-kr-forestpack"
 date: 2025-10-08
 category: "pipeline"

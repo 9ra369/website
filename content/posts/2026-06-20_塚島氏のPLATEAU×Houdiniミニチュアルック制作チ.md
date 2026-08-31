@@ -1,5 +1,5 @@
 ---
-title: "塚島氏のPLATEAU×Houdiniミニチュアルック制作チュートリアル"
+title: "塚島氏 — PLATEAU×Houdiniミニチュアルック制作チュートリアル"
 slug: "plateau-houdini"
 date: 2026-06-20
 category: "tutorial"

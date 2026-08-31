@@ -1,5 +1,5 @@
 ---
-title: "ILM Falk Boje氏のSci-Fi環境制作チュートリアル"
+title: "Falk Boje氏 — ILM所属アーティストによるSci-Fi環境制作チュートリアル"
 slug: "ilm-falk-boje-sci-fi"
 date: 2025-11-04
 category: "tutorial"

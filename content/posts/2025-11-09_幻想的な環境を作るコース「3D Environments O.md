@@ -1,5 +1,5 @@
 ---
-title: "幻想的な環境を作るコース「3D Environments: Otherworldly Fantasy Lands」"
+title: "3D Environments: Otherworldly Fantasy Lands — 幻想的な環境を作るコース"
 slug: "3d-environments-otherworldly-fantasy-lands"
 date: 2025-11-09
 category: "tutorial"

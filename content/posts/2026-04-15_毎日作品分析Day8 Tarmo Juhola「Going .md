@@ -1,5 +1,5 @@
 ---
-title: "毎日作品分析Day8: Tarmo Juhola「Going to church」"
+title: "Tarmo Juhola氏 — 毎日作品分析Day8『Going to church』"
 slug: "day8-tarmo-juhola-going-to-church"
 date: 2026-04-15
 category: "daily-analysis"

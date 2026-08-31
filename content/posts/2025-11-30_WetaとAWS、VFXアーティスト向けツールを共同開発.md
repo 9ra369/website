@@ -1,5 +1,5 @@
 ---
-title: "WetaとAWS、VFXアーティスト向けツールを共同開発"
+title: "Weta / AWS — VFXアーティスト向けツールを共同開発"
 slug: "weta-aws-vfx"
 date: 2025-11-30
 category: "pipeline"

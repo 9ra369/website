@@ -1,5 +1,5 @@
 ---
-title: "HoudiniのCOPsで斧のテクスチャを作るチュートリアル"
+title: "Houdini — COPsで斧のテクスチャを作るチュートリアル動画"
 slug: "houdini-cops"
 date: 2025-10-13
 category: "tutorial"

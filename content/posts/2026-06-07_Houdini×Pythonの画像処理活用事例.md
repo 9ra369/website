@@ -1,5 +1,5 @@
 ---
-title: "Houdini×Pythonの画像処理活用事例"
+title: "Houdini × Python — 画像処理活用事例"
 slug: "houdini-python-008331"
 date: 2026-06-07
 category: "pipeline"

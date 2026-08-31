@@ -1,5 +1,5 @@
 ---
-title: "業界用語Tips: SR（Screen Right）/SL（Screen Left）"
+title: "SR / SL — Screen Right・Screen Leftの業界用語Tips"
 slug: "tips-sr-screen-right-sl-screen"
 date: 2026-01-17
 category: "tips"

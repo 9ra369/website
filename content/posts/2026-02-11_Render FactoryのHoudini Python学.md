@@ -1,5 +1,5 @@
 ---
-title: "Render FactoryのHoudini Python学習コンテンツ"
+title: "Render Factory — Houdini Python学習コンテンツ"
 slug: "render-factory-houdini-python"
 date: 2026-02-11
 category: "tutorial"

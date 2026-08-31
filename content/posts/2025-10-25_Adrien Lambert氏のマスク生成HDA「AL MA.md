@@ -1,5 +1,5 @@
 ---
-title: "Adrien Lambert氏のマスク生成HDA「AL MASKBUILDER」"
+title: "AL MASKBUILDER — Adrien Lambert氏によるマスク生成HDA"
 slug: "adrien-lambert-hda-al-maskbuilder"
 date: 2025-10-25
 category: "pipeline"

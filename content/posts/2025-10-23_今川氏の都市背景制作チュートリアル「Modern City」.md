@@ -1,5 +1,5 @@
 ---
-title: "今川氏の都市背景制作チュートリアル「Modern City」"
+title: "今川雅史氏 — 都市背景制作チュートリアル『Modern City』"
 slug: "modern-city"
 date: 2025-10-23
 category: "tutorial"

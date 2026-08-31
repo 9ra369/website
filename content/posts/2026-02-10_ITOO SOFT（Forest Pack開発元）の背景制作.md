@@ -1,5 +1,5 @@
 ---
-title: "ITOO SOFT（Forest Pack開発元）の背景制作Tips"
+title: "ITOO SOFT — Forest Pack開発元による背景制作Tips"
 slug: "itoo-soft-forest-pack-tips"
 date: 2026-02-10
 category: "tips"

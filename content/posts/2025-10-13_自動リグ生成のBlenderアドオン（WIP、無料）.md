@@ -1,5 +1,5 @@
 ---
-title: "自動リグ生成のBlenderアドオン（WIP、無料）"
+title: "【無料】Blender — 自動リグ生成アドオン（WIP）"
 slug: "blender-wip"
 date: 2025-10-13
 category: "pipeline"
