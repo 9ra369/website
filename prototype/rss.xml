@@ -5,7 +5,7 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Aug 2026 15:37:18 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 15:47:09 GMT</lastBuildDate>
     <item>
       <title>Houdini&amp;Arnoldで描く大規模なフル3D自然景観「Island」制作解説</title>
       <link>https://9ra369.github.io/website/entry-cgworld-island.html</link>
@@ -391,20 +391,20 @@
       <description>青と黄を基調とした配色の作品を集めた分析（毎日作品分析Day21）。</description>
     </item>
     <item>
-      <title>Blender × Claude — 参考画像からシーン構築を自動化</title>
-      <link>https://9ra369.github.io/website/posts/blender-claude.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/blender-claude.html</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <category>tips</category>
-      <description>Claudeを使い、参考画像をもとにBlenderでシーンを構築する実験。時間はかかるが、しっかりルールを指定すればブロックアウトまで自動でこなしてくれそう。面倒な初期工程を飛ばし重要な部分に時間を割けるのが利点としている。</description>
-    </item>
-    <item>
       <title>毎日作品分析Day20 — 逆光・バックライトの効果</title>
       <link>https://9ra369.github.io/website/posts/day20.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/day20.html</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <category>daily-analysis</category>
       <description>逆光（バックライト）を活かした作品を集めた分析（毎日作品分析Day20）。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day19 — 薄暗い作品「Gloomy」の分類</title>
+      <link>https://9ra369.github.io/website/posts/day19-gloomy.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day19-gloomy.html</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>薄暗い雰囲気の作品を2つのタイプに分けた分析（毎日作品分析Day19）。現実に存在しないものが神秘的な印象を与えるタイプと、日常的なものが恐怖や不安を掻き立てるタイプがあるという考察が記されている。</description>
     </item>
   </channel>
 </rss>

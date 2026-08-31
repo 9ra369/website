@@ -37,15 +37,11 @@
   },
   {
     "oldFile": "SolarisのInstancerチュートリアル_SpeedTreeのLookDevも収録.html",
-    "newHref": "posts/solaris-instancer-speedtree-lookdev.html"
+    "newHref": "posts/solaris-instancer-part4.html"
   },
   {
     "oldFile": "SolarisのInstancerチュートリアルが追加（Part4まで）.html",
     "newHref": "posts/solaris-instancer-part4.html"
-  },
-  {
-    "oldFile": "画像の色を転送できるBlenderアドオンを紹介.html",
-    "newHref": "posts/blender.html"
   },
   {
     "oldFile": "cgwiki記事_LOPsとSolarisの詳細解説.html",
@@ -102,10 +98,6 @@
   {
     "oldFile": "Steffen氏『Japanese_Alley』制作チュートリアル（Wingfox）.html",
     "newHref": "posts/steffen-japanese-alley-wingfox.html"
-  },
-  {
-    "oldFile": "SyntaXcg氏によるHoudini背景制作2シーンの解説.html",
-    "newHref": "posts/syntaxcg-houdini.html"
   },
   {
     "oldFile": "80lv記事_『The_Witcher_3』着想の雪景色シーン制作.html",
@@ -452,10 +444,6 @@
     "newHref": "posts/vfx-ai.html"
   },
   {
-    "oldFile": "UEクレイレンダー×AIテクスチャの制作事例.html",
-    "newHref": "posts/ue-ai.html"
-  },
-  {
     "oldFile": "Image_Engine_Arvid_Schneider氏、手数料無料の販売プラットフォームをローンチ.html",
     "newHref": "posts/image-engine-arvid-schneider.html"
   },
@@ -520,10 +508,6 @@
     "newHref": "posts/steffen-hampel-sicario-full-cg-breakdown.html"
   },
   {
-    "oldFile": "業界用語Tips_SR（Screen_Right）SL（Screen_Left）.html",
-    "newHref": "posts/tips-sr-screen-right-sl-screen.html"
-  },
-  {
     "oldFile": "3D_to_ComfyUI_HoudiniとNano_Banana、ComfyUIの連携ワークフロー.html",
     "newHref": "posts/3d-to-comfyui-houdini-nano-banana.html"
   },
@@ -574,10 +558,6 @@
   {
     "oldFile": "HoudiniでPySide_UIを作るクイックスタート動画.html",
     "newHref": "posts/houdini-pyside-ui.html"
-  },
-  {
-    "oldFile": "UEでの模写作品制作チュートリアル.html",
-    "newHref": "posts/ue.html"
   },
   {
     "oldFile": "ILMFramestore出身Christian_Bohm氏のHoudiniチュートリアル.html",
@@ -834,10 +814,6 @@
   {
     "oldFile": "毎日作品分析Day20_逆光（バックライト）の効果.html",
     "newHref": "posts/day20.html"
-  },
-  {
-    "oldFile": "Blender×Claudeで参考画像からシーン構築を自動化.html",
-    "newHref": "posts/blender-claude.html"
   },
   {
     "oldFile": "毎日作品分析Day21_青×黄の配色.html",
