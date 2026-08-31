@@ -1,10 +1,10 @@
 ---
-title: "Yen Chen氏 — ArtStationに高品質な背景作品多数"
+title: "ILM - GeneralistのYen ChenのArtStation"
 slug: "yen-chen-artstation"
 date: 2025-10-27
 category: "showreel"
 type: "brief"
-tags: ["ArtStation", "Environment", "houdini", "sidefx", "背景作品"]
+tags: ["ArtStation","Environment","Houdini","sidefx","背景作品"]
 topics: ["environment"]
 tools: ["houdini"]
 source_url: "https://www.artstation.com/yenchen"

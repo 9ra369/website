@@ -606,6 +606,9 @@ ul { list-style: none; margin: 0; padding: 0; }
   margin: 0;
   line-height: 1.5;
   color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .entry-summary {

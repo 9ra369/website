@@ -4,7 +4,7 @@ slug: "blender-wip"
 date: 2025-10-13
 category: "pipeline"
 type: "brief"
-tags: ["Blender", "Rigging", "b3d", "houdini"]
+tags: ["Blender","Rigging","b3d","Houdini"]
 topics: ["animation-rigging"]
 tools: ["blender","houdini"]
 source_url: "https://x.com/80Level/status/1977751178910773683"

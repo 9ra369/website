@@ -4,7 +4,7 @@ slug: "pixar-environment-lead-usd-building-asset"
 date: 2025-12-21
 category: "tutorial"
 type: "brief"
-tags: ["USD", "houdini", "sidefx", "Environment"]
+tags: ["USD","Houdini","sidefx","Environment"]
 topics: ["environment"]
 tools: ["usd","houdini"]
 source_url: "https://www.youtube.com/watch?v=4W5D-IuRyaM&list=WL&index=97"

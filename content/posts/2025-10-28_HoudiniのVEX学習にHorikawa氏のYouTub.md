@@ -1,5 +1,5 @@
 ---
-title: "Horikawa氏 — HoudiniのVEX学習におすすめのYouTubeチャンネル"
+title: "HoudiniのVEX学習におすすめなHorikawa氏のYouTube"
 slug: "houdini-vex-horikawa-youtube"
 date: 2025-10-28
 category: "showreel"

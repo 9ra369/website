@@ -4,7 +4,7 @@ slug: "comfyui-comfyui-ocio"
 date: 2026-08-09
 category: "tips"
 type: "brief"
-tags: ["ComfyUI", "OCIO", "Color Management"]
+tags: ["ComfyUI","OCIO","Color Management","AI"]
 topics: ["ai"]
 tools: ["comfyui"]
 source_url: "https://registry.comfy.org/nodes/comfyui-ocio"

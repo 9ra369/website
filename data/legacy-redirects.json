@@ -1,9 +1,5 @@
 [
   {
-    "oldFile": "Houdini背景制作の参考にGnomon_Workshopのコースを推薦.html",
-    "newHref": "posts/houdini-gnomon-workshop.html"
-  },
-  {
     "oldFile": "背景制作用Scatterツール「KR_ForestPack」を紹介.html",
     "newHref": "posts/scatter-kr-forestpack.html"
   },
@@ -69,7 +65,7 @@
   },
   {
     "oldFile": "Lucas_Piazzini氏の作品、Rampage_Rallyで3位入賞.html",
-    "newHref": "posts/lucas-piazzini-rampage-rally.html"
+    "newHref": "posts/ilm-junior-generalist-lucas-piazzini.html"
   },
   {
     "oldFile": "HoudiniのCOPsで斧のテクスチャを作るチュートリアル.html",
@@ -90,10 +86,6 @@
   {
     "oldFile": "Blender・RealityScan・UE5・Nukeで作る背景制作チュートリアル.html",
     "newHref": "posts/blender-realityscan-ue5-nuke.html"
-  },
-  {
-    "oldFile": "Gnomonの背景制作チュートリアル、ILMSpadeのアーティストも学習.html",
-    "newHref": "posts/gnomon-ilm-spade.html"
   },
   {
     "oldFile": "MegascansのAtlasで葉っぱを作る手法（アサシンクリードでも使用）.html",
@@ -808,10 +800,6 @@
     "newHref": "posts/day15.html"
   },
   {
-    "oldFile": "実地形生成HDA_COPs＋AI_Meta_SAMによるスプラットマップ自動生成.html",
-    "newHref": "posts/hda-cops-ai-meta-sam.html"
-  },
-  {
     "oldFile": "毎日作品分析Day16_ゴッホの自画像.html",
     "newHref": "posts/day16.html"
   },
@@ -974,10 +962,6 @@
   {
     "oldFile": "NVIDIA「OpenUSD_Interactive_Glossary」.html",
     "newHref": "posts/nvidia-openusd-interactive-glossary.html"
-  },
-  {
-    "oldFile": "Claude_MCPでプロシージャルセットアップをテストした所感.html",
-    "newHref": "posts/claude-mcp.html"
   },
   {
     "oldFile": "Samuel_Krug氏のArtStation作品（高ディテール）.html",

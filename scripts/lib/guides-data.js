@@ -72,7 +72,6 @@ const GUIDES = [
     hrefs: [
       "posts/plateau-houdini.html",
       "posts/10m-px-30m-px.html",
-      "posts/hda-cops-ai-meta-sam.html",
       "posts/cgworld-houdini-usd-aurora-innovation.html",
       "posts/the-terrain-domain.html",
       "posts/samuel-krug-hda-ktt-for-houdini.html",

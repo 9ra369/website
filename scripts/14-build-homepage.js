@@ -80,7 +80,11 @@ function main() {
   // 1) category grid
   const categoryCardsHtml = categories
     .map((c) => {
-      const href = c.slug === "tips" ? "posts-index.html" : "archive.html";
+      // Each card deep-links into archive.html pre-filtered to that category
+      // (archive.js reads ?category= on load) — previously every card linked
+      // to the same unfiltered archive.html, so "カテゴリからたどる" didn't
+      // actually take you to that category.
+      const href = `archive.html?category=${encodeURIComponent(c.slug)}`;
       const icon = CATEGORY_ICONS[c.slug] || CATEGORY_ICONS.tips;
       return `      <a class="category-card" href="${href}">
         <div class="category-icon"><svg viewBox="0 0 24 24" fill="none">${icon}</svg></div>

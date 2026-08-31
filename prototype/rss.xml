@@ -5,7 +5,7 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Aug 2026 12:54:18 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:28:52 GMT</lastBuildDate>
     <item>
       <title>Houdini&amp;Arnoldで描く大規模なフル3D自然景観「Island」制作解説</title>
       <link>https://9ra369.github.io/website/entry-cgworld-island.html</link>
@@ -149,14 +149,6 @@
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <category>showreel</category>
       <description>Samuel Krug氏による、細部までディテールが詰め込まれた高品質な作品。ArtStationやInstagramでの最新作フォローを勧めている。</description>
-    </item>
-    <item>
-      <title>Claude MCP — プロシージャルセットアップをテストした所感</title>
-      <link>https://9ra369.github.io/website/posts/claude-mcp.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/claude-mcp.html</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <category>article</category>
-      <description>蒸留スイ氏の記事を参考に、Claude MCPを使ってプロシージャルなビル生成セットアップ。機能ごとに許諾が必要な点が煩わしく、思ったより時間がかかったという率直な所感が記されている。</description>
     </item>
     <item>
       <title>NVIDIA — OpenUSD Interactive Glossary</title>
@@ -405,6 +397,14 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <category>tips</category>
       <description>Claudeを使い、参考画像をもとにBlenderでシーンを構築する実験。時間はかかるが、しっかりルールを指定すればブロックアウトまで自動でこなしてくれそう。面倒な初期工程を飛ばし重要な部分に時間を割けるのが利点としている。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day20 — 逆光（バックライト）の効果</title>
+      <link>https://9ra369.github.io/website/posts/day20.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day20.html</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>逆光（バックライト）を活かした作品を集めた分析（毎日作品分析Day20）。</description>
     </item>
   </channel>
 </rss>

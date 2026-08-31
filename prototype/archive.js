@@ -202,6 +202,17 @@
     const matchingChip = tagChips.find((c) => c.dataset.tag === tagParam);
     if (matchingChip) matchingChip.classList.add("is-active");
   }
+  // archive.html?category=tutorial (used by the homepage's "カテゴリからたどる"
+  // cards) pre-selects that category the same way clicking a sidebar
+  // .filter-option does.
+  const categoryParam = params.get("category");
+  if (categoryParam) {
+    const matchingOption = categoryOptions.find((o) => o.dataset.category === categoryParam);
+    if (matchingOption) {
+      activeCategory = categoryParam;
+      matchingOption.classList.add("is-active");
+    }
+  }
   const queryParam = params.get("q");
   if (queryParam && keywordInput) {
     keywordInput.value = queryParam;

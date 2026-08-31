@@ -18,6 +18,7 @@ const POSTS_DIR = path.resolve(__dirname, "..", "content", "posts");
 const OUT_DIR = path.resolve(__dirname, "..", "prototype", "posts");
 const REDIRECT_DIR = path.resolve(__dirname, "..", "prototype", "tips");
 const REDIRECTS_FILE = path.resolve(__dirname, "..", "data", "legacy-redirects.json");
+const RETIRED_SLUGS_FILE = path.resolve(__dirname, "..", "data", "retired-slugs.json");
 
 function buildIndexHtml(entries) {
   const rows = entries
@@ -64,10 +65,9 @@ ${SITE_FOOTER(0)}
 `;
 }
 
-/** Redirect stub for a legacy tips/{old-filename}.html URL — meta-refresh +
- *  canonical pointing at the post's new posts/{slug}.html location. */
-function buildRedirectHtml(newHref) {
-  const target = `../${newHref}`;
+/** Redirect stub — meta-refresh + canonical pointing `target` (already a
+ *  correct relative path from the stub's own location) at its new home. */
+function buildRedirectHtml(target) {
   return `<!doctype html>
 <html lang="ja">
 <head>
@@ -144,6 +144,17 @@ function main() {
     indexEntries.push({ file: outFile, title, date: fm.date || "" });
   }
 
+  // Redirect stubs *within* prototype/posts/ for slugs retired by a post
+  // consolidation (scripts/lib data/retired-slugs.json) — e.g. two posts
+  // about the same announcement merged into one. Written into keepPostFiles
+  // too so the cleanup pass below doesn't delete them as "stale".
+  const retired = fs.existsSync(RETIRED_SLUGS_FILE) ? JSON.parse(fs.readFileSync(RETIRED_SLUGS_FILE, "utf8")) : [];
+  for (const { oldSlug, newSlug } of retired) {
+    const outFile = `${oldSlug}.html`;
+    fs.writeFileSync(path.join(OUT_DIR, outFile), buildRedirectHtml(`${newSlug}.html`), "utf8");
+    keepPostFiles.add(outFile);
+  }
+
   // Clean up stale generated post pages (post deleted, or slug changed) —
   // prototype/posts/ is a build output, fully regenerable, so this is safe.
   let removed = 0;
@@ -160,7 +171,7 @@ function main() {
   const redirects = fs.existsSync(REDIRECTS_FILE) ? JSON.parse(fs.readFileSync(REDIRECTS_FILE, "utf8")) : [];
   const keepRedirectFiles = new Set();
   for (const { oldFile, newHref } of redirects) {
-    fs.writeFileSync(path.join(REDIRECT_DIR, oldFile), buildRedirectHtml(newHref), "utf8");
+    fs.writeFileSync(path.join(REDIRECT_DIR, oldFile), buildRedirectHtml(`../${newHref}`), "utf8");
     keepRedirectFiles.add(oldFile);
   }
   let removedRedirects = 0;

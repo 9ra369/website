@@ -4,7 +4,7 @@ slug: "pixar-cedec-usd"
 date: 2025-11-03
 category: "tutorial"
 type: "brief"
-tags: ["USD", "Pixar", "houdini", "sidefx"]
+tags: ["USD","Pixar","Houdini","sidefx"]
 topics: ["industry"]
 tools: ["usd","houdini"]
 source_url: "https://www.slideshare.net/slideshow/usd-79288174/79288174"
