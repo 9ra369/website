@@ -1,5 +1,6 @@
 ---
 title: "Malte Resenberger-Loosmann氏の記事「観察の技法: Hero Assetの制作」"
+slug: "malte-resenberger-loosmann-hero-asset"
 date: 2026-08-06
 category: "article"
 type: "explainer"

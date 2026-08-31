@@ -1,5 +1,6 @@
 ---
 title: "cgwiki記事: LOPsとSolarisの詳細解説"
+slug: "cgwiki-lops-solaris"
 date: 2025-10-11
 category: "article"
 type: "explainer"

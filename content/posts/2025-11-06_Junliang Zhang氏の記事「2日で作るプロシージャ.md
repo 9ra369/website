@@ -1,5 +1,6 @@
 ---
 title: "Junliang Zhang氏の記事「2日で作るプロシージャル環境」（Houdini+UE4）"
+slug: "junliang-zhang-houdini-ue4"
 date: 2025-11-06
 category: "article"
 type: "explainer"

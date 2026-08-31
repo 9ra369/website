@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day11_1: sanghoon oh「Erephora – Kaiju」"
+slug: "day11-1-sanghoon-oh-erephora-kaiju"
 date: 2026-04-18
 category: "daily-analysis"
 type: "note"

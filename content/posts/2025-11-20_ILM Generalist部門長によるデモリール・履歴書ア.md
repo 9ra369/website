@@ -1,5 +1,6 @@
 ---
 title: "ILM Generalist部門長によるデモリール・履歴書アドバイス（翻訳）"
+slug: "ilm-generalist"
 date: 2025-11-20
 category: "showreel"
 type: "brief"

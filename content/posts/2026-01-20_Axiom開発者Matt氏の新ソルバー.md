@@ -1,5 +1,6 @@
 ---
 title: "Axiom開発者Matt氏の新ソルバー"
+slug: "axiom-matt"
 date: 2026-01-20
 category: "tips"
 type: "brief"

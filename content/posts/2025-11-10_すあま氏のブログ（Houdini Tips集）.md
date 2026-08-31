@@ -1,5 +1,6 @@
 ---
 title: "すあま氏のブログ（Houdini Tips集）"
+slug: "houdini-tips"
 date: 2025-11-10
 category: "article"
 type: "explainer"

@@ -1,5 +1,6 @@
 ---
 title: "Naughty Dog Principal Environment Artistによる『The Last of Us Part I』ブレイクダウン"
+slug: "naughty-dog-principal-environment-artist-the"
 date: 2026-01-26
 category: "showreel"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "無料の彫刻3Dスキャンモデルサイト「Three D Scans」"
+slug: "3d-three-scans"
 date: 2025-10-29
 category: "tips"
 type: "brief"

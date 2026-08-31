@@ -1,5 +1,6 @@
 ---
 title: "リアルタイムTriplanarの計算負荷について（LinkedIn引用）"
+slug: "triplanar-linkedin"
 date: 2026-08-02
 category: "tips"
 type: "brief"

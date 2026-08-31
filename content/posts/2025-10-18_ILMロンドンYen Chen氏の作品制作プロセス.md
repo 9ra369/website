@@ -1,5 +1,6 @@
 ---
 title: "ILMロンドンYen Chen氏の作品制作プロセス"
+slug: "ilm-yen-chen"
 date: 2025-10-18
 category: "showreel"
 type: "brief"

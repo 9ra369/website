@@ -1,5 +1,6 @@
 ---
 title: "Baptiste氏の作品のBlenderファイルを紹介"
+slug: "baptiste-blender"
 date: 2025-10-14
 category: "showreel"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "William Faucher氏、UE新機能MEGAPLANTS解説動画"
+slug: "william-faucher-ue-megaplants"
 date: 2025-11-14
 category: "tutorial"
 type: "brief"

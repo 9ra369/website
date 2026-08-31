@@ -8,9 +8,9 @@
 
 const fs = require("fs");
 const path = require("path");
-const { parseFrontMatter, extractImages, slugifyTitle, cardThumbHtml } = require("./lib/render-tip");
+const { cardThumbHtml } = require("./lib/render-tip");
+const { loadTipEntries } = require("./lib/entries");
 
-const POSTS_DIR = path.resolve(__dirname, "..", "content", "posts");
 const CATEGORIES_FILE = path.resolve(__dirname, "..", "data", "categories.json");
 const INDEX_FILE = path.resolve(__dirname, "..", "prototype", "index.html");
 
@@ -36,34 +36,6 @@ function escapeHtml(str) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
-}
-
-function loadTipEntries() {
-  const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"));
-  const entries = [];
-  const usedSlugs = new Set();
-  for (const file of files) {
-    const mdPath = path.join(POSTS_DIR, file);
-    const raw = fs.readFileSync(mdPath, "utf8");
-    const { fm, body } = parseFrontMatter(raw);
-    const idMatch = raw.match(/original_post:\s*"[^"]*\/status\/(\d+)"/);
-    if (!idMatch) continue;
-    const { images } = extractImages(body);
-    let slug = slugifyTitle(fm.title || "") || idMatch[1];
-    if (usedSlugs.has(slug)) slug = `${slug}_${idMatch[1]}`;
-    usedSlugs.add(slug);
-    entries.push({
-      href: `tips/${slug}.html`,
-      category: fm.category || "tips",
-      title: fm.title || "(無題)",
-      summary: fm.summary || "",
-      tags: fm.tags || [],
-      date: fm.date || "",
-      image: images[0] ? `images/posts/${images[0].src.replace(/^images\/posts\//, "")}` : null,
-    });
-  }
-  entries.sort((a, b) => (a.date < b.date ? 1 : -1));
-  return entries;
 }
 
 function renderCard(e, thumbClassMap) {
@@ -108,7 +80,7 @@ function main() {
   // 1) category grid
   const categoryCardsHtml = categories
     .map((c) => {
-      const href = c.slug === "tips" ? "tips-index.html" : "archive.html";
+      const href = c.slug === "tips" ? "posts-index.html" : "archive.html";
       const icon = CATEGORY_ICONS[c.slug] || CATEGORY_ICONS.tips;
       return `      <a class="category-card" href="${href}">
         <div class="category-icon"><svg viewBox="0 0 24 24" fill="none">${icon}</svg></div>

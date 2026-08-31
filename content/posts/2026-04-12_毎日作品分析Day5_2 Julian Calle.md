@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day5_2: Julian Calle"
+slug: "day5-2-julian-calle"
 date: 2026-04-12
 category: "daily-analysis"
 type: "note"

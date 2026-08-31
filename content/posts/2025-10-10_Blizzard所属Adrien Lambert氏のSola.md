@@ -1,5 +1,6 @@
 ---
 title: "Blizzard所属Adrien Lambert氏のSolarisチュートリアル"
+slug: "blizzard-adrien-lambert-solaris"
 date: 2025-10-10
 category: "tutorial"
 type: "brief"

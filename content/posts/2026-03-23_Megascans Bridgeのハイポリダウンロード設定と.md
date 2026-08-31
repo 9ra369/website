@@ -1,5 +1,6 @@
 ---
 title: "Megascans Bridgeのハイポリダウンロード設定とPoly Reduceの目安"
+slug: "megascans-bridge-poly-reduce"
 date: 2026-03-23
 category: "tips"
 type: "brief"

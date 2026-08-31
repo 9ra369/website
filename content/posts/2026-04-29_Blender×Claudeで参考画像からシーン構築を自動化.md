@@ -1,5 +1,6 @@
 ---
 title: "Blender×Claudeで参考画像からシーン構築を自動化"
+slug: "blender-claude"
 date: 2026-04-29
 category: "tips"
 type: "brief"

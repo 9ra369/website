@@ -1,5 +1,6 @@
 ---
 title: "3ds Max背景制作チュートリアル「Japanese River」"
+slug: "3ds-max-japanese-river"
 date: 2025-11-02
 category: "tutorial"
 type: "brief"

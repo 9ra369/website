@@ -1,5 +1,6 @@
 ---
 title: "80lv記事: 『The Creator』着想の地形デザイン"
+slug: "80lv-the-creator"
 date: 2025-10-09
 category: "article"
 type: "explainer"

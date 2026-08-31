@@ -1,5 +1,6 @@
 ---
 title: "Heightfieldの応用テクニック「Hacking Heightfields」"
+slug: "heightfield-hacking-heightfields"
 date: 2025-11-30
 category: "tutorial"
 type: "brief"

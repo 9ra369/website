@@ -1,5 +1,6 @@
 ---
 title: "EA/Weta出身Julien Calle氏のSci-fiコンセプトアート講座"
+slug: "ea-weta-julien-calle-sci-fi"
 date: 2025-11-23
 category: "tutorial"
 type: "brief"

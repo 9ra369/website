@@ -1,5 +1,6 @@
 ---
 title: "OpacityMapでメッシュをカットアウトするプラグイン「YL Atlas Cutter」"
+slug: "opacitymap-yl-atlas-cutter"
 date: 2025-10-20
 category: "pipeline"
 type: "brief"

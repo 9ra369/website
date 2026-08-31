@@ -1,5 +1,6 @@
 ---
 title: "SpeedTree入門チュートリアル「Zero to Hero」"
+slug: "speedtree-zero-to-hero"
 date: 2025-11-01
 category: "tutorial"
 type: "brief"

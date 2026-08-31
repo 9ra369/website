@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day2: Dylan Cole「The First Outpost」"
+slug: "day2-dylan-cole-the-first-outpost"
 date: 2026-04-09
 category: "daily-analysis"
 type: "note"

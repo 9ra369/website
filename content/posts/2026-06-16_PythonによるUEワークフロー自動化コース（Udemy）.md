@@ -1,5 +1,6 @@
 ---
 title: "PythonによるUEワークフロー自動化コース（Udemy）"
+slug: "python-ue-udemy"
 date: 2026-06-16
 category: "tutorial"
 type: "brief"

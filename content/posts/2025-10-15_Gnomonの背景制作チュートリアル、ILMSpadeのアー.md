@@ -1,5 +1,6 @@
 ---
 title: "Gnomonの背景制作チュートリアル、ILM/Spadeのアーティストも学習"
+slug: "gnomon-ilm-spade"
 date: 2025-10-15
 category: "tutorial"
 type: "brief"

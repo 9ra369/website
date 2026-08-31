@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day4: Pablo Dominguez「ElvenRoad Town」"
+slug: "day4-pablo-dominguez-elvenroad-town"
 date: 2026-04-10
 category: "daily-analysis"
 type: "note"

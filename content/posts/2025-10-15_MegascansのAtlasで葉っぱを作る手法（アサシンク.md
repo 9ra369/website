@@ -1,5 +1,6 @@
 ---
 title: "MegascansのAtlasで葉っぱを作る手法（アサシンクリードでも使用）"
+slug: "megascans-atlas"
 date: 2025-10-15
 category: "tips"
 type: "brief"

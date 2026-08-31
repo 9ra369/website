@@ -1,5 +1,6 @@
 ---
 title: "PythonでPoly Heaven HDRIブラウザーを作るチュートリアル"
+slug: "python-poly-heaven-hdri"
 date: 2025-12-20
 category: "tutorial"
 type: "brief"

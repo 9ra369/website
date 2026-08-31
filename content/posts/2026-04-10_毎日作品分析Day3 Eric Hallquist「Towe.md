@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day3: Eric Hallquist「Tower of the Exiled Magi」"
+slug: "day3-eric-hallquist-tower-of-the"
 date: 2026-04-10
 category: "daily-analysis"
 type: "note"

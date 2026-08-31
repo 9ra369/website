@@ -1,5 +1,6 @@
 ---
 title: "VEXコーディングを支援するツール「VEX Manager」"
+slug: "vex-vex-manager"
 date: 2025-10-31
 category: "pipeline"
 type: "brief"

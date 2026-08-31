@@ -1,5 +1,6 @@
 ---
 title: "CG Cinematography記事「Lighting Techniques」"
+slug: "cg-cinematography-lighting-techniques"
 date: 2025-10-24
 category: "article"
 type: "explainer"

@@ -7,7 +7,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { parseFrontMatter, extractImages, slugifyTitle } = require("./render-tip");
+const { parseFrontMatter, extractImages } = require("./render-tip");
 
 const POSTS_DIR = path.resolve(__dirname, "..", "..", "content", "posts");
 
@@ -52,19 +52,16 @@ const CURATED = [
 function loadTipEntries() {
   const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"));
   const entries = [];
-  const usedSlugs = new Set();
   for (const file of files) {
     const mdPath = path.join(POSTS_DIR, file);
     const raw = fs.readFileSync(mdPath, "utf8");
     const { fm, body } = parseFrontMatter(raw);
     const idMatch = raw.match(/original_post:\s*"[^"]*\/status\/(\d+)"/);
     if (!idMatch) continue;
+    if (!fm.slug) continue; // not yet migrated (scripts/28-assign-slugs.js)
     const { images } = extractImages(body);
-    let slug = slugifyTitle(fm.title || "") || idMatch[1];
-    if (usedSlugs.has(slug)) slug = `${slug}_${idMatch[1]}`;
-    usedSlugs.add(slug);
     entries.push({
-      href: `tips/${slug}.html`,
+      href: `posts/${fm.slug}.html`,
       category: fm.category || "tips",
       title: fm.title || "(無題)",
       summary: fm.summary || "",

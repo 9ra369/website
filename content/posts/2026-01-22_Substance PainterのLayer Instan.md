@@ -1,5 +1,6 @@
 ---
 title: "Substance PainterのLayer Instancing機能（大規模UDIMアセット向け）"
+slug: "substance-painter-layer-instancing-udim"
 date: 2026-01-22
 category: "tips"
 type: "brief"

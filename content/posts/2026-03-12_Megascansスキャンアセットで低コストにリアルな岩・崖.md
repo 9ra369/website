@@ -1,5 +1,6 @@
 ---
 title: "Megascansスキャンアセットで低コストにリアルな岩・崖を制作"
+slug: "megascans"
 date: 2026-03-12
 category: "tips"
 type: "brief"

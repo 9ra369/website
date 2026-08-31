@@ -1,5 +1,6 @@
 ---
 title: "Houdini Pythonチュートリアル「How not to suck at Python」"
+slug: "houdini-python-how-not-to-suck"
 date: 2025-10-27
 category: "tutorial"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "ArtStationの「いいね」ページを見る学習法"
+slug: "artstation"
 date: 2025-11-18
 category: "showreel"
 type: "brief"

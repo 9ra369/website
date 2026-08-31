@@ -1,5 +1,6 @@
 ---
 title: "Houdini背景制作の参考にGnomon Workshopのコースを推薦"
+slug: "houdini-gnomon-workshop"
 date: 2025-10-04
 category: "tutorial"
 type: "brief"

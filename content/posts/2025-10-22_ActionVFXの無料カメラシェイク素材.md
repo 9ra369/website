@@ -1,5 +1,6 @@
 ---
 title: "ActionVFXの無料カメラシェイク素材"
+slug: "actionvfx"
 date: 2025-10-22
 category: "tips"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "Wire Wheels Clubの車モデル、商用利用も可能"
+slug: "wire-wheels-club"
 date: 2025-10-27
 category: "tips"
 type: "brief"

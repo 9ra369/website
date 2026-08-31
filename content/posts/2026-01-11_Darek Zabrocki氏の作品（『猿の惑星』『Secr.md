@@ -1,5 +1,6 @@
 ---
 title: "Darek Zabrocki氏の作品（『猿の惑星』『Secret Level』コンセプト）"
+slug: "darek-zabrocki-secret-level"
 date: 2026-01-11
 category: "showreel"
 type: "brief"

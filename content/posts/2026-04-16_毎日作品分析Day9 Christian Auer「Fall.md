@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day9: Christian Auer「Fall Elegy」"
+slug: "day9-christian-auer-fall-elegy"
 date: 2026-04-16
 category: "daily-analysis"
 type: "note"

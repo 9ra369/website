@@ -1,5 +1,6 @@
 ---
 title: "SyntaXcg氏によるHoudini背景制作2シーンの解説"
+slug: "syntaxcg-houdini"
 date: 2025-10-17
 category: "tutorial"
 type: "brief"

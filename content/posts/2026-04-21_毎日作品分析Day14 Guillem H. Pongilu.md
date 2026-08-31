@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day14: Guillem H. Pongiluppi 小説『ZE』カバーアート"
+slug: "day14-guillem-pongiluppi-ze"
 date: 2026-04-21
 category: "daily-analysis"
 type: "note"

@@ -1,5 +1,6 @@
 ---
 title: "無料チュートリアル: HoudiniでGaussian Splattingにリグ・アニメーション"
+slug: "houdini-gaussian-splatting"
 date: 2026-06-20
 category: "tutorial"
 type: "brief"

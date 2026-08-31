@@ -1,5 +1,6 @@
 ---
 title: "Ubisoft/EA出身Environment Concept Artistのチュートリアル（Wingfox）"
+slug: "ubisoft-ea-environment-concept-artist-wingfox"
 date: 2026-04-20
 category: "tutorial"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "Samuel Krug氏のArtStation作品（高ディテール）"
+slug: "samuel-krug-artstation"
 date: 2026-08-01
 category: "showreel"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "Samuel Krug氏のチュートリアル「巨大な海岸山脈シーンの制作」"
+slug: "samuel-krug"
 date: 2026-08-01
 category: "tutorial"
 type: "brief"

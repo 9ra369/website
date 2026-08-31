@@ -1,5 +1,6 @@
 ---
 title: "Naughty Dog Senior Environment Artistのウェブサイト（無料UEチュートリアル有）"
+slug: "naughty-dog-senior-environment-artist-ue"
 date: 2026-08-04
 category: "tutorial"
 type: "brief"

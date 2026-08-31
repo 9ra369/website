@@ -1,5 +1,6 @@
 ---
 title: "Displace along normal使用時のUV promote Tips"
+slug: "displace-along-normal-uv-promote-tips"
 date: 2026-05-18
 category: "tips"
 type: "brief"

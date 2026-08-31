@@ -1,5 +1,6 @@
 ---
 title: "Image Engine Arvid Schneider氏、手数料無料の販売プラットフォームをローンチ"
+slug: "image-engine-arvid-schneider"
 date: 2025-12-25
 category: "tutorial"
 type: "brief"

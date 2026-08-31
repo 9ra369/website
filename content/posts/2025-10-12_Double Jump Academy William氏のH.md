@@ -1,5 +1,6 @@
 ---
 title: "Double Jump Academy: William氏のHoudini背景制作講座2本"
+slug: "double-jump-academy-william-houdini"
 date: 2025-10-12
 category: "tutorial"
 type: "brief"

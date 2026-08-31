@@ -1,5 +1,6 @@
 ---
 title: "BlenderのScatterアドオン「MP Scatter」"
+slug: "blender-scatter-mp-scatter"
 date: 2025-10-26
 category: "pipeline"
 type: "brief"

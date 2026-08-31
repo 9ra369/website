@@ -1,5 +1,6 @@
 ---
 title: "Substance Painterの実用テクニック解説動画"
+slug: "substance-painter"
 date: 2026-01-01
 category: "tutorial"
 type: "brief"

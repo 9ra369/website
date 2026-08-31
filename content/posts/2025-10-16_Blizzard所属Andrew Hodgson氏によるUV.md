@@ -1,5 +1,6 @@
 ---
 title: "Blizzard所属Andrew Hodgson氏によるUV展開の実演"
+slug: "blizzard-andrew-hodgson-uv"
 date: 2025-10-16
 category: "tips"
 type: "brief"

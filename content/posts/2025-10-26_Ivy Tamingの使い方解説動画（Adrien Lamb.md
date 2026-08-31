@@ -1,5 +1,6 @@
 ---
 title: "Ivy Tamingの使い方解説動画（Adrien Lambert氏）"
+slug: "ivy-taming-adrien-lambert"
 date: 2025-10-26
 category: "pipeline"
 type: "brief"

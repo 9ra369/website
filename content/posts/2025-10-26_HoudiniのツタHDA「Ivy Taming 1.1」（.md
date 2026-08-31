@@ -1,5 +1,6 @@
 ---
 title: "HoudiniのツタHDA「Ivy Taming 1.1」（The Last of Usでも使用）"
+slug: "houdini-hda-ivy-taming-1-1-the"
 date: 2025-10-26
 category: "pipeline"
 type: "brief"

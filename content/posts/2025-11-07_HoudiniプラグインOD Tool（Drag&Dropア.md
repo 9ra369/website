@@ -1,5 +1,6 @@
 ---
 title: "HoudiniプラグインOD Tool（Drag&Dropアセット管理）"
+slug: "houdini-od-tool-drag-drop"
 date: 2025-11-07
 category: "pipeline"
 type: "brief"

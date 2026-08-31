@@ -1,5 +1,6 @@
 ---
 title: "『アサシンクリード シャドウズ』岩壁生成HDA「Procedural Rock Wall Tool」"
+slug: "hda-procedural-rock-wall-tool"
 date: 2026-04-11
 category: "pipeline"
 type: "brief"

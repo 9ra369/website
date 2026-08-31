@@ -1,5 +1,6 @@
 ---
 title: "Houdiniのショートカット: Alt+Shift+Mでキャッシュマネージャー"
+slug: "houdini-alt-shift"
 date: 2025-10-31
 category: "tips"
 type: "brief"

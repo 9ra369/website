@@ -1,5 +1,6 @@
 ---
 title: "HoudiniのAIアシスタントを紹介（LinkedIn投稿）"
+slug: "houdini-ai-linkedin"
 date: 2025-10-19
 category: "tips"
 type: "brief"

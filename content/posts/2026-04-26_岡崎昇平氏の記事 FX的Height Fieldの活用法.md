@@ -1,5 +1,6 @@
 ---
 title: "岡崎昇平氏の記事: FX的Height Fieldの活用法"
+slug: "fx-height-field"
 date: 2026-04-26
 category: "article"
 type: "explainer"

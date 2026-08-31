@@ -1,5 +1,6 @@
 ---
 title: "Marek Denko氏の背景作品（Website/ArtStation）"
+slug: "marek-denko-website-artstation"
 date: 2025-12-17
 category: "showreel"
 type: "brief"

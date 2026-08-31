@@ -1,5 +1,6 @@
 ---
 title: "すあま氏のUSD-Solarisセミナー記事が公開"
+slug: "usd-solaris"
 date: 2025-12-25
 category: "article"
 type: "explainer"

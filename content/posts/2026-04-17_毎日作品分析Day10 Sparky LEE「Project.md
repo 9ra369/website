@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day10: Sparky LEE「Project Windless」"
+slug: "day10-sparky-lee-project-windless"
 date: 2026-04-17
 category: "daily-analysis"
 type: "note"

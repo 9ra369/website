@@ -1,5 +1,6 @@
 ---
 title: "Houdini完結型植生生成ツールキット「Natsura」"
+slug: "houdini-natsura"
 date: 2026-08-08
 category: "pipeline"
 type: "brief"

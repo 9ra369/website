@@ -1,5 +1,6 @@
 ---
 title: "Anthony Eftekhari氏の3D Matte Paintingチュートリアル"
+slug: "anthony-eftekhari-3d-matte-painting"
 date: 2025-10-22
 category: "tutorial"
 type: "brief"

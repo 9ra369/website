@@ -1,5 +1,6 @@
 ---
 title: "Cinema 4D×Octane背景制作チュートリアル"
+slug: "cinema-4d-octane"
 date: 2026-05-03
 category: "tutorial"
 type: "brief"

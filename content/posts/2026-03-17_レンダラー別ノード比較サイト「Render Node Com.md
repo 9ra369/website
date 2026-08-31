@@ -1,5 +1,6 @@
 ---
 title: "レンダラー別ノード比較サイト「Render Node Comparison」"
+slug: "render-node-comparison"
 date: 2026-03-17
 category: "tips"
 type: "brief"

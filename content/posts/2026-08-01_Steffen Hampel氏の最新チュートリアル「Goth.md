@@ -1,5 +1,6 @@
 ---
 title: "Steffen Hampel氏の最新チュートリアル「Gotham - Full CG Breakdown」"
+slug: "steffen-hampel-gotham-full-cg-breakdown"
 date: 2026-08-01
 category: "tutorial"
 type: "brief"

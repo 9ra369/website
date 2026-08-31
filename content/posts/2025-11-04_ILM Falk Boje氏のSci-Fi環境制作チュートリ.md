@@ -1,5 +1,6 @@
 ---
 title: "ILM Falk Boje氏のSci-Fi環境制作チュートリアル"
+slug: "ilm-falk-boje-sci-fi"
 date: 2025-11-04
 category: "tutorial"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "note記事: Houdiniで『君の名は。』の1シーンを再現"
+slug: "note-houdini"
 date: 2025-11-08
 category: "article"
 type: "explainer"

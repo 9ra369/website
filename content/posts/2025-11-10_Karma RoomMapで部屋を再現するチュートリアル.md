@@ -1,5 +1,6 @@
 ---
 title: "Karma RoomMapで部屋を再現するチュートリアル"
+slug: "karma-roommap"
 date: 2025-11-10
 category: "tutorial"
 type: "brief"

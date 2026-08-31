@@ -1,5 +1,6 @@
 ---
 title: "個人制作向けSolarisチュートリアル「LOPs for Solo Artists」"
+slug: "solaris-lops-for-solo-artists"
 date: 2025-10-25
 category: "tutorial"
 type: "brief"

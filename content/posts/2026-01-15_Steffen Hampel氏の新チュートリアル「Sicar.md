@@ -1,5 +1,6 @@
 ---
 title: "Steffen Hampel氏の新チュートリアル「Sicario Full CG Breakdown」（CG Lounge）"
+slug: "steffen-hampel-sicario-full-cg-breakdown"
 date: 2026-01-15
 category: "tutorial"
 type: "brief"

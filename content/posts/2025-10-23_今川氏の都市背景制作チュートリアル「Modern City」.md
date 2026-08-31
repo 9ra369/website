@@ -1,5 +1,6 @@
 ---
 title: "今川氏の都市背景制作チュートリアル「Modern City」"
+slug: "modern-city"
 date: 2025-10-23
 category: "tutorial"
 type: "brief"

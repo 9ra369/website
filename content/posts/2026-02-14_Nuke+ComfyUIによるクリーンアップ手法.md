@@ -1,5 +1,6 @@
 ---
 title: "Nuke+ComfyUIによるクリーンアップ手法"
+slug: "nuke-comfyui"
 date: 2026-02-14
 category: "tips"
 type: "brief"

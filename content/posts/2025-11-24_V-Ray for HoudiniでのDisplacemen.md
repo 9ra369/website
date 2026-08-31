@@ -1,5 +1,6 @@
 ---
 title: "V-Ray for HoudiniでのDisplacement適用Tips"
+slug: "ray-for-houdini-displacement-tips"
 date: 2025-11-24
 category: "tips"
 type: "brief"

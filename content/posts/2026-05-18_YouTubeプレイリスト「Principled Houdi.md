@@ -1,5 +1,6 @@
 ---
 title: "YouTubeプレイリスト「Principled Houdini」"
+slug: "youtube-principled-houdini"
 date: 2026-05-18
 category: "tips"
 type: "brief"

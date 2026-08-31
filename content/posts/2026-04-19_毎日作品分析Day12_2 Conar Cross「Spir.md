@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day12_2: Conar Cross「Spires」"
+slug: "day12-2-conar-cross-spires"
 date: 2026-04-19
 category: "daily-analysis"
 type: "note"

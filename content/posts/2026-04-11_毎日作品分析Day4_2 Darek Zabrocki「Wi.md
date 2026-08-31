@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day4_2: Darek Zabrocki「Windmill Town」"
+slug: "day4-2-darek-zabrocki-windmill-town"
 date: 2026-04-11
 category: "daily-analysis"
 type: "note"

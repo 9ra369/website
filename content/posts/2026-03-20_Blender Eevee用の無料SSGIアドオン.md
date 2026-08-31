@@ -1,5 +1,6 @@
 ---
 title: "Blender Eevee用の無料SSGIアドオン"
+slug: "blender-eevee-ssgi"
 date: 2026-03-20
 category: "pipeline"
 type: "brief"

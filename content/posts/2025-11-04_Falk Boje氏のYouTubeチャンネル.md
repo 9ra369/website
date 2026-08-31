@@ -1,5 +1,6 @@
 ---
 title: "Falk Boje氏のYouTubeチャンネル"
+slug: "falk-boje-youtube"
 date: 2025-11-04
 category: "showreel"
 type: "brief"

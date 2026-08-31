@@ -1,5 +1,6 @@
 ---
 title: "ComfyUI拡張機能「ComfyUI-OCIO」"
+slug: "comfyui-comfyui-ocio"
 date: 2026-08-09
 category: "tips"
 type: "brief"

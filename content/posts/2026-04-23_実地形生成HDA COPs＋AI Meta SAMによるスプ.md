@@ -1,5 +1,6 @@
 ---
 title: "実地形生成HDA: COPs＋AI Meta SAMによるスプラットマップ自動生成"
+slug: "hda-cops-ai-meta-sam"
 date: 2026-04-23
 category: "pipeline"
 type: "brief"

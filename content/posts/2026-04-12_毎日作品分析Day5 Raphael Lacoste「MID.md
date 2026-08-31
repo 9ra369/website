@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day5: Raphael Lacoste「MIDGARD」"
+slug: "day5-raphael-lacoste-midgard"
 date: 2026-04-12
 category: "daily-analysis"
 type: "note"

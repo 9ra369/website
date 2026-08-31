@@ -1,5 +1,6 @@
 ---
 title: "ArtStationの見落とされがちなTips集約ページ活用法"
+slug: "artstation-tips"
 date: 2026-01-27
 category: "tutorial"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "鱗生成HDA「Scales」"
+slug: "hda-scales"
 date: 2026-03-16
 category: "pipeline"
 type: "brief"

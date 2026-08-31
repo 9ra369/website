@@ -1,5 +1,6 @@
 ---
 title: "Claude-to-Unreal Connector（MCPベース、Beta版）"
+slug: "claude-to-unreal-connector-mcp-beta"
 date: 2026-05-25
 category: "tips"
 type: "brief"

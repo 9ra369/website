@@ -1,5 +1,6 @@
 ---
 title: "80lv記事: Megascansでフォトリアルな3Dシーン制作"
+slug: "80lv-megascans-3d"
 date: 2025-10-09
 category: "article"
 type: "explainer"

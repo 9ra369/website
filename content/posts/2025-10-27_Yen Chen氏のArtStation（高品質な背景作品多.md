@@ -1,5 +1,6 @@
 ---
 title: "Yen Chen氏のArtStation（高品質な背景作品多数）"
+slug: "yen-chen-artstation"
 date: 2025-10-27
 category: "showreel"
 type: "brief"

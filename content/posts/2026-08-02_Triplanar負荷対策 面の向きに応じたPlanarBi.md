@@ -1,5 +1,6 @@
 ---
 title: "Triplanar負荷対策: 面の向きに応じたPlanar/Biplanar使い分け"
+slug: "triplanar-planar-biplanar"
 date: 2026-08-02
 category: "tips"
 type: "brief"

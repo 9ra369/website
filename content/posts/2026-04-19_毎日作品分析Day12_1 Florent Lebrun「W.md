@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day12_1: Florent Lebrun「Wanderers」"
+slug: "day12-1-florent-lebrun-wanderers"
 date: 2026-04-19
 category: "daily-analysis"
 type: "note"

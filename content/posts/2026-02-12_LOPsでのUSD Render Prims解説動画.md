@@ -1,5 +1,6 @@
 ---
 title: "LOPsでのUSD Render Prims解説動画"
+slug: "lops-usd-render-prims"
 date: 2026-02-12
 category: "tutorial"
 type: "brief"

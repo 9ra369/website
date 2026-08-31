@@ -1,5 +1,6 @@
 ---
 title: "Blizzard Anthony Eftekhari氏の構図・デザイン無料講座"
+slug: "blizzard-anthony-eftekhari"
 date: 2025-10-21
 category: "tutorial"
 type: "brief"

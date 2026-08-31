@@ -1,5 +1,6 @@
 ---
 title: "ポリフォニーデジタルの講演記事まとめ（Houdini/Python）"
+slug: "houdini-python"
 date: 2026-04-25
 category: "tutorial"
 type: "brief"

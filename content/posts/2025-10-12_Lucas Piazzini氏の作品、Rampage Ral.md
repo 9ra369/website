@@ -1,5 +1,6 @@
 ---
 title: "Lucas Piazzini氏の作品、Rampage Rallyで3位入賞"
+slug: "lucas-piazzini-rampage-rally"
 date: 2025-10-12
 category: "showreel"
 type: "brief"

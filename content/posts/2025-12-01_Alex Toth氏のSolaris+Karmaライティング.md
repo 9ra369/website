@@ -1,5 +1,6 @@
 ---
 title: "Alex Toth氏のSolaris+Karmaライティングウェビナー"
+slug: "alex-toth-solaris-karma"
 date: 2025-12-01
 category: "tutorial"
 type: "brief"

@@ -280,7 +280,7 @@ function renderTipPage(mdPath, allPosts = []) {
   const raw = fs.readFileSync(mdPath, "utf8");
   const { fm, body } = parseFrontMatter(raw);
   const { images, text } = extractImages(body);
-  const p = "../"; // pages live under prototype/tips/
+  const p = "../"; // pages live under prototype/posts/
 
   const title = fm.title || "(無題)";
   const categoryLabel = CATEGORY_LABELS[fm.category] || "Tips";

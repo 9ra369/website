@@ -1,5 +1,6 @@
 ---
 title: "SpeedTreeのアニメーション・シミュレーションプラグイン"
+slug: "speedtree"
 date: 2025-10-15
 category: "pipeline"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day11_2: Max Schiller「Tempel der Verdammnis」"
+slug: "day11-2-max-schiller-tempel-der-verdammnis"
 date: 2026-04-18
 category: "daily-analysis"
 type: "note"

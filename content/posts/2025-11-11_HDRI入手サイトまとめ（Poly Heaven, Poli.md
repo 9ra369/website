@@ -1,5 +1,6 @@
 ---
 title: "HDRI入手サイトまとめ（Poly Heaven, Poliigon等）"
+slug: "hdri-poly-heaven-poliigon"
 date: 2025-11-11
 category: "tips"
 type: "brief"

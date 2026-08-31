@@ -1,5 +1,6 @@
 ---
 title: "毎日作品分析Day7: Darek Zabrocki「ZORADX - Vistas」"
+slug: "day7-darek-zabrocki-zoradx-vistas"
 date: 2026-04-14
 category: "daily-analysis"
 type: "note"

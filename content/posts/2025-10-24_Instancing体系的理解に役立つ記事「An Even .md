@@ -1,5 +1,6 @@
 ---
 title: "Instancing体系的理解に役立つ記事「An Even Longer-Winded Guide」"
+slug: "instancing-an-even-longer-winded-guide"
 date: 2025-10-24
 category: "article"
 type: "explainer"

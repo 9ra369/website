@@ -1,5 +1,6 @@
 ---
 title: "業界用語Tips: SR（Screen Right）/SL（Screen Left）"
+slug: "tips-sr-screen-right-sl-screen"
 date: 2026-01-17
 category: "tips"
 type: "brief"

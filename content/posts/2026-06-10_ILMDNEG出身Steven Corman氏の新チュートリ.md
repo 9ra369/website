@@ -1,5 +1,6 @@
 ---
 title: "ILM/DNEG出身Steven Corman氏の新チュートリアル（Double Jump Academy）"
+slug: "ilm-dneg-steven-corman-double-jump"
 date: 2026-06-10
 category: "tutorial"
 type: "brief"

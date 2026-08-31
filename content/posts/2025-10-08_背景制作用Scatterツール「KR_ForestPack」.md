@@ -1,5 +1,6 @@
 ---
 title: "背景制作用Scatterツール「KR_ForestPack」を紹介"
+slug: "scatter-kr-forestpack"
 date: 2025-10-08
 category: "pipeline"
 type: "brief"

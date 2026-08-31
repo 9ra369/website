@@ -1,5 +1,6 @@
 ---
 title: "記事「プロシージャルアートはHero Qualityであるべき」"
+slug: "hero-quality"
 date: 2025-12-31
 category: "article"
 type: "explainer"

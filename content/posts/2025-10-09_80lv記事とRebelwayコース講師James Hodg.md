@@ -1,5 +1,6 @@
 ---
 title: "80lv記事とRebelwayコース講師James Hodgart氏の紹介"
+slug: "80lv-rebelway-james-hodgart"
 date: 2025-10-09
 category: "tutorial"
 type: "brief"

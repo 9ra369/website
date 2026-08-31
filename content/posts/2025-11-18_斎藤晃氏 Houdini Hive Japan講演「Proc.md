@@ -1,5 +1,6 @@
 ---
 title: "斎藤晃氏 Houdini Hive Japan講演「Procedural Hard Surface Design」"
+slug: "houdini-hive-japan-procedural-hard-surface"
 date: 2025-11-18
 category: "tutorial"
 type: "brief"

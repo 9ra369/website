@@ -1,5 +1,6 @@
 ---
 title: "Malte Resenberger-Loosmann氏の他の記事（マテリアル/レイヤー戦略）"
+slug: "malte-resenberger-loosmann"
 date: 2026-08-06
 category: "article"
 type: "explainer"

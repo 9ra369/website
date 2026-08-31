@@ -1,5 +1,6 @@
 ---
 title: "MegascansをUSD変換・LookDevできるHDAツール"
+slug: "megascans-usd-lookdev-hda"
 date: 2025-10-19
 category: "pipeline"
 type: "brief"

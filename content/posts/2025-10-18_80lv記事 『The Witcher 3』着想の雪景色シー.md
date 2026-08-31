@@ -1,5 +1,6 @@
 ---
 title: "80lv記事: 『The Witcher 3』着想の雪景色シーン制作"
+slug: "80lv-the-witcher"
 date: 2025-10-18
 category: "article"
 type: "explainer"

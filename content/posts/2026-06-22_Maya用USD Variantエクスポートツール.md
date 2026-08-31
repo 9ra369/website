@@ -1,5 +1,6 @@
 ---
 title: "Maya用USD Variantエクスポートツール"
+slug: "maya-usd-variant"
 date: 2026-06-22
 category: "pipeline"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "Steven Croman氏のArtStation（高品質な背景作品多数）"
+slug: "steven-croman-artstation"
 date: 2025-10-30
 category: "showreel"
 type: "brief"

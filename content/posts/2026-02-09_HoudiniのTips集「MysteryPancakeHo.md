@@ -1,5 +1,6 @@
 ---
 title: "HoudiniのTips集「MysteryPancake/Houdini-Fun」（GitHub）"
+slug: "houdini-tips-mysterypancake-houdini-fun-github"
 date: 2026-02-09
 category: "tips"
 type: "brief"

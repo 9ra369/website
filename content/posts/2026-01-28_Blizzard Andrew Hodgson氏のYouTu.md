@@ -1,5 +1,6 @@
 ---
 title: "Blizzard Andrew Hodgson氏のYouTubeチャンネル"
+slug: "blizzard-andrew-hodgson-youtube"
 date: 2026-01-28
 category: "showreel"
 type: "brief"

@@ -1,5 +1,6 @@
 ---
 title: "SolarisのInstancerチュートリアル: SpeedTreeのLookDevも収録"
+slug: "solaris-instancer-speedtree-lookdev"
 date: 2025-10-10
 category: "tutorial"
 type: "brief"

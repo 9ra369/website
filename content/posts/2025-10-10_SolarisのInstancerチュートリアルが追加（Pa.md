@@ -1,5 +1,6 @@
 ---
 title: "SolarisのInstancerチュートリアルが追加（Part4まで）"
+slug: "solaris-instancer-part4"
 date: 2025-10-10
 category: "tutorial"
 type: "brief"

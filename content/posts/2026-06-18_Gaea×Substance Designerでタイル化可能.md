@@ -1,5 +1,6 @@
 ---
 title: "Gaea×Substance Designerでタイル化可能なテクスチャ制作の試み（Vincent Gagnon氏）"
+slug: "gaea-substance-designer-vincent-gagnon"
 date: 2026-06-18
 category: "tips"
 type: "brief"
