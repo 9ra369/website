@@ -18,3 +18,13 @@ status: draft
 Layer instancing for VFX scenes
 （UDIMが何十枚にもなる大きなアセットのテクスチャリング）
 https://www.adobe.com/learn/substance-3d-painter/web/layer-instancing-for-vfx-scenes
+
+---
+
+**元記事の説明（原文）**
+
+Layer instancing for VFX scenes
+
+Substance Painter can now be used on very large-scale assets. Thanks to the layer instancing feature it is possible to texture assets with a large number of UDIMs very fast.
+
+In this tutorial you will learn how to texture an large asset in a short amount of time, such as this Parisian building, composed of more than 2.5 million polygons and with all the elements broken down into 44 UDIMs with Casimir Perez, texture artist from Allegorithmic.
