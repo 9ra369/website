@@ -24,6 +24,7 @@ const CURATED = [
     tools: [],
     type: "brief",
     date: "2026-08-08",
+    image: "images/entries/cglounge-homepage.png",
   },
   {
     href: "entry-cgworld-island.html",
@@ -35,6 +36,7 @@ const CURATED = [
     tools: ["houdini"],
     type: "explainer",
     date: "2026-08-09",
+    image: "images/entries/cgworld-island-hero.jpg",
   },
   {
     href: "entry-procedural-environments.html",
@@ -46,6 +48,7 @@ const CURATED = [
     tools: ["houdini"],
     type: "brief",
     date: "2026-08-08",
+    image: "images/entries/houdini-procedural-environments.jpg",
   },
 ];
 
