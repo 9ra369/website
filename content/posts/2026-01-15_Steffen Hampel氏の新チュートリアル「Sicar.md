@@ -1,5 +1,5 @@
 ---
-title: "Steffen Hampel氏 — 新チュートリアル『Sicario Full CG Breakdown』（CG Lounge）"
+title: "CG Loungeより — Steffen Hampel氏の新チュートリアル『Sicario Full CG Breakdown』"
 slug: "steffen-hampel-sicario-full-cg-breakdown"
 date: 2026-01-15
 category: "tutorial"

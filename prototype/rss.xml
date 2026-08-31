@@ -5,7 +5,7 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Aug 2026 13:28:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:36:45 GMT</lastBuildDate>
     <item>
       <title>Houdini&amp;Arnoldで描く大規模なフル3D自然景観「Island」制作解説</title>
       <link>https://9ra369.github.io/website/entry-cgworld-island.html</link>
@@ -63,7 +63,7 @@
       <description>Malte Resenberger-Loosmann氏による記事「The Art of Observation: Mastering Hero Assets」。現実世界のリファレンスの観察・分析からマテリアルレイヤーの見極め、3Dへのディテール落とし込みまでのアプローチが述べられている。</description>
     </item>
     <item>
-      <title>Malte Resenberger-Loosmann氏 — 他の記事（マテリアル/レイヤー戦略）</title>
+      <title>Malte Resenberger-Loosmann氏 — マテリアル/レイヤー戦略に関する他の記事</title>
       <link>https://9ra369.github.io/website/posts/malte-resenberger-loosmann.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/malte-resenberger-loosmann.html</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
@@ -71,7 +71,7 @@
       <description>Malte Resenberger-Loosmann氏のページにある他の記事。「Mastering Materials: Noise」「Breakdown Rust Material」「The 10 Layers Strategy」「Desert Eagle」など、マテリアル制作の知見がまとめられている。</description>
     </item>
     <item>
-      <title>【無料】Naughty Dog — Senior Environment Artistのウェブサイト（UEチュートリアル収録）</title>
+      <title>【無料】Naughty Dog — Senior Environment Artistのウェブサイト、UEチュートリアル収録</title>
       <link>https://9ra369.github.io/website/posts/naughty-dog-senior-environment-artist-ue.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/naughty-dog-senior-environment-artist-ue.html</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
@@ -95,7 +95,7 @@
       <description>SideFXでインターンをしているLei W.氏による、COPsを使ったSci-fi Panelの制作手法。Pythonでレイアウトをデザインし、COPsでHeightとディテールを追加、Houdini Engine経由でUEに渡し、Naniteでテッセレーション・ディスプレイスメントを実装するワークフロー。</description>
     </item>
     <item>
-      <title>Triplanar — リアルタイムでの計算負荷について（LinkedIn引用）</title>
+      <title>LinkedInより — Triplanarのリアルタイム計算負荷について</title>
       <link>https://9ra369.github.io/website/posts/triplanar-linkedin.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/triplanar-linkedin.html</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
@@ -103,7 +103,7 @@
       <description>リアルタイムレンダリングにおけるTriplanarマッピングの計算負荷（LinkedInの投稿を引用して紹介）。UV展開が不要で便利だが、サンプル数が3倍になる分のコストは単純比例せず、L1/L2キャッシュの挙動に左右されるという技術的な補足がある。</description>
     </item>
     <item>
-      <title>Port Town — セミプロシージャル環境制作ワークフロー（Blender）</title>
+      <title>Port Town — Blenderによるセミプロシージャル環境制作ワークフロー</title>
       <link>https://9ra369.github.io/website/posts/port-town-blender.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/port-town-blender.html</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
@@ -119,7 +119,7 @@
       <description>Triplanarの計算負荷への対応策として、面の向きに応じてplanar projection（地面など上向きの面）とbiplanar projection（建物など横向きの面）を選択的に使い分けるという手法。</description>
     </item>
     <item>
-      <title>Avatar Aang — テーマにした作品（ArtStation）</title>
+      <title>Avatar Aang — テーマにした作品</title>
       <link>https://9ra369.github.io/website/posts/avatar-aang-artstation.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/avatar-aang-artstation.html</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
@@ -143,7 +143,7 @@
       <description>Samuel Krug氏によるチュートリアル「How I Created a Massive Coastal Mountain Scene in 3D」。技術的な側面だけでなく、書籍の描写を基にした再現や試行錯誤の過程も見られる点をおすすめしている。</description>
     </item>
     <item>
-      <title>Samuel Krug氏 — ArtStation作品（高ディテール）</title>
+      <title>Samuel Krug氏 — 高ディテールなArtStation作品</title>
       <link>https://9ra369.github.io/website/posts/samuel-krug-artstation.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/samuel-krug-artstation.html</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
@@ -199,7 +199,7 @@
       <description>CEDEC 2025でのポリフォニー・デジタルによる講演。ニューラルネットワークを用いた次世代オブジェクトカリングシステムについて紹介している。後半は専門的で難しいが、前半のカリングシステムの説明でボロノイ領域が具体的に応用される様子が興味深いとしている。</description>
     </item>
     <item>
-      <title>Python — UEワークフロー自動化コース（Udemy）</title>
+      <title>Udemyより — PythonによるUEワークフロー自動化コース</title>
       <link>https://9ra369.github.io/website/posts/python-ue-udemy.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/python-ue-udemy.html</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
@@ -223,7 +223,7 @@
       <description>道路建設のために切り崩された崖と、自然な崖との違いについて解説するKevin Baker氏の記事。</description>
     </item>
     <item>
-      <title>William Fiorentini氏 — 最新チュートリアル『Glacier Breakdown』（CG Lounge）</title>
+      <title>CG Loungeより — William Fiorentini氏の最新チュートリアル『Glacier Breakdown』</title>
       <link>https://9ra369.github.io/website/posts/william-fiorentini-glacier-breakdown-cg-lounge.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/william-fiorentini-glacier-breakdown-cg-lounge.html</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
@@ -231,7 +231,7 @@
       <description>William Fiorentini氏による最新チュートリアル「Glacier Breakdown and Project file」がCG Loungeで公開されたこと。</description>
     </item>
     <item>
-      <title>Steven Corman氏 — ILM/DNEG出身、新チュートリアル『Advanced Matte Painting』（Double Jump Academy）</title>
+      <title>Double Jump Academyより — ILM/DNEG出身Steven Corman氏の新チュートリアル『Advanced Matte Painting』</title>
       <link>https://9ra369.github.io/website/posts/ilm-dneg-steven-corman-double-jump.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/ilm-dneg-steven-corman-double-jump.html</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
@@ -247,7 +247,7 @@
       <description>HoudiniとPythonを組み合わせた画像処理の活用事例。WebのURLから画像を読み込み、Pillowを使って画素をポイントとして並べる手法などが紹介されている。プラグイン開発以外の応用例として挙げている。</description>
     </item>
     <item>
-      <title>Meta SAM — 高解像度地形生成ツールがリリース（米国内1-10m/px、全世界30m/px）</title>
+      <title>Meta SAM — 高解像度地形生成ツールがリリース、米国内1-10m/px・全世界30m/px</title>
       <link>https://9ra369.github.io/website/posts/10m-px-30m-px.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/10m-px-30m-px.html</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
@@ -255,7 +255,7 @@
       <description>実地形生成HDAの正式リリース。アメリカ国内では1m/pixelまたは10m/pixel、世界中では30m/pixelの解像度で地形を生成できる。SplatmapsはMeta SAM AIかカスタムのPython HDAで生成できる。</description>
     </item>
     <item>
-      <title>Claude-to-Unreal Connector — MCPベースのUnreal連携ツール（Beta版）</title>
+      <title>Claude-to-Unreal Connector — MCPベースのUnreal連携ツール、Beta版</title>
       <link>https://9ra369.github.io/website/posts/claude-to-unreal-connector-mcp-beta.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/claude-to-unreal-connector-mcp-beta.html</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
@@ -303,7 +303,7 @@
       <description>HoudiniとUE5を使って精緻な蓮（Lotus）のシーンを制作した過程を解説する80lvの記事。ArtStationにも制作ブレイクダウンが公開されている。</description>
     </item>
     <item>
-      <title>毎日作品分析Day31（最終日） — 構造線とバランス</title>
+      <title>毎日作品分析Day31・最終日 — 構造線とバランス</title>
       <link>https://9ra369.github.io/website/posts/day31.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/day31.html</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
@@ -311,7 +311,7 @@
       <description>毎日作品分析シリーズ最終日（Day31）のテーマとして、構造線とバランスについての分析。多くの人が無意識のうちに認識している要素であるとしている。</description>
     </item>
     <item>
-      <title>毎日作品分析Day30 — 視線分散型の構図（Scattered）</title>
+      <title>毎日作品分析Day30 — 視線分散型の構図「Scattered」</title>
       <link>https://9ra369.github.io/website/posts/day30-scattered.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/day30-scattered.html</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
@@ -399,7 +399,7 @@
       <description>Claudeを使い、参考画像をもとにBlenderでシーンを構築する実験。時間はかかるが、しっかりルールを指定すればブロックアウトまで自動でこなしてくれそう。面倒な初期工程を飛ばし重要な部分に時間を割けるのが利点としている。</description>
     </item>
     <item>
-      <title>毎日作品分析Day20 — 逆光（バックライト）の効果</title>
+      <title>毎日作品分析Day20 — 逆光・バックライトの効果</title>
       <link>https://9ra369.github.io/website/posts/day20.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/day20.html</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>

@@ -1,5 +1,5 @@
 ---
-title: "William Fiorentini氏 — 最新チュートリアル『Glacier Breakdown』（CG Lounge）"
+title: "CG Loungeより — William Fiorentini氏の最新チュートリアル『Glacier Breakdown』"
 slug: "william-fiorentini-glacier-breakdown-cg-lounge"
 date: 2026-06-11
 category: "tutorial"

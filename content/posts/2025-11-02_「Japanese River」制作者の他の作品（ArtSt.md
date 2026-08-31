@@ -1,5 +1,5 @@
 ---
-title: "Japanese River — 制作者の他の作品（ArtStation）"
+title: "Japanese River — 制作者の他の作品"
 slug: "japanese-river-artstation"
 date: 2025-11-02
 category: "tutorial"

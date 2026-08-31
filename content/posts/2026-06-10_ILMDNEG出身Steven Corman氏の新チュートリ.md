@@ -1,5 +1,5 @@
 ---
-title: "Steven Corman氏 — ILM/DNEG出身、新チュートリアル『Advanced Matte Painting』（Double Jump Academy）"
+title: "Double Jump Academyより — ILM/DNEG出身Steven Corman氏の新チュートリアル『Advanced Matte Painting』"
 slug: "ilm-dneg-steven-corman-double-jump"
 date: 2026-06-10
 category: "tutorial"

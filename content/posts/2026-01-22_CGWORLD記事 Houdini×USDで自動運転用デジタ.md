@@ -1,5 +1,5 @@
 ---
-title: "CGWORLD — Houdini×USDで自動運転用デジタルツイン生成（Aurora Innovation）"
+title: "CGWORLD — Houdini×USDによるAurora Innovationの自動運転用デジタルツイン生成"
 slug: "cgworld-houdini-usd-aurora-innovation"
 date: 2026-01-22
 category: "article"
