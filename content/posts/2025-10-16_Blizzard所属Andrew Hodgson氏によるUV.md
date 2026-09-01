@@ -4,7 +4,7 @@ slug: "blizzard-andrew-hodgson-uv"
 date: 2025-10-16
 category: "tips"
 type: "brief"
-tags: ["Maya", "Modeling", "UV", "b3d"]
+tags: ["Maya","Modeling","UV"]
 topics: ["modeling"]
 tools: ["maya","blender"]
 mentions: ["Gakutadar"]

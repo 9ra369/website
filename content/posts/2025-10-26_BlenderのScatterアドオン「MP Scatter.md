@@ -4,7 +4,7 @@ slug: "blender-scatter-mp-scatter"
 date: 2025-10-26
 category: "pipeline"
 type: "brief"
-tags: ["Blender", "Scattering", "b3d", "背景制作", "3DCG"]
+tags: ["Blender","Scattering","背景制作","3DCG"]
 topics: ["environment"]
 tools: ["blender"]
 source_url: ""

@@ -4,7 +4,7 @@ slug: "megascans-bridge-poly-reduce"
 date: 2026-03-23
 category: "tips"
 type: "brief"
-tags: ["Megascans", "Optimization", "3dcg", "b3d"]
+tags: ["Megascans","Optimization","3dcg"]
 topics: ["environment"]
 tools: ["blender"]
 source_url: ""

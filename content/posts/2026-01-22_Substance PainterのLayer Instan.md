@@ -15,9 +15,19 @@ ai_confidence: "high"
 status: draft
 ---
 
+![](images/posts/2014289152049893836-parisian-building-render.png)
+
 Layer instancing for VFX scenes
 （UDIMが何十枚にもなる大きなアセットのテクスチャリング）
 https://www.adobe.com/learn/substance-3d-painter/web/layer-instancing-for-vfx-scenes
+
+![](images/posts/2014289152049893836-udim-layout.png)
+
+![](images/posts/2014289152049893836-texture-set-settings.gif)
+
+![](images/posts/2014289152049893836-layers-dirt-sidewalk-edge.gif)
+
+![](images/posts/2014289152049893836-base-color-closeup.gif)
 
 ---
 

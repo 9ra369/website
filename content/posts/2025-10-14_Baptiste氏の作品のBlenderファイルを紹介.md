@@ -4,7 +4,7 @@ slug: "baptiste-blender"
 date: 2025-10-14
 category: "showreel"
 type: "brief"
-tags: ["Blender", "Environment", "Gaea", "b3d", "houEnv"]
+tags: ["Blender","Environment","Gaea","houEnv"]
 topics: ["environment"]
 tools: ["blender","gaea","houdini"]
 source_url: "https://baptistevercier.gumroad.com/l/IslandScene"

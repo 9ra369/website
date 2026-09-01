@@ -4,7 +4,7 @@ slug: "ubisoft-ea-environment-concept-artist-wingfox"
 date: 2026-04-20
 category: "tutorial"
 type: "brief"
-tags: ["Blender", "Photoshop", "Concept Art", "b3d", "Environment"]
+tags: ["Blender","Photoshop","Concept Art","Environment"]
 topics: ["art-fundamentals","environment"]
 tools: ["blender"]
 source_url: "https://www.wingfox.com/c/8341"

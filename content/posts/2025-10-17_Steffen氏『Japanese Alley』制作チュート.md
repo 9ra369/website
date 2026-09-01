@@ -4,7 +4,7 @@ slug: "steffen-japanese-alley-wingfox"
 date: 2025-10-17
 category: "tutorial"
 type: "brief"
-tags: ["Maya", "V-Ray", "Environment", "houEnv", "b3d"]
+tags: ["Maya","V-Ray","Environment","houEnv"]
 topics: ["lighting-rendering","environment"]
 tools: ["maya","v-ray","houdini"]
 source_url: "https://www.wingfox.com/c/8342?srsltid=AfmBOoq8MyHbyoQevYoorEWuPiP7VPk1Ai-xFMxJ4CeQtGCmbluwUuno"

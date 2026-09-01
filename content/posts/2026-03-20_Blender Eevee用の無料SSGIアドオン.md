@@ -4,7 +4,7 @@ slug: "blender-eevee-ssgi"
 date: 2026-03-20
 category: "pipeline"
 type: "brief"
-tags: ["Blender", "b3d"]
+tags: ["Blender"]
 topics: ["pipeline"]
 tools: ["blender"]
 source_url: "https://n0451.gumroad.com/l/PgyXc?layout=discover&recommended_by=search&_gl=1*1ntyhfx*_ga*MTg2MTU1NDM5OS4xNzczNzU5MjY1*_ga_6LJN6D94N6*czE3NzQwMDA2NTUkbzEzJGcwJHQxNzc0MDAwNjU1JGo2MCRsMCRoMA"

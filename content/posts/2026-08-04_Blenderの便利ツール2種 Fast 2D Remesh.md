@@ -7,7 +7,7 @@ type: "brief"
 tags: ["Blender", "Tools"]
 topics: ["pipeline"]
 tools: ["blender"]
-source_url: ""
+source_url: "https://www.artstation.com/artwork/6vn6kn"
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2084580108279640573"
 summary: "Blenderの便利なツール2種。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。"
@@ -25,3 +25,5 @@ Fast 2D Remesh Tool
 Spline Mesh Tool
 スプラインに沿ってメッシュを変形させるツール
 始点モジュールと終点モジュールを配置すると、中間のモジュールがカーブ上にランダムに生成…
+
+ArtStation: https://www.artstation.com/artwork/6vn6kn
