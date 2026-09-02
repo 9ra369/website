@@ -5,7 +5,15 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 01 Sep 2026 12:32:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 15:09:35 GMT</lastBuildDate>
+    <item>
+      <title>USD — 詳細に解説されたブログ記事・技術サイト</title>
+      <link>https://9ra369.github.io/website/posts/usd-blog-zenn-reincarnation.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/usd-blog-zenn-reincarnation.html</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category>website</category>
+      <description>USDを理解するのにおすすめのブログ記事・技術サイト。BlenderのUSD/Hydra対応状況やアドオン開発など、USD関連の内容が詳しく解説されている。</description>
+    </item>
     <item>
       <title>Houdini&amp;Arnoldで描く大規模なフル3D自然景観「Island」制作解説</title>
       <link>https://9ra369.github.io/website/entry-cgworld-island.html</link>
@@ -397,14 +405,6 @@
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
       <category>daily-analysis</category>
       <description>逆光（バックライト）を活かした作品を集めた分析（毎日作品分析Day20）。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day19 — 薄暗い作品「Gloomy」の分類</title>
-      <link>https://9ra369.github.io/website/posts/day19-gloomy.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day19-gloomy.html</guid>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>薄暗い雰囲気の作品を2つのタイプに分けた分析（毎日作品分析Day19）。現実に存在しないものが神秘的な印象を与えるタイプと、日常的なものが恐怖や不安を掻き立てるタイプがあるという考察が記されている。</description>
     </item>
   </channel>
 </rss>
