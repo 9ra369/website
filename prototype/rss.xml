@@ -5,7 +5,7 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 03 Sep 2026 14:11:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 15:33:35 GMT</lastBuildDate>
     <item>
       <title>杉﨑亮太氏 — CG Forgeで紹介された自主制作の裏側と作品収集術</title>
       <link>https://9ra369.github.io/website/posts/ryota-sugisaki-cg-forge-breath-of-the-ancient-earth.html</link>
@@ -263,7 +263,7 @@
       <description>HoudiniとPythonを組み合わせた画像処理の活用事例。WebのURLから画像を読み込み、Pillowを使って画素をポイントとして並べる手法などが紹介されている。プラグイン開発以外の応用例として挙げている。</description>
     </item>
     <item>
-      <title>Meta SAM — 高解像度地形生成ツールがリリース、米国内1-10m/px・全世界30m/px</title>
+      <title>DanTools — 高解像度地形生成ツール</title>
       <link>https://9ra369.github.io/website/posts/10m-px-30m-px.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/10m-px-30m-px.html</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
@@ -285,14 +285,6 @@
       <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
       <category>tips</category>
       <description>Houdiniの基本原則を扱うYouTubeプレイリスト「Principled Houdini」。</description>
-    </item>
-    <item>
-      <title>Houdini — Displace along normal使用時のUV promote Tips</title>
-      <link>https://9ra369.github.io/website/posts/displace-along-normal-uv-promote-tips.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/displace-along-normal-uv-promote-tips.html</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <category>tips</category>
-      <description>「Displace along normal」を使ってUV展開済みメッシュにディスプレイスメントを加える際、UVをvertexからpointにpromoteしてVOPで編集する必要があるというTips。</description>
     </item>
     <item>
       <title>note — 『Houdiniファイルを読み解く vol.1』</title>
@@ -405,6 +397,14 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <category>daily-analysis</category>
       <description>青と黄を基調とした配色の作品を集めた分析（毎日作品分析Day21）。</description>
+    </item>
+    <item>
+      <title>毎日作品分析Day20 — 逆光・バックライトの効果</title>
+      <link>https://9ra369.github.io/website/posts/day20.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day20.html</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <category>daily-analysis</category>
+      <description>逆光（バックライト）を活かした作品を集めた分析（毎日作品分析Day20）。</description>
     </item>
   </channel>
 </rss>
