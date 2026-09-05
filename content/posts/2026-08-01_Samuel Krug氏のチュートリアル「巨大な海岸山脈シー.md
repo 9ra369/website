@@ -25,6 +25,8 @@ https://www.youtube.com/watch?v=JsPPPMAllTk
 
 #houdini…
 
+![](images/posts/2083387737441493008-JsPPPMAllTk-HD.jpg)
 ![](images/posts/2083387737441493008-HOmswpuacAA8WbC.jpg)
 ![](images/posts/2083387737441493008-HOmsyzdasAAjWWd.jpg)
 ![](images/posts/2083387737441493008-HOmtQWHb0AAF62V.jpg)
+![](images/posts/2083387737441493008-sam1.jpg)

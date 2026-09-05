@@ -140,10 +140,6 @@
     "newHref": "posts/blender-727780.html"
   },
   {
-    "oldFile": "BlenderのScatterアドオン「MP_Scatter」.html",
-    "newHref": "posts/blender-scatter-mp-scatter.html"
-  },
-  {
     "oldFile": "Blenderの便利ツール2種_Fast_2D_Remesh_Tool_Spline_Mesh_Tool.html",
     "newHref": "posts/blender-fast-2d-remesh-tool-spline.html"
   },
@@ -582,10 +578,6 @@
   {
     "oldFile": "UEプラグイン「Advanced_Environment_Interaction」.html",
     "newHref": "posts/ue-advanced-environment-interaction.html"
-  },
-  {
-    "oldFile": "V-Ray_for_Blender、商用利用無料で利用可能に.html",
-    "newHref": "posts/ray-for-blender.html"
   },
   {
     "oldFile": "V-Ray_for_HoudiniでのDisplacement適用Tips.html",
