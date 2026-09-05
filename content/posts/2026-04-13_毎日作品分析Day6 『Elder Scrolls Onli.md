@@ -7,7 +7,7 @@ type: "note"
 tags: ["Concept Art", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://www.artstation.com/artwork/BkEw1l","label":"Max Schiller — 『The Elder Scrolls Online』"}]
+source_url: [{"url":"https://www.artstation.com/artwork/BkEw1l","label":"Max Schiller — 『The Elder Scrolls Online』"},{"url":"https://x.com/kuramaKageya/status/2043676889508950357","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043676889508950357"
 summary: "Max Schiller氏による『The Elder Scrolls Online』のキーアート（毎日作品分析Day6）。明確な構図に加え、プロップが世界観をしっかり支えている点への気づきが記されている。"

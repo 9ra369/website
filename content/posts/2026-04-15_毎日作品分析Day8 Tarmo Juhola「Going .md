@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://www.artstation.com/artwork/kN8zPA","label":"Tarmo Juhola — 『Going to church』"}]
+source_url: [{"url":"https://www.artstation.com/artwork/kN8zPA","label":"Tarmo Juhola — 『Going to church』"},{"url":"https://x.com/kuramaKageya/status/2044410816854929782","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044410816854929782"
 summary: "Tarmo Juhola氏の作品「Going to church」（毎日作品分析Day8）。教会に比べ小さく描かれた赤いマントの人物から強さや勇敢さを感じるという気づきが記されている。"

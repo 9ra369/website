@@ -295,13 +295,16 @@ function renderTipPage(mdPath, allPosts = []) {
   // link-roundup posts citing several named sites. Some posts' source_url
   // was actually set to another x.com status URL (a self-reference to an
   // earlier post in the same thread/series, not a real external source) —
-  // treat that the same as no source_url: no jump-out to X.
+  // treat that the same as no source_url: no jump-out to X. An entry that
+  // carries its own label WAS added deliberately (e.g. daily-analysis posts
+  // linking back to the original X post for the full analysis text), so
+  // only unlabeled x.com entries get dropped.
   const rawSourceUrls = Array.isArray(fm.source_url) ? fm.source_url : fm.source_url ? [fm.source_url] : [];
   const sourceEntries = rawSourceUrls
     .map((entry) =>
       typeof entry === "string" ? { url: entry, label: null, image: null } : { image: null, ...entry }
     )
-    .filter((entry) => !/(^|\/\/)(www\.)?x\.com\//.test(entry.url));
+    .filter((entry) => entry.label || !/(^|\/\/)(www\.)?x\.com\//.test(entry.url));
 
   const tagsHtml = (fm.tags || [])
     .map(

@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://www.artstation.com/artwork/6LWrA0","label":"Guillem H. Pongiluppi — 小説『ZE』カバーアート"}]
+source_url: [{"url":"https://www.artstation.com/artwork/6LWrA0","label":"Guillem H. Pongiluppi — 小説『ZE』カバーアート"},{"url":"https://x.com/kuramaKageya/status/2046588535982227715","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2046588535982227715"
 summary: "Guillem H. Pongiluppi氏による小説『ZE』のカバーアート（毎日作品分析Day14）。ディテールを抑える部分と描き込む部分のバランスの巧みさについての気づきが記されている。"

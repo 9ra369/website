@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://www.artstation.com/artwork/xz8z6R","label":"Conar Cross — 『Spires』"}]
+source_url: [{"url":"https://www.artstation.com/artwork/xz8z6R","label":"Conar Cross — 『Spires』"},{"url":"https://x.com/kuramaKageya/status/2045770865540051072","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045770865540051072"
 summary: "Conar Cross氏の作品「Spires」（毎日作品分析Day12_2）。シンプルな構図でも、山肌を二層にした奥行き表現や大中小のリズム、抜け感などの要素を組み合わせることでクオリティを高めているという気づきが記されている。"

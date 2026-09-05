@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://www.artstation.com/artwork/RyWNJr","label":"Max Schiller — 『Tempel der Verdammnis』"}]
+source_url: [{"url":"https://www.artstation.com/artwork/RyWNJr","label":"Max Schiller — 『Tempel der Verdammnis』"},{"url":"https://x.com/kuramaKageya/status/2045338762679669247","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045338762679669247"
 summary: "Max Schiller氏の作品「Tempel der Verdammnis」（毎日作品分析Day11_2）。主役はシンメトリーを保ちつつ、他の要素を左右非対称にすることで単調になりがちなシンメトリー構図がより効果的になるという気づきが記されている。"

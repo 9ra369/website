@@ -7,7 +7,7 @@ type: "note"
 tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{ "url": "https://www.artstation.com/artwork/PXRGk3", "label": "Elven City by Pablo Dominguez" }, { "url": "https://www.artstation.com/artwork/6bl33V", "label": "by Steven Cormann" }, { "url": "https://www.artstation.com/artwork/1nBW03", "label": "Maleficent Fairy World by Dylan Cole" }, { "url": "https://www.artstation.com/artwork/vbV846", "label": "Wildcard Alliance - New Arden by Oliver Beck" }]
+source_url: [{"url":"https://www.artstation.com/artwork/PXRGk3","label":"Elven City by Pablo Dominguez"},{"url":"https://www.artstation.com/artwork/6bl33V","label":"by Steven Cormann"},{"url":"https://www.artstation.com/artwork/1nBW03","label":"Maleficent Fairy World by Dylan Cole"},{"url":"https://www.artstation.com/artwork/vbV846","label":"Wildcard Alliance - New Arden by Oliver Beck"},{"url":"https://x.com/kuramaKageya/status/2052229436569751793","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2052229436569751793"
 summary: "特定の焦点に視線を集中させるのではなく、作品全体に目が行くよう設計された構図「Scattered」についての分析（毎日作品分析Day30）。世界観を伝える際に有効な手法だとしている。"

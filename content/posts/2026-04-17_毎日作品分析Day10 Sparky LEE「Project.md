@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析", "ギリギリ"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://www.artstation.com/artwork/ZlA5Qm","label":"Sparky LEE — 『A keyframe for Project Windless』"}]
+source_url: [{"url":"https://www.artstation.com/artwork/ZlA5Qm","label":"Sparky LEE — 『A keyframe for Project Windless』"},{"url":"https://x.com/kuramaKageya/status/2045154705823928481","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045154705823928481"
 summary: "Sparky LEE氏の作品「A keyframe for Project Windless」（毎日作品分析Day10）。主人公自体を強く見せるだけでなく、他の要素を足すことで表現を強調できるという気づきが記されている。"

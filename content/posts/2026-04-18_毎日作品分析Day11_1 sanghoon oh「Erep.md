@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://artstation.com/artwork/mA9NKy","label":"sanghoon oh — 『Erephora – Kaiju』"}]
+source_url: [{"url":"https://artstation.com/artwork/mA9NKy","label":"sanghoon oh — 『Erephora – Kaiju』"},{"url":"https://x.com/kuramaKageya/status/2045335487842546039","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045335487842546039"
 summary: "sanghoon oh氏の作品「Erephora – Kaiju」（毎日作品分析Day11_1）。シンプルな構図・色・ライティングが、長い牙を持つキャラクターを見せる上で最も効果的な手法だという気づきが記されている。"

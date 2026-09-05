@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: [{"url":"https://www.artstation.com/artwork/nJznG4","label":"Florent Lebrun — 『Wanderers』"}]
+source_url: [{"url":"https://www.artstation.com/artwork/nJznG4","label":"Florent Lebrun — 『Wanderers』"},{"url":"https://x.com/kuramaKageya/status/2045767265166176332","label":"作品分析の全文はこちらのXのポストで確認"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2045767265166176332"
 summary: "Florent Lebrun氏の作品「Wanderers」（毎日作品分析Day12_1）。歩く連続ショットが、自信満々ではなく緊張感と不安感を伝えるようデザインされているという気づきが記されている。"
