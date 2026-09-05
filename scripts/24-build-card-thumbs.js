@@ -64,9 +64,18 @@ function collectThumbnailSources() {
   const wanted = new Set();
   for (const file of fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"))) {
     const raw = fs.readFileSync(path.join(POSTS_DIR, file), "utf8");
-    const { images } = extractImages(parseFrontMatter(raw).body);
-    if (images.length === 0) continue;
-    wanted.add(path.basename(images[0].src));
+    const { fm, body } = parseFrontMatter(raw);
+    const { images } = extractImages(body);
+    if (images.length > 0) {
+      wanted.add(path.basename(images[0].src));
+      continue;
+    }
+    // Link-roundup posts (source_url entries carrying their own {image})
+    // have no body gallery at all — fall back to the first entry with an
+    // image so the archive/homepage card still gets a real thumbnail.
+    const sourceUrls = Array.isArray(fm.source_url) ? fm.source_url : fm.source_url ? [fm.source_url] : [];
+    const firstWithImage = sourceUrls.find((e) => e && typeof e === "object" && e.image);
+    if (firstWithImage) wanted.add(path.basename(firstWithImage.image));
   }
   return wanted;
 }

@@ -1124,6 +1124,17 @@ body.lightbox-locked { overflow: hidden; }
 }
 .source-link-box .label { font-size: 13px; color: var(--color-text-faint); margin-bottom: 4px; }
 
+.source-link-item { margin: 32px 0; }
+.source-link-item .source-link-box { margin: 12px 0 0; }
+.source-link-image {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 0.5px solid var(--color-border);
+}
+
 .sidebar-box {
   border: 0.5px solid var(--color-border);
   border-radius: var(--radius-md);

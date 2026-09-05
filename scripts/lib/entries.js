@@ -63,6 +63,15 @@ function loadTipEntries() {
     if (!idMatch) continue;
     if (!fm.slug) continue; // not yet migrated (scripts/28-assign-slugs.js)
     const { images } = extractImages(body);
+    // Link-roundup posts (source_url entries carrying their own {image})
+    // have no body gallery — fall back to the first entry with an image so
+    // archive/homepage/topics/tools cards still get a real thumbnail.
+    let cardImage = images[0] ? images[0].src : null;
+    if (!cardImage) {
+      const sourceUrls = Array.isArray(fm.source_url) ? fm.source_url : fm.source_url ? [fm.source_url] : [];
+      const firstWithImage = sourceUrls.find((e) => e && typeof e === "object" && e.image);
+      if (firstWithImage) cardImage = firstWithImage.image;
+    }
     entries.push({
       href: `posts/${fm.slug}.html`,
       category: fm.category || "tips",
@@ -73,7 +82,7 @@ function loadTipEntries() {
       tools: fm.tools || [],
       type: fm.type || "brief",
       date: fm.date || "",
-      image: images[0] ? `images/posts/${images[0].src.replace(/^images\/posts\//, "")}` : null,
+      image: cardImage ? `images/posts/${cardImage.replace(/^images\/posts\//, "")}` : null,
     });
   }
   entries.sort((a, b) => (a.date < b.date ? 1 : -1));

@@ -298,7 +298,9 @@ function renderTipPage(mdPath, allPosts = []) {
   // treat that the same as no source_url: no jump-out to X.
   const rawSourceUrls = Array.isArray(fm.source_url) ? fm.source_url : fm.source_url ? [fm.source_url] : [];
   const sourceEntries = rawSourceUrls
-    .map((entry) => (typeof entry === "string" ? { url: entry, label: null } : entry))
+    .map((entry) =>
+      typeof entry === "string" ? { url: entry, label: null, image: null } : { image: null, ...entry }
+    )
     .filter((entry) => !/(^|\/\/)(www\.)?x\.com\//.test(entry.url));
 
   const tagsHtml = (fm.tags || [])
@@ -356,15 +358,18 @@ function renderTipPage(mdPath, allPosts = []) {
   // box, stacked (source-link-box already carries its own vertical margin).
   const sourceLinkBoxHtml = sourceEntries
     .map(
-      ({ url, label }) => `
-        <div class="source-link-box">
-          <div>
-            <div class="label">${escapeHtml(label || "URL")}</div>
-            <div class="url">${escapeHtml(url)}</div>
+      ({ url, label, image }) => `
+        <div class="source-link-item">
+          ${image ? `<img class="source-link-image" src="${p}${escapeHtml(image)}" alt="${escapeHtml(label || title)}">` : ""}
+          <div class="source-link-box">
+            <div>
+              <div class="label">${escapeHtml(label || "URL")}</div>
+              <div class="url">${escapeHtml(url)}</div>
+            </div>
+            <a href="${escapeHtml(url)}" class="btn btn-outline" target="_blank" rel="noopener">サイトを見る
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
           </div>
-          <a href="${escapeHtml(url)}" class="btn btn-outline" target="_blank" rel="noopener">サイトを見る
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
         </div>`
     )
     .join("\n");
