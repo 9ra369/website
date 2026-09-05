@@ -51,7 +51,6 @@ const GUIDES = [
       "posts/cg-lounge-arvid-schneider.html",
       "posts/render-node-comparison.html",
       "posts/houdini-codercat.html",
-      "posts/artstation-tips.html",
       "posts/vfx-ai-924666.html",
       "posts/image-engine-arvid-schneider.html",
       "posts/vfx-ai.html",

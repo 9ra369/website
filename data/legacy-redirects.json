@@ -120,10 +120,6 @@
     "newHref": "posts/artstation.html"
   },
   {
-    "oldFile": "ArtStationの見落とされがちなTips集約ページ活用法.html",
-    "newHref": "posts/artstation-tips.html"
-  },
-  {
     "oldFile": "Avatar_Aangをテーマにした作品（ArtStation）.html",
     "newHref": "posts/avatar-aang-artstation.html"
   },
@@ -138,10 +134,6 @@
   {
     "oldFile": "Blender_5.0でのフォトリアルな空の表現.html",
     "newHref": "posts/blender-5-0.html"
-  },
-  {
-    "oldFile": "Blender_Eevee用の無料SSGIアドオン.html",
-    "newHref": "posts/blender-eevee-ssgi.html"
   },
   {
     "oldFile": "Blender・RealityScan・UE5・Nukeで作る背景制作チュートリアル.html",
@@ -244,10 +236,6 @@
     "newHref": "posts/ea-weta-julien-calle-sci-fi.html"
   },
   {
-    "oldFile": "Falk_Boje氏のYouTubeチャンネル.html",
-    "newHref": "posts/falk-boje-youtube.html"
-  },
-  {
     "oldFile": "Gaea×Substance_Designerでタイル化可能なテクスチャ制作の試み（Vincent_Gagnon氏）.html",
     "newHref": "posts/gaea-substance-designer-vincent-gagnon.html"
   },
@@ -340,10 +328,6 @@
     "newHref": "posts/ilm-generalist.html"
   },
   {
-    "oldFile": "ILM_Jr._Generalistの方のYouTubeチャンネル.html",
-    "newHref": "posts/ilm-jr-generalist-youtube.html"
-  },
-  {
     "oldFile": "ILM_Junior_Generalist_Lucas_Piazzini氏のXアカウント.html",
     "newHref": "posts/ilm-junior-generalist-lucas-piazzini.html"
   },
@@ -402,10 +386,6 @@
   {
     "oldFile": "Kevin_Baker氏の記事_切り崩された崖と自然の崖の違い.html",
     "newHref": "posts/kevin-baker.html"
-  },
-  {
-    "oldFile": "KitBash3Dアセットが2週間限定で無料公開.html",
-    "newHref": "posts/kitbash3d.html"
   },
   {
     "oldFile": "Labs_Lot_Subdivisionの応用アイデア（区画レンガ植栽配置）.html",
@@ -753,7 +733,7 @@
   },
   {
     "oldFile": "崖の草マスク作成_Normal+AO併用でリアリティ向上.html",
-    "newHref": "posts/normal-ao.html"
+    "newHref": "posts/megascans.html"
   },
   {
     "oldFile": "幻想的な環境を作るコース「3D_Environments_Otherworldly_Fantasy_Lands」.html",
