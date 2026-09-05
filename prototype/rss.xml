@@ -5,7 +5,7 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 05 Sep 2026 03:07:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 03:20:30 GMT</lastBuildDate>
     <item>
       <title>杉﨑亮太氏 — CG Forgeで紹介された自主制作の裏側と作品収集術</title>
       <link>https://9ra369.github.io/website/posts/ryota-sugisaki-cg-forge-breath-of-the-ancient-earth.html</link>
@@ -135,7 +135,7 @@
       <description>Triplanarの計算負荷への対応策として、面の向きに応じてplanar projection（地面など上向きの面）とbiplanar projection（建物など横向きの面）を選択的に使い分けるという手法。</description>
     </item>
     <item>
-      <title>Avatar Aang — テーマにした作品</title>
+      <title>Avatar Aangのコンセプトアート</title>
       <link>https://9ra369.github.io/website/posts/avatar-aang-artstation.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/avatar-aang-artstation.html</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>

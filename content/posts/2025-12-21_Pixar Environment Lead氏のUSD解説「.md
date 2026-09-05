@@ -15,11 +15,15 @@ ai_confidence: "high"
 status: draft
 ---
 
+![](images/posts/2002562826075087072-pixar-usd0.png)
+
 PixarのEnvironment Leadの方がUSDについて解説しています！
 
 USD Building Asset Pipelines
 https://www.youtube.com/watch?v=4W5D-IuRyaM&list=WL&index=97
 
 #houdini #sidefx
+
+![](images/posts/2002562826075087072-pixar-usd1.png)
 
 ![](images/posts/2002562826075087072-G8qHn4BbMAMBMKU.jpg)

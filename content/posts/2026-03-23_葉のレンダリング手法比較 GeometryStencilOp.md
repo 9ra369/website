@@ -7,7 +7,7 @@ type: "brief"
 tags: ["Houdini", "Solaris", "Vegetation", "Rendering"]
 topics: ["environment","lighting-rendering"]
 tools: ["houdini","usd"]
-source_url: ""
+source_url: "https://www.youtube.com/watch?v=ha85low9Bmo"
 language: "日本語"
 original_post: "https://x.com/kuramaKageya/status/2036031841292149105"
 summary: "木の葉のレンダリング時間を、Geometry（16秒）、Stencil（27秒）、Opacity/Texture（2分35秒）の3手法で比較検証。Solarisでは、Scatterする場合はAlphaでモデルをカットアウトし、それ以外はOpacityなしで使うのが最適ではないかと考察している。"
@@ -25,4 +25,16 @@ Opacity (Texture): 2分35秒
 
 Solarisでは、ScatterするならAlphaでモデルをCuoutして、それ以外はそのままOpacityなしで使うのが最適か…
 
+https://www.youtube.com/watch?v=ha85low9Bmo
+
 ![](images/posts/2036031841292149105-HEFrOYUasAAP1wz.jpg)
+
+---
+
+**レンダリング時間比較**
+
+- Geometry: 16秒
+- Stencil: 27秒
+- Opacity（Texture）: 2分35秒
+
+Solarisでは、Scatterする場合はAlphaでモデルをカットアウトし、それ以外はそのままOpacityなしで使うのが最適ではないか、という考察。

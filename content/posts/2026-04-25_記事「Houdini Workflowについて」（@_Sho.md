@@ -1,5 +1,5 @@
 ---
-title: "@_ShoHey_氏 — 記事『Houdini Workflowについて』"
+title: "Okazaki Shohei氏 — 記事『Houdini Workflowについて』"
 slug: "houdini-workflow"
 date: 2026-04-25
 category: "article"
