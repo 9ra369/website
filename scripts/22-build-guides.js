@@ -14,7 +14,7 @@ const { SITE_HEADER, SITE_FOOTER, CATEGORY_LABELS, CATEGORY_THUMB, escapeHtml, c
 const { GUIDES } = require("./lib/guides-data");
 
 const OUT_DIR = path.resolve(__dirname, "..", "prototype", "guides");
-const TODAY = "2026-08-28"; // "最終更新" — bump when guides-data.js curation changes
+const TODAY = "2026-09-06"; // "最終更新" — bump when guides-data.js curation changes
 
 function renderCard(e) {
   const thumbClass = CATEGORY_THUMB[e.category] || "thumb-tips";

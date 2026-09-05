@@ -62,6 +62,13 @@ const GUIDES = [
     ],
   },
   {
+    slug: "tips",
+    title: "Tipsまとめ",
+    description:
+      "ソフト・ジャンルを問わず、ちょっとした便利な発見やTipsをまとめています。",
+    filter: (e) => e.category === "tips",
+  },
+  {
     slug: "gis-terrain",
     title: "GIS×3DCGのデータソース一覧",
     description:

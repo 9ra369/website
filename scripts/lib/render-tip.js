@@ -122,6 +122,7 @@ const SITE_HEADER = (depth) => {
       <a href="${p}guides/houdini-pipeline.html">Houdiniまとめ</a>
       <a href="${p}guides/usd.html">USD資料まとめ</a>
       <a href="${p}guides/sites.html">海外/VFX情報サイト</a>
+      <a href="${p}guides/tips.html">Tipsまとめ</a>
     </nav>
     <div class="header-actions">
       <div class="search-trigger">
