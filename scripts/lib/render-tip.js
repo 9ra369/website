@@ -299,12 +299,13 @@ function renderTipPage(mdPath, allPosts = []) {
   // carries its own label WAS added deliberately (e.g. daily-analysis posts
   // linking back to the original X post for the full analysis text), so
   // only unlabeled x.com entries get dropped.
+  const X_COM_RE = /(^|\/\/)(www\.)?x\.com\//;
   const rawSourceUrls = Array.isArray(fm.source_url) ? fm.source_url : fm.source_url ? [fm.source_url] : [];
   const sourceEntries = rawSourceUrls
     .map((entry) =>
       typeof entry === "string" ? { url: entry, label: null, image: null } : { image: null, ...entry }
     )
-    .filter((entry) => entry.label || !/(^|\/\/)(www\.)?x\.com\//.test(entry.url));
+    .filter((entry) => entry.label || !X_COM_RE.test(entry.url));
 
   const tagsHtml = (fm.tags || [])
     .map(
@@ -359,10 +360,17 @@ function renderTipPage(mdPath, allPosts = []) {
   // a real external source (source_url). Posts with nothing but original_post
   // simply show no source-link-box. Multiple source_urls each get their own
   // box, stacked (source-link-box already carries its own vertical margin).
+  // A divider is inserted right before the first x.com entry (e.g. the
+  // daily-analysis "read the full post on X" link) so it reads as visually
+  // distinct from the preceding artwork/site citations rather than just one
+  // more entry in the same list.
   const sourceLinkBoxHtml = sourceEntries
-    .map(
-      ({ url, label, image }) => `
-        <div class="source-link-item">
+    .map(({ url, label, image }, i) => {
+      const isXPost = X_COM_RE.test(url);
+      const prevIsXPost = i > 0 && X_COM_RE.test(sourceEntries[i - 1].url);
+      const divider = isXPost && i > 0 && !prevIsXPost ? `<hr class="source-link-divider">\n        ` : "";
+      return `
+        ${divider}<div class="source-link-item">
           ${image ? `<img class="source-link-image" src="${p}${escapeHtml(image)}" alt="${escapeHtml(label || title)}">` : ""}
           <div class="source-link-box">
             <div>
@@ -373,8 +381,8 @@ function renderTipPage(mdPath, allPosts = []) {
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
           </div>
-        </div>`
-    )
+        </div>`;
+    })
     .join("\n");
 
   return `<!doctype html>

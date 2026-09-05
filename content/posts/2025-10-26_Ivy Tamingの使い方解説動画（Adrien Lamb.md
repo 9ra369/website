@@ -22,4 +22,8 @@ https://www.youtube.com/watch?v=3u6UNNJQ_cM
 
 #houdini #sidefx https://x.com/kuramaKageya/status/1982326061192118578
 
+![](images/posts/1982326652383412407-3u6UNNJQ_cM-HD.jpg)
 ![](images/posts/1982326652383412407-G4KjPXzXUAAbwcx.png)
+![](images/posts/1982326652383412407-ivytaming-c.jpg)
+![](images/posts/1982326652383412407-ivytaming-b.jpg)
+![](images/posts/1982326652383412407-ivytaming-a.jpg)
