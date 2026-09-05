@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Concept Art", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: "https://www.artstation.com/artwork/YGw6Bd"
+source_url: [{"url":"https://www.artstation.com/artwork/YGw6Bd","label":"Darek Zabrocki — 『ZORADX - Vistas』"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044045832547381359"
 summary: "Darek Zabrocki氏の作品「ZORADX - Vistas」（毎日作品分析Day7）。スターウォーズのスターデストロイヤーなど、デザイン面での学びについての気づきが記されている。"

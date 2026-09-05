@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Lighting", "毎日作品分析"]
 topics: ["lighting-rendering","art-fundamentals"]
 tools: []
-source_url: "https://www.artstation.com/artwork/DLXYKA"
+source_url: [{"url":"https://www.artstation.com/artwork/DLXYKA","label":"Christian Auer — 『Fall Elegy』"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2044770194003025935"
 summary: "Christian Auer氏の作品「Fall Elegy」（毎日作品分析Day9）。夕方の温かい光と弱めのコントラストによって水彩画のような優しい印象を受けるという気づきが記されている。"

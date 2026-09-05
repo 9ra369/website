@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: "https://www.artstation.com/artwork/8e33ZQ"
+source_url: [{"url":"https://www.artstation.com/artwork/8e33ZQ","label":"Dylan Cole — 『The First Outpost』"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042244829128925422"
 summary: "Dylan Cole氏の作品「The First Outpost」（毎日作品分析Day2）。右側の建物が何かわからなくても画として説得力があることへの気づきが記されている。"

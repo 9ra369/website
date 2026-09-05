@@ -5,7 +5,31 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 05 Sep 2026 03:24:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 03:44:23 GMT</lastBuildDate>
+    <item>
+      <title>特定アセット入手サイトまとめ</title>
+      <link>https://9ra369.github.io/website/posts/specific-asset-sites.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/specific-asset-sites.html</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>車・地形・人物など特定分野の3Dアセットが手に入るサイトのまとめ。Three D Scans（彫像スキャン）、Wire Wheels Club（車）、The Terrain Domain（地形）、Render People（人物）の4サイトを掲載。</description>
+    </item>
+    <item>
+      <title>汎用素材サイトまとめ</title>
+      <link>https://9ra369.github.io/website/posts/general-asset-sites.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/general-asset-sites.html</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>テクスチャ・3Dモデル・HDRIなど汎用アセットを集めたサイトのまとめ。CGTrader、Turbosquid、Poliigon、Textures.com、Poly Haven、Free3D、Megascans（Quixel/Fab）、Sketchfab、Artstation Marketplaceの計10サイトを掲載。</description>
+    </item>
+    <item>
+      <title>Kitbashアセットサイトまとめ</title>
+      <link>https://9ra369.github.io/website/posts/kitbash-asset-sites.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/kitbash-asset-sites.html</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <category>tips</category>
+      <description>Kitbash用アセットが手に入るサイトのまとめ。BIG/MEDIUM/SMALL、Kitbash3D、Bulgarov（Falk Boje氏やWilliam Fiorentini氏も使用）、Forma 3D Store、Terraform Studiosの5サイトを掲載。</description>
+    </item>
     <item>
       <title>杉﨑亮太氏 — CG Forgeで紹介された自主制作の裏側と作品収集術</title>
       <link>https://9ra369.github.io/website/posts/ryota-sugisaki-cg-forge-breath-of-the-ancient-earth.html</link>
@@ -381,30 +405,6 @@
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <category>daily-analysis</category>
       <description>Sci-fiや近未来的な印象を無意識に感じる理由についての分析（毎日作品分析Day23）。代表的なシルエットや形が大きな要素になっているという考察が記されている。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day22 — 自然×SFの組み合わせ分析</title>
-      <link>https://9ra369.github.io/website/posts/day22-sf.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day22-sf.html</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>自然とSFを組み合わせた表現についての分析（毎日作品分析Day22）。自然の立地を利用したSF的な基地や建物など、効果的に使われる組み合わせパターンについて考察している。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day21 — 青×黄の配色</title>
-      <link>https://9ra369.github.io/website/posts/day21.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day21.html</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>青と黄を基調とした配色の作品を集めた分析（毎日作品分析Day21）。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day20 — 逆光・バックライトの効果</title>
-      <link>https://9ra369.github.io/website/posts/day20.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day20.html</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>逆光（バックライト）を活かした作品を集めた分析（毎日作品分析Day20）。</description>
     </item>
   </channel>
 </rss>

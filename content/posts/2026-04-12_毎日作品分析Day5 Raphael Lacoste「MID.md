@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: "https://www.artstation.com/artwork/gRzLqe"
+source_url: [{"url":"https://www.artstation.com/artwork/gRzLqe","label":"Raphael Lacoste — 『MIDGARD』"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043133316355006543"
 summary: "Raphael Lacoste氏の作品「MIDGARD」（毎日作品分析Day5）。上手いアーティストは三分割法を使わなくても見せ方が上手いという気づきが記されている。"

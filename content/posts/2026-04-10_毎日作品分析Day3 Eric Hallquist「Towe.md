@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: "https://www.artstation.com/artwork/vbGyWO"
+source_url: [{"url":"https://www.artstation.com/artwork/vbGyWO","label":"Eric Hallquist — 『Tower of the Exiled Magi』"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042614535937486929"
 summary: "Eric Hallquist氏の作品「Tower of the Exiled Magi」（毎日作品分析Day3）。構図だけでなく建物のデザインも優れているという気づきが記されている。"

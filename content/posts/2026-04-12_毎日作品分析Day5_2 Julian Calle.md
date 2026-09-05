@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
-source_url: "https://www.artstation.com/artwork/LGkaP"
+source_url: [{"url":"https://www.artstation.com/artwork/LGkaP","label":"Julian Calle"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2043134550960951578"
 summary: "Julian Calle氏の作品（毎日作品分析Day5_2）。フレーミングによる視線誘導と、抜け感の有無によるスケール感の違いについての気づきが記されている。"

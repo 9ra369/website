@@ -7,7 +7,7 @@ type: "note"
 tags: ["ArtStation", "Environment", "毎日作品分析"]
 topics: ["environment","art-fundamentals"]
 tools: []
-source_url: "https://www.artstation.com/artwork/lVPx8a"
+source_url: [{"url":"https://www.artstation.com/artwork/lVPx8a","label":"Darek Zabrocki — 『Windmill Town』"}]
 language: "英語"
 original_post: "https://x.com/kuramaKageya/status/2042767296456954059"
 summary: "Darek Zabrocki氏の作品「Windmill Town」（毎日作品分析Day4_2）。物量・クオリティともに圧倒的だという気づきが記されている。"

@@ -289,12 +289,17 @@ function renderTipPage(mdPath, allPosts = []) {
   const heroImage = images[0];
   // source_url is normally one string, but a post can cite more than one
   // external source (e.g. a person's blog + a separate article about them) —
-  // accept an array too. Some posts' source_url was actually set to another
-  // x.com status URL (a self-reference to an earlier post in the same
-  // thread/series, not a real external source) — treat that the same as no
-  // source_url: no jump-out to X.
+  // accept an array too. An array item may also be {url, label} to show a
+  // custom label (e.g. an artist + artwork title) instead of the generic
+  // "URL" — used for daily-analysis posts citing a specific artwork, and for
+  // link-roundup posts citing several named sites. Some posts' source_url
+  // was actually set to another x.com status URL (a self-reference to an
+  // earlier post in the same thread/series, not a real external source) —
+  // treat that the same as no source_url: no jump-out to X.
   const rawSourceUrls = Array.isArray(fm.source_url) ? fm.source_url : fm.source_url ? [fm.source_url] : [];
-  const sourceUrls = rawSourceUrls.filter((u) => !/(^|\/\/)(www\.)?x\.com\//.test(u));
+  const sourceEntries = rawSourceUrls
+    .map((entry) => (typeof entry === "string" ? { url: entry, label: null } : entry))
+    .filter((entry) => !/(^|\/\/)(www\.)?x\.com\//.test(entry.url));
 
   const tagsHtml = (fm.tags || [])
     .map(
@@ -349,12 +354,12 @@ function renderTipPage(mdPath, allPosts = []) {
   // a real external source (source_url). Posts with nothing but original_post
   // simply show no source-link-box. Multiple source_urls each get their own
   // box, stacked (source-link-box already carries its own vertical margin).
-  const sourceLinkBoxHtml = sourceUrls
+  const sourceLinkBoxHtml = sourceEntries
     .map(
-      (url) => `
+      ({ url, label }) => `
         <div class="source-link-box">
           <div>
-            <div class="label">URL</div>
+            <div class="label">${escapeHtml(label || "URL")}</div>
             <div class="url">${escapeHtml(url)}</div>
           </div>
           <a href="${escapeHtml(url)}" class="btn btn-outline" target="_blank" rel="noopener">サイトを見る
