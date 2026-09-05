@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Wires real content into prototype/index.html:
 //   1) the "カテゴリからたどる" category-grid (real counts, real 7-category list)
-//   2) the "新着エントリー" entry-grid (6 most recent real entries, replacing
+//   2) the "新着エントリー" entry-grid (8 most recent real entries, replacing
 //      the old entry.html-linked mock cards)
 //
 // Usage: node scripts/14-build-homepage.js
@@ -94,9 +94,9 @@ function main() {
     })
     .join("\n");
 
-  // 2) recently-added grid: top 6 most recent real tip entries
+  // 2) recently-added grid: top 8 most recent real tip entries
   const recentHtml = tips
-    .slice(0, 6)
+    .slice(0, 8)
     .map((e) => renderCard({ ...e, catLabel: catLabelMap[e.category] || e.category }, catThumbMap))
     .join("\n\n");
 
@@ -126,7 +126,7 @@ function main() {
   );
 
   fs.writeFileSync(INDEX_FILE, html, "utf8");
-  console.log(`Updated index.html: ${categories.length} category cards, ${Math.min(6, tips.length)} recent entries.`);
+  console.log(`Updated index.html: ${categories.length} category cards, ${Math.min(8, tips.length)} recent entries.`);
   console.log("Category counts:", counts);
 }
 
