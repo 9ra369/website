@@ -1,5 +1,5 @@
 ---
-title: "Megascans — 低コストな岩・崖の制作とNormal+AO併用でリアリティ向上"
+title: "Blender 5.0でつくる、映画のような霧に包まれた南国の島"
 slug: "megascans"
 date: 2026-03-12
 category: "tips"
