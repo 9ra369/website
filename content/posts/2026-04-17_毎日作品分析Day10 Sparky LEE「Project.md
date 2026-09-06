@@ -4,7 +4,7 @@ slug: "day10-sparky-lee-project-windless"
 date: 2026-04-17
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析", "ギリギリ"]
+tags: ["Composition", "毎日作品分析", "ギリギリ"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/ZlA5Qm","label":"Sparky LEE — 『A keyframe for Project Windless』"},{"url":"https://x.com/kuramaKageya/status/2045154705823928481","label":"作品分析の全文はこちらのXのポストで確認"}]

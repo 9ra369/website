@@ -4,7 +4,7 @@ slug: "day7-darek-zabrocki-zoradx-vistas"
 date: 2026-04-14
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Concept Art", "毎日作品分析"]
+tags: ["Concept Art", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/YGw6Bd","label":"Darek Zabrocki — 『ZORADX - Vistas』"},{"url":"https://x.com/kuramaKageya/status/2044045832547381359","label":"作品分析の全文はこちらのXのポストで確認"}]

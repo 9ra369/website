@@ -4,7 +4,7 @@ slug: "steffen-hampel-fallout"
 date: 2026-04-14
 category: "showreel"
 type: "brief"
-tags: ["ArtStation", "Environment"]
+tags: ["Environment"]
 topics: ["environment"]
 tools: []
 source_url: "https://www.artstation.com/artwork/zxa632"

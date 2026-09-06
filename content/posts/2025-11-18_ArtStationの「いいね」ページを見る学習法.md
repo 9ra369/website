@@ -4,7 +4,7 @@ slug: "artstation"
 date: 2025-11-18
 category: "showreel"
 type: "brief"
-tags: ["ArtStation"]
+tags: ["Learning"]
 topics: ["industry"]
 tools: []
 source_url: ""

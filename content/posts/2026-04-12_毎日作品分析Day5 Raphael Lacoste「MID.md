@@ -4,7 +4,7 @@ slug: "day5-raphael-lacoste-midgard"
 date: 2026-04-12
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/gRzLqe","label":"Raphael Lacoste — 『MIDGARD』"},{"url":"https://x.com/kuramaKageya/status/2043133316355006543","label":"作品分析の全文はこちらのXのポストで確認"}]

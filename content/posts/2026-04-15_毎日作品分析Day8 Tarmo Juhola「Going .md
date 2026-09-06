@@ -4,7 +4,7 @@ slug: "day8-tarmo-juhola-going-to-church"
 date: 2026-04-15
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/kN8zPA","label":"Tarmo Juhola — 『Going to church』"},{"url":"https://x.com/kuramaKageya/status/2044410816854929782","label":"作品分析の全文はこちらのXのポストで確認"}]

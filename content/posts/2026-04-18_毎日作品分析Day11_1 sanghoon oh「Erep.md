@@ -4,7 +4,7 @@ slug: "day11-1-sanghoon-oh-erephora-kaiju"
 date: 2026-04-18
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://artstation.com/artwork/mA9NKy","label":"sanghoon oh — 『Erephora – Kaiju』"},{"url":"https://x.com/kuramaKageya/status/2045335487842546039","label":"作品分析の全文はこちらのXのポストで確認"}]

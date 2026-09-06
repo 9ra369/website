@@ -4,7 +4,7 @@ slug: "day9-christian-auer-fall-elegy"
 date: 2026-04-16
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Lighting", "毎日作品分析"]
+tags: ["Lighting", "毎日作品分析"]
 topics: ["lighting-rendering","art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/DLXYKA","label":"Christian Auer — 『Fall Elegy』"},{"url":"https://x.com/kuramaKageya/status/2044770194003025935","label":"作品分析の全文はこちらのXのポストで確認"}]

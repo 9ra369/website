@@ -4,7 +4,7 @@ slug: "naughty-dog-principal-environment-artist-the"
 date: 2026-01-26
 category: "showreel"
 type: "brief"
-tags: ["Environment", "ArtStation"]
+tags: ["Environment"]
 topics: ["environment"]
 tools: []
 source_url: "https://www.artstation.com/artwork/RKG89O"

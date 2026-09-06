@@ -4,7 +4,7 @@ slug: "jakub-bazyluk-circles"
 date: 2025-12-31
 category: "tips"
 type: "brief"
-tags: ["Environment", "ArtStation"]
+tags: ["Environment"]
 topics: ["environment"]
 tools: []
 source_url: "https://www.artstation.com/artwork/nJkLBE"

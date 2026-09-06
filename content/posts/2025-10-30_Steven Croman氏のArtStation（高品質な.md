@@ -4,7 +4,7 @@ slug: "steven-croman-artstation"
 date: 2025-10-30
 category: "showreel"
 type: "brief"
-tags: ["ArtStation", "Environment"]
+tags: ["Environment"]
 topics: ["environment"]
 tools: []
 source_url: "https://www.artstation.com/srlstudios"

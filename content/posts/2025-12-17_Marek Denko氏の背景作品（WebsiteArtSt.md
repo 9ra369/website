@@ -4,7 +4,7 @@ slug: "marek-denko-website-artstation"
 date: 2025-12-17
 category: "showreel"
 type: "brief"
-tags: ["ArtStation", "Environment"]
+tags: ["Environment"]
 topics: ["environment"]
 tools: []
 source_url: "https://marekdenko.net/"

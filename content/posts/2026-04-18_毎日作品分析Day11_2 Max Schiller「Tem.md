@@ -4,7 +4,7 @@ slug: "day11-2-max-schiller-tempel-der-verdammnis"
 date: 2026-04-18
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/RyWNJr","label":"Max Schiller — 『Tempel der Verdammnis』"},{"url":"https://x.com/kuramaKageya/status/2045338762679669247","label":"作品分析の全文はこちらのXのポストで確認"}]

@@ -4,7 +4,7 @@ slug: "day4-pablo-dominguez-elvenroad-town"
 date: 2026-04-10
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/elLaZw","label":"Pablo Dominguez — 『ElvenRoad Town』"},{"url":"https://x.com/kuramaKageya/status/2042741980887998859","label":"作品分析の全文はこちらのXのポストで確認"}]

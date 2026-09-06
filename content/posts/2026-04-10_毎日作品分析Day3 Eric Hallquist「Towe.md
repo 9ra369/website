@@ -4,7 +4,7 @@ slug: "day3-eric-hallquist-tower-of-the"
 date: 2026-04-10
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/vbGyWO","label":"Eric Hallquist — 『Tower of the Exiled Magi』"},{"url":"https://x.com/kuramaKageya/status/2042614535937486929","label":"作品分析の全文はこちらのXのポストで確認"}]

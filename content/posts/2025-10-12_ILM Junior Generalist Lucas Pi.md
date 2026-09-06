@@ -4,7 +4,7 @@ slug: "ilm-junior-generalist-lucas-piazzini"
 date: 2025-10-12
 category: "showreel"
 type: "brief"
-tags: ["Environment","ArtStation","houEnv","sidefx","Houdini","背景制作"]
+tags: ["Environment", "houEnv", "sidefx", "Houdini", "背景制作"]
 topics: ["environment"]
 tools: ["houdini"]
 source_url: ["https://x.com/PrismalDesign/status/1831680817388470453", "https://www.artstation.com/lucaspiazzini"]

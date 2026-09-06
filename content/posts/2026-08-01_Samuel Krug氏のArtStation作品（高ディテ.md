@@ -4,7 +4,7 @@ slug: "samuel-krug-artstation"
 date: 2026-08-01
 category: "showreel"
 type: "brief"
-tags: ["ArtStation", "Environment"]
+tags: ["Environment"]
 topics: ["environment"]
 tools: []
 source_url: "https://x.com/kuramaKageya/status/2083387737441493008"

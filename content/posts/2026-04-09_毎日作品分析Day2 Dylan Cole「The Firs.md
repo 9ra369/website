@@ -4,7 +4,7 @@ slug: "day2-dylan-cole-the-first-outpost"
 date: 2026-04-09
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/8e33ZQ","label":"Dylan Cole — 『The First Outpost』"},{"url":"https://x.com/kuramaKageya/status/2042244829128925422","label":"作品分析の全文はこちらのXのポストで確認"}]

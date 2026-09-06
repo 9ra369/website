@@ -4,7 +4,7 @@ slug: "day4-2-darek-zabrocki-windmill-town"
 date: 2026-04-11
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Environment", "毎日作品分析"]
+tags: ["Environment", "毎日作品分析"]
 topics: ["environment","art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/lVPx8a","label":"Darek Zabrocki — 『Windmill Town』"},{"url":"https://x.com/kuramaKageya/status/2042767296456954059","label":"作品分析の全文はこちらのXのポストで確認"}]

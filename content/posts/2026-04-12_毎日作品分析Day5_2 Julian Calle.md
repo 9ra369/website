@@ -4,7 +4,7 @@ slug: "day5-2-julian-calle"
 date: 2026-04-12
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/LGkaP","label":"Julian Calle"},{"url":"https://x.com/kuramaKageya/status/2043134550960951578","label":"作品分析の全文はこちらのXのポストで確認"}]

@@ -4,7 +4,7 @@ slug: "day14-guillem-pongiluppi-ze"
 date: 2026-04-21
 category: "daily-analysis"
 type: "note"
-tags: ["ArtStation", "Composition", "毎日作品分析"]
+tags: ["Composition", "毎日作品分析"]
 topics: ["art-fundamentals"]
 tools: []
 source_url: [{"url":"https://www.artstation.com/artwork/6LWrA0","label":"Guillem H. Pongiluppi — 小説『ZE』カバーアート"},{"url":"https://x.com/kuramaKageya/status/2046588535982227715","label":"作品分析の全文はこちらのXのポストで確認"}]

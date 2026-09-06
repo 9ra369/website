@@ -4,7 +4,7 @@ slug: "japanese-river-artstation"
 date: 2025-11-02
 category: "tutorial"
 type: "brief"
-tags: ["ArtStation", "Environment", "背景制作", "vfx", "3DCG"]
+tags: ["Environment", "背景制作", "vfx", "3DCG"]
 topics: ["environment","fx"]
 tools: []
 source_url: ["https://x.com/kuramaKageya/status/1984782043121885538", "https://www.youtube.com/watch?v=5FRmXuchDZA"]
