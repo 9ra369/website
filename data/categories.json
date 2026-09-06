@@ -6,6 +6,7 @@
     { "slug": "showreel", "label": "Showreel/Demoreel", "thumbClass": "thumb-reel" },
     { "slug": "website", "label": "Website", "thumbClass": "thumb-website" },
     { "slug": "tips", "label": "Tips", "thumbClass": "thumb-tips" },
-    { "slug": "daily-analysis", "label": "毎日作品分析", "thumbClass": "thumb-daily-analysis" }
+    { "slug": "daily-analysis", "label": "毎日作品分析", "thumbClass": "thumb-daily-analysis" },
+    { "slug": "art-of-composition", "label": "Art of Composition", "thumbClass": "thumb-art-of-composition" }
   ]
 }

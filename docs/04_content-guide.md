@@ -35,7 +35,7 @@ content/entries/{slug}.md
 
 ## 3. カテゴリ一覧（`category`の許容値）
 
-**カテゴリの正データは [`data/categories.json`](../data/categories.json)。** このファイルのslugをそのまま使うこと（表記ゆれ厳禁）。以下は現時点のスナップショット（2026-08-24〜）で、`categories.json`更新時はこの表も追随させる。
+**カテゴリの正データは [`data/categories.json`](../data/categories.json)。** このファイルのslugをそのまま使うこと（表記ゆれ厳禁）。以下は現時点のスナップショット（2026-09-07〜）で、`categories.json`更新時はこの表も追随させる。
 
 | slug | label | 対応thumbクラス |
 |---|---|---|
@@ -46,6 +46,7 @@ content/entries/{slug}.md
 | `website` | Website（チュートリアル販売サイトやコミュニティ等、単一記事ではなくサイト全体を紹介する場合） | `thumb-website` |
 | `tips` | Tips（Xポストからの短文ノート用。数十〜百数十字程度の一言メモ・リンク紹介） | `thumb-tips` |
 | `daily-analysis` | 毎日作品分析（Xの「毎日作品分析」シリーズ投稿専用。`tags`にも`毎日作品分析`を付与） | `thumb-daily-analysis` |
+| `art-of-composition` | Art of Composition（Ryota Sugisaki氏 @Suggybro の同名シリーズ専用。`tags`にも`Art of Composition`、`mentions`に`Suggybro`を付与。§13参照） | `thumb-art-of-composition` |
 
 判断に迷う場合は「その情報を後で自分が探すとしたら、どのカテゴリの棚を見るか」で決める。ソフト名（Houdini, Nuke等）は`category`ではなく`software`/`tags`側で表現する（§4参照）。背景・環境まわりの話題は`category`を分けず、上記いずれかの適切なカテゴリ＋`Environment`タグで表現する（`environment`カテゴリは廃止済み）。
 
@@ -172,3 +173,16 @@ sourceLang: "en"
 **長文（note記事）で追加される要素**: 目次・見出しで構造化 → 具体例の前に一般原則を言語化 → WHAT（何をしたか）だけでなくWHY（なぜそうしたと考えられるか）を書く → 別アプローチとのトレードオフに触れる → 締めは学びの汎用化＋感謝
 
 つまり短文とnote記事の違いは口調ではなく「理由の説明にどれだけ紙面を割いたか」。`memo`を厚くする際は、上記の核4点を保ったまま、WHYの一文を増やす方向で書く。
+
+## 13. 他人のポストを移行する場合（ゲスト記事）
+
+自分以外の人のXポストをこのサイトへ移す場合は、**誰が書いたものかがページ上で必ず読み取れる状態**にする。現状の実装（`scripts/34-aoc-normalize.js` / `35-aoc-write-posts.js`）では以下の4点で担保している。
+
+| 手段 | 表示場所 |
+|---|---|
+| `mentions: ["<screenName>"]` | サイドバーの「Xアカウント」ボックス（`@screenName` へのリンク） |
+| `source_url` の最後のエントリー | 「分析の全文は◯◯氏（@screenName）のXポストで確認」という本文下のリンクカード |
+| `original_post` | 原文へのURL（`x.com/<本人のhandle>/status/...`） |
+| `author` / `author_x` / `source_type: "x-guest"` | frontmatterの記録（現状ページには出さない） |
+
+カテゴリは自分のシリーズと混ぜない。`daily-analysis`（自分の「毎日作品分析」）と `art-of-composition`（@Suggybro のシリーズ）を分けているのはこのため。ページのレイアウトは共通で、表示名だけが分かれる。

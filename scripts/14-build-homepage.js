@@ -28,6 +28,9 @@ const CATEGORY_ICONS = {
   tips: '<path d="M4 15L4 5C4 3.9 4.9 3 6 3H14C15.1 3 16 3.9 16 5V15L10 12L4 15Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>',
   "daily-analysis":
     '<circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12L15 14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>',
+  // Rule-of-thirds grid inside a frame — the composition category.
+  "art-of-composition":
+    '<rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M9 5V19M15 5V19M3 9.7H21M3 14.3H21" stroke="currentColor" stroke-width="1.2"/>',
 };
 
 function escapeHtml(str) {

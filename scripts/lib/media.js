@@ -6,8 +6,8 @@ const fs = require("fs");
 const path = require("path");
 const { findArchiveRoot } = require("./archive");
 
-function mediaDir() {
-  return path.join(findArchiveRoot(), "data", "tweets_media");
+function mediaDir(archiveDirName) {
+  return path.join(findArchiveRoot(archiveDirName), "data", "tweets_media");
 }
 
 function localFileNameFor(sourceTweetId, mediaUrlHttps) {
@@ -22,9 +22,12 @@ function localFileNameFor(sourceTweetId, mediaUrlHttps) {
  *   - copied: true/false
  * Non-photo media (video, animated_gif) are left untouched (copied: false,
  * skipped: "non-photo") — out of scope per current instructions.
+ *
+ * `archiveDirName` selects which archive under _raw/ the media comes from;
+ * omit it for the owner's own archive.
  */
-function copyPhotoMedia(units, destDir) {
-  const srcDir = mediaDir();
+function copyPhotoMedia(units, destDir, archiveDirName) {
+  const srcDir = mediaDir(archiveDirName);
   fs.mkdirSync(destDir, { recursive: true });
 
   const stats = { copied: 0, missing: [], skippedNonPhoto: 0 };

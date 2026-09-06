@@ -1,0 +1,109 @@
+{
+  "source": "x-guest:Suggybro",
+  "series": "Art of Composition",
+  "posts": {
+    "2042009583359816023": {
+      "slug": "aoc-day1-pyramid-composition",
+      "date": "2026-04-08",
+      "day": "1",
+      "file": "2026-04-08_Art of Composition Day1 — ピラミッ.md"
+    },
+    "2042370954127684007": {
+      "slug": "aoc-day2-vertical-alley",
+      "date": "2026-04-09",
+      "day": "2",
+      "file": "2026-04-09_Art of Composition Day2 — 縦構図の.md"
+    },
+    "2042789582341837118": {
+      "slug": "aoc-day3-raphael-lacoste-norse-church",
+      "date": "2026-04-11",
+      "day": "3",
+      "file": "2026-04-11_Raphael Lacoste氏 — Art of Comp.md"
+    },
+    "2043107043767447699": {
+      "slug": "aoc-day4-tim-razumovsky-aurora-noir",
+      "date": "2026-04-11",
+      "day": "4",
+      "file": "2026-04-11_Tim Razumovsky氏 — Art of Compo.md"
+    },
+    "2043459887875994042": {
+      "slug": "aoc-day5-s-curve",
+      "date": "2026-04-12",
+      "day": "5",
+      "file": "2026-04-12_Art of Composition Day5 — S字構図.md"
+    },
+    "2043821769992351924": {
+      "slug": "aoc-day6-catan-daily-painting",
+      "date": "2026-04-13",
+      "day": "6",
+      "file": "2026-04-13_Catan氏 — Art of Composition Da.md"
+    },
+    "2044183707804897399": {
+      "slug": "aoc-day7-victor-anceaume-duel-of-fates",
+      "date": "2026-04-14",
+      "day": "7",
+      "file": "2026-04-14_Victor Anceaume氏 — Art of Comp.md"
+    },
+    "2044550662680416418": {
+      "slug": "aoc-day8-jonathan-berube-starcraft-matte-painting",
+      "date": "2026-04-15",
+      "day": "8",
+      "file": "2026-04-15_Jonathan Berube氏 — Art of Comp.md"
+    },
+    "2044913007411728741": {
+      "slug": "aoc-day9-yanick-dusseault",
+      "date": "2026-04-16",
+      "day": "9",
+      "file": "2026-04-16_Yanick Dusseault氏 — Art of Com.md"
+    },
+    "2045371785701728356": {
+      "slug": "aoc-day10-pierre-lazarevic-vroomvroom",
+      "date": "2026-04-18",
+      "day": "10",
+      "file": "2026-04-18_Pierre Lazarevic氏 — Art of Com.md"
+    },
+    "2045750407004320080": {
+      "slug": "aoc-day11-mauger-baptiste-aidin-city-environment",
+      "date": "2026-04-19",
+      "day": "11",
+      "file": "2026-04-19_Mauger Baptiste氏 — Art of Comp.md"
+    },
+    "2045993095788155059": {
+      "slug": "aoc-day12-felix-riano-grazing",
+      "date": "2026-04-19",
+      "day": "12",
+      "file": "2026-04-19_Felix Riaño氏 — Art of Composit.md"
+    },
+    "2046357171731050931": {
+      "slug": "aoc-day13-felix-riano-new-delhi",
+      "date": "2026-04-20",
+      "day": "13",
+      "file": "2026-04-20_Felix Riaño氏 — Art of Composit.md"
+    },
+    "2046724690669146580": {
+      "slug": "aoc-day14-lok-du-dragon-li-descending-the-mountain",
+      "date": "2026-04-21",
+      "day": "14",
+      "file": "2026-04-21_lok du氏 — Art of Composition D.md"
+    },
+    "2047086125693735127": {
+      "slug": "aoc-day15-1-washington-crossing-the-delaware",
+      "date": "2026-04-22",
+      "day": "15-1",
+      "file": "2026-04-22_Art of Composition Day15-1 —『W.md"
+    },
+    "2047447434989916299": {
+      "slug": "aoc-day15-2-rule-of-odds",
+      "date": "2026-04-23",
+      "day": "15-2",
+      "file": "2026-04-23_Art of Composition Day15-2 — R.md"
+    },
+    "2047896508494922056": {
+      "slug": "aoc-day16-breaking-the-rules",
+      "date": "2026-04-25",
+      "day": "16",
+      "file": "2026-04-25_Art of Composition Day16 — 構図の.md"
+    }
+  },
+  "lastRun": "2026-09-06"
+}

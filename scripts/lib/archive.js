@@ -7,10 +7,23 @@ const path = require("path");
 
 const RAW_DIR = path.resolve(__dirname, "..", "..", "_raw");
 
-/** Finds the single extracted archive directory under _raw/. */
-function findArchiveRoot() {
+/**
+ * Finds an extracted archive directory under _raw/.
+ * Called with no argument this keeps the original behaviour (the single — or
+ * first — folder there), which is the owner's own X archive. Pass `dirName` to
+ * target a specific one, e.g. a second person's archive sitting alongside it
+ * (see scripts/34-aoc-normalize.js).
+ */
+function findArchiveRoot(dirName) {
   if (!fs.existsSync(RAW_DIR)) {
     throw new Error(`_raw/ not found at ${RAW_DIR}. Extract the X archive there first.`);
+  }
+  if (dirName) {
+    const explicit = path.join(RAW_DIR, dirName);
+    if (!fs.existsSync(explicit)) {
+      throw new Error(`No archive folder named "${dirName}" under ${RAW_DIR}.`);
+    }
+    return explicit;
   }
   const entries = fs.readdirSync(RAW_DIR, { withFileTypes: true }).filter((e) => e.isDirectory());
   if (entries.length === 0) {
@@ -27,9 +40,10 @@ function findArchiveRoot() {
 /**
  * Loads a YTD data file (e.g. "tweets", "account") and returns the parsed value.
  * Handles files split into multiple parts (partN) by concatenating their arrays.
+ * `archiveDirName` selects which archive under _raw/ to read (see findArchiveRoot).
  */
-function loadYtd(dataDirName) {
-  const archiveRoot = findArchiveRoot();
+function loadYtd(dataDirName, archiveDirName) {
+  const archiveRoot = findArchiveRoot(archiveDirName);
   const dataDir = path.join(archiveRoot, "data");
   const files = fs
     .readdirSync(dataDir)
@@ -50,8 +64,8 @@ function loadYtd(dataDirName) {
 }
 
 /** Returns the account id/username of the archive owner, from data/account.js. */
-function loadOwnAccount() {
-  const [{ account }] = loadYtd("account");
+function loadOwnAccount(archiveDirName) {
+  const [{ account }] = loadYtd("account", archiveDirName);
   return { accountId: account.accountId, username: account.username };
 }
 

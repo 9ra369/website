@@ -13,24 +13,12 @@ const { loadAllEntries } = require("./lib/entries");
 
 const ARCHIVE_FILE = path.resolve(__dirname, "..", "prototype", "archive.html");
 
-const CATEGORY_LABELS = {
-  tutorial: "Tutorial",
-  pipeline: "Pipeline/Plugin/Tool",
-  article: "Article",
-  showreel: "Showreel/Demoreel",
-  website: "Website",
-  tips: "Tips",
-  "daily-analysis": "毎日作品分析",
-};
-const CATEGORY_THUMB = {
-  tutorial: "thumb-tutorial",
-  pipeline: "thumb-pipeline",
-  article: "thumb-article",
-  showreel: "thumb-reel",
-  website: "thumb-website",
-  tips: "thumb-tips",
-  "daily-analysis": "thumb-daily-analysis",
-};
+// data/categories.json is the source of truth (docs/04_content-guide.md §3);
+// this file used to keep its own copy of both maps, which meant a new category
+// silently never got a sidebar filter option here.
+const { categories } = require("../data/categories.json");
+const CATEGORY_LABELS = Object.fromEntries(categories.map((c) => [c.slug, c.label]));
+const CATEGORY_THUMB = Object.fromEntries(categories.map((c) => [c.slug, c.thumbClass]));
 
 function escapeHtml(str) {
   return String(str)

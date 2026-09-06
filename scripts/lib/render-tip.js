@@ -20,6 +20,7 @@ const FORMAT_LABEL_JA = {
   website: "ウェブサイト",
   tips: "Tips",
   "daily-analysis": "毎日作品分析",
+  "art-of-composition": "構図分析",
 };
 
 /** Converts a post title into a filesystem-safe HTML filename stem: spaces

@@ -88,6 +88,9 @@ const TAG_TO_TOPICS = {
   biomes: ["environment"],
   gaea: ["environment"],
   composition: ["art-fundamentals"],
+  "art of composition": ["art-fundamentals"],
+  photography: ["art-fundamentals"],
+  painting: ["art-fundamentals"],
   毎日作品分析: ["art-fundamentals"],
   "concept art": ["art-fundamentals"],
   texturing: ["lookdev"],
@@ -114,6 +117,7 @@ const TAG_TO_TOPICS = {
  *  tag matches TAG_TO_TOPICS. */
 const CATEGORY_TO_TYPE = {
   "daily-analysis": "note",
+  "art-of-composition": "note",
   tutorial: "brief",
   pipeline: "brief",
   article: "explainer",
@@ -126,6 +130,7 @@ const CATEGORY_TO_TYPE = {
  *  TAG_TO_TOPICS at all (rare — most posts carry a tool/subject tag). */
 const CATEGORY_TOPIC_FALLBACK = {
   "daily-analysis": "art-fundamentals",
+  "art-of-composition": "art-fundamentals",
   pipeline: "pipeline",
 };
 const DEFAULT_TOPIC_FALLBACK = "industry";

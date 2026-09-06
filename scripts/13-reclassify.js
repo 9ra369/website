@@ -7,6 +7,8 @@
 //   background/environment topic -> always add an "Environment" tag
 //     (Environment is no longer a category by itself)
 //   anything else (short notes, questions, comments) -> stays category: tips
+//   (the 毎日作品分析 / Art of Composition series are pinned to their own
+//    categories by title, ahead of every other rule)
 //
 // Usage:
 //   node scripts/13-reclassify.js            (dry run, prints a report)
@@ -33,8 +35,13 @@ const ENVIRONMENT_RE = /背景|environment|地形|terrain|植生|vegetation|環�
 function classify(title, summary) {
   const combined = `${title} ${summary}`;
   const isDailyAnalysis = title.startsWith("毎日作品分析");
+  // @Suggybro's "Art of Composition" series (scripts/34-aoc-normalize.js) —
+  // its titles carry artist names and 作品/記事 wording that would otherwise
+  // land these on showreel/article.
+  const isArtOfComposition = /Art of Composition Day/.test(title);
 
   if (isDailyAnalysis) return "daily-analysis";
+  if (isArtOfComposition) return "art-of-composition";
   if (PLUGIN_RE.test(combined) || PLUGIN_TITLE_ONLY_RE.test(title)) return "pipeline";
   if (STRONG_TUTORIAL_RE.test(combined)) return "tutorial";
   if (ARTICLE_RE.test(combined)) return "article";
