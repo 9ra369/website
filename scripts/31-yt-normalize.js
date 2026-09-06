@@ -183,6 +183,26 @@ function loadManifest() {
   return JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
 }
 
+/**
+ * Video ids already cited by some post, keyed to that post. The playlists
+ * overlap with what was posted from X years ago — Watch Later especially — and
+ * the manifest only knows about videos THIS pipeline imported, so without this
+ * check a video already written up as an X post gets a second post of its own.
+ */
+function videosCoveredByExistingPosts() {
+  const covered = new Map();
+  for (const file of fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"))) {
+    const raw = fs.readFileSync(path.join(POSTS_DIR, file), "utf8");
+    if (raw.includes('source_type: "youtube-playlist"')) continue; // ours; the manifest covers it
+    const slug = (raw.match(/^slug: "(.*)"$/m) || [])[1] || file;
+    const title = (raw.match(/^title: "(.*)"$/m) || [])[1] || "";
+    for (const m of raw.matchAll(/(?:[?&]v=|youtu\.be\/)([A-Za-z0-9_-]{6,})/g)) {
+      if (!covered.has(m[1])) covered.set(m[1], { slug, title });
+    }
+  }
+  return covered;
+}
+
 /** Min/max `date:` across content/posts — the span batch 1 spreads over (§4.5). */
 function archiveDateRange() {
   const dates = [];
@@ -203,10 +223,13 @@ function main() {
   const batchNo = manifest.batches.length + 1;
 
   // --- classify -----------------------------------------------------------
+  const covered = videosCoveredByExistingPosts();
   const skipped = [];
+  const alreadyPosted = [];
   const pending = [];
   for (const v of videos) {
     if (manifest.videos[v.videoId]) skipped.push(v);
+    else if (covered.has(v.videoId)) alreadyPosted.push({ ...v, coveredBy: covered.get(v.videoId) });
     else pending.push(v);
   }
 
@@ -252,16 +275,25 @@ function main() {
     counts: {
       videosInRaw: videos.length,
       skip: skipped.length,
+      alreadyPosted: alreadyPosted.length,
       create: creates.length,
       append: appends.length,
       createdVideos: creates.reduce((n, g) => n + g.videos.length, 0),
       appendedVideos: appends.reduce((n, g) => n + g.videos.length, 0),
     },
     dateRange: dates.length ? [dates[0], dates[dates.length - 1]] : null,
+    // Recorded so scripts/33 can mark them in the manifest and later runs stop
+    // re-reporting them.
+    alreadyPosted: alreadyPosted.map((v) => ({
+      videoId: v.videoId,
+      title: v.title,
+      channel: v.channel,
+      coveredBy: v.coveredBy.slug,
+    })),
     units,
   };
 
-  report(plan, skipped);
+  report(plan, skipped, alreadyPosted);
 
   if (DRY_RUN) {
     console.log("\n[dry-run] _work/yt-units.json は書き出していません。");
@@ -285,24 +317,39 @@ function sortWithinGroup(videos) {
 }
 
 /**
- * Batch 1 spreads across the whole existing archive; later batches use the run
- * date, or spread from the previous run when the batch is large (§4.5/§4.6).
+ * Dates are spread so a migration doesn't bury the site's 新着 feed (§4.5/§4.6).
+ * What decides the strategy is the SIZE of the batch, not its number — a second
+ * bulk import needs spreading just as much as the first one did, and if it runs
+ * the same day as the previous batch there is no interval to spread it over.
+ *
+ *   small (<= 6)          the run date; the archive already averages 1.6/day
+ *   fits since last run   spread over prevRun..runDate
+ *   otherwise (bulk)      spread over the whole archive span, like batch 1
+ *
  * Never returns a future date.
  */
 function assignDates(count, manifest, runDate) {
   if (count === 0) return [];
 
-  if (manifest.batches.length === 0) {
+  const spreadOverArchive = () => {
     const { first, last } = archiveDateRange();
     const span = daysBetween(first, last);
     const step = Math.max(1, Math.floor(span / count));
-    return Array.from({ length: count }, (_, i) => addDays(first, step * i));
-  }
+    return Array.from({ length: count }, (_, i) => {
+      const d = addDays(first, step * i);
+      return d > runDate ? runDate : d;
+    });
+  };
 
+  if (manifest.batches.length === 0) return spreadOverArchive();
   if (count <= 6) return Array.from({ length: count }, () => runDate);
 
   const prevRun = manifest.batches[manifest.batches.length - 1].runDate;
   const span = daysBetween(prevRun, runDate);
+  // Not enough days since the last run to give each post its own slot — this is
+  // a bulk import, not an incremental top-up. Interleave it into the archive.
+  if (span < count) return spreadOverArchive();
+
   const step = Math.max(1, Math.floor(span / count));
   return Array.from({ length: count }, (_, i) => {
     const d = addDays(prevRun, step * (i + 1));
@@ -318,6 +365,11 @@ function buildUnit(action, group, postId, date, existing) {
   const totalVideos = action === "append" ? existing.videoCount + videos.length : videos.length;
   const channel = videos[0].channel;
 
+  // `videos` holds only what this batch adds. The collage has to show the whole
+  // post, so an append also carries the images the post already had — without
+  // them the regenerated banner would drop every earlier video.
+  const priorImages = action === "append" ? existingPostImages(postId) : [];
+
   return {
     action,
     postId,
@@ -330,15 +382,37 @@ function buildUnit(action, group, postId, date, existing) {
     totalVideos,
     playlists: [...new Set(videos.map((v) => v.playlist))],
     collage: totalVideos > 1 ? `images/posts/${postId}-collage-banner.jpg` : null,
+    collageImages: [...priorImages, ...videos.map((v) => v.image)],
     videos,
   };
 }
 
-function report(plan, skipped) {
+/** Image paths already used by the post with this id, oldest entry first. */
+function existingPostImages(postId) {
+  for (const file of fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"))) {
+    const raw = fs.readFileSync(path.join(POSTS_DIR, file), "utf8");
+    if (!raw.includes(`/status/${postId}"`)) continue;
+
+    const srcLine = raw.match(/^source_url: (.*)$/m);
+    if (srcLine && srcLine[1].trim().startsWith("[")) {
+      return JSON.parse(srcLine[1])
+        .map((e) => (typeof e === "object" ? e.image : null))
+        .filter(Boolean);
+    }
+    // Single-video post: its one thumbnail is the body image, minus any collage
+    // banner left over from a previous shape.
+    const imgs = [...raw.matchAll(/^!\[\]\((images\/posts\/[^)]+)\)$/gm)].map((m) => m[1]);
+    return imgs.filter((i) => !i.includes("collage-banner"));
+  }
+  return [];
+}
+
+function report(plan, skipped, alreadyPosted) {
   const c = plan.counts;
   console.log(`バッチ ${plan.batch}（実行日 ${plan.runDate}）`);
   console.log(`  _raw の動画: ${c.videosInRaw}本`);
   console.log(`  skip  : ${c.skip}本（処理済み）`);
+  console.log(`  既出  : ${c.alreadyPosted}本（既存ポストがカバー済み）`);
   console.log(`  create: ${c.create}ポスト / ${c.createdVideos}本`);
   console.log(`  append: ${c.append}ポスト / ${c.appendedVideos}本`);
   if (plan.dateRange) console.log(`  日付   : ${plan.dateRange[0]} .. ${plan.dateRange[1]}`);
@@ -358,6 +432,14 @@ function report(plan, skipped) {
 
   if (skipped.length) {
     console.log(`\n処理済みのためスキップ: ${skipped.length}本`);
+  }
+
+  if (alreadyPosted.length) {
+    console.log(`\n既存ポストがカバー済みのため除外: ${alreadyPosted.length}本`);
+    for (const v of alreadyPosted) {
+      console.log(`  ${v.videoId}  ${v.title.slice(0, 52)}`);
+      console.log(`      -> ${v.coveredBy.slug}`);
+    }
   }
 }
 

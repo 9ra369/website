@@ -148,8 +148,11 @@ function layout(n) {
     ];
   }
 
+  // Square grids of 16:9 tiles are themselves 16:9, so 2x2 and 3x3 both fill
+  // the canvas exactly. Past 9 videos the tiles get too small to read, so the
+  // banner shows the first 9 and the rest are still listed on the page.
   const cols = n <= 4 ? 2 : 3;
-  const rows = 2;
+  const rows = n <= 6 ? 2 : 3;
   const { w, h } = cell(cols, rows);
   return Array.from({ length: Math.min(n, cols * rows) }, (_, i) => ({
     x: (i % cols) * (w + GAP),
@@ -161,15 +164,22 @@ function layout(n) {
 
 function buildCollage(unit) {
   const outPath = path.join(IMAGES_DIR, path.basename(unit.collage));
-  if (fs.existsSync(outPath) && !force) return { status: "exists" };
+  // An append changes what the post contains, so its banner is always stale.
+  const stale = unit.action === "append";
+  if (fs.existsSync(outPath) && !force && !stale) return { status: "exists" };
 
-  const tiles = layout(unit.videos.length);
-  const inputs = unit.videos.slice(0, tiles.length);
-  const missing = inputs.filter((v) => !fs.existsSync(path.join(IMAGES_DIR, path.basename(v.image))));
-  if (missing.length) return { status: "failed", reason: `missing tile: ${missing[0].videoId}` };
+  // collageImages covers the whole post (prior + new); unit.videos is only what
+  // this batch adds, which would silently drop earlier videos from the banner.
+  const all = unit.collageImages && unit.collageImages.length
+    ? unit.collageImages
+    : unit.videos.map((v) => v.image);
+  const tiles = layout(all.length);
+  const inputs = all.slice(0, tiles.length);
+  const missing = inputs.filter((img) => !fs.existsSync(path.join(IMAGES_DIR, path.basename(img))));
+  if (missing.length) return { status: "failed", reason: `missing tile: ${missing[0]}` };
 
   const args = ["-y"];
-  for (const v of inputs) args.push("-i", path.join(IMAGES_DIR, path.basename(v.image)));
+  for (const img of inputs) args.push("-i", path.join(IMAGES_DIR, path.basename(img)));
 
   const steps = [`color=c=${BANNER_BG}:s=${BANNER_W}x${BANNER_H}[bg]`];
   inputs.forEach((_, i) => {
@@ -234,7 +244,8 @@ async function main() {
     const r = buildCollage(unit);
     if (r.status === "built") {
       stats.collages++;
-      console.log(`OK   ${path.basename(unit.collage)}  (${unit.videos.length}枚合成 — ${unit.channel})`);
+      const n = (unit.collageImages || unit.videos).length;
+      console.log(`OK   ${path.basename(unit.collage)}  (${n}枚合成 — ${unit.channel})`);
     } else if (r.status === "failed") {
       stats.failed.push(`${unit.postId} collage: ${r.reason}`);
       console.warn(`⚠ ${unit.postId} collage: ${r.reason}`);

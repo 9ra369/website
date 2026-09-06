@@ -20,6 +20,28 @@
         "createdVideos": 41,
         "appendedVideos": 0
       }
+    },
+    {
+      "batch": 2,
+      "runDate": "2026-09-06",
+      "idPrefix": "2091",
+      "seq": [
+        33,
+        91
+      ],
+      "dateRange": [
+        "2025-10-08",
+        "2026-07-25"
+      ],
+      "counts": {
+        "videosInRaw": 131,
+        "skip": 41,
+        "alreadyPosted": 9,
+        "create": 59,
+        "append": 9,
+        "createdVideos": 66,
+        "appendedVideos": 15
+      }
     }
   ],
   "videos": {
@@ -229,6 +251,466 @@
       "batch": 1,
       "postId": "2091000000000000032",
       "date": "2026-08-14"
+    },
+    "8VljfftmDxI": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト maya-arnold-lego が同じ動画を紹介済み"
+    },
+    "QE3tecwXDtw": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト post-95985500 が同じ動画を紹介済み"
+    },
+    "L7eorPERur4": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト heightfield-hacking-heightfields が同じ動画を紹介済み"
+    },
+    "Gdg85VuMRSw": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト houdini-biomes が同じ動画を紹介済み"
+    },
+    "S46tKYSgrdM": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト karma-roommap が同じ動画を紹介済み"
+    },
+    "NMlYf_T9Nb0": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト houdini-instance が同じ動画を紹介済み"
+    },
+    "V7jIDnE_bxs": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト python-poly-heaven-hdri が同じ動画を紹介済み"
+    },
+    "nXubB9krxVI": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト blender-5-0 が同じ動画を紹介済み"
+    },
+    "3f7miRB9_Eo": {
+      "batch": 2,
+      "excluded": true,
+      "reason": "既存ポスト william-faucher-ue-megaplants が同じ動画を紹介済み"
+    },
+    "XDV39GRVV5g": {
+      "batch": 2,
+      "postId": "2091000000000000033",
+      "date": "2025-10-08"
+    },
+    "RSh-_YA7nT8": {
+      "batch": 2,
+      "postId": "2091000000000000034",
+      "date": "2025-10-13"
+    },
+    "nYDY7WMvb9E": {
+      "batch": 2,
+      "postId": "2091000000000000035",
+      "date": "2025-10-18"
+    },
+    "0clty0230c0": {
+      "batch": 2,
+      "postId": "2091000000000000035",
+      "date": "2025-10-18"
+    },
+    "ZLQF_3Zqe2s": {
+      "batch": 2,
+      "postId": "2091000000000000035",
+      "date": "2025-10-18"
+    },
+    "yEDlyPKuJv0": {
+      "batch": 2,
+      "postId": "2091000000000000035",
+      "date": "2025-10-18"
+    },
+    "Qp-VjCHTrzo": {
+      "batch": 2,
+      "postId": "2091000000000000036",
+      "date": "2025-10-23"
+    },
+    "bbXkJ2VctWI": {
+      "batch": 2,
+      "postId": "2091000000000000037",
+      "date": "2025-10-28"
+    },
+    "mhvtuZIEV_Q": {
+      "batch": 2,
+      "postId": "2091000000000000038",
+      "date": "2025-11-02"
+    },
+    "6KCtPnam6Sk": {
+      "batch": 2,
+      "postId": "2091000000000000039",
+      "date": "2025-11-07"
+    },
+    "UAJ_y45L-uM": {
+      "batch": 2,
+      "postId": "2091000000000000039",
+      "date": "2025-11-07"
+    },
+    "xFUOuK3lFro": {
+      "batch": 2,
+      "postId": "2091000000000000040",
+      "date": "2025-11-12",
+      "excluded": true,
+      "reason": "レビューで不採用（2026-09-06）"
+    },
+    "O74VUvDQFdQ": {
+      "batch": 2,
+      "postId": "2091000000000000041",
+      "date": "2025-11-17"
+    },
+    "IdM79cXTuAk": {
+      "batch": 2,
+      "postId": "2091000000000000042",
+      "date": "2025-11-22"
+    },
+    "M-TT9QOaIdA": {
+      "batch": 2,
+      "postId": "2091000000000000043",
+      "date": "2025-11-27",
+      "excluded": true,
+      "reason": "レビューで不採用（2026-09-06）"
+    },
+    "sIS72460eEk": {
+      "batch": 2,
+      "postId": "2091000000000000044",
+      "date": "2025-12-02"
+    },
+    "usJrcwN6T4I": {
+      "batch": 2,
+      "postId": "2091000000000000045",
+      "date": "2025-12-07"
+    },
+    "mTktGWB-nX8": {
+      "batch": 2,
+      "postId": "2091000000000000046",
+      "date": "2025-12-12"
+    },
+    "p570CXrCmDQ": {
+      "batch": 2,
+      "postId": "2091000000000000047",
+      "date": "2025-12-17"
+    },
+    "p-iE9hPku6M": {
+      "batch": 2,
+      "postId": "2091000000000000048",
+      "date": "2025-12-22",
+      "excluded": true,
+      "reason": "レビューで不採用（2026-09-06）"
+    },
+    "cn-PEEzUzow": {
+      "batch": 2,
+      "postId": "2091000000000000049",
+      "date": "2025-12-27"
+    },
+    "CpiumJctktM": {
+      "batch": 2,
+      "postId": "2091000000000000050",
+      "date": "2026-01-01"
+    },
+    "c6xocl-XOss": {
+      "batch": 2,
+      "postId": "2091000000000000051",
+      "date": "2026-01-06"
+    },
+    "mGtLf2qIDsE": {
+      "batch": 2,
+      "postId": "2091000000000000051",
+      "date": "2026-01-06"
+    },
+    "nEk2b39cgl8": {
+      "batch": 2,
+      "postId": "2091000000000000052",
+      "date": "2026-01-11"
+    },
+    "2jeN14WYatE": {
+      "batch": 2,
+      "postId": "2091000000000000053",
+      "date": "2026-01-16"
+    },
+    "WfXjuNogvqU": {
+      "batch": 2,
+      "postId": "2091000000000000054",
+      "date": "2026-01-21"
+    },
+    "JY8gh35NNng": {
+      "batch": 2,
+      "postId": "2091000000000000055",
+      "date": "2026-01-26"
+    },
+    "mbSO0jxFes0": {
+      "batch": 2,
+      "postId": "2091000000000000056",
+      "date": "2026-01-31"
+    },
+    "z_WRaTsGbVE": {
+      "batch": 2,
+      "postId": "2091000000000000057",
+      "date": "2026-02-05"
+    },
+    "ossXICvL-G0": {
+      "batch": 2,
+      "postId": "2091000000000000058",
+      "date": "2026-02-10"
+    },
+    "x_39t21C9y8": {
+      "batch": 2,
+      "postId": "2091000000000000059",
+      "date": "2026-02-15"
+    },
+    "BSgl7A7QMSs": {
+      "batch": 2,
+      "postId": "2091000000000000060",
+      "date": "2026-02-20"
+    },
+    "77xPHfzciiY": {
+      "batch": 2,
+      "postId": "2091000000000000061",
+      "date": "2026-02-25"
+    },
+    "X5LsyzjKFGI": {
+      "batch": 2,
+      "postId": "2091000000000000062",
+      "date": "2026-03-02"
+    },
+    "tQ49FnQjIHk": {
+      "batch": 2,
+      "postId": "2091000000000000062",
+      "date": "2026-03-02"
+    },
+    "-Va2sXIHtaQ": {
+      "batch": 2,
+      "postId": "2091000000000000063",
+      "date": "2026-03-07"
+    },
+    "19gIzQGnSaU": {
+      "batch": 2,
+      "postId": "2091000000000000064",
+      "date": "2026-03-12"
+    },
+    "sQsZIqdOlYw": {
+      "batch": 2,
+      "postId": "2091000000000000065",
+      "date": "2026-03-17"
+    },
+    "CQA6j5gRIW4": {
+      "batch": 2,
+      "postId": "2091000000000000066",
+      "date": "2026-03-22"
+    },
+    "aA3xUZscC50": {
+      "batch": 2,
+      "postId": "2091000000000000066",
+      "date": "2026-03-22"
+    },
+    "ye2tYNSihNQ": {
+      "batch": 2,
+      "postId": "2091000000000000067",
+      "date": "2026-03-27"
+    },
+    "FYPCPr-fzoM": {
+      "batch": 2,
+      "postId": "2091000000000000068",
+      "date": "2026-04-01"
+    },
+    "5ysPQ5kEa5Y": {
+      "batch": 2,
+      "postId": "2091000000000000069",
+      "date": "2026-04-06"
+    },
+    "p-TEYeXQqDU": {
+      "batch": 2,
+      "postId": "2091000000000000070",
+      "date": "2026-04-11"
+    },
+    "B5TqjllL_NQ": {
+      "batch": 2,
+      "postId": "2091000000000000071",
+      "date": "2026-04-16"
+    },
+    "PYwiQf9Ev4s": {
+      "batch": 2,
+      "postId": "2091000000000000072",
+      "date": "2026-04-21"
+    },
+    "uFMH6oGGGtk": {
+      "batch": 2,
+      "postId": "2091000000000000073",
+      "date": "2026-04-26"
+    },
+    "FqjhS2zDmwc": {
+      "batch": 2,
+      "postId": "2091000000000000074",
+      "date": "2026-05-01"
+    },
+    "_TyoMjhQUOE": {
+      "batch": 2,
+      "postId": "2091000000000000075",
+      "date": "2026-05-06"
+    },
+    "1w0YYdcvLhc": {
+      "batch": 2,
+      "postId": "2091000000000000076",
+      "date": "2026-05-11"
+    },
+    "WibW3X2IXoU": {
+      "batch": 2,
+      "postId": "2091000000000000077",
+      "date": "2026-05-16"
+    },
+    "s-kGlEsXTQw": {
+      "batch": 2,
+      "postId": "2091000000000000078",
+      "date": "2026-05-21"
+    },
+    "G_LtcUjPugU": {
+      "batch": 2,
+      "postId": "2091000000000000079",
+      "date": "2026-05-26"
+    },
+    "xx85eyN1Xc0": {
+      "batch": 2,
+      "postId": "2091000000000000080",
+      "date": "2026-05-31"
+    },
+    "8mPFXOE5NEI": {
+      "batch": 2,
+      "postId": "2091000000000000081",
+      "date": "2026-06-05"
+    },
+    "ffhHql9oN4g": {
+      "batch": 2,
+      "postId": "2091000000000000082",
+      "date": "2026-06-10"
+    },
+    "b_jhGZ2jto8": {
+      "batch": 2,
+      "postId": "2091000000000000083",
+      "date": "2026-06-15"
+    },
+    "sF6ZMOiAhVs": {
+      "batch": 2,
+      "postId": "2091000000000000084",
+      "date": "2026-06-20"
+    },
+    "2ReHnWlMDuo": {
+      "batch": 2,
+      "postId": "2091000000000000085",
+      "date": "2026-06-25"
+    },
+    "64JnVJBgoos": {
+      "batch": 2,
+      "postId": "2091000000000000086",
+      "date": "2026-06-30"
+    },
+    "HvRwJGzOAj4": {
+      "batch": 2,
+      "postId": "2091000000000000087",
+      "date": "2026-07-05"
+    },
+    "BTe0JLe5g2Y": {
+      "batch": 2,
+      "postId": "2091000000000000088",
+      "date": "2026-07-10",
+      "excluded": true,
+      "reason": "レビューで不採用（2026-09-06）"
+    },
+    "rcF_k5TO598": {
+      "batch": 2,
+      "postId": "2091000000000000089",
+      "date": "2026-07-15"
+    },
+    "C7DP5xEYeCs": {
+      "batch": 2,
+      "postId": "2091000000000000090",
+      "date": "2026-07-20"
+    },
+    "fI7oUObqrnA": {
+      "batch": 2,
+      "postId": "2091000000000000091",
+      "date": "2026-07-25",
+      "excluded": true,
+      "reason": "レビューで不採用（2026-09-06）"
+    },
+    "1SXCz_Ta4Lc": {
+      "batch": 2,
+      "postId": "2091000000000000018",
+      "date": "2026-03-27"
+    },
+    "7J-hDF0H6ck": {
+      "batch": 2,
+      "postId": "2091000000000000018",
+      "date": "2026-03-27"
+    },
+    "w_UBSQL9w6o": {
+      "batch": 2,
+      "postId": "2091000000000000031",
+      "date": "2026-08-04"
+    },
+    "s0XeBWZbddE": {
+      "batch": 2,
+      "postId": "2091000000000000028",
+      "date": "2026-07-05"
+    },
+    "L9pMvbET7YU": {
+      "batch": 2,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "w2Knw9bD06Y": {
+      "batch": 2,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "_YrNHJk3f90": {
+      "batch": 2,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "biQlPL8_uu4": {
+      "batch": 2,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "Wz80-imjLbQ": {
+      "batch": 2,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "SyPE2bRMO8E": {
+      "batch": 2,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "RHmoiZ8PjRg": {
+      "batch": 2,
+      "postId": "2091000000000000011",
+      "date": "2026-01-16"
+    },
+    "1UJcZutVYPw": {
+      "batch": 2,
+      "postId": "2091000000000000006",
+      "date": "2025-11-27"
+    },
+    "IYrm6LZljh4": {
+      "batch": 2,
+      "postId": "2091000000000000026",
+      "date": "2026-06-15"
+    },
+    "mIZonVW2lds": {
+      "batch": 2,
+      "postId": "2091000000000000005",
+      "date": "2025-11-17"
+    },
+    "WLPs5sd94_Q": {
+      "batch": 2,
+      "postId": "2091000000000000030",
+      "date": "2026-07-25"
     }
   },
   "channels": {
@@ -257,22 +739,22 @@
       "postId": "2091000000000000004",
       "slug": "sidefx-houdini-world-building",
       "date": "2025-11-07",
-      "file": "2025-11-07_SideFX公式 — Houdiniによる地形・都市・ワール.md",
-      "videoCount": 3
+      "file": "2025-11-07_SideFX公式 — 地形・都市・USDSolarisを扱う.md",
+      "videoCount": 9
     },
     "rebelway": {
       "postId": "2091000000000000005",
       "slug": "rebelway-ocean-rendering-redshift",
       "date": "2025-11-17",
-      "file": "2025-11-17_Rebelway — Redshiftでの海のレンダリングを.md",
-      "videoCount": 1
+      "file": "2025-11-17_Rebelway — Redshiftの海とKarma XP.md",
+      "videoCount": 2
     },
     "cg forge": {
       "postId": "2091000000000000006",
       "slug": "cg-forge-aces-ocio-houdini-quickstart",
       "date": "2025-11-27",
-      "file": "2025-11-27_CG Forge — 4分で終わるHoudiniのACESO.md",
-      "videoCount": 1
+      "file": "2025-11-27_CG Forge — HoudiniのACESOCIOセット.md",
+      "videoCount": 2
     },
     "andreas mischok": {
       "postId": "2091000000000000007",
@@ -306,8 +788,8 @@
       "postId": "2091000000000000011",
       "slug": "inside-the-mind-houdini-attributes-parameters",
       "date": "2026-01-16",
-      "file": "2026-01-16_Houdini — アトリビュートで他ノードのパラメータを動.md",
-      "videoCount": 1
+      "file": "2026-01-16_Inside The Mind — Houdiniのアトリビ.md",
+      "videoCount": 2
     },
     "split the diff": {
       "postId": "2091000000000000012",
@@ -355,8 +837,8 @@
       "postId": "2091000000000000018",
       "slug": "cgside-houdini-randomized-brick-wall",
       "date": "2026-03-27",
-      "file": "2026-03-27_Houdini — Voronoi FractureとFor.md",
-      "videoCount": 1
+      "file": "2026-03-27_cgside — Houdiniのプロシージャルモデリングと.md",
+      "videoCount": 3
     },
     "maxime gerardin": {
       "postId": "2091000000000000019",
@@ -411,8 +893,8 @@
       "postId": "2091000000000000026",
       "slug": "vfx-showdown-lightfusion-nuke",
       "date": "2026-06-15",
-      "file": "2026-06-15_LightFusion — Nukeで光を組み直せる無料Gi.md",
-      "videoCount": 1
+      "file": "2026-06-15_VFX SHOWDOWN — Nukeの無料GizmoとGr.md",
+      "videoCount": 2
     },
     "c g s l a v": {
       "postId": "2091000000000000027",
@@ -425,8 +907,8 @@
       "postId": "2091000000000000028",
       "slug": "carlo-jongen-asset-usd-builder",
       "date": "2026-07-05",
-      "file": "2026-07-05_Asset USD Builder 1.1 — FABMeg.md",
-      "videoCount": 1
+      "file": "2026-07-05_Carlo Jongen — FABMegascansアセッ.md",
+      "videoCount": 2
     },
     "solso4d": {
       "postId": "2091000000000000029",
@@ -439,21 +921,399 @@
       "postId": "2091000000000000030",
       "slug": "maarten-nauta-pro-environment-artists-qa",
       "date": "2026-07-25",
-      "file": "2026-07-25_背景アーティスト4人が視聴者の質問に答えるライブ配信.md",
-      "videoCount": 1
+      "file": "2026-07-25_Maarten Nauta — 背景アーティストのライブ配信.md",
+      "videoCount": 2
     },
     "the adam": {
       "postId": "2091000000000000031",
       "slug": "the-adam-western-train-blender",
       "date": "2026-08-04",
-      "file": "2026-08-04_Blender 4.4 — 西部劇風の列車アニメーション制作.md",
-      "videoCount": 1
+      "file": "2026-08-04_The Adam — Blenderによる背景・アニメーショ.md",
+      "videoCount": 2
     },
     "palm pixel": {
       "postId": "2091000000000000032",
       "slug": "palm-pixel-flares-ofx-nuke",
       "date": "2026-08-14",
       "file": "2026-08-14_Flares OFX — Nukeで使えるレンズフレアプラグ.md",
+      "videoCount": 1
+    },
+    "second hand productions": {
+      "postId": "2091000000000000033",
+      "slug": "second-hand-productions-matte-painting-set-extensions",
+      "date": "2025-10-08",
+      "file": "2025-10-08_マットペイントによるセットエクステンションの基礎.md",
+      "videoCount": 1
+    },
+    "quixel": {
+      "postId": "2091000000000000034",
+      "slug": "quixel-megascans-octane-cinema4d",
+      "date": "2025-10-13",
+      "file": "2025-10-13_Megascans × Octane × Cinema 4D.md",
+      "videoCount": 1
+    },
+    "varo school (mix training)": {
+      "postId": "2091000000000000035",
+      "slug": "varo-school-varomix-trix-houdini",
+      "date": "2025-10-18",
+      "file": "2025-10-18_Varomix Trix — HoudiniのTipsとアセ.md",
+      "videoCount": 4
+    },
+    "houdinisimon": {
+      "postId": "2091000000000000036",
+      "slug": "houdinisimon-avoid-intersections-for-loops",
+      "date": "2025-10-23",
+      "file": "2025-10-23_Houdini — Forループでコピーしたジオメトリの交差.md",
+      "videoCount": 1
+    },
+    "pipeliner": {
+      "postId": "2091000000000000037",
+      "slug": "pipeliner-usd-workflow-demos",
+      "date": "2025-10-28",
+      "file": "2025-10-28_USDワークフローのデモ映像.md",
+      "videoCount": 1
+    },
+    "tyler edlin": {
+      "postId": "2091000000000000038",
+      "slug": "tyler-edlin-environment-design-exercise",
+      "date": "2025-11-02",
+      "file": "2025-11-02_初心者向け — 背景デザインの練習方法.md",
+      "videoCount": 1
+    },
+    "tim van helsdingen": {
+      "postId": "2091000000000000039",
+      "slug": "tim-van-helsdingen-pipeline-and-breakdown",
+      "date": "2025-11-07",
+      "file": "2025-11-07_Tim van Helsdingen — VFXのフォルダ構.md",
+      "videoCount": 2
+    },
+    "pwnisher": {
+      "postId": "2091000000000000041",
+      "slug": "pwnisher-3d-environment-masterclass-vol3",
+      "date": "2025-11-17",
+      "file": "2025-11-17_3D Environment MasterClass VOL.md",
+      "videoCount": 1
+    },
+    "junichiro horikawa": {
+      "postId": "2091000000000000042",
+      "slug": "horikawa-algorithmic-live-074-mesh-displacement",
+      "date": "2025-11-22",
+      "file": "2025-11-22_Houdini Algorithmic Live #074 .md",
+      "videoCount": 1
+    },
+    "outgang": {
+      "postId": "2091000000000000044",
+      "slug": "outgang-mari-character-texturing-sam-alicea",
+      "date": "2025-12-02",
+      "file": "2025-12-02_MARIによるキャラクターテクスチャリング — ILM Sa.md",
+      "videoCount": 1
+    },
+    "unreal engine": {
+      "postId": "2091000000000000045",
+      "slug": "unreal-engine-matrix-awakens-generating-a-world",
+      "date": "2025-12-07",
+      "file": "2025-12-07_The Matrix Awakens — Unreal En.md",
+      "videoCount": 1
+    },
+    "comp lair": {
+      "postId": "2091000000000000046",
+      "slug": "comp-lair-noises-and-nebulas-in-nuke",
+      "date": "2025-12-12",
+      "file": "2025-12-12_Nuke — ノイズと星雲の作り方.md",
+      "videoCount": 1
+    },
+    "buas games": {
+      "postId": "2091000000000000047",
+      "slug": "buas-games-epc2022-matrix-awakens-city",
+      "date": "2025-12-17",
+      "file": "2025-12-17_EPC2022 — 『The Matrix Awakens』.md",
+      "videoCount": 1
+    },
+    "atmo": {
+      "postId": "2091000000000000049",
+      "slug": "atmo-interview-aaron-limonick",
+      "date": "2025-12-27",
+      "file": "2025-12-27_Activision Blizzard ワールドアートディレ.md",
+      "videoCount": 1
+    },
+    "prism pipeline": {
+      "postId": "2091000000000000050",
+      "slug": "prism-pipeline-usd-pipeline-for-artists",
+      "date": "2026-01-01",
+      "file": "2026-01-01_FMX 2021 — アーティストのためのUSDパイプライン.md",
+      "videoCount": 1
+    },
+    "samuel krug vfx": {
+      "postId": "2091000000000000051",
+      "slug": "samuel-krug-vfx-terrain-and-clouds",
+      "date": "2026-01-06",
+      "file": "2026-01-06_Samuel Krug — Gaeaの火星クレーターとHou.md",
+      "videoCount": 2
+    },
+    "studio satsuki": {
+      "postId": "2091000000000000052",
+      "slug": "studio-satsuki-pdg-hqueue-basics",
+      "date": "2026-01-11",
+      "file": "2026-01-11_HoudiniのPDGとHQueue — 基礎を実装して理解.md",
+      "videoCount": 1
+    },
+    "jacob zirkle": {
+      "postId": "2091000000000000053",
+      "slug": "jacob-zirkle-nuke-camera-tracking",
+      "date": "2026-01-16",
+      "file": "2026-01-16_Nuke — カメラトラッキングの基礎.md",
+      "videoCount": 1
+    },
+    "pixel ninja": {
+      "postId": "2091000000000000054",
+      "slug": "pixel-ninja-building-components-in-sops",
+      "date": "2026-01-21",
+      "file": "2026-01-21_Houdini — SOP内でUSDコンポーネントの階層を組.md",
+      "videoCount": 1
+    },
+    "xuan prada - visual effects": {
+      "postId": "2091000000000000055",
+      "slug": "xuan-prada-houdini-polyreduce",
+      "date": "2026-01-26",
+      "file": "2026-01-26_Houdini — 高密度ジオメトリのポリゴン削減を実務レベ.md",
+      "videoCount": 1
+    },
+    "johannes tiner": {
+      "postId": "2091000000000000056",
+      "slug": "johannes-tiner-houdini-ground-destruction",
+      "date": "2026-01-31",
+      "file": "2026-01-31_Houdini — 地面の破壊エフェクトをシンプルに作る.md",
+      "videoCount": 1
+    },
+    "minutephysics": {
+      "postId": "2091000000000000057",
+      "slug": "minutephysics-what-is-a-lens-flare",
+      "date": "2026-02-05",
+      "file": "2026-02-05_レンズフレアとは物理的に何なのか.md",
+      "videoCount": 1
+    },
+    "lovevfx": {
+      "postId": "2091000000000000058",
+      "slug": "lovevfx-smartcache-nuke",
+      "date": "2026-02-10",
+      "file": "2026-02-10_smartCache — Nukeのプリレンダーを扱うCRA.md",
+      "videoCount": 1
+    },
+    "speedtree": {
+      "postId": "2091000000000000059",
+      "slug": "speedtree-mesh-detail-decal-generators",
+      "date": "2026-02-15",
+      "file": "2026-02-15_SpeedTree — 樹皮のディテールを足すMesh De.md",
+      "videoCount": 1
+    },
+    "autodesk media & entertainment": {
+      "postId": "2091000000000000060",
+      "slug": "autodesk-cracking-the-case-on-openusd",
+      "date": "2026-02-20",
+      "file": "2026-02-20_OpenUSDとは何か — 3Dの相互運用性を実現する仕組み.md",
+      "videoCount": 1
+    },
+    "beyond extent": {
+      "postId": "2091000000000000061",
+      "slug": "beyond-extent-modular-3d-kits",
+      "date": "2026-02-25",
+      "file": "2026-02-25_モジュラーな3Dキットの作り方 — Sony Santa M.md",
+      "videoCount": 1
+    },
+    "hoj dee": {
+      "postId": "2091000000000000062",
+      "slug": "hoj-dee-unreal-material-techniques",
+      "date": "2026-03-02",
+      "file": "2026-03-02_Hoj Dee — Unreal Engineのマテリアル解.md",
+      "videoCount": 2
+    },
+    "loupe": {
+      "postId": "2091000000000000063",
+      "slug": "loupe-digital-twins-omniverse",
+      "date": "2026-03-07",
+      "file": "2026-03-07_Omniverseでデジタルツインを構築するチュートリアル.md",
+      "videoCount": 1
+    },
+    "adrian pan": {
+      "postId": "2091000000000000064",
+      "slug": "adrian-pan-houdini-gpu-landscape-unreal",
+      "date": "2026-03-12",
+      "file": "2026-03-12_HoudiniのGPUツールチェーンでUnreal上の64k.md",
+      "videoCount": 1
+    },
+    "fx guru": {
+      "postId": "2091000000000000065",
+      "slug": "fx-guru-houdini-dust-interaction",
+      "date": "2026-03-17",
+      "file": "2026-03-17_Houdini — 破壊にともなう粉塵のインタラクションを作.md",
+      "videoCount": 1
+    },
+    "berika lobzhanidze": {
+      "postId": "2091000000000000066",
+      "slug": "berika-lobzhanidze-houdini-instancing-lighting",
+      "date": "2026-03-22",
+      "file": "2026-03-22_Berika Lobzhanidze — Houdiniのイ.md",
+      "videoCount": 2
+    },
+    "tuf": {
+      "postId": "2091000000000000067",
+      "slug": "tuf-ray-tracing-lumen-path-tracing",
+      "date": "2026-03-27",
+      "file": "2026-03-27_レイトレーシング・Lumen・パストレーシングの違いを整理す.md",
+      "videoCount": 1
+    },
+    "watchingtheaerial": {
+      "postId": "2091000000000000068",
+      "slug": "watchingtheaerial-oblivion-front-projection",
+      "date": "2026-04-01",
+      "file": "2026-04-01_『オブリビオン』がグリーンバックを使わなかった理由 — フロ.md",
+      "videoCount": 1
+    },
+    "arch viz artist": {
+      "postId": "2091000000000000069",
+      "slug": "arch-viz-artist-gaussian-splatting-vray7",
+      "date": "2026-04-06",
+      "file": "2026-04-06_V-Ray 7 — 3Dガウシアンスプラッティングの読み込み.md",
+      "videoCount": 1
+    },
+    "graphical ninja": {
+      "postId": "2091000000000000070",
+      "slug": "graphical-ninja-macro-photorealism-blender",
+      "date": "2026-04-11",
+      "file": "2026-04-11_Blender — マクロ撮影のようなフォトリアルを作る.md",
+      "videoCount": 1
+    },
+    "tamas_nagy": {
+      "postId": "2091000000000000071",
+      "slug": "tamas-nagy-luminara-ue5-breakdown",
+      "date": "2026-04-16",
+      "file": "2026-04-16_Unreal Engine 5で作ったシネマティック短編のブ.md",
+      "videoCount": 1
+    },
+    "jonas noell": {
+      "postId": "2091000000000000072",
+      "slug": "jonas-noell-vray-window-shaders",
+      "date": "2026-04-21",
+      "file": "2026-04-21_V-Ray — ArchViz向けの窓ガラスシェーダを作り込.md",
+      "videoCount": 1
+    },
+    "nishaan 3d": {
+      "postId": "2091000000000000073",
+      "slug": "nishaan-3d-blender-render-layers",
+      "date": "2026-04-26",
+      "file": "2026-04-26_Blender — レンダーレイヤーの使い方と合成までの流れ.md",
+      "videoCount": 1
+    },
+    "immersive workflow 3d": {
+      "postId": "2091000000000000074",
+      "slug": "immersive-workflow-3d-python-payloads-usd",
+      "date": "2026-05-01",
+      "file": "2026-05-01_USDファイルにPythonスクリプトをペイロードとして埋め.md",
+      "videoCount": 1
+    },
+    "eric hallquist": {
+      "postId": "2091000000000000075",
+      "slug": "eric-hallquist-stable-diffusion-displacement-map",
+      "date": "2026-05-06",
+      "file": "2026-05-06_Stable Diffusionでディスプレイスメントマップ.md",
+      "videoCount": 1
+    },
+    "athena productions": {
+      "postId": "2091000000000000076",
+      "slug": "athena-productions-freelance-concept-artist",
+      "date": "2026-05-11",
+      "file": "2026-05-11_フリーランスのコンセプトアーティストとして生きていくには.md",
+      "videoCount": 1
+    },
+    "sierra division": {
+      "postId": "2091000000000000077",
+      "slug": "sierra-division-substance-painter-sticker-effects",
+      "date": "2026-05-16",
+      "file": "2026-05-16_Substance Painter — 貼り付けた感を出さな.md",
+      "videoCount": 1
+    },
+    "nico linde": {
+      "postId": "2091000000000000078",
+      "slug": "nico-linde-perfect-textures-blender",
+      "date": "2026-05-21",
+      "file": "2026-05-21_Blender — テクスチャを毎回きちんと見せるための4つ.md",
+      "videoCount": 1
+    },
+    "motion forge cg": {
+      "postId": "2091000000000000079",
+      "slug": "motion-forge-cg-gaea2-river-between-mountains",
+      "date": "2026-05-26",
+      "file": "2026-05-26_Gaea 2 — 2つの山の間に川を通す.md",
+      "videoCount": 1
+    },
+    "polyfjord": {
+      "postId": "2091000000000000080",
+      "slug": "polyfjord-colmap-3d-tracking",
+      "date": "2026-05-31",
+      "file": "2026-05-31_COLMAPによる完全自動の3Dカメラトラッキング.md",
+      "videoCount": 1
+    },
+    "dominikg": {
+      "postId": "2091000000000000081",
+      "slug": "dominikg-making-3d-characters-easy-way",
+      "date": "2026-06-05",
+      "file": "2026-06-05_3Dキャラクターを最短で作って動かす.md",
+      "videoCount": 1
+    },
+    "sochetra cg-arts": {
+      "postId": "2091000000000000082",
+      "slug": "sochetra-cg-arts-rampage-rally-breakdown",
+      "date": "2026-06-10",
+      "file": "2026-06-10_Rampage Rally 参加作品「Padora Prot.md",
+      "videoCount": 1
+    },
+    "hullabulla": {
+      "postId": "2091000000000000083",
+      "slug": "hullabulla-custom-nanite-vegetation-ue57",
+      "date": "2026-06-15",
+      "file": "2026-06-15_Unreal Engine 5.7 — 自作アセットでNan.md",
+      "videoCount": 1
+    },
+    "inspirationtuts": {
+      "postId": "2091000000000000084",
+      "slug": "inspirationtuts-decal-texturing-technique",
+      "date": "2026-06-20",
+      "file": "2026-06-20_デカールでテクスチャリングを速くする.md",
+      "videoCount": 1
+    },
+    "simviz official": {
+      "postId": "2091000000000000085",
+      "slug": "simviz-blender-procedural-ocean",
+      "date": "2026-06-25",
+      "file": "2026-06-25_Blender — Oceanモディファイアを使わずにシネマ.md",
+      "videoCount": 1
+    },
+    "karim yasser": {
+      "postId": "2091000000000000086",
+      "slug": "karim-yasser-physically-based-lighting-ue5",
+      "date": "2026-06-30",
+      "file": "2026-06-30_Unreal Engine 5 — 物理ベースライティング（.md",
+      "videoCount": 1
+    },
+    "comfy compositing": {
+      "postId": "2091000000000000087",
+      "slug": "comfy-compositing-ttm-wan22",
+      "date": "2026-07-05",
+      "file": "2026-07-05_ComfyUI — Time-To-Move（TTM）でAI.md",
+      "videoCount": 1
+    },
+    "cgy": {
+      "postId": "2091000000000000089",
+      "slug": "cgy-why-led-walls-failed",
+      "date": "2026-07-15",
+      "file": "2026-07-15_LEDウォールはなぜグリーンバックを置き換えられなかったのか.md",
+      "videoCount": 1
+    },
+    "kim sergei_3d": {
+      "postId": "2091000000000000090",
+      "slug": "kim-sergei-rocket-carrier-timelapse",
+      "date": "2026-07-20",
+      "file": "2026-07-20_Blender — レトロフューチャーな「Rocket Ca.md",
       "videoCount": 1
     }
   }

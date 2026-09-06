@@ -155,11 +155,20 @@ function writeAppend(unit, fields) {
     .filter((v) => !known.has(v.url))
     .map((v) => ({ url: v.url, label: videoLabel(v, fields.videoLabels), image: v.image }));
 
-  // A post that was a single before now needs a real label and thumbnail on
-  // its original entry, otherwise the list renders one bare "URL" row.
-  const merged = [...existing, ...added].map((e) =>
-    e.label ? e : { ...e, label: fields.videoLabels?.[urlVideoId(e.url)] || e.label || "URL" }
-  );
+  // A post that was a single before carries its source as a bare string, so its
+  // original entry has neither label nor thumbnail — left alone it renders as
+  // one unlabelled "URL" row among properly presented ones. Its thumbnail is
+  // already on disk under the post id, so fill both in.
+  const merged = [...existing, ...added].map((e) => {
+    const vid = urlVideoId(e.url);
+    const filled = { ...e };
+    if (!filled.label) filled.label = fields.videoLabels?.[vid] || "URL";
+    if (!filled.image && vid) {
+      const rel = `images/posts/${unit.postId}-${vid}.jpg`;
+      if (fs.existsSync(path.join(ROOT, "content", rel))) filled.image = rel;
+    }
+    return filled;
+  });
 
   raw = replaceLine(raw, "source_url", JSON.stringify(merged));
   raw = replaceLine(raw, "title", yamlString(fields.title));
@@ -170,8 +179,17 @@ function writeAppend(unit, fields) {
     raw = raw.replace(/!\[\]\(images\/posts\/[^)]+\)/, `![](${unit.collage})`);
   }
 
-  if (!DRY_RUN) fs.writeFileSync(fpath, raw, "utf8");
-  return { status: "appended", file, added: added.length };
+  // Filenames are derived from the title, and an append rewrites the title
+  // (the video count changes), so the old name would go stale. The slug — and
+  // therefore the URL — is untouched by the rename.
+  const renamed = fileNameFor({ createdAt: `${fm.date}T00:00:00` }, fields);
+  if (!DRY_RUN) {
+    fs.writeFileSync(fpath, raw, "utf8");
+    if (renamed !== file && !fs.existsSync(path.join(POSTS_DIR, renamed))) {
+      fs.renameSync(fpath, path.join(POSTS_DIR, renamed));
+    }
+  }
+  return { status: "appended", file: renamed, added: added.length };
 }
 
 function urlVideoId(url) {
@@ -225,6 +243,16 @@ function main() {
   }
 
   // --- manifest -----------------------------------------------------------
+  // Videos an existing (non-migration) post already covers are recorded too,
+  // so later runs classify them as seen instead of re-reporting them forever.
+  for (const v of plan.alreadyPosted || []) {
+    manifest.videos[v.videoId] = {
+      batch: plan.batch,
+      excluded: true,
+      reason: `既存ポスト ${v.coveredBy} が同じ動画を紹介済み`,
+    };
+  }
+
   for (const { unit, fields, file } of written) {
     for (const v of unit.videos) {
       manifest.videos[v.videoId] = { batch: plan.batch, postId: unit.postId, date: unit.date };

@@ -5,7 +5,7 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 06 Sep 2026 07:54:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 09:26:35 GMT</lastBuildDate>
     <item>
       <title>特定アセット入手サイトまとめ</title>
       <link>https://9ra369.github.io/website/posts/specific-asset-sites.html</link>
@@ -119,6 +119,14 @@
       <description>Malte Resenberger-Loosmann氏のページにある他の記事。「Mastering Materials: Noise」「Breakdown Rust Material」「The 10 Layers Strategy」「Desert Eagle」など、マテリアル制作の知見がまとめられている。</description>
     </item>
     <item>
+      <title>The Adam — Blenderによる背景・アニメーション制作チュートリアル2本</title>
+      <link>https://9ra369.github.io/website/posts/the-adam-western-train-blender.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/the-adam-western-train-blender.html</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Blender 4.4とHoudiniで西部劇風の列車アニメーションを作る30分の回と、Blender 4.3で街路の環境を作る47分の回。</description>
+    </item>
+    <item>
       <title>【無料】Naughty Dog — Senior Environment Artistのウェブサイト、UEチュートリアル収録</title>
       <link>https://9ra369.github.io/website/posts/naughty-dog-senior-environment-artist-ue.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/naughty-dog-senior-environment-artist-ue.html</guid>
@@ -133,14 +141,6 @@
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <category>pipeline</category>
       <description>Blenderの便利なツール2種。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。</description>
-    </item>
-    <item>
-      <title>Blender 4.4 — 西部劇風の列車アニメーション制作を30分で解説</title>
-      <link>https://9ra369.github.io/website/posts/the-adam-western-train-blender.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/the-adam-western-train-blender.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <category>tutorial</category>
-      <description>Blender 4.4とHoudiniを使って、西部劇風の列車が走るシーンをリアルに作り上げる30分のチュートリアル。</description>
     </item>
     <item>
       <title>Lei W.氏 — COPs活用のSci-fi Panel制作</title>
@@ -207,12 +207,20 @@
       <description>Samuel Krug氏による、細部までディテールが詰め込まれた高品質な作品。ArtStationやInstagramでの最新作フォローを勧めている。</description>
     </item>
     <item>
-      <title>背景アーティスト4人が視聴者の質問に答えるライブ配信</title>
+      <title>Maarten Nauta — 背景アーティストのライブ配信とBlender/DaVinciの色合わせ2本</title>
       <link>https://9ra369.github.io/website/posts/maarten-nauta-pro-environment-artists-qa.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/maarten-nauta-pro-environment-artists-qa.html</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <category>article</category>
-      <description>現役の背景アーティストたちがDiscordで集まった質問に答えるライブ配信。大規模シーンの最適化からポートフォリオ、業界の話まで扱う。</description>
+      <description>背景アーティスト4人が視聴者の質問に答えるライブ配信と、BlenderのEXRレンダーをDaVinci Resolveで同じ色に揃えるワークフロー解説の2本。</description>
+    </item>
+    <item>
+      <title>Blender — レトロフューチャーな「Rocket Carrier」の制作タイムラプス</title>
+      <link>https://9ra369.github.io/website/posts/kim-sergei-rocket-carrier-timelapse.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/kim-sergei-rocket-carrier-timelapse.html</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <category>showreel</category>
+      <description>古典的な工業デザインと未来的な軍事色を組み合わせたレトロフューチャーな輸送機を、Blenderでゼロから作る4時間半のタイムラプス。</description>
     </item>
     <item>
       <title>Solso4D — NukeとDaVinciを軸にした作品ブレイクダウン2本</title>
@@ -223,12 +231,36 @@
       <description>Blade Runner風のシーン「Prison 2049」と宇宙を舞台にしたCGアニメーションについて、コンポジットとグレーディングの工程を追う2本のブレイクダウン。</description>
     </item>
     <item>
-      <title>Asset USD Builder 1.1 — FAB/MegascansアセットをUSD化するHoudiniツール</title>
+      <title>LEDウォールはなぜグリーンバックを置き換えられなかったのか</title>
+      <link>https://9ra369.github.io/website/posts/cgy-why-led-walls-failed.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/cgy-why-led-walls-failed.html</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>バーチャルプロダクションとは実際何なのか、そしてなぜLEDウォールがグリーンバックを置き換えるに至らなかったのかを、Framesyncと共に検証する。</description>
+    </item>
+    <item>
+      <title>ComfyUI — Time-To-Move（TTM）でAI動画の動きを指示する</title>
+      <link>https://9ra369.github.io/website/posts/comfy-compositing-ttm-wan22.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/comfy-compositing-ttm-wan22.html</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>プロンプトだけでは制御できないAI動画生成に対し、Time-To-Move（TTM）で動きを指定する手法をWan 2.2と組み合わせて解説する。</description>
+    </item>
+    <item>
+      <title>Carlo Jongen — FAB/MegascansアセットをUSD化するHoudiniツール解説2本</title>
       <link>https://9ra369.github.io/website/posts/carlo-jongen-asset-usd-builder.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/carlo-jongen-asset-usd-builder.html</guid>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <category>pipeline</category>
-      <description>FABやMegascansのアセットをUSDへ一括変換し、Solarisでのインスタンシングまで自動化するHoudiniツールのアップデート紹介。</description>
+      <description>FABやMegascansのアセットをUSDへ一括変換しSolarisでのインスタンシングまで自動化するAsset USD Builderの紹介と、その前身にあたるFAB to USD Builderの短いデモ。</description>
+    </item>
+    <item>
+      <title>Unreal Engine 5 — 物理ベースライティング（PBL）を段階的に理解する</title>
+      <link>https://9ra369.github.io/website/posts/karim-yasser-physically-based-lighting-ue5.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/karim-yasser-physically-based-lighting-ue5.html</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>輝度と照度の違いから、PBL用のスカイマテリアルとスカイライト、屋内外の露出カーブまで、UE5の物理ベースライティングを順を追って解説する。</description>
     </item>
     <item>
       <title>NVIDIA — OpenUSD Interactive Glossary</title>
@@ -245,6 +277,14 @@
       <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
       <category>tutorial</category>
       <description>Blenderでシネマティックな大気感を作るチュートリアル。ライト、影、空の作り込みと、ポストプロダクションでの仕上げを扱う。</description>
+    </item>
+    <item>
+      <title>Blender — Oceanモディファイアを使わずにシネマティックな海面を作る</title>
+      <link>https://9ra369.github.io/website/posts/simviz-blender-procedural-ocean.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/simviz-blender-procedural-ocean.html</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>重いシミュレーションに頼らず、プロシージャルなシェーダーノードだけで海面を構築する手法。シネマティックなショットや環境向けの内容。</description>
     </item>
     <item>
       <title>Maya — USD Variantエクスポートツール</title>
@@ -271,6 +311,14 @@
       <description>塚島氏によるPLATEAU（3D都市モデル）とHoudiniを組み合わせた映像作品のチュートリアル。ミニチュアルックの再現方法などが紹介されており面白い内容。</description>
     </item>
     <item>
+      <title>デカールでテクスチャリングを速くする</title>
+      <link>https://9ra369.github.io/website/posts/inspirationtuts-decal-texturing-technique.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/inspirationtuts-decal-texturing-technique.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>弾痕からグラフィティまで、デカールがゲーム環境や3Dモデルをどう変えるかを、歴史と現代的な手法の両面から扱った解説。</description>
+    </item>
+    <item>
       <title>Vincent Gagnon氏 — Gaea×Substance Designerでタイル化可能なテクスチャ制作の試み</title>
       <link>https://9ra369.github.io/website/posts/gaea-substance-designer-vincent-gagnon.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/gaea-substance-designer-vincent-gagnon.html</guid>
@@ -295,12 +343,20 @@
       <description>Pythonを使ってUnreal Engineのワークフローを自動化する方法を学べるUdemyコース。</description>
     </item>
     <item>
-      <title>LightFusion — Nukeで光を組み直せる無料Gizmo</title>
+      <title>VFX SHOWDOWN — Nukeの無料GizmoとGradeノードの基礎2本</title>
       <link>https://9ra369.github.io/website/posts/vfx-showdown-lightfusion-nuke.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/vfx-showdown-lightfusion-nuke.html</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
       <category>pipeline</category>
-      <description>CGコンポジットでライトを再構築するためのNuke用Gizmo「LightFusion」の紹介。無料で配布されている。</description>
+      <description>CGコンポジットで光を組み直す無料Gizmo「LightFusion」の紹介と、Gradeノードの正しい使い方を扱う11分の解説。</description>
+    </item>
+    <item>
+      <title>Unreal Engine 5.7 — 自作アセットでNanite植生を作る</title>
+      <link>https://9ra369.github.io/website/posts/hullabulla-custom-nanite-vegetation-ue57.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/hullabulla-custom-nanite-vegetation-ue57.html</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Unreal Engine 5.7で、既製アセットではなく自作の植生をNanite対応させる手順を扱う30分強のチュートリアル。</description>
     </item>
     <item>
       <title>『デス・ストランディング2』 — ボクセルマップUIの仕組み解説</title>
@@ -327,6 +383,14 @@
       <description>William Fiorentini氏による最新チュートリアル「Glacier Breakdown and Project file」がCG Loungeで公開されたこと。</description>
     </item>
     <item>
+      <title>Rampage Rally 参加作品「Padora Protector」のブレイクダウン</title>
+      <link>https://9ra369.github.io/website/posts/sochetra-cg-arts-rampage-rally-breakdown.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/sochetra-cg-arts-rampage-rally-breakdown.html</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <category>showreel</category>
+      <description>Clint Jones（Pwnisher）主催の3Dコミュニティチャレンジ「Rampage Rally」への応募作のブレイクダウン映像。</description>
+    </item>
+    <item>
       <title>Double Jump Academyより — ILM/DNEG出身Steven Corman氏の新チュートリアル『Advanced Matte Painting』</title>
       <link>https://9ra369.github.io/website/posts/ilm-dneg-steven-corman-double-jump.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/ilm-dneg-steven-corman-double-jump.html</guid>
@@ -341,70 +405,6 @@
       <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
       <category>pipeline</category>
       <description>HoudiniとPythonを組み合わせた画像処理の活用事例。WebのURLから画像を読み込み、Pillowを使って画素をポイントとして並べる手法などが紹介されている。プラグイン開発以外の応用例として挙げている。</description>
-    </item>
-    <item>
-      <title>Bringing Concept Art to Life EP01「RAFT」 — コンセプトアートを立体で再現する</title>
-      <link>https://9ra369.github.io/website/posts/steffen-hampel-concept-art-to-life-ep01.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/steffen-hampel-concept-art-to-life-ep01.html</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
-      <category>tutorial</category>
-      <description>コンセプトアートを3Dで立ち上げていくシリーズの第1話。「RAFT」を題材に制作過程を追う内容。</description>
-    </item>
-    <item>
-      <title>Alex Villabon — Nukeの作業効率を上げる解説動画2本</title>
-      <link>https://9ra369.github.io/website/posts/alex-villabon-nuke-workflow.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/alex-villabon-nuke-workflow.html</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-      <category>tutorial</category>
-      <description>Nukeのアセットライブラリ「smartElements」の紹介と、スクリプトの最適化テクニック集。どちらもNukeの作業効率に関する内容。</description>
-    </item>
-    <item>
-      <title>DanTools — 高解像度地形生成ツール</title>
-      <link>https://9ra369.github.io/website/posts/10m-px-30m-px.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/10m-px-30m-px.html</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <category>pipeline</category>
-      <description>実地形生成HDAの正式リリース。アメリカ国内では1m/pixelまたは10m/pixel、世界中では30m/pixelの解像度で地形を生成できる。SplatmapsはMeta SAM AIかカスタムのPython HDAで生成できる。</description>
-    </item>
-    <item>
-      <title>Claude-to-Unreal Connector — MCPベースのUnreal連携ツール、Beta版</title>
-      <link>https://9ra369.github.io/website/posts/claude-to-unreal-connector-mcp-beta.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/claude-to-unreal-connector-mcp-beta.html</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <category>tips</category>
-      <description>ClaudeのBlender Connectorと同様にMCPをベースに実装された「Claude-to-Unreal Connector」。Beta版としてダウンロード可能。</description>
-    </item>
-    <item>
-      <title>Principled Houdini — Houdiniの基本原則を扱うYouTubeプレイリスト</title>
-      <link>https://9ra369.github.io/website/posts/youtube-principled-houdini.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/youtube-principled-houdini.html</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <category>tips</category>
-      <description>Houdiniの基本原則を扱うYouTubeプレイリスト「Principled Houdini」。</description>
-    </item>
-    <item>
-      <title>V-Ray for Houdini — カメラ設定とレンズエフェクトの基礎</title>
-      <link>https://9ra369.github.io/website/posts/chaos-vray-houdini-camera-lens.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/chaos-vray-houdini-camera-lens.html</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <category>tutorial</category>
-      <description>V-Ray for Houdiniの入門シリーズから、カメラの追加と設定、Houdiniの標準カメラのV-Ray Physical Cameraへの変換、レンズエフェクトを扱う回。</description>
-    </item>
-    <item>
-      <title>note — 『Houdiniファイルを読み解く vol.1』</title>
-      <link>https://9ra369.github.io/website/posts/note-houdini-vol-1.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/note-houdini-vol-1.html</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <category>article</category>
-      <description>鈴木氏の許可を得て、公開されているHoudiniファイルから参考になった点をまとめたnote記事「Houdiniファイルを読み解く vol.1」。</description>
-    </item>
-    <item>
-      <title>【無料】空パノラマ写真140枚 — 非商用利用</title>
-      <link>https://9ra369.github.io/website/posts/post-56544483.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/post-56544483.html</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <category>tips</category>
-      <description>非商用利用であれば無料で入手できる、140枚の空のパノラマ写真素材「Free panoramic clouds」。</description>
     </item>
   </channel>
 </rss>
