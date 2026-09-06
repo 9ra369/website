@@ -4,7 +4,7 @@ slug: "aoc-day12-felix-riano-grazing"
 date: 2026-04-19
 category: "art-of-composition"
 type: "note"
-tags: ["Composition", "Environment", "Concept Art", "ArtStation", "Art of Composition"]
+tags: ["Composition", "Environment", "Concept Art", "Art of Composition"]
 topics: ["art-fundamentals", "environment"]
 tools: []
 mentions: ["Suggybro"]

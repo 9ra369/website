@@ -4,7 +4,7 @@ slug: "aoc-day8-jonathan-berube-starcraft-matte-painting"
 date: 2026-04-15
 category: "art-of-composition"
 type: "note"
-tags: ["Composition", "Matte Painting", "Environment", "ArtStation", "Art of Composition"]
+tags: ["Composition", "Matte Painting", "Environment", "Art of Composition"]
 topics: ["art-fundamentals", "environment"]
 tools: []
 mentions: ["Suggybro", "takupomu"]

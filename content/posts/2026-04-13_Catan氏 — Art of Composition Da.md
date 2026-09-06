@@ -4,7 +4,7 @@ slug: "aoc-day6-catan-daily-painting"
 date: 2026-04-13
 category: "art-of-composition"
 type: "note"
-tags: ["Composition", "Concept Art", "ArtStation", "Art of Composition"]
+tags: ["Composition", "Concept Art", "Art of Composition"]
 topics: ["art-fundamentals"]
 tools: []
 mentions: ["Suggybro"]

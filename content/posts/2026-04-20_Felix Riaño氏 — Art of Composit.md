@@ -4,7 +4,7 @@ slug: "aoc-day13-felix-riano-new-delhi"
 date: 2026-04-20
 category: "art-of-composition"
 type: "note"
-tags: ["Composition", "Environment", "Concept Art", "ArtStation", "Art of Composition"]
+tags: ["Composition", "Environment", "Concept Art", "Art of Composition"]
 topics: ["art-fundamentals", "environment"]
 tools: []
 mentions: ["Suggybro"]

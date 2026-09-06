@@ -4,7 +4,7 @@ slug: "aoc-day14-lok-du-dragon-li-descending-the-mountain"
 date: 2026-04-21
 category: "art-of-composition"
 type: "note"
-tags: ["Composition", "Concept Art", "Environment", "ArtStation", "Art of Composition"]
+tags: ["Composition", "Concept Art", "Environment", "Art of Composition"]
 topics: ["art-fundamentals", "environment"]
 tools: []
 mentions: ["Suggybro"]

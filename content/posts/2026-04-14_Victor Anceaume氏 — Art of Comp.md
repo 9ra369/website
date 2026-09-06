@@ -4,7 +4,7 @@ slug: "aoc-day7-victor-anceaume-duel-of-fates"
 date: 2026-04-14
 category: "art-of-composition"
 type: "note"
-tags: ["Composition", "Concept Art", "Environment", "ArtStation", "Art of Composition"]
+tags: ["Composition", "Concept Art", "Environment", "Art of Composition"]
 topics: ["art-fundamentals", "environment"]
 tools: []
 mentions: ["Suggybro"]
