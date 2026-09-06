@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 // Step 33: turns the plan from scripts/31 plus the authored fields in
 // _work/yt-ai-fields.json into content/posts/*.md, then records what was
-// written in _work/yt-processed.json so the next batch can diff against it.
+// written in data/yt-processed.json so the next batch can diff against it.
+// That manifest is tracked in data/ (not gitignored _work/) because losing it
+// would cost every post its id, slug and date — see the header of scripts/31.
 //
 // Two post shapes (§4.1 of the migration spec):
 //   single  — one video: thumbnail as the body image, plain-string source_url,
@@ -27,7 +29,7 @@ const ROOT = path.resolve(__dirname, "..");
 const WORK_DIR = path.join(ROOT, "_work");
 const UNITS_FILE = path.join(WORK_DIR, "yt-units.json");
 const FIELDS_FILE = path.join(WORK_DIR, "yt-ai-fields.json");
-const MANIFEST = path.join(WORK_DIR, "yt-processed.json");
+const MANIFEST = path.join(ROOT, "data", "yt-processed.json");
 const POSTS_DIR = path.join(ROOT, "content", "posts");
 
 const X_HANDLE = "kuramaKageya"; // matches the synthetic ids already in use

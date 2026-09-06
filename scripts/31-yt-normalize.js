@@ -7,7 +7,11 @@
 // already use a synthetic 2090…0NN block; YouTube-sourced posts get 2091….
 //
 // Re-running must not renumber or re-date posts that already exist, so this
-// script diffs against _work/yt-processed.json and classifies each video as:
+// script diffs against data/yt-processed.json — that manifest lives in data/
+// rather than _work/ because _work/ is gitignored intermediate output, and
+// losing this file would cost every post its id, slug and date. It belongs
+// with the other durable pipeline state (legacy-redirects, retired-slugs).
+// Each video is classified as:
 //   skip   — already written in an earlier batch
 //   append — new video from a channel that already has a post (merge into it)
 //   create — new channel (or a first-batch group)
@@ -24,7 +28,7 @@ const ROOT = path.resolve(__dirname, "..");
 const RAW_DIR = path.join(ROOT, "_raw", "youtube_playlist");
 const POSTS_DIR = path.join(ROOT, "content", "posts");
 const WORK_DIR = path.join(ROOT, "_work");
-const MANIFEST = path.join(WORK_DIR, "yt-processed.json");
+const MANIFEST = path.join(ROOT, "data", "yt-processed.json");
 const OUT_FILE = path.join(WORK_DIR, "yt-units.json");
 
 const ID_PREFIX = "2091";

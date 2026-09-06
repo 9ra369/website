@@ -1,0 +1,460 @@
+{
+  "batches": [
+    {
+      "batch": 1,
+      "runDate": "2026-09-06",
+      "idPrefix": "2091",
+      "seq": [
+        1,
+        32
+      ],
+      "dateRange": [
+        "2025-10-08",
+        "2026-08-14"
+      ],
+      "counts": {
+        "videosInRaw": 41,
+        "skip": 0,
+        "create": 32,
+        "append": 0,
+        "createdVideos": 41,
+        "appendedVideos": 0
+      }
+    }
+  ],
+  "videos": {
+    "4R2wC6_SBxk": {
+      "batch": 1,
+      "postId": "2091000000000000001",
+      "date": "2025-10-08"
+    },
+    "JjnyapZ_P-g": {
+      "batch": 1,
+      "postId": "2091000000000000002",
+      "date": "2025-10-18"
+    },
+    "K_ZM8-ikTY8": {
+      "batch": 1,
+      "postId": "2091000000000000003",
+      "date": "2025-10-28"
+    },
+    "8YDWj0-QFVQ": {
+      "batch": 1,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "YE4efg_k-rM": {
+      "batch": 1,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "aKRkIIyhrbE": {
+      "batch": 1,
+      "postId": "2091000000000000004",
+      "date": "2025-11-07"
+    },
+    "43qKjjN4C28": {
+      "batch": 1,
+      "postId": "2091000000000000005",
+      "date": "2025-11-17"
+    },
+    "U1HNgvv9zBM": {
+      "batch": 1,
+      "postId": "2091000000000000006",
+      "date": "2025-11-27"
+    },
+    "OIVqRXnh8jI": {
+      "batch": 1,
+      "postId": "2091000000000000007",
+      "date": "2025-12-07"
+    },
+    "pp71IqYgypI": {
+      "batch": 1,
+      "postId": "2091000000000000007",
+      "date": "2025-12-07"
+    },
+    "5D4O7NmV4HI": {
+      "batch": 1,
+      "postId": "2091000000000000007",
+      "date": "2025-12-07"
+    },
+    "UeRiA7SIFm8": {
+      "batch": 1,
+      "postId": "2091000000000000008",
+      "date": "2025-12-17"
+    },
+    "VCifUEBcQIU": {
+      "batch": 1,
+      "postId": "2091000000000000009",
+      "date": "2025-12-27"
+    },
+    "llwFTH4sh_0": {
+      "batch": 1,
+      "postId": "2091000000000000010",
+      "date": "2026-01-06"
+    },
+    "5IeK4b7cELI": {
+      "batch": 1,
+      "postId": "2091000000000000011",
+      "date": "2026-01-16"
+    },
+    "VommTMzpbMg": {
+      "batch": 1,
+      "postId": "2091000000000000012",
+      "date": "2026-01-26"
+    },
+    "J8wkghNmsWc": {
+      "batch": 1,
+      "postId": "2091000000000000013",
+      "date": "2026-02-05"
+    },
+    "7-onJyWjK-8": {
+      "batch": 1,
+      "postId": "2091000000000000014",
+      "date": "2026-02-15"
+    },
+    "AQsz83SauJA": {
+      "batch": 1,
+      "postId": "2091000000000000015",
+      "date": "2026-02-25"
+    },
+    "-pC863AOWPs": {
+      "batch": 1,
+      "postId": "2091000000000000016",
+      "date": "2026-03-07"
+    },
+    "hDiYqODGoHg": {
+      "batch": 1,
+      "postId": "2091000000000000017",
+      "date": "2026-03-17"
+    },
+    "WrFqBNI6Tx4": {
+      "batch": 1,
+      "postId": "2091000000000000017",
+      "date": "2026-03-17"
+    },
+    "Lksg6Fum3gw": {
+      "batch": 1,
+      "postId": "2091000000000000017",
+      "date": "2026-03-17"
+    },
+    "QEvlyVTk4Jw": {
+      "batch": 1,
+      "postId": "2091000000000000018",
+      "date": "2026-03-27"
+    },
+    "iQvNwtfWd8U": {
+      "batch": 1,
+      "postId": "2091000000000000019",
+      "date": "2026-04-06",
+      "excluded": true,
+      "reason": "0:17の作品映像。長尺のブレイクダウン1本に絞るため除外（2026-09-06）"
+    },
+    "AZDt8w6Voio": {
+      "batch": 1,
+      "postId": "2091000000000000019",
+      "date": "2026-04-06"
+    },
+    "zK1XZLGvBxY": {
+      "batch": 1,
+      "postId": "2091000000000000020",
+      "date": "2026-04-16"
+    },
+    "u_uPCxizMTA": {
+      "batch": 1,
+      "postId": "2091000000000000021",
+      "date": "2026-04-26"
+    },
+    "azxzrXdkCt8": {
+      "batch": 1,
+      "postId": "2091000000000000022",
+      "date": "2026-05-06"
+    },
+    "RE4UYfRozI4": {
+      "batch": 1,
+      "postId": "2091000000000000023",
+      "date": "2026-05-16"
+    },
+    "6XYNAzSHlh4": {
+      "batch": 1,
+      "postId": "2091000000000000024",
+      "date": "2026-05-26"
+    },
+    "juAuHTgZruw": {
+      "batch": 1,
+      "postId": "2091000000000000024",
+      "date": "2026-05-26"
+    },
+    "eCYwCCwlo-0": {
+      "batch": 1,
+      "postId": "2091000000000000025",
+      "date": "2026-06-05"
+    },
+    "pAHcbbKqB7M": {
+      "batch": 1,
+      "postId": "2091000000000000026",
+      "date": "2026-06-15"
+    },
+    "bnlwqJXwQME": {
+      "batch": 1,
+      "postId": "2091000000000000027",
+      "date": "2026-06-25"
+    },
+    "KWSud0ZphtY": {
+      "batch": 1,
+      "postId": "2091000000000000028",
+      "date": "2026-07-05"
+    },
+    "cwdr839pqek": {
+      "batch": 1,
+      "postId": "2091000000000000029",
+      "date": "2026-07-15"
+    },
+    "K8l5sLKQdAE": {
+      "batch": 1,
+      "postId": "2091000000000000029",
+      "date": "2026-07-15"
+    },
+    "-Y9m0nl2b5Y": {
+      "batch": 1,
+      "postId": "2091000000000000030",
+      "date": "2026-07-25"
+    },
+    "qiBCIR0xE3Y": {
+      "batch": 1,
+      "postId": "2091000000000000031",
+      "date": "2026-08-04"
+    },
+    "AYrt8cvCMSY": {
+      "batch": 1,
+      "postId": "2091000000000000032",
+      "date": "2026-08-14"
+    }
+  },
+  "channels": {
+    "hristo velev": {
+      "postId": "2091000000000000001",
+      "slug": "hristo-velev-houdini-mountain-road",
+      "date": "2025-10-08",
+      "file": "2025-10-08_Houdini — 斜度コストで山道を通し、地形側を変形させ.md",
+      "videoCount": 1
+    },
+    "ianhubert": {
+      "postId": "2091000000000000002",
+      "slug": "ianhubert-lazy-tutorials-cities",
+      "date": "2025-10-18",
+      "file": "2025-10-18_Lazy Tutorials — Ian Hubert氏が1.md",
+      "videoCount": 1
+    },
+    "lance culver": {
+      "postId": "2091000000000000003",
+      "slug": "lance-culver-tyflow-school-of-fish",
+      "date": "2025-10-28",
+      "file": "2025-10-28_3ds Max × tyFlow — 魚群シミュレーションの.md",
+      "videoCount": 1
+    },
+    "houdini": {
+      "postId": "2091000000000000004",
+      "slug": "sidefx-houdini-world-building",
+      "date": "2025-11-07",
+      "file": "2025-11-07_SideFX公式 — Houdiniによる地形・都市・ワール.md",
+      "videoCount": 3
+    },
+    "rebelway": {
+      "postId": "2091000000000000005",
+      "slug": "rebelway-ocean-rendering-redshift",
+      "date": "2025-11-17",
+      "file": "2025-11-17_Rebelway — Redshiftでの海のレンダリングを.md",
+      "videoCount": 1
+    },
+    "cg forge": {
+      "postId": "2091000000000000006",
+      "slug": "cg-forge-aces-ocio-houdini-quickstart",
+      "date": "2025-11-27",
+      "file": "2025-11-27_CG Forge — 4分で終わるHoudiniのACESO.md",
+      "videoCount": 1
+    },
+    "andreas mischok": {
+      "postId": "2091000000000000007",
+      "slug": "andreas-mischok-colour-management",
+      "date": "2025-12-07",
+      "file": "2025-12-07_Andreas Mischok — カラーマネジメント解説シ.md",
+      "videoCount": 3
+    },
+    "rohan dalvi": {
+      "postId": "2091000000000000008",
+      "slug": "rohan-dalvi-houdini-vray-volume-shader",
+      "date": "2025-12-17",
+      "file": "2025-12-17_Rohan Dalvi — HoudiniのV-Rayボリュ.md",
+      "videoCount": 1
+    },
+    "julian jones": {
+      "postId": "2091000000000000009",
+      "slug": "julian-jones-blendergis-api-key",
+      "date": "2025-12-27",
+      "file": "2025-12-27_BlenderGIS — OpenTopographyのAP.md",
+      "videoCount": 1
+    },
+    "guy's dojo": {
+      "postId": "2091000000000000010",
+      "slug": "guys-dojo-aces-ocio-workflow",
+      "date": "2026-01-06",
+      "file": "2026-01-06_Guy's Dojo — Maya・After Effect.md",
+      "videoCount": 1
+    },
+    "inside the mind": {
+      "postId": "2091000000000000011",
+      "slug": "inside-the-mind-houdini-attributes-parameters",
+      "date": "2026-01-16",
+      "file": "2026-01-16_Houdini — アトリビュートで他ノードのパラメータを動.md",
+      "videoCount": 1
+    },
+    "split the diff": {
+      "postId": "2091000000000000012",
+      "slug": "split-the-diff-nuke-underwater-look",
+      "date": "2026-01-26",
+      "file": "2026-01-26_Nuke — カーブとHueで作る水中ルックのデプス処理.md",
+      "videoCount": 1
+    },
+    "gis solutions, llc": {
+      "postId": "2091000000000000013",
+      "slug": "gis-solutions-blender-qgis-elevation",
+      "date": "2026-02-05",
+      "file": "2026-02-05_Blender × QGIS — DEMデータから3Dの標高.md",
+      "videoCount": 1
+    },
+    "fabien escudero": {
+      "postId": "2091000000000000014",
+      "slug": "fabien-escudero-vdb-advected-growth",
+      "date": "2026-02-15",
+      "file": "2026-02-15_3ds Max × tyFlow — VDBを使ったAdve.md",
+      "videoCount": 1
+    },
+    "simon's utak": {
+      "postId": "2091000000000000015",
+      "slug": "simons-utak-lens-flares",
+      "date": "2026-02-25",
+      "file": "2026-02-25_レンズフレア徹底解説 — なぜレンズは光り、どのレンズが美し.md",
+      "videoCount": 1
+    },
+    "irinel papuc": {
+      "postId": "2091000000000000016",
+      "slug": "irinel-papuc-houdini-edge-damage",
+      "date": "2026-03-07",
+      "file": "2026-03-07_Houdini — 1分半で終わるエッジダメージの高速セット.md",
+      "videoCount": 1
+    },
+    "adobe substance 3d": {
+      "postId": "2091000000000000017",
+      "slug": "substance-3d-painter-aces-series",
+      "date": "2026-03-17",
+      "file": "2026-03-17_Adobe公式 — Substance 3D Painter.md",
+      "videoCount": 3
+    },
+    "cgside": {
+      "postId": "2091000000000000018",
+      "slug": "cgside-houdini-randomized-brick-wall",
+      "date": "2026-03-27",
+      "file": "2026-03-27_Houdini — Voronoi FractureとFor.md",
+      "videoCount": 1
+    },
+    "maxime gerardin": {
+      "postId": "2091000000000000019",
+      "slug": "maxime-gerardin-blender-cinematic-environment",
+      "date": "2026-04-06",
+      "file": "2026-04-06_Maxime Gerardin — Blenderのシネマテ.md",
+      "videoCount": 1
+    },
+    "hang yuri yang": {
+      "postId": "2091000000000000020",
+      "slug": "hang-yuri-yang-karma-xpu-night-city",
+      "date": "2026-04-16",
+      "file": "2026-04-16_Houdini 20 Karma XPU — ナイトシティの.md",
+      "videoCount": 1
+    },
+    "masao hieno": {
+      "postId": "2091000000000000021",
+      "slug": "masao-hieno-speedtree-component-builder",
+      "date": "2026-04-26",
+      "file": "2026-04-26_SpeedTreeアセットをSolarisのUSDコンポーネ.md",
+      "videoCount": 1
+    },
+    "80 level": {
+      "postId": "2091000000000000022",
+      "slug": "80lv-houdini-stones-breakdown",
+      "date": "2026-05-06",
+      "file": "2026-05-06_Houdiniによる岩・石のブレイクダウン映像（Julien.md",
+      "videoCount": 1
+    },
+    "chaos v-ray": {
+      "postId": "2091000000000000023",
+      "slug": "chaos-vray-houdini-camera-lens",
+      "date": "2026-05-16",
+      "file": "2026-05-16_V-Ray for Houdini — カメラ設定とレンズエ.md",
+      "videoCount": 1
+    },
+    "alex villabon": {
+      "postId": "2091000000000000024",
+      "slug": "alex-villabon-nuke-workflow",
+      "date": "2026-05-26",
+      "file": "2026-05-26_Alex Villabon — Nukeの作業効率を上げる解.md",
+      "videoCount": 2
+    },
+    "steffen hampel": {
+      "postId": "2091000000000000025",
+      "slug": "steffen-hampel-concept-art-to-life-ep01",
+      "date": "2026-06-05",
+      "file": "2026-06-05_Bringing Concept Art to Life E.md",
+      "videoCount": 1
+    },
+    "vfx showdown": {
+      "postId": "2091000000000000026",
+      "slug": "vfx-showdown-lightfusion-nuke",
+      "date": "2026-06-15",
+      "file": "2026-06-15_LightFusion — Nukeで光を組み直せる無料Gi.md",
+      "videoCount": 1
+    },
+    "c g s l a v": {
+      "postId": "2091000000000000027",
+      "slug": "cgslav-blender-atmospheric-renders",
+      "date": "2026-06-25",
+      "file": "2026-06-25_Blender — 光と影と空で作る大気感のあるレンダリング.md",
+      "videoCount": 1
+    },
+    "carlo jongen": {
+      "postId": "2091000000000000028",
+      "slug": "carlo-jongen-asset-usd-builder",
+      "date": "2026-07-05",
+      "file": "2026-07-05_Asset USD Builder 1.1 — FABMeg.md",
+      "videoCount": 1
+    },
+    "solso4d": {
+      "postId": "2091000000000000029",
+      "slug": "solso4d-breakdowns",
+      "date": "2026-07-15",
+      "file": "2026-07-15_Solso4D — NukeとDaVinciを軸にした作品ブ.md",
+      "videoCount": 2
+    },
+    "maarten nauta": {
+      "postId": "2091000000000000030",
+      "slug": "maarten-nauta-pro-environment-artists-qa",
+      "date": "2026-07-25",
+      "file": "2026-07-25_背景アーティスト4人が視聴者の質問に答えるライブ配信.md",
+      "videoCount": 1
+    },
+    "the adam": {
+      "postId": "2091000000000000031",
+      "slug": "the-adam-western-train-blender",
+      "date": "2026-08-04",
+      "file": "2026-08-04_Blender 4.4 — 西部劇風の列車アニメーション制作.md",
+      "videoCount": 1
+    },
+    "palm pixel": {
+      "postId": "2091000000000000032",
+      "slug": "palm-pixel-flares-ofx-nuke",
+      "date": "2026-08-14",
+      "file": "2026-08-14_Flares OFX — Nukeで使えるレンズフレアプラグ.md",
+      "videoCount": 1
+    }
+  }
+}

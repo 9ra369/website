@@ -293,7 +293,12 @@ date(i) = 最古日 + step * i      i = 0 .. N-1
 `_raw/youtube_playlist/` にJSONを置きっぱなしで毎回全件処理すると、既存ポストのID・slug・`date` を
 再計算してURLとRSSを壊す。これを構造的に防ぐ。
 
-#### マニフェスト `_work/yt-processed.json`
+#### マニフェスト `data/yt-processed.json`
+
+`_work/` ではなく `data/` に置く。`_work/` は `.gitignore` 対象の中間出力置き場であり、
+このファイルを失うと全ポストのID・slug・`date` の対応が失われる（次回実行がバッチ1として
+振る舞い、採番と日付を振り直す）。`legacy-redirects.json` / `retired-slugs.json` と同じ
+「消えると困るパイプライン状態」なので、同じ `data/` で管理しコミットする。
 
 ```jsonc
 {
@@ -408,9 +413,9 @@ YouTubeのサムネイルは動画の著作物。「紹介記事内で、当該�
 
 | # | スクリプト | 役割 |
 |---|---|---|
-| 31 | `31-yt-normalize.js` | `_raw/youtube_playlist/*.json` を読み、動画IDを抽出。`_work/yt-processed.json` と突き合わせて `skip`/`append`/`create` を判定（§4.6）し、`create` を §3 のルールでグループ化。§4.2 のID採番と §4.5〜4.6 の `date` 割り当てまで行い `_work/yt-units.json` を出力 |
+| 31 | `31-yt-normalize.js` | `_raw/youtube_playlist/*.json` を読み、動画IDを抽出。`data/yt-processed.json` と突き合わせて `skip`/`append`/`create` を判定（§4.6）し、`create` を §3 のルールでグループ化。§4.2 のID採番と §4.5〜4.6 の `date` 割り当てまで行い `_work/yt-units.json` を出力 |
 | 32 | `32-yt-fetch-thumbs.js` | 各動画のサムネイルをDL・再エンコードし、まとめポストにはコラージュバナーも生成（`append` 時はバナーを再生成） |
-| 33 | `33-yt-write-posts.js` | AI生成フィールド（title / summary / tags / category / body）を `_work/yt-ai-fields.json` から読み、`content/posts/*.md` を書き出す。完了後 `_work/yt-processed.json` を更新 |
+| 33 | `33-yt-write-posts.js` | AI生成フィールド（title / summary / tags / category / body）を `_work/yt-ai-fields.json` から読み、`content/posts/*.md` を書き出す。完了後 `data/yt-processed.json` を更新 |
 
 `31` は `--dry-run` を必須で持たせる。`append` は既存ポストの書き換えなので、
 何がどう変わるかを実行前に確認できるようにする。
@@ -449,14 +454,14 @@ X移行時と同じレビューフロー（`ai_confidence: low` は `_triage/` �
 | `date`（追加バッチ） | 6件以下は実行日、7件以上は前回実行日からの期間に散らす。未来日は付けない | §4.6 |
 | 本文 | AI生成。`Description` の内容を日本語で要約したものを本文にする | §4.4 / §4.4.1 |
 | 本文の表示 | ページには出さない。Markdown側の記録として持つだけにする | §4.4 |
-| 追加運用 | `_work/yt-processed.json` による差分実行。既存ポストのID・slug・`date` は再計算しない | §4.6 |
+| 追加運用 | `data/yt-processed.json` による差分実行。既存ポストのID・slug・`date` は再計算しない | §4.6 |
 | サムネイル | JSONの `Thumbnail url` を直接DL。まとめポストはコラージュバナー | §5 |
 
 ### 実行結果（バッチ1 / 2026-09-06）
 
 - `content/posts/` に32件を追加（サイト全体で 230 → 262ポスト、`search-index.json` は265件）
 - サムネイル41枚 + コラージュバナー6枚を取得・生成（フォールバック発生なし、失敗0）
-- `_work/yt-processed.json`: videos 41 / channels 32 / batches 1
+- `data/yt-processed.json`: videos 41 / channels 32 / batches 1
 - frontmatter検証: `topics` / `tools` / `category` すべて既存タクソノミー内、欠損フィールド0
 - ブラウザ確認: コンソールエラーなし、まとめポストのバナー・動画別サムネイルとも 200 OK、
   アーカイブのカードにコラージュが正しく表示される
