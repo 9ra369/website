@@ -5,7 +5,7 @@
     <link>https://9ra369.github.io/website</link>
     <description>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 05 Sep 2026 13:54:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 07:54:19 GMT</lastBuildDate>
     <item>
       <title>特定アセット入手サイトまとめ</title>
       <link>https://9ra369.github.io/website/posts/specific-asset-sites.html</link>
@@ -45,6 +45,14 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <category>website</category>
       <description>USDを理解するのにおすすめのブログ記事・技術サイト。BlenderのUSD/Hydra対応状況やアドオン開発など、USD関連の内容が詳しく解説されている。</description>
+    </item>
+    <item>
+      <title>Flares OFX — Nukeで使えるレンズフレアプラグインの使い方</title>
+      <link>https://9ra369.github.io/website/posts/palm-pixel-flares-ofx-nuke.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/palm-pixel-flares-ofx-nuke.html</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>レンズフレア用のOpenFXプラグイン「Flares OFX」をNukeで使う方法の解説。DaVinci Resolve、Fusion、Natronでも動作する。</description>
     </item>
     <item>
       <title>Houdini&amp;Arnoldで描く大規模なフル3D自然景観「Island」制作解説</title>
@@ -127,6 +135,14 @@
       <description>Blenderの便利なツール2種。「Fast 2D Remesh Tool」は地面生成やパス間の隙間埋めを目的とした高速2Dリメッシュツール、「Spline Mesh Tool」はスプラインに沿ってメッシュを変形させるツール。</description>
     </item>
     <item>
+      <title>Blender 4.4 — 西部劇風の列車アニメーション制作を30分で解説</title>
+      <link>https://9ra369.github.io/website/posts/the-adam-western-train-blender.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/the-adam-western-train-blender.html</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Blender 4.4とHoudiniを使って、西部劇風の列車が走るシーンをリアルに作り上げる30分のチュートリアル。</description>
+    </item>
+    <item>
       <title>Lei W.氏 — COPs活用のSci-fi Panel制作</title>
       <link>https://9ra369.github.io/website/posts/cops-sci-fi-panel.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/cops-sci-fi-panel.html</guid>
@@ -191,12 +207,44 @@
       <description>Samuel Krug氏による、細部までディテールが詰め込まれた高品質な作品。ArtStationやInstagramでの最新作フォローを勧めている。</description>
     </item>
     <item>
+      <title>背景アーティスト4人が視聴者の質問に答えるライブ配信</title>
+      <link>https://9ra369.github.io/website/posts/maarten-nauta-pro-environment-artists-qa.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/maarten-nauta-pro-environment-artists-qa.html</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <category>article</category>
+      <description>現役の背景アーティストたちがDiscordで集まった質問に答えるライブ配信。大規模シーンの最適化からポートフォリオ、業界の話まで扱う。</description>
+    </item>
+    <item>
+      <title>Solso4D — NukeとDaVinciを軸にした作品ブレイクダウン2本</title>
+      <link>https://9ra369.github.io/website/posts/solso4d-breakdowns.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/solso4d-breakdowns.html</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Blade Runner風のシーン「Prison 2049」と宇宙を舞台にしたCGアニメーションについて、コンポジットとグレーディングの工程を追う2本のブレイクダウン。</description>
+    </item>
+    <item>
+      <title>Asset USD Builder 1.1 — FAB/MegascansアセットをUSD化するHoudiniツール</title>
+      <link>https://9ra369.github.io/website/posts/carlo-jongen-asset-usd-builder.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/carlo-jongen-asset-usd-builder.html</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <category>pipeline</category>
+      <description>FABやMegascansのアセットをUSDへ一括変換し、Solarisでのインスタンシングまで自動化するHoudiniツールのアップデート紹介。</description>
+    </item>
+    <item>
       <title>NVIDIA — OpenUSD Interactive Glossary</title>
       <link>https://9ra369.github.io/website/posts/nvidia-openusd-interactive-glossary.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/nvidia-openusd-interactive-glossary.html</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <category>tips</category>
       <description>NVIDIAが公開する「OpenUSD Interactive Glossary」。Stage、Layer、Prim、Composition ArcsなどOpenUSDの主要概念を、インタラクティブな図解で視覚的に理解できるツール。</description>
+    </item>
+    <item>
+      <title>Blender — 光と影と空で作る大気感のあるレンダリング</title>
+      <link>https://9ra369.github.io/website/posts/cgslav-blender-atmospheric-renders.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/cgslav-blender-atmospheric-renders.html</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Blenderでシネマティックな大気感を作るチュートリアル。ライト、影、空の作り込みと、ポストプロダクションでの仕上げを扱う。</description>
     </item>
     <item>
       <title>Maya — USD Variantエクスポートツール</title>
@@ -247,6 +295,14 @@
       <description>Pythonを使ってUnreal Engineのワークフローを自動化する方法を学べるUdemyコース。</description>
     </item>
     <item>
+      <title>LightFusion — Nukeで光を組み直せる無料Gizmo</title>
+      <link>https://9ra369.github.io/website/posts/vfx-showdown-lightfusion-nuke.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/vfx-showdown-lightfusion-nuke.html</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <category>pipeline</category>
+      <description>CGコンポジットでライトを再構築するためのNuke用Gizmo「LightFusion」の紹介。無料で配布されている。</description>
+    </item>
+    <item>
       <title>『デス・ストランディング2』 — ボクセルマップUIの仕組み解説</title>
       <link>https://9ra369.github.io/website/posts/ui.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/ui.html</guid>
@@ -287,6 +343,22 @@
       <description>HoudiniとPythonを組み合わせた画像処理の活用事例。WebのURLから画像を読み込み、Pillowを使って画素をポイントとして並べる手法などが紹介されている。プラグイン開発以外の応用例として挙げている。</description>
     </item>
     <item>
+      <title>Bringing Concept Art to Life EP01「RAFT」 — コンセプトアートを立体で再現する</title>
+      <link>https://9ra369.github.io/website/posts/steffen-hampel-concept-art-to-life-ep01.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/steffen-hampel-concept-art-to-life-ep01.html</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>コンセプトアートを3Dで立ち上げていくシリーズの第1話。「RAFT」を題材に制作過程を追う内容。</description>
+    </item>
+    <item>
+      <title>Alex Villabon — Nukeの作業効率を上げる解説動画2本</title>
+      <link>https://9ra369.github.io/website/posts/alex-villabon-nuke-workflow.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/alex-villabon-nuke-workflow.html</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>Nukeのアセットライブラリ「smartElements」の紹介と、スクリプトの最適化テクニック集。どちらもNukeの作業効率に関する内容。</description>
+    </item>
+    <item>
       <title>DanTools — 高解像度地形生成ツール</title>
       <link>https://9ra369.github.io/website/posts/10m-px-30m-px.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/10m-px-30m-px.html</guid>
@@ -311,6 +383,14 @@
       <description>Houdiniの基本原則を扱うYouTubeプレイリスト「Principled Houdini」。</description>
     </item>
     <item>
+      <title>V-Ray for Houdini — カメラ設定とレンズエフェクトの基礎</title>
+      <link>https://9ra369.github.io/website/posts/chaos-vray-houdini-camera-lens.html</link>
+      <guid isPermaLink="true">https://9ra369.github.io/website/posts/chaos-vray-houdini-camera-lens.html</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>tutorial</category>
+      <description>V-Ray for Houdiniの入門シリーズから、カメラの追加と設定、Houdiniの標準カメラのV-Ray Physical Cameraへの変換、レンズエフェクトを扱う回。</description>
+    </item>
+    <item>
       <title>note — 『Houdiniファイルを読み解く vol.1』</title>
       <link>https://9ra369.github.io/website/posts/note-houdini-vol-1.html</link>
       <guid isPermaLink="true">https://9ra369.github.io/website/posts/note-houdini-vol-1.html</guid>
@@ -325,86 +405,6 @@
       <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
       <category>tips</category>
       <description>非商用利用であれば無料で入手できる、140枚の空のパノラマ写真素材「Free panoramic clouds」。</description>
-    </item>
-    <item>
-      <title>80lv — HoudiniとUE5で作る精緻な蓮のシーン</title>
-      <link>https://9ra369.github.io/website/posts/80lv-houdini-ue5.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/80lv-houdini-ue5.html</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <category>article</category>
-      <description>HoudiniとUE5を使って精緻な蓮（Lotus）のシーンを制作した過程を解説する80lvの記事。ArtStationにも制作ブレイクダウンが公開されている。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day31・最終日 — 構造線とバランス</title>
-      <link>https://9ra369.github.io/website/posts/day31.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day31.html</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>毎日作品分析シリーズ最終日（Day31）のテーマとして、構造線とバランスについての分析。多くの人が無意識のうちに認識している要素であるとしている。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day30 — 視線分散型の構図「Scattered」</title>
-      <link>https://9ra369.github.io/website/posts/day30-scattered.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day30-scattered.html</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>特定の焦点に視線を集中させるのではなく、作品全体に目が行くよう設計された構図「Scattered」についての分析（毎日作品分析Day30）。世界観を伝える際に有効な手法だとしている。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day29 — コントラストの効果</title>
-      <link>https://9ra369.github.io/website/posts/day29.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day29.html</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>コントラストを活かした作品を集めた分析（毎日作品分析Day29）。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day28 — 円形構図の効果</title>
-      <link>https://9ra369.github.io/website/posts/day28.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day28.html</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>円形構図を用いた作品を集めた分析（毎日作品分析Day28）。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day27 — 雲の表現</title>
-      <link>https://9ra369.github.io/website/posts/day27.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day27.html</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>雲の表現が印象的な作品を集めた分析（毎日作品分析Day27）。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day26 — シンメトリー構図の効果と限界</title>
-      <link>https://9ra369.github.io/website/posts/day26.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day26.html</guid>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>左右対称（シンメトリー）構図についての分析（毎日作品分析Day26）。安定感はあるがそれだけでは単調になりがちなこと、対称が崩れると不安定さを感じることについて考察している。</description>
-    </item>
-    <item>
-      <title>Cinema 4D × Octane — 背景制作チュートリアル</title>
-      <link>https://9ra369.github.io/website/posts/cinema-4d-octane.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/cinema-4d-octane.html</guid>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-      <category>tutorial</category>
-      <description>Cinema 4DとOctaneを使った背景制作チュートリアル「Environment Creation using Octane and Cinema 4D」。Houdiniのプロシージャル技術などを除けば、ツールに依存しない学びが多いという考えも添えている。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day25 — 背景制作におけるスケール感の演出</title>
-      <link>https://9ra369.github.io/website/posts/day25.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day25.html</guid>
-      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>背景制作において広さを感じさせるスケール感の演出についての分析（毎日作品分析Day25）。単純に広い空間にスケール比較用の人物などを置くだけでは十分ではないという考察から始まっている。</description>
-    </item>
-    <item>
-      <title>毎日作品分析Day23 — Sci-fi/近未来的な印象を作るシルエット</title>
-      <link>https://9ra369.github.io/website/posts/day23-sci-fi.html</link>
-      <guid isPermaLink="true">https://9ra369.github.io/website/posts/day23-sci-fi.html</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <category>daily-analysis</category>
-      <description>Sci-fiや近未来的な印象を無意識に感じる理由についての分析（毎日作品分析Day23）。代表的なシルエットや形が大きな要素になっているという考察が記されている。</description>
     </item>
   </channel>
 </rss>
