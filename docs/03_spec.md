@@ -73,7 +73,6 @@ sourceLang: "en"       # 参照先の言語
 | `/entry/[slug]` | エントリー詳細 | 個別ページ（詳細解説・関連エントリー・外部リンクへの導線） |
 | `/about` | このサイトについて | 目的、運営者情報、お問い合わせ（AdSense審査対策としても必須） |
 | `/privacy` | プライバシーポリシー | Cookie/広告に関する開示（AdSense必須） |
-| `/rss.xml` | RSS | 更新配信 |
 
 ## 6. 機能要件
 
@@ -84,7 +83,6 @@ sourceLang: "en"       # 参照先の言語
 - 関連エントリー表示（同カテゴリ・同タグ優先）
 - レスポンシブ対応（PC・タブレット・スマホ）
 - OGP／Twitter Card対応（SNSシェア時のサムネイル表示）
-- RSS配信（プロトタイプ段階では`scripts/21-build-rss.js`が`content/posts/`から静的な`rss.xml`を生成。本番ドメイン確定後は生成スクリプト内の`SITE_URL`を更新すること）
 - 広告枠（記事一覧・詳細ページに配置。AdSense審査通過後に段階導入）
 - サイトマップ自動生成（SEO）
 
@@ -145,7 +143,7 @@ sourceLang: "en"       # 参照先の言語
 |---|---|---|
 | Phase 0 | ドメイン候補検討、GitHubリポジトリ作成、Astroプロジェクト初期化 | 着手直後 |
 | Phase 1 (MVP) | Cloudflare Pagesで無料公開。初期カテゴリ10種、Xの過去投稿から20〜30エントリー移植、基本デザイン実装 | 〜1ヶ月 |
-| Phase 2 | コンテンツ拡充（週数本ペース目安）、Pagefind検索実装、RSS配信開始 | 継続 |
+| Phase 2 | コンテンツ拡充（週数本ペース目安）、Pagefind検索実装 | 継続 |
 | Phase 3 | 独自ドメイン取得、Search Console登録、記事数・アクセスの目安を満たした時点でAdSense申請 | コンテンツ蓄積後 |
 | Phase 4 | 収益化開始後、必要に応じてCloudflare有償プラン（Workers Paid等）へ拡張、コメント機能（giscus）やニュースレター等を検討 | 収益化後 |
 

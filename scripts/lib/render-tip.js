@@ -178,7 +178,6 @@ const SITE_FOOTER = (depth) => {
           <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
           <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
           <li><a href="https://website-kuramakageya.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
-          <li><a href="${p}rss.xml">RSS Feed</a></li>
         </ul>
       </div>
     </div>
