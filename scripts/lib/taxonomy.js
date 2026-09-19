@@ -45,6 +45,7 @@ const TOOL_LABELS = {
   speedtree: "SpeedTree",
   zbrush: "ZBrush",
   davinci: "DaVinci Resolve",
+  omniverse: "NVIDIA Omniverse",
 };
 
 /** Existing free-text `tags` values (case-insensitive) -> tool slug(s).
