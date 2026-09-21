@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>山岸氏による「USDとVFXワークフロー概要」解説（Qiita USD Advent Calendar 2024） — Merge VFX&amp;CG</title>
+<link rel="icon" type="image/png" href="../images/icon-nodegraph.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">
+      <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+      <span>Merge VFX&amp;CG<span class="logo-sub">CG / VFX KNOWLEDGE BASE</span></span>
+    </a>
+    <nav class="main-nav">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+      </div>
+      <a href="../guides/environment.html">背景制作まとめ</a>
+      <a href="../guides/houdini-pipeline.html">Houdiniまとめ</a>
+      <a href="../guides/usd.html">USD資料まとめ</a>
+      <a href="../guides/sites.html">海外/VFX情報サイト</a>
+      <a href="../guides/tips.html">Tipsまとめ</a>
+    </nav>
+    <div class="header-actions">
+      <div class="search-trigger">
+        <svg viewBox="0 0 20 20" fill="none"><circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M17 17L13.5 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>記事・リンクを検索</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <button class="nav-toggle" aria-label="メニュー">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 5H16M2 9H16M2 13H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="entry-hero">
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="../index.html">トップ</a>
+      <span class="sep">/</span>
+      <a href="../archive.html">Article</a>
+      <span class="sep">/</span>
+      <span class="current">山岸氏による「USDとVFXワークフロー概要」解説（Qiita USD Advent Calendar 2024）</span>
+    </nav>
+
+    <span class="category-pill">ARTICLE</span>
+    <h1>山岸氏による「USDとVFXワークフロー概要」解説（Qiita USD Advent Calendar 2024）</h1>
+
+    <div class="entry-meta-bar">
+      <span class="meta-item">2026-09-21</span>
+      <span class="meta-item">言語: 日本語</span>
+      <span class="meta-item">形式: 記事</span>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="entry-detail-layout">
+
+    <main>
+      <div class="entry-hero-thumb">
+        <img id="gallery-main-img" src="../images/posts/2090000000000000019-usd-vfx-workflow-00-diagram.webp" alt="VFX制作ワークフロー（アセットワークとショットワークの2系統）">
+      </div>
+      <div class="gallery-thumbs">
+        <a href="#" data-src="../images/posts/2090000000000000019-usd-vfx-workflow-00-diagram.webp" data-alt="VFX制作ワークフロー（アセットワークとショットワークの2系統）" class="is-active"><img src="../images/posts/2090000000000000019-usd-vfx-workflow-00-diagram.webp" alt=""></a>
+        <a href="#" data-src="../images/posts/2090000000000000019-usd-vfx-workflow-01-multishot.webp" data-alt="shot.usdを介した複数ショット（ep1_itr_0010〜0040）でのインタラクティブな並列作業の例" class=""><img src="../images/posts/2090000000000000019-usd-vfx-workflow-01-multishot.webp" alt=""></a>
+      </div>
+
+      <div class="prose">
+        <p class="lead-summary">Qiita『Universal Scene Description』アドベントカレンダー2024の記事の1本。VFX制作現場の視点からUSDを解説する山岸氏担当シリーズの1本目で、アセットワーク／ショットワークという2系統のVFX制作フローの全体像と、複数ショットを跨いだアセット参照によるインタラクティブな並列作業の仕組みを、動画中心の解説でまとめている。</p>
+        
+        <div class="source-link-item">
+          
+          <div class="source-link-box">
+            <div>
+              <div class="label">01. USDとVFXワークフロー概要｜解説（Notion）</div>
+              <div class="url">https://brave-deer-ac6.notion.site/01-USD-VFX-ea644d919d2441378d033bc8f0d5475e</div>
+            </div>
+            <a href="https://brave-deer-ac6.notion.site/01-USD-VFX-ea644d919d2441378d033bc8f0d5475e" class="btn btn-outline" target="_blank" rel="noopener">サイトを見る
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="source-link-item">
+          
+          <div class="source-link-box">
+            <div>
+              <div class="label">Qiita USD Advent Calendar 2024</div>
+              <div class="url">https://qiita.com/advent-calendar/2024/usd</div>
+            </div>
+            <a href="https://qiita.com/advent-calendar/2024/usd" class="btn btn-outline" target="_blank" rel="noopener">サイトを見る
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3H11V9M11 3L3 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside>
+      <div class="sidebar-box">
+        <h4>タグ</h4>
+        <div class="entry-tags">
+          <a class="tag" href="../archive.html?tag=USD">USD</a>
+          <a class="tag" href="../archive.html?tag=Houdini">Houdini</a>
+          <a class="tag" href="../archive.html?tag=Pipeline">Pipeline</a>
+          <a class="tag" href="../archive.html?tag=VFX">VFX</a>
+        </div>
+      </div>
+      
+    </aside>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="related-posts-section">
+    <h2>関連ポスト</h2>
+    <p class="related-posts-lead">同じタグを持つポストです。</p>
+    <div class="entry-grid related-posts-grid">
+        <a class="entry-card" href="usd-blog-zenn-reincarnation.html">
+          <div class="entry-thumb thumb-website">
+            <img src="../images/cards/2090000000000000001-zenn-remiria.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Website</span>
+            </div>
+            <h3>USD — 日本語の詳細なブログ記事・技術サイト</h3>
+            <div class="entry-tags">
+              <span class="tag">USD</span>
+              <span class="tag">Python</span>
+              <span class="tag">Houdini</span>
+            </div>
+            <div class="entry-footer"><span>2026-09-01</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="prism-pipeline-usd-pipeline-for-artists.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2091000000000000050-CpiumJctktM.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>FMX 2021 — アーティストのためのUSDパイプライン（Prism）</h3>
+            <div class="entry-tags">
+              <span class="tag">USD</span>
+              <span class="tag">Pipeline</span>
+              <span class="tag">Maya</span>
+            </div>
+            <div class="entry-footer"><span>2026-01-01</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="tim-van-helsdingen-pipeline-and-breakdown.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2091000000000000039-collage-banner.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Tim van Helsdingen — VFXのフォルダ構成とSolaris/USDプロジェクト解説2本</h3>
+            <div class="entry-tags">
+              <span class="tag">Houdini</span>
+              <span class="tag">Solaris</span>
+              <span class="tag">USD</span>
+            </div>
+            <div class="entry-footer"><span>2025-11-07</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card" href="jacob-norris-nvidia-omniverse-introduction-series.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2090000000000000010-omniverse-00-yt-thumb.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Jacob Norris氏 — NVIDIA Omniverse入門シリーズ（全6本）</h3>
+            <div class="entry-tags">
+              <span class="tag">NVIDIA Omniverse</span>
+              <span class="tag">USD</span>
+              <span class="tag">Pipeline</span>
+            </div>
+            <div class="entry-footer"><span>2026-09-19</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="hugo-boussard-grammar-road-hda.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2090000000000000013-grammarroad-00-variants-1.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Hugo Boussard氏 — 文法ベースで道路断面を組む無料Houdini HDA「Grammar Road」</h3>
+            <div class="entry-tags">
+              <span class="tag">Houdini</span>
+              <span class="tag">HDA</span>
+              <span class="tag">Procedural Modeling</span>
+            </div>
+            <div class="entry-footer"><span>2026-09-19</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="carlo-jongen-asset-usd-builder.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2091000000000000028-collage-banner.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>Carlo Jongen — FAB/MegascansアセットをUSD化するHoudiniツール解説2本</h3>
+            <div class="entry-tags">
+              <span class="tag">Houdini</span>
+              <span class="tag">USD</span>
+              <span class="tag">Solaris</span>
+            </div>
+            <div class="entry-footer"><span>2026-07-05</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="immersive-workflow-3d-python-payloads-usd.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2091000000000000074-FqjhS2zDmwc.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>USDファイルにPythonスクリプトをペイロードとして埋め込む</h3>
+            <div class="entry-tags">
+              <span class="tag">USD</span>
+              <span class="tag">Python</span>
+              <span class="tag">Pipeline</span>
+            </div>
+            <div class="entry-footer"><span>2026-05-01</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="masao-hieno-speedtree-component-builder.html">
+          <div class="entry-thumb thumb-pipeline">
+            <img src="../images/cards/2091000000000000021-u_uPCxizMTA.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Pipeline/Plugin/Tool</span>
+            </div>
+            <h3>SpeedTreeアセットをSolarisのUSDコンポーネントに変換するHDA</h3>
+            <div class="entry-tags">
+              <span class="tag">Houdini</span>
+              <span class="tag">Solaris</span>
+              <span class="tag">USD</span>
+            </div>
+            <div class="entry-footer"><span>2026-04-26</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="houdini-workflow.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2047985049790988717-HGvni60aIAAt5wo.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>Okazaki Shohei氏 — 記事『Houdini Workflowについて』</h3>
+            <div class="entry-tags">
+              <span class="tag">Houdini</span>
+              <span class="tag">Pipeline</span>
+              <span class="tag">sidefx</span>
+            </div>
+            <div class="entry-footer"><span>2026-04-25</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="fx-guru-houdini-dust-interaction.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2091000000000000065-sQsZIqdOlYw.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Houdini — 破壊にともなう粉塵のインタラクションを作る</h3>
+            <div class="entry-tags">
+              <span class="tag">Houdini</span>
+              <span class="tag">Simulation</span>
+              <span class="tag">Karma</span>
+            </div>
+            <div class="entry-footer"><span>2026-03-17</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="loupe-digital-twins-omniverse.html">
+          <div class="entry-thumb thumb-tutorial">
+            <img src="../images/cards/2091000000000000063--Va2sXIHtaQ.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Tutorial</span>
+            </div>
+            <h3>Omniverseでデジタルツインを構築するチュートリアル</h3>
+            <div class="entry-tags">
+              <span class="tag">USD</span>
+              <span class="tag">Digital Twin</span>
+              <span class="tag">Pipeline</span>
+            </div>
+            <div class="entry-footer"><span>2026-03-07</span></div>
+          </div>
+        </a>
+
+        <a class="entry-card is-more-hidden" href="autodesk-cracking-the-case-on-openusd.html">
+          <div class="entry-thumb thumb-article">
+            <img src="../images/cards/2091000000000000060-BSgl7A7QMSs.jpg" alt="" loading="lazy" decoding="async">
+          </div>
+          <div class="entry-body">
+            <div class="entry-meta-row">
+              <span class="entry-category">Article</span>
+            </div>
+            <h3>OpenUSDとは何か — 3Dの相互運用性を実現する仕組み</h3>
+            <div class="entry-tags">
+              <span class="tag">USD</span>
+              <span class="tag">Pipeline</span>
+              <span class="tag">Maya</span>
+            </div>
+            <div class="entry-footer"><span>2026-02-20</span></div>
+          </div>
+        </a>
+    </div>
+    <button class="related-posts-more" type="button">さらに見る</button>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">
+          <span class="logo-mark"><img src="../images/icon-nodegraph.png" alt="Merge VFX&amp;CG"></span>
+          <span>Merge VFX&amp;CG</span>
+        </a>
+        <p>CG・VFXに関する知識、参考リンク、作品を体系的に整理するウェブサイト。</p>
+        <p class="footer-disclaimer-note">本サイトはHoudini・Blender・Maya等、記事内で言及する各社製品・サービスとは一切関係のない、個人が運営する非公式サイトです。</p>
+      </div>
+      <div class="footer-col">
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="../archive.html">ポスト一覧</a></li>
+          <li><a href="../topics/index.html">トピックで探す</a></li>
+          <li><a href="../tools/index.html">ツールで探す</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../about.html">このサイトについて</a></li>
+          <li><a href="../privacy.html">プライバシーポリシー</a></li>
+          <li><a href="../disclaimer.html">免責事項</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="../contact.html">お問い合わせ</a></li>
+          <li><a href="https://x.com/kuramaKageya" target="_blank" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://github.com/9ra369" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.artstation.com/kurama_kageya" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/kurama-kageya-3324621bb/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://vsco.co/kurakura3939/gallery" target="_blank" rel="noopener">VSCO</a></li>
+          <li><a href="https://kurama-personal-website.netlify.app/" target="_blank" rel="noopener">Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Merge VFX&amp;CG. All rights reserved.</span>
+      <span>Design prototype — content is placeholder</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../tip-gallery.js" defer></script>
+<script src="../lightbox.js" defer></script>
+<script src="../related-posts.js" defer></script>
+<script src="../nav.js" defer></script>
+<script src="../search.js" defer></script>
+</body>
+</html>
